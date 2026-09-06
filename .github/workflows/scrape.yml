@@ -1,10 +1,14 @@
 name: Scrape schedule sheet
 
+# One cron per cadence tier. GitHub only lets crons be static, so the tiers are
+# registered here and scripts/schedule-window.mjs decides, from the match times
+# in the data, which tier the current moment belongs to - every run on the wrong
+# cron exits in seconds. Tiers are disjoint, so two runs never overlap.
 on:
   schedule:
-    # Every 30 minutes. GitHub commonly delays scheduled runs 5-15 minutes
-    # under load, so treat this as a target cadence rather than a guarantee.
-    - cron: '*/30 * * * *'
+    - cron: '*/10 * * * *'   # live:    a match is in progress
+    - cron: '5,35 * * * *'   # watch:   an event starts within 36h, or just ended
+    - cron: '17 3,15 * * *'  # idle:    between weekends (archive uses the 03:17 one only)
   workflow_dispatch:
   push:
     branches: [main]
@@ -28,28 +32,60 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Uses the runner's preinstalled node, so a run on the wrong tier costs a
+      # checkout and nothing else - no toolchain setup, no npm install.
+      - name: Is this the right cadence for right now?
+        id: gate
+        run: node scripts/schedule-window.mjs --trigger "${{ github.event.schedule || github.event_name }}"
+
       - uses: actions/setup-node@v4
+        if: steps.gate.outputs.run == 'true'
         with:
           node-version: '20'
           cache: npm
 
       - run: npm ci
+        if: steps.gate.outputs.run == 'true'
 
-      # Exits non-zero if the sheet fails its structural checks, which leaves
-      # the previously committed JSON in place rather than publishing garbage.
-      - name: Scrape
-        run: node scripts/scrape.mjs
-
-      - name: Commit if the data changed
+      # While matches are live the run holds the runner and re-scrapes itself:
+      # scheduled runs are commonly delayed 5-15 minutes, and waiting that out
+      # between 15-minute matches shows stale results. Outside a live window
+      # POLL_MINUTES is 0, so this scrapes exactly once and exits.
+      #
+      # scripts/scrape.mjs exits non-zero if the sheet fails its structural
+      # checks, which leaves the previously committed JSON in place rather than
+      # publishing garbage. Inside the loop that is remembered, not fatal: one
+      # bad read shouldn't cost the rest of the match window.
+      - name: Scrape, and commit if the data changed
+        if: steps.gate.outputs.run == 'true'
+        env:
+          POLL_MINUTES: ${{ steps.gate.outputs.poll_minutes }}
+          POLL_SECONDS: ${{ steps.gate.outputs.poll_seconds }}
         run: |
-          if git diff --quiet -- docs/data/tournament.json; then
-            echo "No change in tournament data."
-            exit 0
-          fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/tournament.json
-          DECIDED=$(node -p "require('./docs/data/tournament.json').tournament.decidedCount")
-          TOTAL=$(node -p "require('./docs/data/tournament.json').tournament.matchCount")
-          git commit -m "data: refresh schedule (${DECIDED}/${TOTAL} matches decided)"
-          git push
+
+          deadline=$(( $(date +%s) + POLL_MINUTES * 60 ))
+          failed=0
+
+          while :; do
+            if node scripts/scrape.mjs; then
+              if git diff --quiet -- docs/data/tournament.json; then
+                echo "No change in tournament data."
+              else
+                git add docs/data/tournament.json
+                DECIDED=$(node -p "require('./docs/data/tournament.json').tournament.decidedCount")
+                TOTAL=$(node -p "require('./docs/data/tournament.json').tournament.matchCount")
+                git commit -m "data: refresh schedule (${DECIDED}/${TOTAL} matches decided)"
+                git push || { git pull --rebase --autostash && git push; }
+              fi
+            else
+              echo "::warning::Scrape failed; keeping the last good data."
+              failed=1
+            fi
+
+            [ "$(date +%s)" -ge "$deadline" ] && break
+            sleep "$POLL_SECONDS"
+          done
+
+          exit $failed

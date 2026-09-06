@@ -69,6 +69,7 @@ a broken dataset**, which leaves the last good `tournament.json` in place.
 ```
 scripts/scrape.mjs        fetch, validate, write docs/data/tournament.json
 scripts/lib/parse.mjs     row filter, bold-winner rule, bucket derivation
+scripts/schedule-window.mjs  how often to scrape right now, from the match times
 docs/index.html           page shell
 docs/app.js               bracket / standings / rounds views + team tracing
 docs/styles.css           Broadcast theme
@@ -101,5 +102,30 @@ that exists in the source sheet yet, so nothing renders it.
 
 ## Updating
 
-The scrape workflow runs every 30 minutes and commits only when the data actually
-changed. You can also trigger it by hand from the **Actions** tab.
+The scrape cadence follows the tournament instead of a fixed clock, because the
+board is idle far more than it is live - five match days spread over three
+weekends, each 13:30-22:00 UTC with a match every 15 minutes.
+
+`scripts/schedule-window.mjs` reads `startsAt` off the committed data and sorts
+the current moment into one of four tiers:
+
+| tier | when | cadence |
+|---|---|---|
+| **live** | 20 min before a match until 60 min after it starts | every 10 min, and each run then re-scrapes itself every 2 min for 8 min |
+| **watch** | an event starts within 36h, or the last one just ended with results outstanding | every 30 min |
+| **idle** | between weekends | twice a day |
+| **archive** | every match decided, 12h past the last one | once a day |
+
+The workflow registers one cron per tier; a run fired by the wrong cron for the
+current tier exits after the checkout, before any toolchain setup. The live tier
+polls inside the run because scheduled runs are commonly delayed 5-15 minutes,
+which is most of a match. If the data is missing or unreadable the gate fails
+open and scrapes anyway.
+
+Either way it commits only when the data actually changed. You can trigger a run
+by hand from the **Actions** tab, and check what the gate would decide at any
+instant:
+
+```bash
+node scripts/schedule-window.mjs --at 2026-09-12T14:00:00Z --trigger "*/10 * * * *"
+```

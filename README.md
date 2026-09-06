@@ -15,9 +15,11 @@ played who, who beat who, and trace any team's journey through all five rounds.
 - **Columns are rounds** (1 → 5).
 - **Blocks within a column** are record buckets: every team currently on `2-1`, say.
 - **Green arrows carry winners up** into the next-best record; **red arrows drop losers down**.
-- **Hover any team** to trace its path across every round; **click** to pin the trace,
-  open its round-by-round detail, and deep-link it. Escape or a click away dismisses.
-- **Drag the board** to pan it; `Fit` re-fits it to the window.
+- **Click any team** to trace its path across every round, open its round-by-round
+  detail and deep-link it. Click it again, press Escape, or click away to clear.
+  Hovering deliberately does nothing but show that a row is clickable - the board
+  never changes under a passing cursor.
+- **Drag anywhere to pan** the board; `Fit` re-fits it to the window.
 - **◆** marks a *down-float* — a pairing where the two sides had unequal records, which
   Swiss does when a bucket holds an odd number of teams.
 - **Amber match numbers** are matches that have not been played yet.

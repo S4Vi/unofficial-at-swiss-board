@@ -18,9 +18,8 @@
   const B_GAP = 30;
   const PAD_L = 44;
   const HEAD_H = 0;
-  /* Hovering should hint, not shout: wait long enough that crossing the
-   * board on the way somewhere else does not light it up. */
-  const HOVER_DELAY_MS = 130;
+  /* A drag that moves further than this is a pan, not a click. */
+  const CLICK_SLOP_PX = 4;
 
   const NS = 'http://www.w3.org/2000/svg';
 
@@ -38,8 +37,7 @@
     teams: new Map(),
     pos: new Map(), // "round:record" -> box
     rowPos: new Map(), // matchId -> {cx, cy}
-    pinned: null,
-    hovered: null,
+    selected: null,
     zoom: 1,
     sort: { key: 'wins', dir: 'desc' },
   };
@@ -272,12 +270,8 @@
   const getVar = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 
   /* ---------------- team trace ---------------- */
-  function activeTeam() {
-    return state.pinned ?? state.hovered;
-  }
-
   function applyTrace() {
-    const name = activeTeam();
+    const name = state.selected;
     const bracket = el('bracket');
     const layer = el('trace-layer');
     if (!layer) return;
@@ -287,11 +281,10 @@
     for (const s of bracket.querySelectorAll('.side.is-traced')) s.classList.remove('is-traced');
 
     if (!name) {
-      bracket.classList.remove('is-tracing', 'is-pinned');
+      bracket.classList.remove('is-tracing');
       return;
     }
     bracket.classList.add('is-tracing');
-    bracket.classList.toggle('is-pinned', Boolean(state.pinned));
 
     const team = state.teams.get(name);
     if (!team) return;
@@ -335,11 +328,8 @@
   // CSS.escape is not universal; attribute selectors here only need quotes handled.
   const cssEscape = (s) => (window.CSS && CSS.escape ? CSS.escape(s) : s.replace(/["\\]/g, '\\$&'));
 
-  function setPinned(name) {
-    state.pinned = name;
-    // Clearing the pin must also drop the hover, or the trace survives an
-    // explicit dismiss just because the cursor never left the team.
-    if (!name) state.hovered = null;
+  function setSelected(name) {
+    state.selected = name;
     const box = el('pinned');
     if (name) {
       el('pinned-name').textContent = name;
@@ -490,15 +480,15 @@
     }
     el('drawer').hidden = false;
     document.body.classList.add('has-drawer');
-    setPinned(name);
+    setSelected(name);
     writeHash();
   }
 
   function closeDrawer() {
-    if (el('drawer').hidden) return;
+    if (el('drawer').hidden && !state.selected) return;
     el('drawer').hidden = true;
     document.body.classList.remove('has-drawer');
-    setPinned(null);
+    setSelected(null);
     writeHash();
   }
 
@@ -566,7 +556,7 @@
     const parts = [];
     const view = currentView();
     if (view !== 'bracket') parts.push(`view=${view}`);
-    if (state.pinned) parts.push(`team=${encodeURIComponent(state.pinned)}`);
+    if (state.selected) parts.push(`team=${encodeURIComponent(state.selected)}`);
     const next = parts.length ? `#${parts.join('&')}` : '';
     if (next !== window.location.hash) {
       history.replaceState(null, '', next || window.location.pathname);
@@ -593,41 +583,21 @@
   function bindEvents() {
     const bracket = el('bracket');
 
-    let hoverTimer;
-    bracket.addEventListener('mouseover', (e) => {
-      const side = e.target.closest('.side');
-      if (!side || state.pinned) return;
-      const name = side.dataset.team;
-      if (state.hovered === name) return;
-      clearTimeout(hoverTimer);
-      hoverTimer = setTimeout(() => {
-        state.hovered = name;
-        applyTrace();
-      }, HOVER_DELAY_MS);
-    });
-    bracket.addEventListener('mouseleave', () => {
-      clearTimeout(hoverTimer);
-      if (state.pinned) return;
-      state.hovered = null;
-      applyTrace();
-    });
     bracket.addEventListener('click', (e) => {
-      const btn = e.target.closest('.side-name');
-      if (!btn) return;
-      openDrawer(btn.closest('.side').dataset.team);
+      // A click that was really a drag should pan, not select.
+      if (state.dragged) return;
+      const side = e.target.closest('.side');
+      if (!side) return;
+      const name = side.dataset.team;
+      // Clicking the selected team again clears it.
+      if (state.selected === name) closeDrawer();
+      else openDrawer(name);
     });
 
-    el('pinned-clear').addEventListener('click', () => {
-      setPinned(null);
-      closeDrawer();
-      writeHash();
-    });
+    el('pinned-clear').addEventListener('click', closeDrawer);
     el('drawer-close').addEventListener('click', closeDrawer);
     document.addEventListener('keydown', (e) => {
-      if (e.key !== 'Escape') return;
-      closeDrawer();
-      setPinned(null);
-      writeHash();
+      if (e.key === 'Escape') closeDrawer();
     });
 
     for (const tab of document.querySelectorAll('.tab')) {
@@ -687,14 +657,19 @@
     // Drag the board around rather than hunting for scrollbars.
     let pan = null;
     scroll.addEventListener('pointerdown', (e) => {
-      if (e.button !== 0 || e.target.closest('.side-name')) return;
+      if (e.button !== 0) return;
       pan = { x: e.clientX, y: e.clientY, left: scroll.scrollLeft, top: scroll.scrollTop };
+      state.dragged = false;
       scroll.classList.add('is-panning');
     });
     scroll.addEventListener('pointermove', (e) => {
       if (!pan) return;
-      scroll.scrollLeft = pan.left - (e.clientX - pan.x);
-      scroll.scrollTop = pan.top - (e.clientY - pan.y);
+      const dx = e.clientX - pan.x;
+      const dy = e.clientY - pan.y;
+      if (!state.dragged && Math.hypot(dx, dy) > CLICK_SLOP_PX) state.dragged = true;
+      if (!state.dragged) return;
+      scroll.scrollLeft = pan.left - dx;
+      scroll.scrollTop = pan.top - dy;
     });
     const endPan = () => {
       if (!pan) return;
@@ -731,7 +706,7 @@
   function renderChrome() {
     const t = state.data.tournament;
     el('subtitle').textContent =
-      `${t.teamCount} teams \u00B7 ${t.rounds.length}-round Swiss \u00B7 every team plays every round \u00B7 hover a team to trace its journey`;
+      `${t.teamCount} teams \u00B7 ${t.rounds.length}-round Swiss \u00B7 every team plays every round \u00B7 click a team to trace its journey`;
     el('stat-decided').innerHTML = `${t.decidedCount}<small>/${t.matchCount}</small>`;
     el('stat-updated').textContent = relativeTime(state.data.updatedAt);
     el('source-link').href = state.data.source.url;

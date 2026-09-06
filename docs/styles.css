@@ -209,6 +209,7 @@ a:hover { color: #a7e8c1; }
   transition: margin-right 0.2s ease;
 }
 .bracket-scroll.is-panning { cursor: grabbing; user-select: none; }
+.bracket-scroll.is-panning .side { cursor: grabbing; }
 
 /* Give the bracket room when the team drawer is open, instead of hiding
  * Round 5 behind it. */
@@ -299,6 +300,9 @@ a:hover { color: #a7e8c1; }
   align-items: center;
   gap: 6px;
   height: 16px;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: background-color 0.12s ease;
 }
 .side-name {
   flex-grow: 1;
@@ -316,26 +320,24 @@ a:hover { color: #a7e8c1; }
   text-align: left;
   font-family: inherit;
 }
-.side-name:hover { color: var(--ink); text-decoration: underline; }
 .side.is-winner .side-name { color: var(--ink); font-weight: 700; }
 .side-check { width: 10px; flex-shrink: 0; }
 
-/* Team highlight comes in two strengths. A passing hover is a hint; a
- * deliberate click is a commitment. Dimming everything hard on mouse-over made
- * the board strobe as the cursor crossed it. */
+/* Tracing is click-only: the board never changes under a passing cursor.
+ * Hover does nothing but advertise that a row can be clicked. */
 .match {
   transition: opacity 0.18s ease, background-color 0.18s ease;
 }
-.match:hover { background: rgba(143, 166, 196, 0.07); }
+.side:hover { background: rgba(143, 166, 196, 0.1); }
+.side:hover .side-name {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
 
-.match.is-traced { background: rgba(245, 165, 36, 0.1); box-shadow: inset 2px 0 0 var(--accent); }
+.match.is-traced { background: rgba(245, 165, 36, 0.16); box-shadow: inset 2px 0 0 var(--accent); }
 .side.is-traced .side-name { color: var(--accent) !important; }
-
-/* hover: a gentle recede */
-.bracket.is-tracing .match:not(.is-traced) { opacity: 0.62; }
-/* pinned: the committed, high-contrast read */
-.bracket.is-pinned .match:not(.is-traced) { opacity: 0.3; }
-.bracket.is-pinned .match.is-traced { background: rgba(245, 165, 36, 0.16); }
+.bracket.is-tracing .match:not(.is-traced) { opacity: 0.3; }
 
 #trace-layer { position: absolute; inset: 0; pointer-events: none; }
 #trace-layer path { transition: opacity 0.18s ease; }

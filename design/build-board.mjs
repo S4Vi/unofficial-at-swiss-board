@@ -417,7 +417,7 @@ function makeBoard(T) {
   <div style="display: flex; align-items: flex-end; justify-content: space-between; padding: 20px ${PAD_L}px 16px;">
     <div>
       <div style="font-family: ${T.display}; font-size: ${T.display.includes('Cormorant') ? '46' : '38'}px; font-weight: 700; letter-spacing: 0.02em; line-height: 1; ${T.display.includes('Newsreader') || T.display.includes('Cormorant') ? '' : 'text-transform: uppercase;'}">Alliance Tournament XXII <span style="color: ${T.accent};">Swiss Board</span></div>
-      <div style="font-size: 12.5px; color: ${T.mid}; margin-top: 7px; letter-spacing: 0.05em;">Every team plays all 5 rounds &middot; paired against equal records &middot; follow a line to follow a team</div>
+      <div style="font-size: 12.5px; color: ${T.mid}; margin-top: 7px; letter-spacing: 0.05em;">Every team plays all 5 rounds &middot; paired against equal records &middot; click a team to follow its line</div>
     </div>
     <div style="display: flex; gap: 22px; align-items: center;">
       <div style="display: flex; align-items: center; gap: 7px;">${arrow(T.win)}<span style="font-size: 11px; color: ${T.mid};">winners rise</span></div>
@@ -448,7 +448,7 @@ function makeBoard(T) {
 
   <div style="position: absolute; left: 0; top: ${HEADER_H + BRACKET_H}px; width: ${W}px; height: ${FOOT_H}px; box-sizing: border-box; padding: 16px ${PAD_L}px; border-top: 1px solid ${T.edge}; display: flex; gap: 34px; align-items: flex-start;">
     <div style="width: 440px; flex-shrink: 0;">
-      <div style="font-size: 9.5px; color: ${T.faint}; letter-spacing: 0.14em; margin-bottom: 7px;">TRACED JOURNEY &middot; <span style="color: ${T.trace};">${esc(traced.name.toUpperCase())}</span> &middot; hovering any team does this</div>
+      <div style="font-size: 9.5px; color: ${T.faint}; letter-spacing: 0.14em; margin-bottom: 7px;">TRACED JOURNEY &middot; <span style="color: ${T.trace};">${esc(traced.name.toUpperCase())}</span> &middot; clicking any team does this</div>
       <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2px 24px;">${traceLegend}</div>
     </div>
     <div style="flex-grow: 1;">

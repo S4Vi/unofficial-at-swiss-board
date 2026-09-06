@@ -1,0 +1,14 @@
+{
+  "name": "unofficial-at-swiss-board",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Community-built Swiss bracket viewer for the EVE Online Alliance Tournament. Unofficial.",
+  "scripts": {
+    "scrape": "node scripts/scrape.mjs",
+    "serve": "node --run-if-present serve || npx --yes serve docs"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}

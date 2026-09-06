@@ -1,0 +1,88 @@
+# Unofficial AT XXII Swiss Board
+
+A community-built viewer for the EVE Online **Alliance Tournament XXII** preliminaries.
+The official schedule lives in a Google Sheet with no interface; this renders it as a
+proper Swiss bracket — the whole tournament as one connected flow, so you can see who
+played who, who beat who, and trace any team's journey through all five rounds.
+
+> **Unofficial.** Not affiliated with, endorsed by, or sponsored by CCP hf or the
+> Alliance Tournament organisers. EVE Online and all related marks are trademarks of
+> CCP hf. All tournament data belongs to its authors; this project only reformats a
+> publicly shared sheet.
+
+## How to read the board
+
+- **Columns are rounds** (1 → 5).
+- **Blocks within a column** are record buckets: every team currently on `2-1`, say.
+- **Green arrows carry winners up** into the next-best record; **red arrows drop losers down**.
+- **Hover or click any team** to trace its path across every round.
+- **◆** marks a *down-float* — a pairing where the two sides had unequal records, which
+  Swiss does when a bucket holds an odd number of teams.
+- **Amber match numbers** are matches that have not been played yet.
+
+## How the data works
+
+One unauthenticated request pulls every tab of the sheet with formatting intact:
+
+```
+https://docs.google.com/spreadsheets/d/<SHEET_ID>/export?format=xlsx
+```
+
+**The winner is encoded as bold text.** The sheet has no results column — played rows get
+a light-green fill and the winning team's cell is bold. That single fact drives the whole
+design: the CSV export and the `htmlview` page both discard formatting, and SheetJS's
+community build strips styles, so this uses the `.xlsx` export read through `exceljs`,
+which exposes `cell.font.bold`.
+
+A row counts as a real match only if column `A` parses as a number **and** both team cells
+are non-empty. That one rule rejects every kind of junk in the workbook:
+
+- `Break` separators and `DAY N - <date>` header rows,
+- pre-numbered but empty placeholder rows reserved for **Rounds 6 and 7**,
+- 19 stale copy-paste rows at the bottom of Weekend 3 that duplicate Weekend 1 pairings.
+
+**Rounds span weekend tabs** — Round 3 is split across Weekends 1 and 2, Round 5 across 2
+and 3 — so matches are grouped by the round label in column `L`, never by tab.
+
+The scraper asserts the tournament's structure and **exits non-zero rather than publishing
+a broken dataset**, which leaves the last good `tournament.json` in place.
+
+## Layout
+
+```
+scripts/scrape.mjs        fetch, validate, write docs/data/tournament.json
+scripts/lib/parse.mjs     row filter, bold-winner rule, bucket derivation
+docs/index.html           page shell
+docs/app.js               bracket / standings / rounds views + team tracing
+docs/styles.css           Broadcast theme
+docs/data/tournament.json generated; committed by the scrape workflow
+design/build-board.mjs    regenerates the design-canvas artboards from real data
+.github/workflows/scrape.yml
+```
+
+## Running it locally
+
+```bash
+npm ci
+node scripts/scrape.mjs      # refresh docs/data/tournament.json
+npx serve docs               # then open the printed URL
+```
+
+The site is static and reads `data/tournament.json` at load — no build step, no framework.
+
+## Data shape
+
+`docs/data/tournament.json` carries `matches`, `bracket` (buckets per round) and
+`standings` (each team's ordered path). Every match reserves empty slots for
+`lineups`, `bans`, `points` and `survivors`, joined on the stable match `id` — none of
+that exists in the source sheet yet, so nothing renders it.
+
+## Deep links
+
+- `#view=standings` / `#view=rounds`
+- `#team=Dracarys.` opens that team's path
+
+## Updating
+
+The scrape workflow runs every 30 minutes and commits only when the data actually
+changed. You can also trigger it by hand from the **Actions** tab.

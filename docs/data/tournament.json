@@ -1,0 +1,6773 @@
+{
+  "scrapedAt": "2026-09-06T18:46:20.972Z",
+  "source": {
+    "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
+    "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
+  },
+  "tournament": {
+    "name": "Alliance Tournament XXII - Preliminaries",
+    "format": "swiss",
+    "rounds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "teamCount": 58,
+    "matchCount": 145,
+    "decidedCount": 122
+  },
+  "matches": [
+    {
+      "id": 1,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Meta Reloaded",
+      "blue": "Dracarys.",
+      "winner": "Dracarys.",
+      "times": {
+        "convoStart": "12:30",
+        "bansStart": "12:40",
+        "checksDue": "13:10",
+        "tpDue": "13:25",
+        "matchStart": "13:30",
+        "matchFinish": "13:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "Meta Reloaded"
+    },
+    {
+      "id": 2,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "DarkSide.",
+      "blue": "Platinum Sensitivity.",
+      "winner": "Platinum Sensitivity.",
+      "times": {
+        "convoStart": "12:45",
+        "bansStart": "12:55",
+        "checksDue": "13:25",
+        "tpDue": "13:40",
+        "matchStart": "13:45",
+        "matchFinish": "13:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "DarkSide."
+    },
+    {
+      "id": 3,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "WE FORM V0LTA",
+      "blue": "The Tuskers Co.",
+      "winner": "The Tuskers Co.",
+      "times": {
+        "convoStart": "13:00",
+        "bansStart": "13:10",
+        "checksDue": "13:40",
+        "tpDue": "13:55",
+        "matchStart": "14:00",
+        "matchFinish": "14:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "WE FORM V0LTA"
+    },
+    {
+      "id": 4,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Psychokids.",
+      "blue": "Seriously Suspicious",
+      "winner": "Psychokids.",
+      "times": {
+        "convoStart": "13:15",
+        "bansStart": "13:25",
+        "checksDue": "13:55",
+        "tpDue": "14:10",
+        "matchStart": "14:15",
+        "matchFinish": "14:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "Seriously Suspicious"
+    },
+    {
+      "id": 5,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+      "blue": "Vapor-Lock",
+      "winner": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+      "times": {
+        "convoStart": "13:30",
+        "bansStart": "13:40",
+        "checksDue": "14:10",
+        "tpDue": "14:25",
+        "matchStart": "14:30",
+        "matchFinish": "14:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "Vapor-Lock"
+    },
+    {
+      "id": 6,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "The Skeleton Crew",
+      "blue": "Brave Collective",
+      "winner": "Brave Collective",
+      "times": {
+        "convoStart": "13:45",
+        "bansStart": "13:55",
+        "checksDue": "14:25",
+        "tpDue": "14:40",
+        "matchStart": "14:45",
+        "matchFinish": "14:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "The Skeleton Crew"
+    },
+    {
+      "id": 7,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Minmatar Fleet Alliance",
+      "blue": "White Squall.",
+      "winner": "White Squall.",
+      "times": {
+        "convoStart": "14:00",
+        "bansStart": "14:10",
+        "checksDue": "14:40",
+        "tpDue": "14:55",
+        "matchStart": "15:00",
+        "matchFinish": "15:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "Minmatar Fleet Alliance"
+    },
+    {
+      "id": 8,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Critical. Mass.",
+      "blue": "Fraternity.",
+      "winner": "Fraternity.",
+      "times": {
+        "convoStart": "14:15",
+        "bansStart": "14:25",
+        "checksDue": "14:55",
+        "tpDue": "15:10",
+        "matchStart": "15:15",
+        "matchFinish": "15:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "Critical. Mass."
+    },
+    {
+      "id": 9,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Sons of Bane",
+      "blue": "Ragequit Cancel Sub",
+      "winner": "Ragequit Cancel Sub",
+      "times": {
+        "convoStart": "14:30",
+        "bansStart": "14:40",
+        "checksDue": "15:10",
+        "tpDue": "15:25",
+        "matchStart": "15:30",
+        "matchFinish": "15:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "Sons of Bane"
+    },
+    {
+      "id": 10,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Bright Side of Death",
+      "blue": "OnlyFleets.",
+      "winner": "OnlyFleets.",
+      "times": {
+        "convoStart": "14:45",
+        "bansStart": "14:55",
+        "checksDue": "15:25",
+        "tpDue": "15:40",
+        "matchStart": "15:45",
+        "matchFinish": "15:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "Bright Side of Death"
+    },
+    {
+      "id": 11,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "The Initiative.",
+      "blue": "Solyaris Chtonium",
+      "winner": "The Initiative.",
+      "times": {
+        "convoStart": "15:00",
+        "bansStart": "15:10",
+        "checksDue": "15:40",
+        "tpDue": "15:55",
+        "matchStart": "16:00",
+        "matchFinish": "16:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "Solyaris Chtonium"
+    },
+    {
+      "id": 12,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Project Potato",
+      "blue": "Deteriorated",
+      "winner": "Deteriorated",
+      "times": {
+        "convoStart": "15:15",
+        "bansStart": "15:25",
+        "checksDue": "15:55",
+        "tpDue": "16:10",
+        "matchStart": "16:15",
+        "matchFinish": "16:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "Project Potato"
+    },
+    {
+      "id": 13,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Psyno Theory",
+      "blue": "Ivy League",
+      "winner": "Ivy League",
+      "times": {
+        "convoStart": "15:30",
+        "bansStart": "15:40",
+        "checksDue": "16:10",
+        "tpDue": "16:25",
+        "matchStart": "16:30",
+        "matchFinish": "16:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "Psyno Theory"
+    },
+    {
+      "id": 14,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "D-sync.",
+      "blue": "Sigma Grindset",
+      "winner": "Sigma Grindset",
+      "times": {
+        "convoStart": "15:45",
+        "bansStart": "15:55",
+        "checksDue": "16:25",
+        "tpDue": "16:40",
+        "matchStart": "16:45",
+        "matchFinish": "16:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "D-sync."
+    },
+    {
+      "id": 15,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "We Forsakened Few",
+      "blue": "34-yrs-old men get nagged by wives for playing EVE",
+      "winner": "34-yrs-old men get nagged by wives for playing EVE",
+      "times": {
+        "convoStart": "16:00",
+        "bansStart": "16:10",
+        "checksDue": "16:40",
+        "tpDue": "16:55",
+        "matchStart": "17:00",
+        "matchFinish": "17:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "We Forsakened Few"
+    },
+    {
+      "id": 16,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Rusty Hyenas Clan",
+      "blue": "NPSI.Rocks",
+      "winner": "Rusty Hyenas Clan",
+      "times": {
+        "convoStart": "16:15",
+        "bansStart": "16:25",
+        "checksDue": "16:55",
+        "tpDue": "17:10",
+        "matchStart": "17:15",
+        "matchFinish": "17:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "NPSI.Rocks"
+    },
+    {
+      "id": 17,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "ZERG REBORN",
+      "blue": "Punishing Gray Raven",
+      "winner": "Punishing Gray Raven",
+      "times": {
+        "convoStart": "16:45",
+        "bansStart": "16:55",
+        "checksDue": "17:25",
+        "tpDue": "17:40",
+        "matchStart": "17:45",
+        "matchFinish": "17:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "ZERG REBORN"
+    },
+    {
+      "id": 18,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Rote Kapelle",
+      "blue": "The Excommunicati",
+      "winner": "The Excommunicati",
+      "times": {
+        "convoStart": "17:00",
+        "bansStart": "17:10",
+        "checksDue": "17:40",
+        "tpDue": "17:55",
+        "matchStart": "18:00",
+        "matchFinish": "18:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "Rote Kapelle"
+    },
+    {
+      "id": 19,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Out of the Blue.",
+      "blue": "PSYCHOTIC OVERHEAT",
+      "winner": "PSYCHOTIC OVERHEAT",
+      "times": {
+        "convoStart": "17:15",
+        "bansStart": "17:25",
+        "checksDue": "17:55",
+        "tpDue": "18:10",
+        "matchStart": "18:15",
+        "matchFinish": "18:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "Out of the Blue."
+    },
+    {
+      "id": 20,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Seker Matar",
+      "blue": "Test Alliance Please Ignore",
+      "winner": "Seker Matar",
+      "times": {
+        "convoStart": "17:30",
+        "bansStart": "17:40",
+        "checksDue": "18:10",
+        "tpDue": "18:25",
+        "matchStart": "18:30",
+        "matchFinish": "18:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "Test Alliance Please Ignore"
+    },
+    {
+      "id": 21,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Of Essence",
+      "blue": "The Obsidian Front - Reborn",
+      "winner": "Of Essence",
+      "times": {
+        "convoStart": "17:45",
+        "bansStart": "17:55",
+        "checksDue": "18:25",
+        "tpDue": "18:40",
+        "matchStart": "18:45",
+        "matchFinish": "18:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "The Obsidian Front - Reborn"
+    },
+    {
+      "id": 22,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Arctic Light",
+      "blue": "Shadow Cartel",
+      "winner": "Arctic Light",
+      "times": {
+        "convoStart": "18:00",
+        "bansStart": "18:10",
+        "checksDue": "18:40",
+        "tpDue": "18:55",
+        "matchStart": "19:00",
+        "matchFinish": "19:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "Shadow Cartel"
+    },
+    {
+      "id": 23,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Kitchen Sinkhole",
+      "blue": "Neon Nightmares",
+      "winner": "Neon Nightmares",
+      "times": {
+        "convoStart": "18:15",
+        "bansStart": "18:25",
+        "checksDue": "18:55",
+        "tpDue": "19:10",
+        "matchStart": "19:15",
+        "matchFinish": "19:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "Kitchen Sinkhole"
+    },
+    {
+      "id": 24,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Space Violence.",
+      "blue": "Sedition.",
+      "winner": "Sedition.",
+      "times": {
+        "convoStart": "18:30",
+        "bansStart": "18:40",
+        "checksDue": "19:10",
+        "tpDue": "19:25",
+        "matchStart": "19:30",
+        "matchFinish": "19:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "Space Violence."
+    },
+    {
+      "id": 25,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "IIIIIIIIIIIIIIIIIIIIIIIII",
+      "blue": "Paper Numbers",
+      "winner": "Paper Numbers",
+      "times": {
+        "convoStart": "18:45",
+        "bansStart": "18:55",
+        "checksDue": "19:25",
+        "tpDue": "19:40",
+        "matchStart": "19:45",
+        "matchFinish": "19:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "IIIIIIIIIIIIIIIIIIIIIIIII"
+    },
+    {
+      "id": 26,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "L A Z E R H A W K S",
+      "blue": "Exodus.",
+      "winner": "Exodus.",
+      "times": {
+        "convoStart": "19:00",
+        "bansStart": "19:10",
+        "checksDue": "19:40",
+        "tpDue": "19:55",
+        "matchStart": "20:00",
+        "matchFinish": "20:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "L A Z E R H A W K S"
+    },
+    {
+      "id": 27,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+      "blue": "NO NEED LOOSE FACE",
+      "winner": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+      "times": {
+        "convoStart": "19:15",
+        "bansStart": "19:25",
+        "checksDue": "19:55",
+        "tpDue": "20:10",
+        "matchStart": "20:15",
+        "matchFinish": "20:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "NO NEED LOOSE FACE"
+    },
+    {
+      "id": 28,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Odin's Call",
+      "blue": "Honkai Star Rail.",
+      "winner": "Honkai Star Rail.",
+      "times": {
+        "convoStart": "19:30",
+        "bansStart": "19:40",
+        "checksDue": "20:10",
+        "tpDue": "20:25",
+        "matchStart": "20:30",
+        "matchFinish": "20:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "Odin's Call"
+    },
+    {
+      "id": 29,
+      "weekend": 1,
+      "round": 1,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Slide On Contact",
+      "blue": "That Escalated Quickly.",
+      "winner": "Slide On Contact",
+      "times": {
+        "convoStart": "19:45",
+        "bansStart": "19:55",
+        "checksDue": "20:25",
+        "tpDue": "20:40",
+        "matchStart": "20:45",
+        "matchFinish": "20:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": "That Escalated Quickly."
+    },
+    {
+      "id": 30,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Dracarys.",
+      "blue": "Platinum Sensitivity.",
+      "winner": "Dracarys.",
+      "times": {
+        "convoStart": "20:00",
+        "bansStart": "20:10",
+        "checksDue": "20:40",
+        "tpDue": "20:55",
+        "matchStart": "21:00",
+        "matchFinish": "21:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-0",
+      "blueRecord": "1-0",
+      "isFloat": false,
+      "bucket": "1-0",
+      "loser": "Platinum Sensitivity."
+    },
+    {
+      "id": 31,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "The Tuskers Co.",
+      "blue": "Psychokids.",
+      "winner": "Psychokids.",
+      "times": {
+        "convoStart": "20:15",
+        "bansStart": "20:25",
+        "checksDue": "20:55",
+        "tpDue": "21:10",
+        "matchStart": "21:15",
+        "matchFinish": "21:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-0",
+      "blueRecord": "1-0",
+      "isFloat": false,
+      "bucket": "1-0",
+      "loser": "The Tuskers Co."
+    },
+    {
+      "id": 32,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+      "blue": "Brave Collective",
+      "winner": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+      "times": {
+        "convoStart": "20:30",
+        "bansStart": "20:40",
+        "checksDue": "21:10",
+        "tpDue": "21:25",
+        "matchStart": "21:30",
+        "matchFinish": "21:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-0",
+      "blueRecord": "1-0",
+      "isFloat": false,
+      "bucket": "1-0",
+      "loser": "Brave Collective"
+    },
+    {
+      "id": 33,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "White Squall.",
+      "blue": "Fraternity.",
+      "winner": "Fraternity.",
+      "times": {
+        "convoStart": "20:45",
+        "bansStart": "20:55",
+        "checksDue": "21:25",
+        "tpDue": "21:40",
+        "matchStart": "21:45",
+        "matchFinish": "21:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-0",
+      "blueRecord": "1-0",
+      "isFloat": false,
+      "bucket": "1-0",
+      "loser": "White Squall."
+    },
+    {
+      "id": 34,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Ragequit Cancel Sub",
+      "blue": "OnlyFleets.",
+      "winner": "Ragequit Cancel Sub",
+      "times": {
+        "convoStart": "21:00",
+        "bansStart": "21:10",
+        "checksDue": "21:40",
+        "tpDue": "21:55",
+        "matchStart": "22:00",
+        "matchFinish": "22:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-0",
+      "blueRecord": "1-0",
+      "isFloat": false,
+      "bucket": "1-0",
+      "loser": "OnlyFleets."
+    },
+    {
+      "id": 35,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "The Initiative.",
+      "blue": "Deteriorated",
+      "winner": "Deteriorated",
+      "times": {
+        "convoStart": "12:30",
+        "bansStart": "12:40",
+        "checksDue": "13:10",
+        "tpDue": "13:25",
+        "matchStart": "13:30",
+        "matchFinish": "13:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-0",
+      "blueRecord": "1-0",
+      "isFloat": false,
+      "bucket": "1-0",
+      "loser": "The Initiative."
+    },
+    {
+      "id": 36,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Ivy League",
+      "blue": "Sigma Grindset",
+      "winner": "Ivy League",
+      "times": {
+        "convoStart": "12:45",
+        "bansStart": "12:55",
+        "checksDue": "13:25",
+        "tpDue": "13:40",
+        "matchStart": "13:45",
+        "matchFinish": "13:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-0",
+      "blueRecord": "1-0",
+      "isFloat": false,
+      "bucket": "1-0",
+      "loser": "Sigma Grindset"
+    },
+    {
+      "id": 37,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "34-yrs-old men get nagged by wives for playing EVE",
+      "blue": "Rusty Hyenas Clan",
+      "winner": "Rusty Hyenas Clan",
+      "times": {
+        "convoStart": "13:00",
+        "bansStart": "13:10",
+        "checksDue": "13:40",
+        "tpDue": "13:55",
+        "matchStart": "14:00",
+        "matchFinish": "14:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-0",
+      "blueRecord": "1-0",
+      "isFloat": false,
+      "bucket": "1-0",
+      "loser": "34-yrs-old men get nagged by wives for playing EVE"
+    },
+    {
+      "id": 38,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Punishing Gray Raven",
+      "blue": "The Excommunicati",
+      "winner": "The Excommunicati",
+      "times": {
+        "convoStart": "13:15",
+        "bansStart": "13:25",
+        "checksDue": "13:55",
+        "tpDue": "14:10",
+        "matchStart": "14:15",
+        "matchFinish": "14:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-0",
+      "blueRecord": "1-0",
+      "isFloat": false,
+      "bucket": "1-0",
+      "loser": "Punishing Gray Raven"
+    },
+    {
+      "id": 39,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "PSYCHOTIC OVERHEAT",
+      "blue": "Seker Matar",
+      "winner": "PSYCHOTIC OVERHEAT",
+      "times": {
+        "convoStart": "13:30",
+        "bansStart": "13:40",
+        "checksDue": "14:10",
+        "tpDue": "14:25",
+        "matchStart": "14:30",
+        "matchFinish": "14:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-0",
+      "blueRecord": "1-0",
+      "isFloat": false,
+      "bucket": "1-0",
+      "loser": "Seker Matar"
+    },
+    {
+      "id": 40,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Of Essence",
+      "blue": "Arctic Light",
+      "winner": "Arctic Light",
+      "times": {
+        "convoStart": "13:45",
+        "bansStart": "13:55",
+        "checksDue": "14:25",
+        "tpDue": "14:40",
+        "matchStart": "14:45",
+        "matchFinish": "14:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-0",
+      "blueRecord": "1-0",
+      "isFloat": false,
+      "bucket": "1-0",
+      "loser": "Of Essence"
+    },
+    {
+      "id": 41,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Neon Nightmares",
+      "blue": "Sedition.",
+      "winner": "Sedition.",
+      "times": {
+        "convoStart": "14:00",
+        "bansStart": "14:10",
+        "checksDue": "14:40",
+        "tpDue": "14:55",
+        "matchStart": "15:00",
+        "matchFinish": "15:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-0",
+      "blueRecord": "1-0",
+      "isFloat": false,
+      "bucket": "1-0",
+      "loser": "Neon Nightmares"
+    },
+    {
+      "id": 42,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Paper Numbers",
+      "blue": "Exodus.",
+      "winner": "Paper Numbers",
+      "times": {
+        "convoStart": "14:15",
+        "bansStart": "14:25",
+        "checksDue": "14:55",
+        "tpDue": "15:10",
+        "matchStart": "15:15",
+        "matchFinish": "15:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-0",
+      "blueRecord": "1-0",
+      "isFloat": false,
+      "bucket": "1-0",
+      "loser": "Exodus."
+    },
+    {
+      "id": 43,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+      "blue": "Honkai Star Rail.",
+      "winner": "Honkai Star Rail.",
+      "times": {
+        "convoStart": "14:30",
+        "bansStart": "14:40",
+        "checksDue": "15:10",
+        "tpDue": "15:25",
+        "matchStart": "15:30",
+        "matchFinish": "15:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-0",
+      "blueRecord": "1-0",
+      "isFloat": false,
+      "bucket": "1-0",
+      "loser": "Catlas Tor Love Appreciation Society UseCodeWIZARD"
+    },
+    {
+      "id": 44,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Slide On Contact",
+      "blue": "Meta Reloaded",
+      "winner": "Meta Reloaded",
+      "times": {
+        "convoStart": "14:45",
+        "bansStart": "14:55",
+        "checksDue": "15:25",
+        "tpDue": "15:40",
+        "matchStart": "15:45",
+        "matchFinish": "15:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-0",
+      "blueRecord": "0-1",
+      "isFloat": true,
+      "bucket": "1-0",
+      "loser": "Slide On Contact"
+    },
+    {
+      "id": 45,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "DarkSide.",
+      "blue": "WE FORM V0LTA",
+      "winner": "WE FORM V0LTA",
+      "times": {
+        "convoStart": "15:00",
+        "bansStart": "15:10",
+        "checksDue": "15:40",
+        "tpDue": "15:55",
+        "matchStart": "16:00",
+        "matchFinish": "16:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-1",
+      "blueRecord": "0-1",
+      "isFloat": false,
+      "bucket": "0-1",
+      "loser": "DarkSide."
+    },
+    {
+      "id": 46,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Seriously Suspicious",
+      "blue": "Vapor-Lock",
+      "winner": "Seriously Suspicious",
+      "times": {
+        "convoStart": "15:15",
+        "bansStart": "15:25",
+        "checksDue": "15:55",
+        "tpDue": "16:10",
+        "matchStart": "16:15",
+        "matchFinish": "16:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-1",
+      "blueRecord": "0-1",
+      "isFloat": false,
+      "bucket": "0-1",
+      "loser": "Vapor-Lock"
+    },
+    {
+      "id": 47,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "The Skeleton Crew",
+      "blue": "Minmatar Fleet Alliance",
+      "winner": "Minmatar Fleet Alliance",
+      "times": {
+        "convoStart": "15:30",
+        "bansStart": "15:40",
+        "checksDue": "16:10",
+        "tpDue": "16:25",
+        "matchStart": "16:30",
+        "matchFinish": "16:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-1",
+      "blueRecord": "0-1",
+      "isFloat": false,
+      "bucket": "0-1",
+      "loser": "The Skeleton Crew"
+    },
+    {
+      "id": 48,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Critical. Mass.",
+      "blue": "Sons of Bane",
+      "winner": "Sons of Bane",
+      "times": {
+        "convoStart": "15:45",
+        "bansStart": "15:55",
+        "checksDue": "16:25",
+        "tpDue": "16:40",
+        "matchStart": "16:45",
+        "matchFinish": "16:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-1",
+      "blueRecord": "0-1",
+      "isFloat": false,
+      "bucket": "0-1",
+      "loser": "Critical. Mass."
+    },
+    {
+      "id": 49,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Bright Side of Death",
+      "blue": "Solyaris Chtonium",
+      "winner": "Bright Side of Death",
+      "times": {
+        "convoStart": "16:00",
+        "bansStart": "16:10",
+        "checksDue": "16:40",
+        "tpDue": "16:55",
+        "matchStart": "17:00",
+        "matchFinish": "17:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-1",
+      "blueRecord": "0-1",
+      "isFloat": false,
+      "bucket": "0-1",
+      "loser": "Solyaris Chtonium"
+    },
+    {
+      "id": 50,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Project Potato",
+      "blue": "Psyno Theory",
+      "winner": "Psyno Theory",
+      "times": {
+        "convoStart": "16:15",
+        "bansStart": "16:25",
+        "checksDue": "16:55",
+        "tpDue": "17:10",
+        "matchStart": "17:15",
+        "matchFinish": "17:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-1",
+      "blueRecord": "0-1",
+      "isFloat": false,
+      "bucket": "0-1",
+      "loser": "Project Potato"
+    },
+    {
+      "id": 51,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "D-sync.",
+      "blue": "We Forsakened Few",
+      "winner": "D-sync.",
+      "times": {
+        "convoStart": "16:45",
+        "bansStart": "16:55",
+        "checksDue": "17:25",
+        "tpDue": "17:40",
+        "matchStart": "17:45",
+        "matchFinish": "17:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-1",
+      "blueRecord": "0-1",
+      "isFloat": false,
+      "bucket": "0-1",
+      "loser": "We Forsakened Few"
+    },
+    {
+      "id": 52,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "NPSI.Rocks",
+      "blue": "ZERG REBORN",
+      "winner": "ZERG REBORN",
+      "times": {
+        "convoStart": "17:00",
+        "bansStart": "17:10",
+        "checksDue": "17:40",
+        "tpDue": "17:55",
+        "matchStart": "18:00",
+        "matchFinish": "18:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-1",
+      "blueRecord": "0-1",
+      "isFloat": false,
+      "bucket": "0-1",
+      "loser": "NPSI.Rocks"
+    },
+    {
+      "id": 53,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Rote Kapelle",
+      "blue": "Out of the Blue.",
+      "winner": "Rote Kapelle",
+      "times": {
+        "convoStart": "17:15",
+        "bansStart": "17:25",
+        "checksDue": "17:55",
+        "tpDue": "18:10",
+        "matchStart": "18:15",
+        "matchFinish": "18:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-1",
+      "blueRecord": "0-1",
+      "isFloat": false,
+      "bucket": "0-1",
+      "loser": "Out of the Blue."
+    },
+    {
+      "id": 54,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Test Alliance Please Ignore",
+      "blue": "The Obsidian Front - Reborn",
+      "winner": "Test Alliance Please Ignore",
+      "times": {
+        "convoStart": "17:30",
+        "bansStart": "17:40",
+        "checksDue": "18:10",
+        "tpDue": "18:25",
+        "matchStart": "18:30",
+        "matchFinish": "18:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-1",
+      "blueRecord": "0-1",
+      "isFloat": false,
+      "bucket": "0-1",
+      "loser": "The Obsidian Front - Reborn"
+    },
+    {
+      "id": 55,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Shadow Cartel",
+      "blue": "Kitchen Sinkhole",
+      "winner": "Shadow Cartel",
+      "times": {
+        "convoStart": "17:45",
+        "bansStart": "17:55",
+        "checksDue": "18:25",
+        "tpDue": "18:40",
+        "matchStart": "18:45",
+        "matchFinish": "18:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-1",
+      "blueRecord": "0-1",
+      "isFloat": false,
+      "bucket": "0-1",
+      "loser": "Kitchen Sinkhole"
+    },
+    {
+      "id": 56,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Space Violence.",
+      "blue": "IIIIIIIIIIIIIIIIIIIIIIIII",
+      "winner": "IIIIIIIIIIIIIIIIIIIIIIIII",
+      "times": {
+        "convoStart": "18:00",
+        "bansStart": "18:10",
+        "checksDue": "18:40",
+        "tpDue": "18:55",
+        "matchStart": "19:00",
+        "matchFinish": "19:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-1",
+      "blueRecord": "0-1",
+      "isFloat": false,
+      "bucket": "0-1",
+      "loser": "Space Violence."
+    },
+    {
+      "id": 57,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "L A Z E R H A W K S",
+      "blue": "NO NEED LOOSE FACE",
+      "winner": "NO NEED LOOSE FACE",
+      "times": {
+        "convoStart": "18:15",
+        "bansStart": "18:25",
+        "checksDue": "18:55",
+        "tpDue": "19:10",
+        "matchStart": "19:15",
+        "matchFinish": "19:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-1",
+      "blueRecord": "0-1",
+      "isFloat": false,
+      "bucket": "0-1",
+      "loser": "L A Z E R H A W K S"
+    },
+    {
+      "id": 58,
+      "weekend": 1,
+      "round": 2,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Odin's Call",
+      "blue": "That Escalated Quickly.",
+      "winner": "Odin's Call",
+      "times": {
+        "convoStart": "18:30",
+        "bansStart": "18:40",
+        "checksDue": "19:10",
+        "tpDue": "19:25",
+        "matchStart": "19:30",
+        "matchFinish": "19:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-1",
+      "blueRecord": "0-1",
+      "isFloat": false,
+      "bucket": "0-1",
+      "loser": "That Escalated Quickly."
+    },
+    {
+      "id": 59,
+      "weekend": 1,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Deteriorated",
+      "blue": "Dracarys.",
+      "winner": "Dracarys.",
+      "times": {
+        "convoStart": "18:45",
+        "bansStart": "18:55",
+        "checksDue": "19:25",
+        "tpDue": "19:40",
+        "matchStart": "19:45",
+        "matchFinish": "19:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-0",
+      "blueRecord": "2-0",
+      "isFloat": false,
+      "bucket": "2-0",
+      "loser": "Deteriorated"
+    },
+    {
+      "id": 60,
+      "weekend": 1,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Paper Numbers",
+      "blue": "Fraternity.",
+      "winner": "Paper Numbers",
+      "times": {
+        "convoStart": "19:00",
+        "bansStart": "19:10",
+        "checksDue": "19:40",
+        "tpDue": "19:55",
+        "matchStart": "20:00",
+        "matchFinish": "20:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-0",
+      "blueRecord": "2-0",
+      "isFloat": false,
+      "bucket": "2-0",
+      "loser": "Fraternity."
+    },
+    {
+      "id": 61,
+      "weekend": 1,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Arctic Light",
+      "blue": "Ragequit Cancel Sub",
+      "winner": "Ragequit Cancel Sub",
+      "times": {
+        "convoStart": "19:15",
+        "bansStart": "19:25",
+        "checksDue": "19:55",
+        "tpDue": "20:10",
+        "matchStart": "20:15",
+        "matchFinish": "20:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-0",
+      "blueRecord": "2-0",
+      "isFloat": false,
+      "bucket": "2-0",
+      "loser": "Arctic Light"
+    },
+    {
+      "id": 62,
+      "weekend": 1,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Ivy League",
+      "blue": "Psychokids.",
+      "winner": "Psychokids.",
+      "times": {
+        "convoStart": "19:30",
+        "bansStart": "19:40",
+        "checksDue": "20:10",
+        "tpDue": "20:25",
+        "matchStart": "20:30",
+        "matchFinish": "20:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-0",
+      "blueRecord": "2-0",
+      "isFloat": false,
+      "bucket": "2-0",
+      "loser": "Ivy League"
+    },
+    {
+      "id": 63,
+      "weekend": 1,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "The Excommunicati",
+      "blue": "Rusty Hyenas Clan",
+      "winner": "Rusty Hyenas Clan",
+      "times": {
+        "convoStart": "19:45",
+        "bansStart": "19:55",
+        "checksDue": "20:25",
+        "tpDue": "20:40",
+        "matchStart": "20:45",
+        "matchFinish": "20:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-0",
+      "blueRecord": "2-0",
+      "isFloat": false,
+      "bucket": "2-0",
+      "loser": "The Excommunicati"
+    },
+    {
+      "id": 64,
+      "weekend": 1,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+      "blue": "PSYCHOTIC OVERHEAT",
+      "winner": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+      "times": {
+        "convoStart": "20:00",
+        "bansStart": "20:10",
+        "checksDue": "20:40",
+        "tpDue": "20:55",
+        "matchStart": "21:00",
+        "matchFinish": "21:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-0",
+      "blueRecord": "2-0",
+      "isFloat": false,
+      "bucket": "2-0",
+      "loser": "PSYCHOTIC OVERHEAT"
+    },
+    {
+      "id": 65,
+      "weekend": 1,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Honkai Star Rail.",
+      "blue": "Sedition.",
+      "winner": "Sedition.",
+      "times": {
+        "convoStart": "20:15",
+        "bansStart": "20:25",
+        "checksDue": "20:55",
+        "tpDue": "21:10",
+        "matchStart": "21:15",
+        "matchFinish": "21:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-0",
+      "blueRecord": "2-0",
+      "isFloat": false,
+      "bucket": "2-0",
+      "loser": "Honkai Star Rail."
+    },
+    {
+      "id": 66,
+      "weekend": 1,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Meta Reloaded",
+      "blue": "Brave Collective",
+      "winner": "Meta Reloaded",
+      "times": {
+        "convoStart": "20:30",
+        "bansStart": "20:40",
+        "checksDue": "21:10",
+        "tpDue": "21:25",
+        "matchStart": "21:30",
+        "matchFinish": "21:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-1",
+      "blueRecord": "1-1",
+      "isFloat": false,
+      "bucket": "1-1",
+      "loser": "Brave Collective"
+    },
+    {
+      "id": 67,
+      "weekend": 1,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "Platinum Sensitivity.",
+      "blue": "White Squall.",
+      "winner": "Platinum Sensitivity.",
+      "times": {
+        "convoStart": "20:45",
+        "bansStart": "20:55",
+        "checksDue": "21:25",
+        "tpDue": "21:40",
+        "matchStart": "21:45",
+        "matchFinish": "21:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-1",
+      "blueRecord": "1-1",
+      "isFloat": false,
+      "bucket": "1-1",
+      "loser": "White Squall."
+    },
+    {
+      "id": 68,
+      "weekend": 1,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 1",
+      "red": "The Tuskers Co.",
+      "blue": "OnlyFleets.",
+      "winner": "The Tuskers Co.",
+      "times": {
+        "convoStart": "21:00",
+        "bansStart": "21:10",
+        "checksDue": "21:40",
+        "tpDue": "21:55",
+        "matchStart": "22:00",
+        "matchFinish": "22:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-1",
+      "blueRecord": "1-1",
+      "isFloat": false,
+      "bucket": "1-1",
+      "loser": "OnlyFleets."
+    },
+    {
+      "id": 69,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Test Alliance Please Ignore",
+      "blue": "Punishing Gray Raven",
+      "winner": "Punishing Gray Raven",
+      "times": {
+        "convoStart": "12:30",
+        "bansStart": "12:40",
+        "checksDue": "13:10",
+        "tpDue": "13:25",
+        "matchStart": "13:30",
+        "matchFinish": "13:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-1",
+      "blueRecord": "1-1",
+      "isFloat": false,
+      "bucket": "1-1",
+      "loser": "Test Alliance Please Ignore"
+    },
+    {
+      "id": 70,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Odin's Call",
+      "blue": "Neon Nightmares",
+      "winner": "Neon Nightmares",
+      "times": {
+        "convoStart": "12:45",
+        "bansStart": "12:55",
+        "checksDue": "13:25",
+        "tpDue": "13:40",
+        "matchStart": "13:45",
+        "matchFinish": "13:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-1",
+      "blueRecord": "1-1",
+      "isFloat": false,
+      "bucket": "1-1",
+      "loser": "Odin's Call"
+    },
+    {
+      "id": 71,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Psyno Theory",
+      "blue": "The Initiative.",
+      "winner": "Psyno Theory",
+      "times": {
+        "convoStart": "13:00",
+        "bansStart": "13:10",
+        "checksDue": "13:40",
+        "tpDue": "13:55",
+        "matchStart": "14:00",
+        "matchFinish": "14:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-1",
+      "blueRecord": "1-1",
+      "isFloat": false,
+      "bucket": "1-1",
+      "loser": "The Initiative."
+    },
+    {
+      "id": 72,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "WE FORM V0LTA",
+      "blue": "IIIIIIIIIIIIIIIIIIIIIIIII",
+      "winner": "IIIIIIIIIIIIIIIIIIIIIIIII",
+      "times": {
+        "convoStart": "13:15",
+        "bansStart": "13:25",
+        "checksDue": "13:55",
+        "tpDue": "14:10",
+        "matchStart": "14:15",
+        "matchFinish": "14:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-1",
+      "blueRecord": "1-1",
+      "isFloat": false,
+      "bucket": "1-1",
+      "loser": "WE FORM V0LTA"
+    },
+    {
+      "id": 73,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "34-yrs-old men get nagged by wives for playing EVE",
+      "blue": "ZERG REBORN",
+      "winner": "ZERG REBORN",
+      "times": {
+        "convoStart": "13:30",
+        "bansStart": "13:40",
+        "checksDue": "14:10",
+        "tpDue": "14:25",
+        "matchStart": "14:30",
+        "matchFinish": "14:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-1",
+      "blueRecord": "1-1",
+      "isFloat": false,
+      "bucket": "1-1",
+      "loser": "34-yrs-old men get nagged by wives for playing EVE"
+    },
+    {
+      "id": 74,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+      "blue": "Of Essence",
+      "winner": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+      "times": {
+        "convoStart": "13:45",
+        "bansStart": "13:55",
+        "checksDue": "14:25",
+        "tpDue": "14:40",
+        "matchStart": "14:45",
+        "matchFinish": "14:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-1",
+      "blueRecord": "1-1",
+      "isFloat": false,
+      "bucket": "1-1",
+      "loser": "Of Essence"
+    },
+    {
+      "id": 75,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "NO NEED LOOSE FACE",
+      "blue": "Bright Side of Death",
+      "winner": "Bright Side of Death",
+      "times": {
+        "convoStart": "14:00",
+        "bansStart": "14:10",
+        "checksDue": "14:40",
+        "tpDue": "14:55",
+        "matchStart": "15:00",
+        "matchFinish": "15:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-1",
+      "blueRecord": "1-1",
+      "isFloat": false,
+      "bucket": "1-1",
+      "loser": "NO NEED LOOSE FACE"
+    },
+    {
+      "id": 76,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Shadow Cartel",
+      "blue": "Sigma Grindset",
+      "winner": "Shadow Cartel",
+      "times": {
+        "convoStart": "14:15",
+        "bansStart": "14:25",
+        "checksDue": "14:55",
+        "tpDue": "15:10",
+        "matchStart": "15:15",
+        "matchFinish": "15:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-1",
+      "blueRecord": "1-1",
+      "isFloat": false,
+      "bucket": "1-1",
+      "loser": "Sigma Grindset"
+    },
+    {
+      "id": 77,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Sons of Bane",
+      "blue": "Rote Kapelle",
+      "winner": "Rote Kapelle",
+      "times": {
+        "convoStart": "14:30",
+        "bansStart": "14:40",
+        "checksDue": "15:10",
+        "tpDue": "15:25",
+        "matchStart": "15:30",
+        "matchFinish": "15:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-1",
+      "blueRecord": "1-1",
+      "isFloat": false,
+      "bucket": "1-1",
+      "loser": "Sons of Bane"
+    },
+    {
+      "id": 78,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Seker Matar",
+      "blue": "Seriously Suspicious",
+      "winner": "Seriously Suspicious",
+      "times": {
+        "convoStart": "14:45",
+        "bansStart": "14:55",
+        "checksDue": "15:25",
+        "tpDue": "15:40",
+        "matchStart": "15:45",
+        "matchFinish": "15:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-1",
+      "blueRecord": "1-1",
+      "isFloat": false,
+      "bucket": "1-1",
+      "loser": "Seker Matar"
+    },
+    {
+      "id": 79,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "D-sync.",
+      "blue": "Exodus.",
+      "winner": "Exodus.",
+      "times": {
+        "convoStart": "15:00",
+        "bansStart": "15:10",
+        "checksDue": "15:40",
+        "tpDue": "15:55",
+        "matchStart": "16:00",
+        "matchFinish": "16:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-1",
+      "blueRecord": "1-1",
+      "isFloat": false,
+      "bucket": "1-1",
+      "loser": "D-sync."
+    },
+    {
+      "id": 80,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Minmatar Fleet Alliance",
+      "blue": "Slide On Contact",
+      "winner": "Slide On Contact",
+      "times": {
+        "convoStart": "15:15",
+        "bansStart": "15:25",
+        "checksDue": "15:55",
+        "tpDue": "16:10",
+        "matchStart": "16:15",
+        "matchFinish": "16:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-1",
+      "blueRecord": "1-1",
+      "isFloat": false,
+      "bucket": "1-1",
+      "loser": "Minmatar Fleet Alliance"
+    },
+    {
+      "id": 81,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Out of the Blue.",
+      "blue": "Vapor-Lock",
+      "winner": "Vapor-Lock",
+      "times": {
+        "convoStart": "15:30",
+        "bansStart": "15:40",
+        "checksDue": "16:10",
+        "tpDue": "16:25",
+        "matchStart": "16:30",
+        "matchFinish": "16:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-2",
+      "blueRecord": "0-2",
+      "isFloat": false,
+      "bucket": "0-2",
+      "loser": "Out of the Blue."
+    },
+    {
+      "id": 82,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "That Escalated Quickly.",
+      "blue": "Solyaris Chtonium",
+      "winner": "That Escalated Quickly.",
+      "times": {
+        "convoStart": "15:45",
+        "bansStart": "15:55",
+        "checksDue": "16:25",
+        "tpDue": "16:40",
+        "matchStart": "16:45",
+        "matchFinish": "16:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-2",
+      "blueRecord": "0-2",
+      "isFloat": false,
+      "bucket": "0-2",
+      "loser": "Solyaris Chtonium"
+    },
+    {
+      "id": 83,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Kitchen Sinkhole",
+      "blue": "The Skeleton Crew",
+      "winner": "Kitchen Sinkhole",
+      "times": {
+        "convoStart": "16:00",
+        "bansStart": "16:10",
+        "checksDue": "16:40",
+        "tpDue": "16:55",
+        "matchStart": "17:00",
+        "matchFinish": "17:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-2",
+      "blueRecord": "0-2",
+      "isFloat": false,
+      "bucket": "0-2",
+      "loser": "The Skeleton Crew"
+    },
+    {
+      "id": 84,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "We Forsakened Few",
+      "blue": "L A Z E R H A W K S",
+      "winner": "L A Z E R H A W K S",
+      "times": {
+        "convoStart": "16:15",
+        "bansStart": "16:25",
+        "checksDue": "16:55",
+        "tpDue": "17:10",
+        "matchStart": "17:15",
+        "matchFinish": "17:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-2",
+      "blueRecord": "0-2",
+      "isFloat": false,
+      "bucket": "0-2",
+      "loser": "We Forsakened Few"
+    },
+    {
+      "id": 85,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "DarkSide.",
+      "blue": "The Obsidian Front - Reborn",
+      "winner": "DarkSide.",
+      "times": {
+        "convoStart": "16:45",
+        "bansStart": "16:55",
+        "checksDue": "17:25",
+        "tpDue": "17:40",
+        "matchStart": "17:45",
+        "matchFinish": "17:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-2",
+      "blueRecord": "0-2",
+      "isFloat": false,
+      "bucket": "0-2",
+      "loser": "The Obsidian Front - Reborn"
+    },
+    {
+      "id": 86,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Project Potato",
+      "blue": "Space Violence.",
+      "winner": "Space Violence.",
+      "times": {
+        "convoStart": "17:00",
+        "bansStart": "17:10",
+        "checksDue": "17:40",
+        "tpDue": "17:55",
+        "matchStart": "18:00",
+        "matchFinish": "18:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-2",
+      "blueRecord": "0-2",
+      "isFloat": false,
+      "bucket": "0-2",
+      "loser": "Project Potato"
+    },
+    {
+      "id": 87,
+      "weekend": 2,
+      "round": 3,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Critical. Mass.",
+      "blue": "NPSI.Rocks",
+      "winner": "NPSI.Rocks",
+      "times": {
+        "convoStart": "17:15",
+        "bansStart": "17:25",
+        "checksDue": "17:55",
+        "tpDue": "18:10",
+        "matchStart": "18:15",
+        "matchFinish": "18:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-2",
+      "blueRecord": "0-2",
+      "isFloat": false,
+      "bucket": "0-2",
+      "loser": "Critical. Mass."
+    },
+    {
+      "id": 88,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Ragequit Cancel Sub",
+      "blue": "Paper Numbers",
+      "winner": "Paper Numbers",
+      "times": {
+        "convoStart": "17:30",
+        "bansStart": "17:40",
+        "checksDue": "18:10",
+        "tpDue": "18:25",
+        "matchStart": "18:30",
+        "matchFinish": "18:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-0",
+      "blueRecord": "3-0",
+      "isFloat": false,
+      "bucket": "3-0",
+      "loser": "Ragequit Cancel Sub"
+    },
+    {
+      "id": 89,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Rusty Hyenas Clan",
+      "blue": "Sedition.",
+      "winner": "Rusty Hyenas Clan",
+      "times": {
+        "convoStart": "17:45",
+        "bansStart": "17:55",
+        "checksDue": "18:25",
+        "tpDue": "18:40",
+        "matchStart": "18:45",
+        "matchFinish": "18:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-0",
+      "blueRecord": "3-0",
+      "isFloat": false,
+      "bucket": "3-0",
+      "loser": "Sedition."
+    },
+    {
+      "id": 90,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Psychokids.",
+      "blue": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+      "winner": "Psychokids.",
+      "times": {
+        "convoStart": "18:00",
+        "bansStart": "18:10",
+        "checksDue": "18:40",
+        "tpDue": "18:55",
+        "matchStart": "19:00",
+        "matchFinish": "19:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-0",
+      "blueRecord": "3-0",
+      "isFloat": false,
+      "bucket": "3-0",
+      "loser": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku"
+    },
+    {
+      "id": 91,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Dracarys.",
+      "blue": "Punishing Gray Raven",
+      "winner": "Dracarys.",
+      "times": {
+        "convoStart": "18:15",
+        "bansStart": "18:25",
+        "checksDue": "18:55",
+        "tpDue": "19:10",
+        "matchStart": "19:15",
+        "matchFinish": "19:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-0",
+      "blueRecord": "2-1",
+      "isFloat": true,
+      "bucket": "3-0",
+      "loser": "Punishing Gray Raven"
+    },
+    {
+      "id": 92,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "IIIIIIIIIIIIIIIIIIIIIIIII",
+      "blue": "Slide On Contact",
+      "winner": "IIIIIIIIIIIIIIIIIIIIIIIII",
+      "times": {
+        "convoStart": "18:30",
+        "bansStart": "18:40",
+        "checksDue": "19:10",
+        "tpDue": "19:25",
+        "matchStart": "19:30",
+        "matchFinish": "19:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-1",
+      "blueRecord": "2-1",
+      "isFloat": false,
+      "bucket": "2-1",
+      "loser": "Slide On Contact"
+    },
+    {
+      "id": 93,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Honkai Star Rail.",
+      "blue": "Seriously Suspicious",
+      "winner": "Honkai Star Rail.",
+      "times": {
+        "convoStart": "18:45",
+        "bansStart": "18:55",
+        "checksDue": "19:25",
+        "tpDue": "19:40",
+        "matchStart": "19:45",
+        "matchFinish": "19:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-1",
+      "blueRecord": "2-1",
+      "isFloat": false,
+      "bucket": "2-1",
+      "loser": "Seriously Suspicious"
+    },
+    {
+      "id": 94,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Shadow Cartel",
+      "blue": "ZERG REBORN",
+      "winner": "ZERG REBORN",
+      "times": {
+        "convoStart": "19:00",
+        "bansStart": "19:10",
+        "checksDue": "19:40",
+        "tpDue": "19:55",
+        "matchStart": "20:00",
+        "matchFinish": "20:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-1",
+      "blueRecord": "2-1",
+      "isFloat": false,
+      "bucket": "2-1",
+      "loser": "Shadow Cartel"
+    },
+    {
+      "id": 95,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Psyno Theory",
+      "blue": "Arctic Light",
+      "winner": "Arctic Light",
+      "times": {
+        "convoStart": "19:15",
+        "bansStart": "19:25",
+        "checksDue": "19:55",
+        "tpDue": "20:10",
+        "matchStart": "20:15",
+        "matchFinish": "20:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-1",
+      "blueRecord": "2-1",
+      "isFloat": false,
+      "bucket": "2-1",
+      "loser": "Psyno Theory"
+    },
+    {
+      "id": 96,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Rote Kapelle",
+      "blue": "Exodus.",
+      "winner": "Rote Kapelle",
+      "times": {
+        "convoStart": "19:30",
+        "bansStart": "19:40",
+        "checksDue": "20:10",
+        "tpDue": "20:25",
+        "matchStart": "20:30",
+        "matchFinish": "20:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-1",
+      "blueRecord": "2-1",
+      "isFloat": false,
+      "bucket": "2-1",
+      "loser": "Exodus."
+    },
+    {
+      "id": 97,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Platinum Sensitivity.",
+      "blue": "PSYCHOTIC OVERHEAT",
+      "winner": "Platinum Sensitivity.",
+      "times": {
+        "convoStart": "19:45",
+        "bansStart": "19:55",
+        "checksDue": "20:25",
+        "tpDue": "20:40",
+        "matchStart": "20:45",
+        "matchFinish": "20:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-1",
+      "blueRecord": "2-1",
+      "isFloat": false,
+      "bucket": "2-1",
+      "loser": "PSYCHOTIC OVERHEAT"
+    },
+    {
+      "id": 98,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Bright Side of Death",
+      "blue": "Ivy League",
+      "winner": "Bright Side of Death",
+      "times": {
+        "convoStart": "20:00",
+        "bansStart": "20:10",
+        "checksDue": "20:40",
+        "tpDue": "20:55",
+        "matchStart": "21:00",
+        "matchFinish": "21:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-1",
+      "blueRecord": "2-1",
+      "isFloat": false,
+      "bucket": "2-1",
+      "loser": "Ivy League"
+    },
+    {
+      "id": 99,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Deteriorated",
+      "blue": "The Tuskers Co.",
+      "winner": "Deteriorated",
+      "times": {
+        "convoStart": "20:15",
+        "bansStart": "20:25",
+        "checksDue": "20:55",
+        "tpDue": "21:10",
+        "matchStart": "21:15",
+        "matchFinish": "21:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-1",
+      "blueRecord": "2-1",
+      "isFloat": false,
+      "bucket": "2-1",
+      "loser": "The Tuskers Co."
+    },
+    {
+      "id": 100,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Fraternity.",
+      "blue": "Meta Reloaded",
+      "winner": "Meta Reloaded",
+      "times": {
+        "convoStart": "20:30",
+        "bansStart": "20:40",
+        "checksDue": "21:10",
+        "tpDue": "21:25",
+        "matchStart": "21:30",
+        "matchFinish": "21:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-1",
+      "blueRecord": "2-1",
+      "isFloat": false,
+      "bucket": "2-1",
+      "loser": "Fraternity."
+    },
+    {
+      "id": 101,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Neon Nightmares",
+      "blue": "The Excommunicati",
+      "winner": "Neon Nightmares",
+      "times": {
+        "convoStart": "20:45",
+        "bansStart": "20:55",
+        "checksDue": "21:25",
+        "tpDue": "21:40",
+        "matchStart": "21:45",
+        "matchFinish": "21:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-1",
+      "blueRecord": "2-1",
+      "isFloat": false,
+      "bucket": "2-1",
+      "loser": "The Excommunicati"
+    },
+    {
+      "id": 102,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+      "blue": "White Squall.",
+      "winner": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+      "times": {
+        "convoStart": "21:00",
+        "bansStart": "21:10",
+        "checksDue": "21:40",
+        "tpDue": "21:55",
+        "matchStart": "22:00",
+        "matchFinish": "22:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-1",
+      "blueRecord": "1-2",
+      "isFloat": true,
+      "bucket": "2-1",
+      "loser": "White Squall."
+    },
+    {
+      "id": 103,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Test Alliance Please Ignore",
+      "blue": "That Escalated Quickly.",
+      "winner": "Test Alliance Please Ignore",
+      "times": {
+        "convoStart": "12:30",
+        "bansStart": "12:40",
+        "checksDue": "13:10",
+        "tpDue": "13:25",
+        "matchStart": "13:30",
+        "matchFinish": "13:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-2",
+      "blueRecord": "1-2",
+      "isFloat": false,
+      "bucket": "1-2",
+      "loser": "That Escalated Quickly."
+    },
+    {
+      "id": 104,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "34-yrs-old men get nagged by wives for playing EVE",
+      "blue": "The Initiative.",
+      "winner": "34-yrs-old men get nagged by wives for playing EVE",
+      "times": {
+        "convoStart": "12:45",
+        "bansStart": "12:55",
+        "checksDue": "13:25",
+        "tpDue": "13:40",
+        "matchStart": "13:45",
+        "matchFinish": "13:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-2",
+      "blueRecord": "1-2",
+      "isFloat": false,
+      "bucket": "1-2",
+      "loser": "The Initiative."
+    },
+    {
+      "id": 105,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Of Essence",
+      "blue": "Vapor-Lock",
+      "winner": "Of Essence",
+      "times": {
+        "convoStart": "13:00",
+        "bansStart": "13:10",
+        "checksDue": "13:40",
+        "tpDue": "13:55",
+        "matchStart": "14:00",
+        "matchFinish": "14:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-2",
+      "blueRecord": "1-2",
+      "isFloat": false,
+      "bucket": "1-2",
+      "loser": "Vapor-Lock"
+    },
+    {
+      "id": 106,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Minmatar Fleet Alliance",
+      "blue": "D-sync.",
+      "winner": "D-sync.",
+      "times": {
+        "convoStart": "13:15",
+        "bansStart": "13:25",
+        "checksDue": "13:55",
+        "tpDue": "14:10",
+        "matchStart": "14:15",
+        "matchFinish": "14:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-2",
+      "blueRecord": "1-2",
+      "isFloat": false,
+      "bucket": "1-2",
+      "loser": "Minmatar Fleet Alliance"
+    },
+    {
+      "id": 107,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "WE FORM V0LTA",
+      "blue": "NO NEED LOOSE FACE",
+      "winner": "WE FORM V0LTA",
+      "times": {
+        "convoStart": "13:30",
+        "bansStart": "13:40",
+        "checksDue": "14:10",
+        "tpDue": "14:25",
+        "matchStart": "14:30",
+        "matchFinish": "14:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-2",
+      "blueRecord": "1-2",
+      "isFloat": false,
+      "bucket": "1-2",
+      "loser": "NO NEED LOOSE FACE"
+    },
+    {
+      "id": 108,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Kitchen Sinkhole",
+      "blue": "Space Violence.",
+      "winner": "Space Violence.",
+      "times": {
+        "convoStart": "13:45",
+        "bansStart": "13:55",
+        "checksDue": "14:25",
+        "tpDue": "14:40",
+        "matchStart": "14:45",
+        "matchFinish": "14:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-2",
+      "blueRecord": "1-2",
+      "isFloat": false,
+      "bucket": "1-2",
+      "loser": "Kitchen Sinkhole"
+    },
+    {
+      "id": 109,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Sigma Grindset",
+      "blue": "Seker Matar",
+      "winner": "Seker Matar",
+      "times": {
+        "convoStart": "14:00",
+        "bansStart": "14:10",
+        "checksDue": "14:40",
+        "tpDue": "14:55",
+        "matchStart": "15:00",
+        "matchFinish": "15:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-2",
+      "blueRecord": "1-2",
+      "isFloat": false,
+      "bucket": "1-2",
+      "loser": "Sigma Grindset"
+    },
+    {
+      "id": 110,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "L A Z E R H A W K S",
+      "blue": "DarkSide.",
+      "winner": "DarkSide.",
+      "times": {
+        "convoStart": "14:15",
+        "bansStart": "14:25",
+        "checksDue": "14:55",
+        "tpDue": "15:10",
+        "matchStart": "15:15",
+        "matchFinish": "15:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-2",
+      "blueRecord": "1-2",
+      "isFloat": false,
+      "bucket": "1-2",
+      "loser": "L A Z E R H A W K S"
+    },
+    {
+      "id": 111,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "NPSI.Rocks",
+      "blue": "Brave Collective",
+      "winner": "NPSI.Rocks",
+      "times": {
+        "convoStart": "14:30",
+        "bansStart": "14:40",
+        "checksDue": "15:10",
+        "tpDue": "15:25",
+        "matchStart": "15:30",
+        "matchFinish": "15:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-2",
+      "blueRecord": "1-2",
+      "isFloat": false,
+      "bucket": "1-2",
+      "loser": "Brave Collective"
+    },
+    {
+      "id": 112,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Odin's Call",
+      "blue": "Sons of Bane",
+      "winner": "Sons of Bane",
+      "times": {
+        "convoStart": "14:45",
+        "bansStart": "14:55",
+        "checksDue": "15:25",
+        "tpDue": "15:40",
+        "matchStart": "15:45",
+        "matchFinish": "15:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-2",
+      "blueRecord": "1-2",
+      "isFloat": false,
+      "bucket": "1-2",
+      "loser": "Odin's Call"
+    },
+    {
+      "id": 113,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "OnlyFleets.",
+      "blue": "Project Potato",
+      "winner": "OnlyFleets.",
+      "times": {
+        "convoStart": "15:00",
+        "bansStart": "15:10",
+        "checksDue": "15:40",
+        "tpDue": "15:55",
+        "matchStart": "16:00",
+        "matchFinish": "16:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-2",
+      "blueRecord": "0-3",
+      "isFloat": true,
+      "bucket": "1-2",
+      "loser": "Project Potato"
+    },
+    {
+      "id": 114,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "The Skeleton Crew",
+      "blue": "The Obsidian Front - Reborn",
+      "winner": "The Obsidian Front - Reborn",
+      "times": {
+        "convoStart": "15:15",
+        "bansStart": "15:25",
+        "checksDue": "15:55",
+        "tpDue": "16:10",
+        "matchStart": "16:15",
+        "matchFinish": "16:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-3",
+      "blueRecord": "0-3",
+      "isFloat": false,
+      "bucket": "0-3",
+      "loser": "The Skeleton Crew"
+    },
+    {
+      "id": 115,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Critical. Mass.",
+      "blue": "Out of the Blue.",
+      "winner": "Out of the Blue.",
+      "times": {
+        "convoStart": "15:30",
+        "bansStart": "15:40",
+        "checksDue": "16:10",
+        "tpDue": "16:25",
+        "matchStart": "16:30",
+        "matchFinish": "16:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-3",
+      "blueRecord": "0-3",
+      "isFloat": false,
+      "bucket": "0-3",
+      "loser": "Critical. Mass."
+    },
+    {
+      "id": 116,
+      "weekend": 2,
+      "round": 4,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Solyaris Chtonium",
+      "blue": "We Forsakened Few",
+      "winner": "We Forsakened Few",
+      "times": {
+        "convoStart": "15:45",
+        "bansStart": "15:55",
+        "checksDue": "16:25",
+        "tpDue": "16:40",
+        "matchStart": "16:45",
+        "matchFinish": "16:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-3",
+      "blueRecord": "0-3",
+      "isFloat": false,
+      "bucket": "0-3",
+      "loser": "Solyaris Chtonium"
+    },
+    {
+      "id": 117,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Psychokids.",
+      "blue": "Paper Numbers",
+      "winner": "Paper Numbers",
+      "times": {
+        "convoStart": "16:00",
+        "bansStart": "16:10",
+        "checksDue": "16:40",
+        "tpDue": "16:55",
+        "matchStart": "17:00",
+        "matchFinish": "17:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "4-0",
+      "blueRecord": "4-0",
+      "isFloat": false,
+      "bucket": "4-0",
+      "loser": "Psychokids."
+    },
+    {
+      "id": 118,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Rusty Hyenas Clan",
+      "blue": "Dracarys.",
+      "winner": "Dracarys.",
+      "times": {
+        "convoStart": "16:15",
+        "bansStart": "16:25",
+        "checksDue": "16:55",
+        "tpDue": "17:10",
+        "matchStart": "17:15",
+        "matchFinish": "17:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "4-0",
+      "blueRecord": "4-0",
+      "isFloat": false,
+      "bucket": "4-0",
+      "loser": "Rusty Hyenas Clan"
+    },
+    {
+      "id": 119,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Rote Kapelle",
+      "blue": "Sedition.",
+      "winner": "Sedition.",
+      "times": {
+        "convoStart": "16:45",
+        "bansStart": "16:55",
+        "checksDue": "17:25",
+        "tpDue": "17:40",
+        "matchStart": "17:45",
+        "matchFinish": "17:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-1",
+      "blueRecord": "3-1",
+      "isFloat": false,
+      "bucket": "3-1",
+      "loser": "Rote Kapelle"
+    },
+    {
+      "id": 120,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Ragequit Cancel Sub",
+      "blue": "ZERG REBORN",
+      "winner": "Ragequit Cancel Sub",
+      "times": {
+        "convoStart": "17:00",
+        "bansStart": "17:10",
+        "checksDue": "17:40",
+        "tpDue": "17:55",
+        "matchStart": "18:00",
+        "matchFinish": "18:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-1",
+      "blueRecord": "3-1",
+      "isFloat": false,
+      "bucket": "3-1",
+      "loser": "ZERG REBORN"
+    },
+    {
+      "id": 121,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Arctic Light",
+      "blue": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+      "winner": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+      "times": {
+        "convoStart": "17:15",
+        "bansStart": "17:25",
+        "checksDue": "17:55",
+        "tpDue": "18:10",
+        "matchStart": "18:15",
+        "matchFinish": "18:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-1",
+      "blueRecord": "3-1",
+      "isFloat": false,
+      "bucket": "3-1",
+      "loser": "Arctic Light"
+    },
+    {
+      "id": 122,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Deteriorated",
+      "blue": "Meta Reloaded",
+      "winner": "Deteriorated",
+      "times": {
+        "convoStart": "17:30",
+        "bansStart": "17:40",
+        "checksDue": "18:10",
+        "tpDue": "18:25",
+        "matchStart": "18:30",
+        "matchFinish": "18:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-1",
+      "blueRecord": "3-1",
+      "isFloat": false,
+      "bucket": "3-1",
+      "loser": "Meta Reloaded"
+    },
+    {
+      "id": 123,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "IIIIIIIIIIIIIIIIIIIIIIIII",
+      "blue": "Neon Nightmares",
+      "winner": null,
+      "times": {
+        "convoStart": "17:45",
+        "bansStart": "17:55",
+        "checksDue": "18:25",
+        "tpDue": "18:40",
+        "matchStart": "18:45",
+        "matchFinish": "18:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-1",
+      "blueRecord": "3-1",
+      "isFloat": false,
+      "bucket": "3-1",
+      "loser": null
+    },
+    {
+      "id": 124,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Honkai Star Rail.",
+      "blue": "Platinum Sensitivity.",
+      "winner": null,
+      "times": {
+        "convoStart": "18:00",
+        "bansStart": "18:10",
+        "checksDue": "18:40",
+        "tpDue": "18:55",
+        "matchStart": "19:00",
+        "matchFinish": "19:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-1",
+      "blueRecord": "3-1",
+      "isFloat": false,
+      "bucket": "3-1",
+      "loser": null
+    },
+    {
+      "id": 125,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Bright Side of Death",
+      "blue": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+      "winner": null,
+      "times": {
+        "convoStart": "18:15",
+        "bansStart": "18:25",
+        "checksDue": "18:55",
+        "tpDue": "19:10",
+        "matchStart": "19:15",
+        "matchFinish": "19:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-1",
+      "blueRecord": "3-1",
+      "isFloat": false,
+      "bucket": "3-1",
+      "loser": null
+    },
+    {
+      "id": 126,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "PSYCHOTIC OVERHEAT",
+      "blue": "Sons of Bane",
+      "winner": null,
+      "times": {
+        "convoStart": "18:30",
+        "bansStart": "18:40",
+        "checksDue": "19:10",
+        "tpDue": "19:25",
+        "matchStart": "19:30",
+        "matchFinish": "19:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-2",
+      "blueRecord": "2-2",
+      "isFloat": false,
+      "bucket": "2-2",
+      "loser": null
+    },
+    {
+      "id": 127,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "The Excommunicati",
+      "blue": "NPSI.Rocks",
+      "winner": null,
+      "times": {
+        "convoStart": "18:45",
+        "bansStart": "18:55",
+        "checksDue": "19:25",
+        "tpDue": "19:40",
+        "matchStart": "19:45",
+        "matchFinish": "19:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-2",
+      "blueRecord": "2-2",
+      "isFloat": false,
+      "bucket": "2-2",
+      "loser": null
+    },
+    {
+      "id": 128,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Psyno Theory",
+      "blue": "Space Violence.",
+      "winner": null,
+      "times": {
+        "convoStart": "19:00",
+        "bansStart": "19:10",
+        "checksDue": "19:40",
+        "tpDue": "19:55",
+        "matchStart": "20:00",
+        "matchFinish": "20:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-2",
+      "blueRecord": "2-2",
+      "isFloat": false,
+      "bucket": "2-2",
+      "loser": null
+    },
+    {
+      "id": 129,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Test Alliance Please Ignore",
+      "blue": "Exodus.",
+      "winner": null,
+      "times": {
+        "convoStart": "19:15",
+        "bansStart": "19:25",
+        "checksDue": "19:55",
+        "tpDue": "20:10",
+        "matchStart": "20:15",
+        "matchFinish": "20:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-2",
+      "blueRecord": "2-2",
+      "isFloat": false,
+      "bucket": "2-2",
+      "loser": null
+    },
+    {
+      "id": 130,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "D-sync.",
+      "blue": "Of Essence",
+      "winner": null,
+      "times": {
+        "convoStart": "19:30",
+        "bansStart": "19:40",
+        "checksDue": "20:10",
+        "tpDue": "20:25",
+        "matchStart": "20:30",
+        "matchFinish": "20:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-2",
+      "blueRecord": "2-2",
+      "isFloat": false,
+      "bucket": "2-2",
+      "loser": null
+    },
+    {
+      "id": 131,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Fraternity.",
+      "blue": "Seriously Suspicious",
+      "winner": null,
+      "times": {
+        "convoStart": "19:45",
+        "bansStart": "19:55",
+        "checksDue": "20:25",
+        "tpDue": "20:40",
+        "matchStart": "20:45",
+        "matchFinish": "20:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-2",
+      "blueRecord": "2-2",
+      "isFloat": false,
+      "bucket": "2-2",
+      "loser": null
+    },
+    {
+      "id": 132,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Seker Matar",
+      "blue": "34-yrs-old men get nagged by wives for playing EVE",
+      "winner": null,
+      "times": {
+        "convoStart": "20:00",
+        "bansStart": "20:10",
+        "checksDue": "20:40",
+        "tpDue": "20:55",
+        "matchStart": "21:00",
+        "matchFinish": "21:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-2",
+      "blueRecord": "2-2",
+      "isFloat": false,
+      "bucket": "2-2",
+      "loser": null
+    },
+    {
+      "id": 133,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "DarkSide.",
+      "blue": "Ivy League",
+      "winner": null,
+      "times": {
+        "convoStart": "20:15",
+        "bansStart": "20:25",
+        "checksDue": "20:55",
+        "tpDue": "21:10",
+        "matchStart": "21:15",
+        "matchFinish": "21:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-2",
+      "blueRecord": "2-2",
+      "isFloat": false,
+      "bucket": "2-2",
+      "loser": null
+    },
+    {
+      "id": 134,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "The Tuskers Co.",
+      "blue": "Slide On Contact",
+      "winner": null,
+      "times": {
+        "convoStart": "20:30",
+        "bansStart": "20:40",
+        "checksDue": "21:10",
+        "tpDue": "21:25",
+        "matchStart": "21:30",
+        "matchFinish": "21:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-2",
+      "blueRecord": "2-2",
+      "isFloat": false,
+      "bucket": "2-2",
+      "loser": null
+    },
+    {
+      "id": 135,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Shadow Cartel",
+      "blue": "WE FORM V0LTA",
+      "winner": null,
+      "times": {
+        "convoStart": "20:45",
+        "bansStart": "20:55",
+        "checksDue": "21:25",
+        "tpDue": "21:40",
+        "matchStart": "21:45",
+        "matchFinish": "21:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-2",
+      "blueRecord": "2-2",
+      "isFloat": false,
+      "bucket": "2-2",
+      "loser": null
+    },
+    {
+      "id": 136,
+      "weekend": 2,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 2",
+      "red": "Punishing Gray Raven",
+      "blue": "OnlyFleets.",
+      "winner": null,
+      "times": {
+        "convoStart": "21:00",
+        "bansStart": "21:10",
+        "checksDue": "21:40",
+        "tpDue": "21:55",
+        "matchStart": "22:00",
+        "matchFinish": "22:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-2",
+      "blueRecord": "2-2",
+      "isFloat": false,
+      "bucket": "2-2",
+      "loser": null
+    },
+    {
+      "id": 137,
+      "weekend": 3,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Brave Collective",
+      "blue": "Minmatar Fleet Alliance",
+      "winner": null,
+      "times": {
+        "convoStart": "12:30",
+        "bansStart": "12:40",
+        "checksDue": "13:10",
+        "tpDue": "13:25",
+        "matchStart": "13:30",
+        "matchFinish": "13:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-3",
+      "blueRecord": "1-3",
+      "isFloat": false,
+      "bucket": "1-3",
+      "loser": null
+    },
+    {
+      "id": 138,
+      "weekend": 3,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "The Obsidian Front - Reborn",
+      "blue": "Sigma Grindset",
+      "winner": null,
+      "times": {
+        "convoStart": "12:45",
+        "bansStart": "12:55",
+        "checksDue": "13:25",
+        "tpDue": "13:40",
+        "matchStart": "13:45",
+        "matchFinish": "13:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-3",
+      "blueRecord": "1-3",
+      "isFloat": false,
+      "bucket": "1-3",
+      "loser": null
+    },
+    {
+      "id": 139,
+      "weekend": 3,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "That Escalated Quickly.",
+      "blue": "The Initiative.",
+      "winner": null,
+      "times": {
+        "convoStart": "13:00",
+        "bansStart": "13:10",
+        "checksDue": "13:40",
+        "tpDue": "13:55",
+        "matchStart": "14:00",
+        "matchFinish": "14:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-3",
+      "blueRecord": "1-3",
+      "isFloat": false,
+      "bucket": "1-3",
+      "loser": null
+    },
+    {
+      "id": 140,
+      "weekend": 3,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Odin's Call",
+      "blue": "We Forsakened Few",
+      "winner": null,
+      "times": {
+        "convoStart": "13:15",
+        "bansStart": "13:25",
+        "checksDue": "13:55",
+        "tpDue": "14:10",
+        "matchStart": "14:15",
+        "matchFinish": "14:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-3",
+      "blueRecord": "1-3",
+      "isFloat": false,
+      "bucket": "1-3",
+      "loser": null
+    },
+    {
+      "id": 141,
+      "weekend": 3,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Kitchen Sinkhole",
+      "blue": "Vapor-Lock",
+      "winner": null,
+      "times": {
+        "convoStart": "13:30",
+        "bansStart": "13:40",
+        "checksDue": "14:10",
+        "tpDue": "14:25",
+        "matchStart": "14:30",
+        "matchFinish": "14:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-3",
+      "blueRecord": "1-3",
+      "isFloat": false,
+      "bucket": "1-3",
+      "loser": null
+    },
+    {
+      "id": 142,
+      "weekend": 3,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Out of the Blue.",
+      "blue": "NO NEED LOOSE FACE",
+      "winner": null,
+      "times": {
+        "convoStart": "13:45",
+        "bansStart": "13:55",
+        "checksDue": "14:25",
+        "tpDue": "14:40",
+        "matchStart": "14:45",
+        "matchFinish": "14:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-3",
+      "blueRecord": "1-3",
+      "isFloat": false,
+      "bucket": "1-3",
+      "loser": null
+    },
+    {
+      "id": 143,
+      "weekend": 3,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "White Squall.",
+      "blue": "L A Z E R H A W K S",
+      "winner": null,
+      "times": {
+        "convoStart": "14:00",
+        "bansStart": "14:10",
+        "checksDue": "14:40",
+        "tpDue": "14:55",
+        "matchStart": "15:00",
+        "matchFinish": "15:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "1-3",
+      "blueRecord": "1-3",
+      "isFloat": false,
+      "bucket": "1-3",
+      "loser": null
+    },
+    {
+      "id": 144,
+      "weekend": 3,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Project Potato",
+      "blue": "Critical. Mass.",
+      "winner": null,
+      "times": {
+        "convoStart": "14:15",
+        "bansStart": "14:25",
+        "checksDue": "14:55",
+        "tpDue": "15:10",
+        "matchStart": "15:15",
+        "matchFinish": "15:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-4",
+      "blueRecord": "0-4",
+      "isFloat": false,
+      "bucket": "0-4",
+      "loser": null
+    },
+    {
+      "id": 145,
+      "weekend": 3,
+      "round": 5,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "The Skeleton Crew",
+      "blue": "Solyaris Chtonium",
+      "winner": null,
+      "times": {
+        "convoStart": "14:30",
+        "bansStart": "14:40",
+        "checksDue": "15:10",
+        "tpDue": "15:25",
+        "matchStart": "15:30",
+        "matchFinish": "15:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-4",
+      "blueRecord": "0-4",
+      "isFloat": false,
+      "bucket": "0-4",
+      "loser": null
+    }
+  ],
+  "bracket": [
+    {
+      "round": 1,
+      "matchCount": 29,
+      "buckets": [
+        {
+          "record": "0-0",
+          "matchIds": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "matchCount": 29,
+      "buckets": [
+        {
+          "record": "1-0",
+          "matchIds": [
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+          ]
+        },
+        {
+          "record": "0-1",
+          "matchIds": [
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58
+          ]
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "matchCount": 29,
+      "buckets": [
+        {
+          "record": "2-0",
+          "matchIds": [
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+          ]
+        },
+        {
+          "record": "1-1",
+          "matchIds": [
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80
+          ]
+        },
+        {
+          "record": "0-2",
+          "matchIds": [
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "matchCount": 29,
+      "buckets": [
+        {
+          "record": "3-0",
+          "matchIds": [
+            88,
+            89,
+            90,
+            91
+          ]
+        },
+        {
+          "record": "2-1",
+          "matchIds": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102
+          ]
+        },
+        {
+          "record": "1-2",
+          "matchIds": [
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113
+          ]
+        },
+        {
+          "record": "0-3",
+          "matchIds": [
+            114,
+            115,
+            116
+          ]
+        }
+      ]
+    },
+    {
+      "round": 5,
+      "matchCount": 29,
+      "buckets": [
+        {
+          "record": "4-0",
+          "matchIds": [
+            117,
+            118
+          ]
+        },
+        {
+          "record": "3-1",
+          "matchIds": [
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125
+          ]
+        },
+        {
+          "record": "2-2",
+          "matchIds": [
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136
+          ]
+        },
+        {
+          "record": "1-3",
+          "matchIds": [
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143
+          ]
+        },
+        {
+          "record": "0-4",
+          "matchIds": [
+            144,
+            145
+          ]
+        }
+      ]
+    }
+  ],
+  "standings": [
+    {
+      "name": "Dracarys.",
+      "wins": 5,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 1,
+          "round": 1,
+          "opponent": "Meta Reloaded",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 30,
+          "round": 2,
+          "opponent": "Platinum Sensitivity.",
+          "side": "red",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 59,
+          "round": 3,
+          "opponent": "Deteriorated",
+          "side": "blue",
+          "record": "2-0",
+          "result": "win"
+        },
+        {
+          "matchId": 91,
+          "round": 4,
+          "opponent": "Punishing Gray Raven",
+          "side": "red",
+          "record": "3-0",
+          "result": "win"
+        },
+        {
+          "matchId": 118,
+          "round": 5,
+          "opponent": "Rusty Hyenas Clan",
+          "side": "blue",
+          "record": "4-0",
+          "result": "win"
+        }
+      ]
+    },
+    {
+      "name": "Paper Numbers",
+      "wins": 5,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 25,
+          "round": 1,
+          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 42,
+          "round": 2,
+          "opponent": "Exodus.",
+          "side": "red",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 60,
+          "round": 3,
+          "opponent": "Fraternity.",
+          "side": "red",
+          "record": "2-0",
+          "result": "win"
+        },
+        {
+          "matchId": 88,
+          "round": 4,
+          "opponent": "Ragequit Cancel Sub",
+          "side": "blue",
+          "record": "3-0",
+          "result": "win"
+        },
+        {
+          "matchId": 117,
+          "round": 5,
+          "opponent": "Psychokids.",
+          "side": "blue",
+          "record": "4-0",
+          "result": "win"
+        }
+      ]
+    },
+    {
+      "name": "Deteriorated",
+      "wins": 4,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 12,
+          "round": 1,
+          "opponent": "Project Potato",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 35,
+          "round": 2,
+          "opponent": "The Initiative.",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 59,
+          "round": 3,
+          "opponent": "Dracarys.",
+          "side": "red",
+          "record": "2-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 99,
+          "round": 4,
+          "opponent": "The Tuskers Co.",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 122,
+          "round": 5,
+          "opponent": "Meta Reloaded",
+          "side": "red",
+          "record": "3-1",
+          "result": "win"
+        }
+      ]
+    },
+    {
+      "name": "Psychokids.",
+      "wins": 4,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 4,
+          "round": 1,
+          "opponent": "Seriously Suspicious",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 31,
+          "round": 2,
+          "opponent": "The Tuskers Co.",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 62,
+          "round": 3,
+          "opponent": "Ivy League",
+          "side": "blue",
+          "record": "2-0",
+          "result": "win"
+        },
+        {
+          "matchId": 90,
+          "round": 4,
+          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "red",
+          "record": "3-0",
+          "result": "win"
+        },
+        {
+          "matchId": 117,
+          "round": 5,
+          "opponent": "Paper Numbers",
+          "side": "red",
+          "record": "4-0",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Ragequit Cancel Sub",
+      "wins": 4,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 9,
+          "round": 1,
+          "opponent": "Sons of Bane",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 34,
+          "round": 2,
+          "opponent": "OnlyFleets.",
+          "side": "red",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 61,
+          "round": 3,
+          "opponent": "Arctic Light",
+          "side": "blue",
+          "record": "2-0",
+          "result": "win"
+        },
+        {
+          "matchId": 88,
+          "round": 4,
+          "opponent": "Paper Numbers",
+          "side": "red",
+          "record": "3-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 120,
+          "round": 5,
+          "opponent": "ZERG REBORN",
+          "side": "red",
+          "record": "3-1",
+          "result": "win"
+        }
+      ]
+    },
+    {
+      "name": "Rusty Hyenas Clan",
+      "wins": 4,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 16,
+          "round": 1,
+          "opponent": "NPSI.Rocks",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 37,
+          "round": 2,
+          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 63,
+          "round": 3,
+          "opponent": "The Excommunicati",
+          "side": "blue",
+          "record": "2-0",
+          "result": "win"
+        },
+        {
+          "matchId": 89,
+          "round": 4,
+          "opponent": "Sedition.",
+          "side": "red",
+          "record": "3-0",
+          "result": "win"
+        },
+        {
+          "matchId": 118,
+          "round": 5,
+          "opponent": "Dracarys.",
+          "side": "red",
+          "record": "4-0",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Sedition.",
+      "wins": 4,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 24,
+          "round": 1,
+          "opponent": "Space Violence.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 41,
+          "round": 2,
+          "opponent": "Neon Nightmares",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 65,
+          "round": 3,
+          "opponent": "Honkai Star Rail.",
+          "side": "blue",
+          "record": "2-0",
+          "result": "win"
+        },
+        {
+          "matchId": 89,
+          "round": 4,
+          "opponent": "Rusty Hyenas Clan",
+          "side": "blue",
+          "record": "3-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 119,
+          "round": 5,
+          "opponent": "Rote Kapelle",
+          "side": "blue",
+          "record": "3-1",
+          "result": "win"
+        }
+      ]
+    },
+    {
+      "name": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+      "wins": 4,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 5,
+          "round": 1,
+          "opponent": "Vapor-Lock",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 32,
+          "round": 2,
+          "opponent": "Brave Collective",
+          "side": "red",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 64,
+          "round": 3,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "red",
+          "record": "2-0",
+          "result": "win"
+        },
+        {
+          "matchId": 90,
+          "round": 4,
+          "opponent": "Psychokids.",
+          "side": "blue",
+          "record": "3-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 121,
+          "round": 5,
+          "opponent": "Arctic Light",
+          "side": "blue",
+          "record": "3-1",
+          "result": "win"
+        }
+      ]
+    },
+    {
+      "name": "Bright Side of Death",
+      "wins": 3,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 10,
+          "round": 1,
+          "opponent": "OnlyFleets.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 49,
+          "round": 2,
+          "opponent": "Solyaris Chtonium",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 75,
+          "round": 3,
+          "opponent": "NO NEED LOOSE FACE",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 98,
+          "round": 4,
+          "opponent": "Ivy League",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 125,
+          "round": 5,
+          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+          "side": "red",
+          "record": "3-1",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+      "wins": 3,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 27,
+          "round": 1,
+          "opponent": "NO NEED LOOSE FACE",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 43,
+          "round": 2,
+          "opponent": "Honkai Star Rail.",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 74,
+          "round": 3,
+          "opponent": "Of Essence",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 102,
+          "round": 4,
+          "opponent": "White Squall.",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 125,
+          "round": 5,
+          "opponent": "Bright Side of Death",
+          "side": "blue",
+          "record": "3-1",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Honkai Star Rail.",
+      "wins": 3,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 28,
+          "round": 1,
+          "opponent": "Odin's Call",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 43,
+          "round": 2,
+          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 65,
+          "round": 3,
+          "opponent": "Sedition.",
+          "side": "red",
+          "record": "2-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 93,
+          "round": 4,
+          "opponent": "Seriously Suspicious",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 124,
+          "round": 5,
+          "opponent": "Platinum Sensitivity.",
+          "side": "red",
+          "record": "3-1",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "IIIIIIIIIIIIIIIIIIIIIIIII",
+      "wins": 3,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 25,
+          "round": 1,
+          "opponent": "Paper Numbers",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 56,
+          "round": 2,
+          "opponent": "Space Violence.",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 72,
+          "round": 3,
+          "opponent": "WE FORM V0LTA",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 92,
+          "round": 4,
+          "opponent": "Slide On Contact",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 123,
+          "round": 5,
+          "opponent": "Neon Nightmares",
+          "side": "red",
+          "record": "3-1",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Neon Nightmares",
+      "wins": 3,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 23,
+          "round": 1,
+          "opponent": "Kitchen Sinkhole",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 41,
+          "round": 2,
+          "opponent": "Sedition.",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 70,
+          "round": 3,
+          "opponent": "Odin's Call",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 101,
+          "round": 4,
+          "opponent": "The Excommunicati",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 123,
+          "round": 5,
+          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
+          "side": "blue",
+          "record": "3-1",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Platinum Sensitivity.",
+      "wins": 3,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 2,
+          "round": 1,
+          "opponent": "DarkSide.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 30,
+          "round": 2,
+          "opponent": "Dracarys.",
+          "side": "blue",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 67,
+          "round": 3,
+          "opponent": "White Squall.",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 97,
+          "round": 4,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 124,
+          "round": 5,
+          "opponent": "Honkai Star Rail.",
+          "side": "blue",
+          "record": "3-1",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Arctic Light",
+      "wins": 3,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 22,
+          "round": 1,
+          "opponent": "Shadow Cartel",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 40,
+          "round": 2,
+          "opponent": "Of Essence",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 61,
+          "round": 3,
+          "opponent": "Ragequit Cancel Sub",
+          "side": "red",
+          "record": "2-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 95,
+          "round": 4,
+          "opponent": "Psyno Theory",
+          "side": "blue",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 121,
+          "round": 5,
+          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "red",
+          "record": "3-1",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Meta Reloaded",
+      "wins": 3,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 1,
+          "round": 1,
+          "opponent": "Dracarys.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 44,
+          "round": 2,
+          "opponent": "Slide On Contact",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 66,
+          "round": 3,
+          "opponent": "Brave Collective",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 100,
+          "round": 4,
+          "opponent": "Fraternity.",
+          "side": "blue",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 122,
+          "round": 5,
+          "opponent": "Deteriorated",
+          "side": "blue",
+          "record": "3-1",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Rote Kapelle",
+      "wins": 3,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 18,
+          "round": 1,
+          "opponent": "The Excommunicati",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 53,
+          "round": 2,
+          "opponent": "Out of the Blue.",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 77,
+          "round": 3,
+          "opponent": "Sons of Bane",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 96,
+          "round": 4,
+          "opponent": "Exodus.",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 119,
+          "round": 5,
+          "opponent": "Sedition.",
+          "side": "red",
+          "record": "3-1",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "ZERG REBORN",
+      "wins": 3,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 17,
+          "round": 1,
+          "opponent": "Punishing Gray Raven",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 52,
+          "round": 2,
+          "opponent": "NPSI.Rocks",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 73,
+          "round": 3,
+          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 94,
+          "round": 4,
+          "opponent": "Shadow Cartel",
+          "side": "blue",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 120,
+          "round": 5,
+          "opponent": "Ragequit Cancel Sub",
+          "side": "blue",
+          "record": "3-1",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "34-yrs-old men get nagged by wives for playing EVE",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 15,
+          "round": 1,
+          "opponent": "We Forsakened Few",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 37,
+          "round": 2,
+          "opponent": "Rusty Hyenas Clan",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 73,
+          "round": 3,
+          "opponent": "ZERG REBORN",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 104,
+          "round": 4,
+          "opponent": "The Initiative.",
+          "side": "red",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 132,
+          "round": 5,
+          "opponent": "Seker Matar",
+          "side": "blue",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "D-sync.",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 14,
+          "round": 1,
+          "opponent": "Sigma Grindset",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 51,
+          "round": 2,
+          "opponent": "We Forsakened Few",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 79,
+          "round": 3,
+          "opponent": "Exodus.",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 106,
+          "round": 4,
+          "opponent": "Minmatar Fleet Alliance",
+          "side": "blue",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 130,
+          "round": 5,
+          "opponent": "Of Essence",
+          "side": "red",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "DarkSide.",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 2,
+          "round": 1,
+          "opponent": "Platinum Sensitivity.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 45,
+          "round": 2,
+          "opponent": "WE FORM V0LTA",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 85,
+          "round": 3,
+          "opponent": "The Obsidian Front - Reborn",
+          "side": "red",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 110,
+          "round": 4,
+          "opponent": "L A Z E R H A W K S",
+          "side": "blue",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 133,
+          "round": 5,
+          "opponent": "Ivy League",
+          "side": "red",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Exodus.",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 26,
+          "round": 1,
+          "opponent": "L A Z E R H A W K S",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 42,
+          "round": 2,
+          "opponent": "Paper Numbers",
+          "side": "blue",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 79,
+          "round": 3,
+          "opponent": "D-sync.",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 96,
+          "round": 4,
+          "opponent": "Rote Kapelle",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 129,
+          "round": 5,
+          "opponent": "Test Alliance Please Ignore",
+          "side": "blue",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Fraternity.",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 8,
+          "round": 1,
+          "opponent": "Critical. Mass.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 33,
+          "round": 2,
+          "opponent": "White Squall.",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 60,
+          "round": 3,
+          "opponent": "Paper Numbers",
+          "side": "blue",
+          "record": "2-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 100,
+          "round": 4,
+          "opponent": "Meta Reloaded",
+          "side": "red",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 131,
+          "round": 5,
+          "opponent": "Seriously Suspicious",
+          "side": "red",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Ivy League",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 13,
+          "round": 1,
+          "opponent": "Psyno Theory",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 36,
+          "round": 2,
+          "opponent": "Sigma Grindset",
+          "side": "red",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 62,
+          "round": 3,
+          "opponent": "Psychokids.",
+          "side": "red",
+          "record": "2-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 98,
+          "round": 4,
+          "opponent": "Bright Side of Death",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 133,
+          "round": 5,
+          "opponent": "DarkSide.",
+          "side": "blue",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "NPSI.Rocks",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 16,
+          "round": 1,
+          "opponent": "Rusty Hyenas Clan",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 52,
+          "round": 2,
+          "opponent": "ZERG REBORN",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 87,
+          "round": 3,
+          "opponent": "Critical. Mass.",
+          "side": "blue",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 111,
+          "round": 4,
+          "opponent": "Brave Collective",
+          "side": "red",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 127,
+          "round": 5,
+          "opponent": "The Excommunicati",
+          "side": "blue",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Of Essence",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 21,
+          "round": 1,
+          "opponent": "The Obsidian Front - Reborn",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 40,
+          "round": 2,
+          "opponent": "Arctic Light",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 74,
+          "round": 3,
+          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+          "side": "blue",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 105,
+          "round": 4,
+          "opponent": "Vapor-Lock",
+          "side": "red",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 130,
+          "round": 5,
+          "opponent": "D-sync.",
+          "side": "blue",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "OnlyFleets.",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 10,
+          "round": 1,
+          "opponent": "Bright Side of Death",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 34,
+          "round": 2,
+          "opponent": "Ragequit Cancel Sub",
+          "side": "blue",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 68,
+          "round": 3,
+          "opponent": "The Tuskers Co.",
+          "side": "blue",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 113,
+          "round": 4,
+          "opponent": "Project Potato",
+          "side": "red",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 136,
+          "round": 5,
+          "opponent": "Punishing Gray Raven",
+          "side": "blue",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "PSYCHOTIC OVERHEAT",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 19,
+          "round": 1,
+          "opponent": "Out of the Blue.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 39,
+          "round": 2,
+          "opponent": "Seker Matar",
+          "side": "red",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 64,
+          "round": 3,
+          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "blue",
+          "record": "2-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 97,
+          "round": 4,
+          "opponent": "Platinum Sensitivity.",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 126,
+          "round": 5,
+          "opponent": "Sons of Bane",
+          "side": "red",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Psyno Theory",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 13,
+          "round": 1,
+          "opponent": "Ivy League",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 50,
+          "round": 2,
+          "opponent": "Project Potato",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 71,
+          "round": 3,
+          "opponent": "The Initiative.",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 95,
+          "round": 4,
+          "opponent": "Arctic Light",
+          "side": "red",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 128,
+          "round": 5,
+          "opponent": "Space Violence.",
+          "side": "red",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Punishing Gray Raven",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 17,
+          "round": 1,
+          "opponent": "ZERG REBORN",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 38,
+          "round": 2,
+          "opponent": "The Excommunicati",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 69,
+          "round": 3,
+          "opponent": "Test Alliance Please Ignore",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 91,
+          "round": 4,
+          "opponent": "Dracarys.",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 136,
+          "round": 5,
+          "opponent": "OnlyFleets.",
+          "side": "red",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Seker Matar",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 20,
+          "round": 1,
+          "opponent": "Test Alliance Please Ignore",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 39,
+          "round": 2,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "blue",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 78,
+          "round": 3,
+          "opponent": "Seriously Suspicious",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 109,
+          "round": 4,
+          "opponent": "Sigma Grindset",
+          "side": "blue",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 132,
+          "round": 5,
+          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
+          "side": "red",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Seriously Suspicious",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 4,
+          "round": 1,
+          "opponent": "Psychokids.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 46,
+          "round": 2,
+          "opponent": "Vapor-Lock",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 78,
+          "round": 3,
+          "opponent": "Seker Matar",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 93,
+          "round": 4,
+          "opponent": "Honkai Star Rail.",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 131,
+          "round": 5,
+          "opponent": "Fraternity.",
+          "side": "blue",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Shadow Cartel",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 22,
+          "round": 1,
+          "opponent": "Arctic Light",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 55,
+          "round": 2,
+          "opponent": "Kitchen Sinkhole",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 76,
+          "round": 3,
+          "opponent": "Sigma Grindset",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 94,
+          "round": 4,
+          "opponent": "ZERG REBORN",
+          "side": "red",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 135,
+          "round": 5,
+          "opponent": "WE FORM V0LTA",
+          "side": "red",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Slide On Contact",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 29,
+          "round": 1,
+          "opponent": "That Escalated Quickly.",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 44,
+          "round": 2,
+          "opponent": "Meta Reloaded",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 80,
+          "round": 3,
+          "opponent": "Minmatar Fleet Alliance",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 92,
+          "round": 4,
+          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 134,
+          "round": 5,
+          "opponent": "The Tuskers Co.",
+          "side": "blue",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Sons of Bane",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 9,
+          "round": 1,
+          "opponent": "Ragequit Cancel Sub",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 48,
+          "round": 2,
+          "opponent": "Critical. Mass.",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 77,
+          "round": 3,
+          "opponent": "Rote Kapelle",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 112,
+          "round": 4,
+          "opponent": "Odin's Call",
+          "side": "blue",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 126,
+          "round": 5,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "blue",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Space Violence.",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 24,
+          "round": 1,
+          "opponent": "Sedition.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 56,
+          "round": 2,
+          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 86,
+          "round": 3,
+          "opponent": "Project Potato",
+          "side": "blue",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 108,
+          "round": 4,
+          "opponent": "Kitchen Sinkhole",
+          "side": "blue",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 128,
+          "round": 5,
+          "opponent": "Psyno Theory",
+          "side": "blue",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Test Alliance Please Ignore",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 20,
+          "round": 1,
+          "opponent": "Seker Matar",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 54,
+          "round": 2,
+          "opponent": "The Obsidian Front - Reborn",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 69,
+          "round": 3,
+          "opponent": "Punishing Gray Raven",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 103,
+          "round": 4,
+          "opponent": "That Escalated Quickly.",
+          "side": "red",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 129,
+          "round": 5,
+          "opponent": "Exodus.",
+          "side": "red",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "The Excommunicati",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 18,
+          "round": 1,
+          "opponent": "Rote Kapelle",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 38,
+          "round": 2,
+          "opponent": "Punishing Gray Raven",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 63,
+          "round": 3,
+          "opponent": "Rusty Hyenas Clan",
+          "side": "red",
+          "record": "2-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 101,
+          "round": 4,
+          "opponent": "Neon Nightmares",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 127,
+          "round": 5,
+          "opponent": "NPSI.Rocks",
+          "side": "red",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "The Tuskers Co.",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 3,
+          "round": 1,
+          "opponent": "WE FORM V0LTA",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 31,
+          "round": 2,
+          "opponent": "Psychokids.",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 68,
+          "round": 3,
+          "opponent": "OnlyFleets.",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 99,
+          "round": 4,
+          "opponent": "Deteriorated",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 134,
+          "round": 5,
+          "opponent": "Slide On Contact",
+          "side": "red",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "WE FORM V0LTA",
+      "wins": 2,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 3,
+          "round": 1,
+          "opponent": "The Tuskers Co.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 45,
+          "round": 2,
+          "opponent": "DarkSide.",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 72,
+          "round": 3,
+          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 107,
+          "round": 4,
+          "opponent": "NO NEED LOOSE FACE",
+          "side": "red",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 135,
+          "round": 5,
+          "opponent": "Shadow Cartel",
+          "side": "blue",
+          "record": "2-2",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Brave Collective",
+      "wins": 1,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 6,
+          "round": 1,
+          "opponent": "The Skeleton Crew",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 32,
+          "round": 2,
+          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "blue",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 66,
+          "round": 3,
+          "opponent": "Meta Reloaded",
+          "side": "blue",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 111,
+          "round": 4,
+          "opponent": "NPSI.Rocks",
+          "side": "blue",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 137,
+          "round": 5,
+          "opponent": "Minmatar Fleet Alliance",
+          "side": "red",
+          "record": "1-3",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Kitchen Sinkhole",
+      "wins": 1,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 23,
+          "round": 1,
+          "opponent": "Neon Nightmares",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 55,
+          "round": 2,
+          "opponent": "Shadow Cartel",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 83,
+          "round": 3,
+          "opponent": "The Skeleton Crew",
+          "side": "red",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 108,
+          "round": 4,
+          "opponent": "Space Violence.",
+          "side": "red",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 141,
+          "round": 5,
+          "opponent": "Vapor-Lock",
+          "side": "red",
+          "record": "1-3",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "L A Z E R H A W K S",
+      "wins": 1,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 26,
+          "round": 1,
+          "opponent": "Exodus.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 57,
+          "round": 2,
+          "opponent": "NO NEED LOOSE FACE",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 84,
+          "round": 3,
+          "opponent": "We Forsakened Few",
+          "side": "blue",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 110,
+          "round": 4,
+          "opponent": "DarkSide.",
+          "side": "red",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 143,
+          "round": 5,
+          "opponent": "White Squall.",
+          "side": "blue",
+          "record": "1-3",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Minmatar Fleet Alliance",
+      "wins": 1,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 7,
+          "round": 1,
+          "opponent": "White Squall.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 47,
+          "round": 2,
+          "opponent": "The Skeleton Crew",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 80,
+          "round": 3,
+          "opponent": "Slide On Contact",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 106,
+          "round": 4,
+          "opponent": "D-sync.",
+          "side": "red",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 137,
+          "round": 5,
+          "opponent": "Brave Collective",
+          "side": "blue",
+          "record": "1-3",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "NO NEED LOOSE FACE",
+      "wins": 1,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 27,
+          "round": 1,
+          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 57,
+          "round": 2,
+          "opponent": "L A Z E R H A W K S",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 75,
+          "round": 3,
+          "opponent": "Bright Side of Death",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 107,
+          "round": 4,
+          "opponent": "WE FORM V0LTA",
+          "side": "blue",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 142,
+          "round": 5,
+          "opponent": "Out of the Blue.",
+          "side": "blue",
+          "record": "1-3",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Odin's Call",
+      "wins": 1,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 28,
+          "round": 1,
+          "opponent": "Honkai Star Rail.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 58,
+          "round": 2,
+          "opponent": "That Escalated Quickly.",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 70,
+          "round": 3,
+          "opponent": "Neon Nightmares",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 112,
+          "round": 4,
+          "opponent": "Sons of Bane",
+          "side": "red",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 140,
+          "round": 5,
+          "opponent": "We Forsakened Few",
+          "side": "red",
+          "record": "1-3",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Out of the Blue.",
+      "wins": 1,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 19,
+          "round": 1,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 53,
+          "round": 2,
+          "opponent": "Rote Kapelle",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 81,
+          "round": 3,
+          "opponent": "Vapor-Lock",
+          "side": "red",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 115,
+          "round": 4,
+          "opponent": "Critical. Mass.",
+          "side": "blue",
+          "record": "0-3",
+          "result": "win"
+        },
+        {
+          "matchId": 142,
+          "round": 5,
+          "opponent": "NO NEED LOOSE FACE",
+          "side": "red",
+          "record": "1-3",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Sigma Grindset",
+      "wins": 1,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 14,
+          "round": 1,
+          "opponent": "D-sync.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 36,
+          "round": 2,
+          "opponent": "Ivy League",
+          "side": "blue",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 76,
+          "round": 3,
+          "opponent": "Shadow Cartel",
+          "side": "blue",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 109,
+          "round": 4,
+          "opponent": "Seker Matar",
+          "side": "red",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 138,
+          "round": 5,
+          "opponent": "The Obsidian Front - Reborn",
+          "side": "blue",
+          "record": "1-3",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "That Escalated Quickly.",
+      "wins": 1,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 29,
+          "round": 1,
+          "opponent": "Slide On Contact",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 58,
+          "round": 2,
+          "opponent": "Odin's Call",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 82,
+          "round": 3,
+          "opponent": "Solyaris Chtonium",
+          "side": "red",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 103,
+          "round": 4,
+          "opponent": "Test Alliance Please Ignore",
+          "side": "blue",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 139,
+          "round": 5,
+          "opponent": "The Initiative.",
+          "side": "red",
+          "record": "1-3",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "The Initiative.",
+      "wins": 1,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 11,
+          "round": 1,
+          "opponent": "Solyaris Chtonium",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 35,
+          "round": 2,
+          "opponent": "Deteriorated",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 71,
+          "round": 3,
+          "opponent": "Psyno Theory",
+          "side": "blue",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 104,
+          "round": 4,
+          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
+          "side": "blue",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 139,
+          "round": 5,
+          "opponent": "That Escalated Quickly.",
+          "side": "blue",
+          "record": "1-3",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "The Obsidian Front - Reborn",
+      "wins": 1,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 21,
+          "round": 1,
+          "opponent": "Of Essence",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 54,
+          "round": 2,
+          "opponent": "Test Alliance Please Ignore",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 85,
+          "round": 3,
+          "opponent": "DarkSide.",
+          "side": "blue",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 114,
+          "round": 4,
+          "opponent": "The Skeleton Crew",
+          "side": "blue",
+          "record": "0-3",
+          "result": "win"
+        },
+        {
+          "matchId": 138,
+          "round": 5,
+          "opponent": "Sigma Grindset",
+          "side": "red",
+          "record": "1-3",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Vapor-Lock",
+      "wins": 1,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 5,
+          "round": 1,
+          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 46,
+          "round": 2,
+          "opponent": "Seriously Suspicious",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 81,
+          "round": 3,
+          "opponent": "Out of the Blue.",
+          "side": "blue",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 105,
+          "round": 4,
+          "opponent": "Of Essence",
+          "side": "blue",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 141,
+          "round": 5,
+          "opponent": "Kitchen Sinkhole",
+          "side": "blue",
+          "record": "1-3",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "We Forsakened Few",
+      "wins": 1,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 15,
+          "round": 1,
+          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 51,
+          "round": 2,
+          "opponent": "D-sync.",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 84,
+          "round": 3,
+          "opponent": "L A Z E R H A W K S",
+          "side": "red",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 116,
+          "round": 4,
+          "opponent": "Solyaris Chtonium",
+          "side": "blue",
+          "record": "0-3",
+          "result": "win"
+        },
+        {
+          "matchId": 140,
+          "round": 5,
+          "opponent": "Odin's Call",
+          "side": "blue",
+          "record": "1-3",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "White Squall.",
+      "wins": 1,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 7,
+          "round": 1,
+          "opponent": "Minmatar Fleet Alliance",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 33,
+          "round": 2,
+          "opponent": "Fraternity.",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 67,
+          "round": 3,
+          "opponent": "Platinum Sensitivity.",
+          "side": "blue",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 102,
+          "round": 4,
+          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+          "side": "blue",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 143,
+          "round": 5,
+          "opponent": "L A Z E R H A W K S",
+          "side": "red",
+          "record": "1-3",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Critical. Mass.",
+      "wins": 0,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 8,
+          "round": 1,
+          "opponent": "Fraternity.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 48,
+          "round": 2,
+          "opponent": "Sons of Bane",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 87,
+          "round": 3,
+          "opponent": "NPSI.Rocks",
+          "side": "red",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 115,
+          "round": 4,
+          "opponent": "Out of the Blue.",
+          "side": "red",
+          "record": "0-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 144,
+          "round": 5,
+          "opponent": "Project Potato",
+          "side": "blue",
+          "record": "0-4",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Project Potato",
+      "wins": 0,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 12,
+          "round": 1,
+          "opponent": "Deteriorated",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 50,
+          "round": 2,
+          "opponent": "Psyno Theory",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 86,
+          "round": 3,
+          "opponent": "Space Violence.",
+          "side": "red",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 113,
+          "round": 4,
+          "opponent": "OnlyFleets.",
+          "side": "blue",
+          "record": "0-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 144,
+          "round": 5,
+          "opponent": "Critical. Mass.",
+          "side": "red",
+          "record": "0-4",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Solyaris Chtonium",
+      "wins": 0,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 11,
+          "round": 1,
+          "opponent": "The Initiative.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 49,
+          "round": 2,
+          "opponent": "Bright Side of Death",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 82,
+          "round": 3,
+          "opponent": "That Escalated Quickly.",
+          "side": "blue",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 116,
+          "round": 4,
+          "opponent": "We Forsakened Few",
+          "side": "red",
+          "record": "0-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 145,
+          "round": 5,
+          "opponent": "The Skeleton Crew",
+          "side": "blue",
+          "record": "0-4",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "The Skeleton Crew",
+      "wins": 0,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 6,
+          "round": 1,
+          "opponent": "Brave Collective",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 47,
+          "round": 2,
+          "opponent": "Minmatar Fleet Alliance",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 83,
+          "round": 3,
+          "opponent": "Kitchen Sinkhole",
+          "side": "blue",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 114,
+          "round": 4,
+          "opponent": "The Obsidian Front - Reborn",
+          "side": "red",
+          "record": "0-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 145,
+          "round": 5,
+          "opponent": "Solyaris Chtonium",
+          "side": "red",
+          "record": "0-4",
+          "result": "pending"
+        }
+      ]
+    }
+  ]
+}

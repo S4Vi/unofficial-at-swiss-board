@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unofficial AT XXII Swiss Board</title>
+<meta name="description" content="Community-built Swiss bracket viewer for the EVE Online Alliance Tournament XXII preliminaries. Unofficial, not affiliated with CCP Games.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Archivo:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="banner" role="note">
+  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 9v5"/><path d="M12 17.5v.01"/><circle cx="12" cy="12" r="9.5"/></svg>
+  <span><strong>Unofficial community project</strong> &mdash; not affiliated with CCP Games or the Alliance Tournament organisers.</span>
+</div>
+
+<header class="masthead">
+  <div class="masthead-title">
+    <h1>Alliance Tournament XXII <span>Swiss Board</span></h1>
+    <p id="subtitle">Loading&hellip;</p>
+  </div>
+  <div class="masthead-meta">
+    <div class="legend">
+      <span class="legend-item"><svg width="30" height="10" aria-hidden="true"><path d="M0 5 L24 5" stroke="var(--win)" stroke-width="2.5"/><path d="M23 1 L29 5 L23 9 Z" fill="var(--win)"/></svg> winners rise</span>
+      <span class="legend-item"><svg width="30" height="10" aria-hidden="true"><path d="M0 5 L24 5" stroke="var(--loss)" stroke-width="2.5"/><path d="M23 1 L29 5 L23 9 Z" fill="var(--loss)"/></svg> losers drop</span>
+    </div>
+    <div class="stat"><div class="stat-label">Decided</div><div class="stat-value" id="stat-decided">&ndash;</div></div>
+    <div class="stat"><div class="stat-label">Updated</div><div class="stat-value" id="stat-updated">&ndash;</div></div>
+  </div>
+</header>
+
+<nav class="tabs" role="tablist" aria-label="Views">
+  <button class="tab is-active" role="tab" aria-selected="true" data-view="bracket">Bracket</button>
+  <button class="tab" role="tab" aria-selected="false" data-view="standings">Standings</button>
+  <button class="tab" role="tab" aria-selected="false" data-view="rounds">Rounds</button>
+</nav>
+
+<div class="toolbar" id="toolbar">
+  <label class="search">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="10.5" cy="10.5" r="7"/><path d="M16 16l5 5" stroke-linecap="round"/></svg>
+    <input type="search" id="search" placeholder="Find a team&hellip;" autocomplete="off" aria-label="Find a team">
+  </label>
+  <div class="zoom" id="zoom-controls">
+    <button type="button" data-zoom="out" aria-label="Zoom out">&minus;</button>
+    <span id="zoom-level">100%</span>
+    <button type="button" data-zoom="in" aria-label="Zoom in">+</button>
+    <button type="button" data-zoom="fit" class="zoom-fit">Fit</button>
+  </div>
+  <div class="pinned" id="pinned" hidden>
+    Tracing <strong id="pinned-name"></strong>
+    <button type="button" id="pinned-clear" aria-label="Clear trace">&times;</button>
+  </div>
+</div>
+
+<main>
+  <section id="view-bracket" class="view is-active">
+    <div class="bracket-scroll" id="bracket-scroll">
+      <div class="bracket-zoom" id="bracket-zoom">
+        <div class="bracket" id="bracket"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="view-standings" class="view">
+    <table class="standings" id="standings">
+      <thead>
+        <tr>
+          <th scope="col" class="num">#</th>
+          <th scope="col" data-sort="name">Team</th>
+          <th scope="col" class="num" data-sort="wins">W</th>
+          <th scope="col" class="num" data-sort="losses">L</th>
+          <th scope="col">Round by round</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  <section id="view-rounds" class="view">
+    <div id="rounds-list"></div>
+  </section>
+</main>
+
+<aside class="drawer" id="drawer" hidden aria-label="Team detail">
+  <button type="button" class="drawer-close" id="drawer-close" aria-label="Close">&times;</button>
+  <h2 id="drawer-name"></h2>
+  <div class="drawer-record" id="drawer-record"></div>
+  <ol class="drawer-path" id="drawer-path"></ol>
+</aside>
+
+<footer>
+  <p>
+    Built by the community from the
+    <a id="source-link" href="#" rel="noopener">official schedule sheet</a>,
+    re-read every 30 minutes. Winners are read from the bold formatting in that sheet &mdash;
+    it has no results column.
+  </p>
+  <p class="footer-fine">
+    EVE Online and all related marks are trademarks of CCP hf. This site is not endorsed by,
+    affiliated with, or sponsored by CCP hf or the Alliance Tournament organisers.
+    <span id="scraped-at"></span>
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

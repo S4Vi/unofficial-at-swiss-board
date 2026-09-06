@@ -1,0 +1,55 @@
+name: Scrape schedule sheet
+
+on:
+  schedule:
+    # Every 30 minutes. GitHub commonly delays scheduled runs 5-15 minutes
+    # under load, so treat this as a target cadence rather than a guarantee.
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/scrape.yml'
+
+permissions:
+  contents: write
+
+# Never let two runs race to commit the same file.
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - run: npm ci
+
+      # Exits non-zero if the sheet fails its structural checks, which leaves
+      # the previously committed JSON in place rather than publishing garbage.
+      - name: Scrape
+        run: node scripts/scrape.mjs
+
+      - name: Commit if the data changed
+        run: |
+          if git diff --quiet -- docs/data/tournament.json; then
+            echo "No change in tournament data."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/tournament.json
+          DECIDED=$(node -p "require('./docs/data/tournament.json').tournament.decidedCount")
+          TOTAL=$(node -p "require('./docs/data/tournament.json').tournament.matchCount")
+          git commit -m "data: refresh schedule (${DECIDED}/${TOTAL} matches decided)"
+          git push

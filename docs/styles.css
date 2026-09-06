@@ -201,18 +201,41 @@ a:hover { color: #a7e8c1; }
 /* ---------- bracket ---------- */
 .bracket-scroll {
   overflow: auto;
-  border-top: 1px solid var(--rule);
-  /* Leaves room for banner + masthead + tabs + toolbar + footer. */
-  height: calc(100vh - 300px);
-  min-height: 460px;
+  /* Leaves room for banner + masthead + tabs + toolbar + rail + footer. */
+  height: calc(100vh - 346px);
+  min-height: 420px;
+  cursor: grab;
+  overscroll-behavior: contain;
+  transition: margin-right 0.2s ease;
+}
+.bracket-scroll.is-panning { cursor: grabbing; user-select: none; }
+
+/* Give the bracket room when the team drawer is open, instead of hiding
+ * Round 5 behind it. */
+@media (min-width: 900px) {
+  body.has-drawer .bracket-scroll,
+  body.has-drawer .round-rail { margin-right: 380px; }
 }
 .bracket-zoom { transform-origin: 0 0; }
 .bracket { position: relative; }
+
+/* Round labels live in their own strip above the scroller so they stay put
+ * when you scroll down a 1400px-tall bracket. app.js keeps the strip's
+ * horizontal offset in step with the scroller. */
+.round-rail {
+  position: relative;
+  height: 46px;
+  overflow: hidden;
+  border-top: 1px solid var(--rule);
+  background: var(--bg);
+}
+.round-rail-inner { position: absolute; inset: 0; transform-origin: 0 0; }
 
 .round-head {
   position: absolute;
   text-align: center;
   width: var(--col-w);
+  top: 4px;
 }
 .round-head-name {
   font-family: var(--display);
@@ -297,13 +320,40 @@ a:hover { color: #a7e8c1; }
 .side.is-winner .side-name { color: var(--ink); font-weight: 700; }
 .side-check { width: 10px; flex-shrink: 0; }
 
-/* team highlight */
-.match.is-traced { background: rgba(245, 165, 36, 0.12); box-shadow: inset 2px 0 0 var(--accent); }
+/* Team highlight comes in two strengths. A passing hover is a hint; a
+ * deliberate click is a commitment. Dimming everything hard on mouse-over made
+ * the board strobe as the cursor crossed it. */
+.match {
+  transition: opacity 0.18s ease, background-color 0.18s ease;
+}
+.match:hover { background: rgba(143, 166, 196, 0.07); }
+
+.match.is-traced { background: rgba(245, 165, 36, 0.1); box-shadow: inset 2px 0 0 var(--accent); }
 .side.is-traced .side-name { color: var(--accent) !important; }
-.bracket.is-tracing .match:not(.is-traced) { opacity: 0.35; }
-.match.is-hit { outline: 1.5px solid var(--accent); outline-offset: -1.5px; }
+
+/* hover: a gentle recede */
+.bracket.is-tracing .match:not(.is-traced) { opacity: 0.62; }
+/* pinned: the committed, high-contrast read */
+.bracket.is-pinned .match:not(.is-traced) { opacity: 0.3; }
+.bracket.is-pinned .match.is-traced { background: rgba(245, 165, 36, 0.16); }
 
 #trace-layer { position: absolute; inset: 0; pointer-events: none; }
+#trace-layer path { transition: opacity 0.18s ease; }
+
+/* search */
+.match.is-hit { outline: 1.5px solid var(--accent); outline-offset: -1.5px; }
+.bracket.is-searching .match:not(.is-hit) { opacity: 0.35; }
+.hit-count { font-size: 11px; color: var(--mid); letter-spacing: 0.06em; }
+
+/* keyboard focus */
+.side-name:focus-visible,
+.team-btn:focus-visible,
+.tab:focus-visible,
+.zoom button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 1px;
+}
 
 /* ---------- standings ---------- */
 .standings {

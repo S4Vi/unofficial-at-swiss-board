@@ -26,6 +26,8 @@
     <div class="legend">
       <span class="legend-item"><svg width="30" height="10" aria-hidden="true"><path d="M0 5 L24 5" stroke="var(--win)" stroke-width="2.5"/><path d="M23 1 L29 5 L23 9 Z" fill="var(--win)"/></svg> winners rise</span>
       <span class="legend-item"><svg width="30" height="10" aria-hidden="true"><path d="M0 5 L24 5" stroke="var(--loss)" stroke-width="2.5"/><path d="M23 1 L29 5 L23 9 Z" fill="var(--loss)"/></svg> losers drop</span>
+      <span class="legend-item"><span style="color: var(--float); font-size: 13px;">&#9670;</span> down-float</span>
+      <span class="legend-item"><span style="color: var(--accent); font-family: var(--display); font-size: 12px;">123</span> to play</span>
     </div>
     <div class="stat"><div class="stat-label">Decided</div><div class="stat-value" id="stat-decided">&ndash;</div></div>
     <div class="stat"><div class="stat-label">Results moved</div><div class="stat-value" id="stat-updated">&ndash;</div></div>
@@ -43,6 +45,7 @@
     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="10.5" cy="10.5" r="7"/><path d="M16 16l5 5" stroke-linecap="round"/></svg>
     <input type="search" id="search" placeholder="Find a team&hellip;" autocomplete="off" aria-label="Find a team">
   </label>
+  <span class="hit-count" id="hit-count" hidden></span>
   <div class="zoom" id="zoom-controls">
     <button type="button" data-zoom="out" aria-label="Zoom out">&minus;</button>
     <span id="zoom-level">100%</span>
@@ -57,6 +60,7 @@
 
 <main>
   <section id="view-bracket" class="view is-active">
+    <div class="round-rail" id="round-rail"><div class="round-rail-inner" id="round-rail-inner"></div></div>
     <div class="bracket-scroll" id="bracket-scroll">
       <div class="bracket-zoom" id="bracket-zoom">
         <div class="bracket" id="bracket"></div>
@@ -84,7 +88,7 @@
   </section>
 </main>
 
-<aside class="drawer" id="drawer" hidden aria-label="Team detail">
+<aside class="drawer" id="drawer" hidden aria-label="Team detail" tabindex="-1">
   <button type="button" class="drawer-close" id="drawer-close" aria-label="Close">&times;</button>
   <h2 id="drawer-name"></h2>
   <div class="drawer-record" id="drawer-record"></div>

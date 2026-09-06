@@ -17,7 +17,10 @@
   const B_PAD = 7;
   const B_GAP = 30;
   const PAD_L = 44;
-  const HEAD_H = 56;
+  const HEAD_H = 0;
+  /* Hovering should hint, not shout: wait long enough that crossing the
+   * board on the way somewhere else does not light it up. */
+  const HOVER_DELAY_MS = 130;
 
   const NS = 'http://www.w3.org/2000/svg';
 
@@ -30,6 +33,7 @@
 
   const state = {
     data: null,
+    autoFit: true,
     byId: new Map(),
     teams: new Map(),
     pos: new Map(), // "round:record" -> box
@@ -155,18 +159,7 @@
     }
     root.appendChild(svg);
 
-    // round headers
-    state.data.bracket.forEach((r, i) => {
-      const done = r.buckets.every((bk) => bk.matchIds.every((id) => state.byId.get(id).winner));
-      const head = document.createElement('div');
-      head.className = `round-head${done ? '' : ' is-live'}`;
-      head.style.left = `${PAD_L + i * (COL_W + GUTTER)}px`;
-      head.style.top = '0px';
-      head.innerHTML =
-        `<div class="round-head-name">Round ${r.round}</div>` +
-        `<div class="round-head-sub">${done ? 'Complete' : 'In progress'} &middot; ${r.matchCount} matches</div>`;
-      root.appendChild(head);
-    });
+    renderRoundRail();
 
     // buckets
     for (const r of state.data.bracket) {
@@ -199,6 +192,28 @@
     root.appendChild(trace);
 
     fitZoom();
+  }
+
+  function renderRoundRail() {
+    const inner = el('round-rail-inner');
+    inner.textContent = '';
+    state.data.bracket.forEach((r, i) => {
+      const done = r.buckets.every((bk) => bk.matchIds.every((id) => state.byId.get(id).winner));
+      const head = document.createElement('div');
+      head.className = `round-head${done ? '' : ' is-live'}`;
+      head.style.left = `${PAD_L + i * (COL_W + GUTTER)}px`;
+      head.innerHTML =
+        `<div class="round-head-name">Round ${r.round}</div>` +
+        `<div class="round-head-sub">${done ? 'Complete' : 'In progress'} &middot; ${r.matchCount} matches</div>`;
+      inner.appendChild(head);
+    });
+    syncRail();
+  }
+
+  function syncRail() {
+    const scroll = el('bracket-scroll');
+    el('round-rail-inner').style.transform =
+      `translateX(${-scroll.scrollLeft}px) scale(${state.zoom})`;
   }
 
   function matchRow(m) {
@@ -272,10 +287,11 @@
     for (const s of bracket.querySelectorAll('.side.is-traced')) s.classList.remove('is-traced');
 
     if (!name) {
-      bracket.classList.remove('is-tracing');
+      bracket.classList.remove('is-tracing', 'is-pinned');
       return;
     }
     bracket.classList.add('is-tracing');
+    bracket.classList.toggle('is-pinned', Boolean(state.pinned));
 
     const team = state.teams.get(name);
     if (!team) return;
@@ -343,6 +359,7 @@
     el('bracket-zoom').style.width = `${b.offsetWidth * state.zoom}px`;
     el('bracket-zoom').style.height = `${b.offsetHeight * state.zoom}px`;
     el('zoom-level').textContent = `${Math.round(state.zoom * 100)}%`;
+    syncRail();
   }
 
   function fitZoom() {
@@ -472,12 +489,17 @@
       list.appendChild(li);
     }
     el('drawer').hidden = false;
+    document.body.classList.add('has-drawer');
     setPinned(name);
     writeHash();
   }
 
   function closeDrawer() {
+    if (el('drawer').hidden) return;
     el('drawer').hidden = true;
+    document.body.classList.remove('has-drawer');
+    setPinned(null);
+    writeHash();
   }
 
   /* ---------------- search ---------------- */
@@ -485,15 +507,33 @@
     const bracket = el('bracket');
     for (const row of bracket.querySelectorAll('.match.is-hit')) row.classList.remove('is-hit');
     const needle = q.trim().toLowerCase();
-    if (needle.length < 2) return;
-    let first = null;
-    for (const side of bracket.querySelectorAll('.side')) {
-      if (side.dataset.team.toLowerCase().includes(needle)) {
-        const row = side.closest('.match');
-        row.classList.add('is-hit');
-        if (!first) first = row;
-      }
+    const count = el('hit-count');
+
+    if (needle.length < 2) {
+      bracket.classList.remove('is-searching');
+      count.hidden = true;
+      return;
     }
+
+    let first = null;
+    let hits = 0;
+    const teams = new Set();
+    for (const side of bracket.querySelectorAll('.side')) {
+      if (!side.dataset.team.toLowerCase().includes(needle)) continue;
+      const row = side.closest('.match');
+      if (!row.classList.contains('is-hit')) {
+        row.classList.add('is-hit');
+        hits++;
+      }
+      teams.add(side.dataset.team);
+      if (!first) first = row;
+    }
+
+    bracket.classList.toggle('is-searching', hits > 0);
+    count.hidden = false;
+    count.textContent = hits
+      ? `${hits} match${hits === 1 ? '' : 'es'} \u00B7 ${teams.size} team${teams.size === 1 ? '' : 's'}`
+      : 'no matches';
     if (first) first.scrollIntoView({ block: 'center', inline: 'center' });
   }
 
@@ -553,15 +593,20 @@
   function bindEvents() {
     const bracket = el('bracket');
 
+    let hoverTimer;
     bracket.addEventListener('mouseover', (e) => {
       const side = e.target.closest('.side');
       if (!side || state.pinned) return;
-      if (state.hovered !== side.dataset.team) {
-        state.hovered = side.dataset.team;
+      const name = side.dataset.team;
+      if (state.hovered === name) return;
+      clearTimeout(hoverTimer);
+      hoverTimer = setTimeout(() => {
+        state.hovered = name;
         applyTrace();
-      }
+      }, HOVER_DELAY_MS);
     });
     bracket.addEventListener('mouseleave', () => {
+      clearTimeout(hoverTimer);
       if (state.pinned) return;
       state.hovered = null;
       applyTrace();
@@ -595,8 +640,14 @@
     for (const b of document.querySelectorAll('.zoom button')) {
       b.addEventListener('click', () => {
         const mode = b.dataset.zoom;
-        if (mode === 'fit') fitZoom();
-        else setZoom(state.zoom * (mode === 'in' ? 1.25 : 0.8));
+        if (mode === 'fit') {
+          state.autoFit = true;
+          fitZoom();
+        } else {
+          // A deliberate zoom sticks until the user asks to fit again.
+          state.autoFit = false;
+          setZoom(state.zoom * (mode === 'in' ? 1.25 : 0.8));
+        }
       });
     }
 
@@ -618,13 +669,53 @@
       searchTimer = setTimeout(() => runSearch(v), 140);
     });
 
-    let resizeTimer;
-    window.addEventListener('resize', () => {
-      clearTimeout(resizeTimer);
-      resizeTimer = setTimeout(() => {
-        if (document.querySelector('.tab.is-active').dataset.view === 'bracket') fitZoom();
-      }, 160);
+    const scroll = el('bracket-scroll');
+    scroll.addEventListener('scroll', syncRail, { passive: true });
+
+    if (window.ResizeObserver) {
+      let last = 0;
+      new ResizeObserver(() => {
+        // The drawer animates the scroller's width, so a single rAF fires too
+        // early. Refit on the size actually settling instead.
+        const w = scroll.clientWidth;
+        if (Math.abs(w - last) < 2) return;
+        last = w;
+        if (state.autoFit && currentView() === 'bracket') fitZoom();
+      }).observe(scroll);
+    }
+
+    // Drag the board around rather than hunting for scrollbars.
+    let pan = null;
+    scroll.addEventListener('pointerdown', (e) => {
+      if (e.button !== 0 || e.target.closest('.side-name')) return;
+      pan = { x: e.clientX, y: e.clientY, left: scroll.scrollLeft, top: scroll.scrollTop };
+      scroll.classList.add('is-panning');
     });
+    scroll.addEventListener('pointermove', (e) => {
+      if (!pan) return;
+      scroll.scrollLeft = pan.left - (e.clientX - pan.x);
+      scroll.scrollTop = pan.top - (e.clientY - pan.y);
+    });
+    const endPan = () => {
+      if (!pan) return;
+      pan = null;
+      scroll.classList.remove('is-panning');
+    };
+    for (const ev of ['pointerup', 'pointercancel', 'pointerleave']) {
+      scroll.addEventListener(ev, endPan);
+    }
+
+    // Clicking away from the drawer dismisses it.
+    document.addEventListener('pointerdown', (e) => {
+      if (el('drawer').hidden) return;
+      // Not every pointer target is an Element (document, text nodes), and
+      // those have no closest().
+      const t = e.target instanceof Element ? e.target : null;
+      if (t && (t.closest('#drawer') || t.closest('.side-name') || t.closest('.team-btn'))) return;
+      closeDrawer();
+    });
+
+
   }
 
   function relativeTime(iso) {

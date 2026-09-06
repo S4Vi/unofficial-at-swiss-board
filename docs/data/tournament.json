@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T20:04:37.617Z",
+  "updatedAt": "2026-09-06T20:33:54.077Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -16,9 +16,9 @@
     ],
     "teamCount": 58,
     "matchCount": 145,
-    "decidedCount": 127,
+    "decidedCount": 129,
     "year": 2026,
-    "nextMatchAt": "2026-09-06T20:00:00.000Z"
+    "nextMatchAt": "2026-09-06T20:30:00.000Z"
   },
   "matches": [
     {
@@ -3714,7 +3714,7 @@
       "sheet": "ATXXII Prelims Weekend 2",
       "red": "Psyno Theory",
       "blue": "Space Violence.",
-      "winner": null,
+      "winner": "Space Violence.",
       "times": {
         "convoStart": "19:00",
         "bansStart": "19:10",
@@ -3731,7 +3731,7 @@
       "blueRecord": "2-2",
       "isFloat": false,
       "bucket": "2-2",
-      "loser": null
+      "loser": "Psyno Theory"
     },
     {
       "id": 129,
@@ -3743,7 +3743,7 @@
       "sheet": "ATXXII Prelims Weekend 2",
       "red": "Test Alliance Please Ignore",
       "blue": "Exodus.",
-      "winner": null,
+      "winner": "Test Alliance Please Ignore",
       "times": {
         "convoStart": "19:15",
         "bansStart": "19:25",
@@ -3760,7 +3760,7 @@
       "blueRecord": "2-2",
       "isFloat": false,
       "bucket": "2-2",
-      "loser": null
+      "loser": "Exodus."
     },
     {
       "id": 130,
@@ -5327,6 +5327,100 @@
       ]
     },
     {
+      "name": "Space Violence.",
+      "wins": 3,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 24,
+          "round": 1,
+          "opponent": "Sedition.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 56,
+          "round": 2,
+          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 86,
+          "round": 3,
+          "opponent": "Project Potato",
+          "side": "blue",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 108,
+          "round": 4,
+          "opponent": "Kitchen Sinkhole",
+          "side": "blue",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 128,
+          "round": 5,
+          "opponent": "Psyno Theory",
+          "side": "blue",
+          "record": "2-2",
+          "result": "win"
+        }
+      ]
+    },
+    {
+      "name": "Test Alliance Please Ignore",
+      "wins": 3,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 20,
+          "round": 1,
+          "opponent": "Seker Matar",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 54,
+          "round": 2,
+          "opponent": "The Obsidian Front - Reborn",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 69,
+          "round": 3,
+          "opponent": "Punishing Gray Raven",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 103,
+          "round": 4,
+          "opponent": "That Escalated Quickly.",
+          "side": "red",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 129,
+          "round": 5,
+          "opponent": "Exodus.",
+          "side": "red",
+          "record": "2-2",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "The Excommunicati",
       "wins": 3,
       "losses": 2,
@@ -5562,53 +5656,6 @@
       ]
     },
     {
-      "name": "Exodus.",
-      "wins": 2,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 26,
-          "round": 1,
-          "opponent": "L A Z E R H A W K S",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 42,
-          "round": 2,
-          "opponent": "Paper Numbers",
-          "side": "blue",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 79,
-          "round": 3,
-          "opponent": "D-sync.",
-          "side": "blue",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 96,
-          "round": 4,
-          "opponent": "Rote Kapelle",
-          "side": "blue",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 129,
-          "round": 5,
-          "opponent": "Test Alliance Please Ignore",
-          "side": "blue",
-          "record": "2-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Fraternity.",
       "wins": 2,
       "losses": 2,
@@ -5791,53 +5838,6 @@
           "round": 5,
           "opponent": "Punishing Gray Raven",
           "side": "blue",
-          "record": "2-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Psyno Theory",
-      "wins": 2,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 13,
-          "round": 1,
-          "opponent": "Ivy League",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 50,
-          "round": 2,
-          "opponent": "Project Potato",
-          "side": "blue",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 71,
-          "round": 3,
-          "opponent": "The Initiative.",
-          "side": "red",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 95,
-          "round": 4,
-          "opponent": "Arctic Light",
-          "side": "red",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 128,
-          "round": 5,
-          "opponent": "Space Violence.",
-          "side": "red",
           "record": "2-2",
           "result": "pending"
         }
@@ -6079,100 +6079,6 @@
       ]
     },
     {
-      "name": "Space Violence.",
-      "wins": 2,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 24,
-          "round": 1,
-          "opponent": "Sedition.",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 56,
-          "round": 2,
-          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
-          "side": "red",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 86,
-          "round": 3,
-          "opponent": "Project Potato",
-          "side": "blue",
-          "record": "0-2",
-          "result": "win"
-        },
-        {
-          "matchId": 108,
-          "round": 4,
-          "opponent": "Kitchen Sinkhole",
-          "side": "blue",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 128,
-          "round": 5,
-          "opponent": "Psyno Theory",
-          "side": "blue",
-          "record": "2-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Test Alliance Please Ignore",
-      "wins": 2,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 20,
-          "round": 1,
-          "opponent": "Seker Matar",
-          "side": "blue",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 54,
-          "round": 2,
-          "opponent": "The Obsidian Front - Reborn",
-          "side": "red",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 69,
-          "round": 3,
-          "opponent": "Punishing Gray Raven",
-          "side": "red",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 103,
-          "round": 4,
-          "opponent": "That Escalated Quickly.",
-          "side": "red",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 129,
-          "round": 5,
-          "opponent": "Exodus.",
-          "side": "red",
-          "record": "2-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "The Tuskers Co.",
       "wins": 2,
       "losses": 2,
@@ -6267,6 +6173,53 @@
       ]
     },
     {
+      "name": "Exodus.",
+      "wins": 2,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 26,
+          "round": 1,
+          "opponent": "L A Z E R H A W K S",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 42,
+          "round": 2,
+          "opponent": "Paper Numbers",
+          "side": "blue",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 79,
+          "round": 3,
+          "opponent": "D-sync.",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 96,
+          "round": 4,
+          "opponent": "Rote Kapelle",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 129,
+          "round": 5,
+          "opponent": "Test Alliance Please Ignore",
+          "side": "blue",
+          "record": "2-2",
+          "result": "loss"
+        }
+      ]
+    },
+    {
       "name": "NPSI.Rocks",
       "wins": 2,
       "losses": 3,
@@ -6308,6 +6261,53 @@
           "round": 5,
           "opponent": "The Excommunicati",
           "side": "blue",
+          "record": "2-2",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Psyno Theory",
+      "wins": 2,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 13,
+          "round": 1,
+          "opponent": "Ivy League",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 50,
+          "round": 2,
+          "opponent": "Project Potato",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 71,
+          "round": 3,
+          "opponent": "The Initiative.",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 95,
+          "round": 4,
+          "opponent": "Arctic Light",
+          "side": "red",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 128,
+          "round": 5,
+          "opponent": "Space Violence.",
+          "side": "red",
           "record": "2-2",
           "result": "loss"
         }

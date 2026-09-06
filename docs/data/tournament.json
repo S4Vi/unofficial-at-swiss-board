@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-09-06T19:15:35.184Z",
+  "updatedAt": "2026-09-06T19:18:58.040Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -16,7 +16,7 @@
     ],
     "teamCount": 58,
     "matchCount": 145,
-    "decidedCount": 123
+    "decidedCount": 124
   },
   "matches": [
     {
@@ -3224,7 +3224,7 @@
       "sheet": "ATXXII Prelims Weekend 2",
       "red": "Honkai Star Rail.",
       "blue": "Platinum Sensitivity.",
-      "winner": null,
+      "winner": "Platinum Sensitivity.",
       "times": {
         "convoStart": "18:00",
         "bansStart": "18:10",
@@ -3241,7 +3241,7 @@
       "blueRecord": "3-1",
       "isFloat": false,
       "bucket": "3-1",
-      "loser": null
+      "loser": "Honkai Star Rail."
     },
     {
       "id": 125,
@@ -4232,6 +4232,53 @@
       ]
     },
     {
+      "name": "Platinum Sensitivity.",
+      "wins": 4,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 2,
+          "round": 1,
+          "opponent": "DarkSide.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 30,
+          "round": 2,
+          "opponent": "Dracarys.",
+          "side": "blue",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 67,
+          "round": 3,
+          "opponent": "White Squall.",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 97,
+          "round": 4,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 124,
+          "round": 5,
+          "opponent": "Honkai Star Rail.",
+          "side": "blue",
+          "record": "3-1",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Psychokids.",
       "wins": 4,
       "losses": 1,
@@ -4561,100 +4608,6 @@
       ]
     },
     {
-      "name": "Honkai Star Rail.",
-      "wins": 3,
-      "losses": 1,
-      "path": [
-        {
-          "matchId": 28,
-          "round": 1,
-          "opponent": "Odin's Call",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 43,
-          "round": 2,
-          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
-          "side": "blue",
-          "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 65,
-          "round": 3,
-          "opponent": "Sedition.",
-          "side": "red",
-          "record": "2-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 93,
-          "round": 4,
-          "opponent": "Seriously Suspicious",
-          "side": "red",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 124,
-          "round": 5,
-          "opponent": "Platinum Sensitivity.",
-          "side": "red",
-          "record": "3-1",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Platinum Sensitivity.",
-      "wins": 3,
-      "losses": 1,
-      "path": [
-        {
-          "matchId": 2,
-          "round": 1,
-          "opponent": "DarkSide.",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 30,
-          "round": 2,
-          "opponent": "Dracarys.",
-          "side": "blue",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 67,
-          "round": 3,
-          "opponent": "White Squall.",
-          "side": "red",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 97,
-          "round": 4,
-          "opponent": "PSYCHOTIC OVERHEAT",
-          "side": "red",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 124,
-          "round": 5,
-          "opponent": "Honkai Star Rail.",
-          "side": "blue",
-          "record": "3-1",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Arctic Light",
       "wins": 3,
       "losses": 2,
@@ -4695,6 +4648,53 @@
           "matchId": 121,
           "round": 5,
           "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "red",
+          "record": "3-1",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Honkai Star Rail.",
+      "wins": 3,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 28,
+          "round": 1,
+          "opponent": "Odin's Call",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 43,
+          "round": 2,
+          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 65,
+          "round": 3,
+          "opponent": "Sedition.",
+          "side": "red",
+          "record": "2-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 93,
+          "round": 4,
+          "opponent": "Seriously Suspicious",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 124,
+          "round": 5,
+          "opponent": "Platinum Sensitivity.",
           "side": "red",
           "record": "3-1",
           "result": "loss"

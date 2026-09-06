@@ -642,9 +642,10 @@
     el('subtitle').textContent =
       `${t.teamCount} teams \u00B7 ${t.rounds.length}-round Swiss \u00B7 every team plays every round \u00B7 hover a team to trace its journey`;
     el('stat-decided').innerHTML = `${t.decidedCount}<small>/${t.matchCount}</small>`;
-    el('stat-updated').textContent = relativeTime(state.data.scrapedAt);
+    el('stat-updated').textContent = relativeTime(state.data.updatedAt);
     el('source-link').href = state.data.source.url;
-    el('scraped-at').textContent = ` Last read ${new Date(state.data.scrapedAt).toUTCString()}.`;
+    el('scraped-at').textContent =
+      ` Results last changed ${new Date(state.data.updatedAt).toUTCString()}; the sheet is re-checked every 30 minutes.`;
   }
 
   async function main() {

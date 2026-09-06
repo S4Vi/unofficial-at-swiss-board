@@ -3,7 +3,7 @@
  *
  * Run: node scripts/scrape.mjs
  */
-import { writeFile, mkdir } from 'node:fs/promises';
+import { writeFile, mkdir, readFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import ExcelJS from 'exceljs';
@@ -101,7 +101,9 @@ async function main() {
   const floats = matches.filter((m) => m.isFloat).length;
 
   const payload = {
-    scrapedAt: new Date().toISOString(),
+    // Stamped further down, and only when the substance actually changed, so
+    // that "updated" means "the results moved" rather than "a robot looked".
+    updatedAt: null,
     source: { sheetId: SHEET_ID, url: SHEET_HUMAN_URL },
     tournament: {
       name: 'Alliance Tournament XXII - Preliminaries',
@@ -115,6 +117,27 @@ async function main() {
     bracket: structure.bracket,
     standings: structure.standings,
   };
+
+  // Only rewrite when something other than the timestamp moved. Otherwise a
+  // scrape every 30 minutes would churn out 48 identical commits a day.
+  const previous = await readFile(OUT, 'utf8').catch(() => null);
+  if (previous) {
+    try {
+      const prev = JSON.parse(previous);
+      const { updatedAt: prevStamp, ...prevBody } = prev;
+      const { updatedAt: _ignored, ...nextBody } = payload;
+      if (JSON.stringify(prevBody) === JSON.stringify(nextBody)) {
+        console.log(`
+No change since ${prevStamp ?? 'the last scrape'} - leaving the data file untouched.`);
+        console.log(`  ${structure.standings.length} teams | ${matches.length} matches (${decided} decided)`);
+        return;
+      }
+    } catch {
+      // Unreadable previous file: fall through and overwrite it.
+    }
+  }
+
+  payload.updatedAt = new Date().toISOString();
 
   await mkdir(dirname(OUT), { recursive: true });
   await writeFile(OUT, `${JSON.stringify(payload, null, 2)}\n`, 'utf8');

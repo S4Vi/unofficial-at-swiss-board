@@ -343,11 +343,13 @@
   /* ---------------- zoom ---------------- */
   function setZoom(z) {
     state.zoom = Math.max(0.25, Math.min(2, z));
-    el('bracket-zoom').style.transform = `scale(${state.zoom})`;
     const b = el('bracket');
-    // Keep the scroll container's scrollable area in step with the scaled content.
-    el('bracket-zoom').style.width = `${b.offsetWidth * state.zoom}px`;
-    el('bracket-zoom').style.height = `${b.offsetHeight * state.zoom}px`;
+    b.style.transform = `scale(${state.zoom})`;
+    // The wrapper carries the scaled footprint so the page reserves the right
+    // height and the pane knows how far it can scroll sideways.
+    const wrap = el('bracket-zoom');
+    wrap.style.width = `${b.offsetWidth * state.zoom}px`;
+    wrap.style.height = `${b.offsetHeight * state.zoom}px`;
     el('zoom-level').textContent = `${Math.round(state.zoom * 100)}%`;
     syncRail();
   }
@@ -658,7 +660,12 @@
     let pan = null;
     scroll.addEventListener('pointerdown', (e) => {
       if (e.button !== 0) return;
-      pan = { x: e.clientX, y: e.clientY, left: scroll.scrollLeft, top: scroll.scrollTop };
+      pan = {
+        x: e.clientX,
+        y: e.clientY,
+        left: scroll.scrollLeft,
+        top: document.scrollingElement.scrollTop,
+      };
       state.dragged = false;
       scroll.classList.add('is-panning');
     });
@@ -668,8 +675,10 @@
       const dy = e.clientY - pan.y;
       if (!state.dragged && Math.hypot(dx, dy) > CLICK_SLOP_PX) state.dragged = true;
       if (!state.dragged) return;
+      // Sideways stays inside the board; vertical is the page's own scroll,
+      // so dragging up and down moves the whole document.
       scroll.scrollLeft = pan.left - dx;
-      scroll.scrollTop = pan.top - dy;
+      document.scrollingElement.scrollTop = pan.top - dy;
     });
     const endPan = () => {
       if (!pan) return;

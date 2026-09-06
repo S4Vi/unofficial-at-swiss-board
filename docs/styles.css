@@ -199,13 +199,13 @@ a:hover { color: #a7e8c1; }
 .view.is-active { display: block; }
 
 /* ---------- bracket ---------- */
+/* The board scrolls sideways inside its own box; everything vertical is the
+ * page's own scroll, so the header is ordinary content that scrolls away
+ * rather than a pinned app-shell bar. */
 .bracket-scroll {
-  overflow: auto;
-  /* Leaves room for banner + masthead + tabs + toolbar + rail + footer. */
-  height: calc(100vh - 346px);
-  min-height: 420px;
+  overflow-x: auto;
+  overflow-y: hidden;
   cursor: grab;
-  overscroll-behavior: contain;
   transition: margin-right 0.2s ease;
 }
 .bracket-scroll.is-panning { cursor: grabbing; user-select: none; }
@@ -217,8 +217,10 @@ a:hover { color: #a7e8c1; }
   body.has-drawer .bracket-scroll,
   body.has-drawer .round-rail { margin-right: 380px; }
 }
-.bracket-zoom { transform-origin: 0 0; }
-.bracket { position: relative; }
+/* The wrapper is a plain box sized to the scaled board, so it reserves the
+ * right amount of page height; the board itself is what gets scaled. */
+.bracket-zoom { position: relative; }
+.bracket { position: relative; transform-origin: 0 0; }
 
 /* Round labels live in their own strip above the scroller so they stay put
  * when you scroll down a 1400px-tall bracket. app.js keeps the strip's
@@ -494,7 +496,6 @@ footer p { margin: 0 0 6px; max-width: 82ch; }
   .masthead, .tabs, .toolbar, footer, #rounds-list { padding-left: 14px; padding-right: 14px; }
   .standings { width: calc(100% - 28px); margin-left: 14px; margin-right: 14px; }
   .masthead-meta .legend { display: none; }
-  .bracket-scroll { height: calc(100vh - 270px); }
   .search input { width: 140px; }
   .standings th:last-child, .standings td:last-child { display: none; }
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T21:07:47.618Z",
+  "updatedAt": "2026-09-06T21:33:58.455Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -16,9 +16,9 @@
     ],
     "teamCount": 58,
     "matchCount": 145,
-    "decidedCount": 131,
+    "decidedCount": 133,
     "year": 2026,
-    "nextMatchAt": "2026-09-06T21:00:00.000Z"
+    "nextMatchAt": "2026-09-06T21:30:00.000Z"
   },
   "matches": [
     {
@@ -3830,7 +3830,7 @@
       "sheet": "ATXXII Prelims Weekend 2",
       "red": "Seker Matar",
       "blue": "34-yrs-old men get nagged by wives for playing EVE",
-      "winner": null,
+      "winner": "34-yrs-old men get nagged by wives for playing EVE",
       "times": {
         "convoStart": "20:00",
         "bansStart": "20:10",
@@ -3847,7 +3847,7 @@
       "blueRecord": "2-2",
       "isFloat": false,
       "bucket": "2-2",
-      "loser": null
+      "loser": "Seker Matar"
     },
     {
       "id": 133,
@@ -3859,7 +3859,7 @@
       "sheet": "ATXXII Prelims Weekend 2",
       "red": "DarkSide.",
       "blue": "Ivy League",
-      "winner": null,
+      "winner": "Ivy League",
       "times": {
         "convoStart": "20:15",
         "bansStart": "20:25",
@@ -3876,7 +3876,7 @@
       "blueRecord": "2-2",
       "isFloat": false,
       "bucket": "2-2",
-      "loser": null
+      "loser": "DarkSide."
     },
     {
       "id": 134,
@@ -4998,6 +4998,53 @@
       ]
     },
     {
+      "name": "34-yrs-old men get nagged by wives for playing EVE",
+      "wins": 3,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 15,
+          "round": 1,
+          "opponent": "We Forsakened Few",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 37,
+          "round": 2,
+          "opponent": "Rusty Hyenas Clan",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 73,
+          "round": 3,
+          "opponent": "ZERG REBORN",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 104,
+          "round": 4,
+          "opponent": "The Initiative.",
+          "side": "red",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 132,
+          "round": 5,
+          "opponent": "Seker Matar",
+          "side": "blue",
+          "record": "2-2",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Arctic Light",
       "wins": 3,
       "losses": 2,
@@ -5229,6 +5276,53 @@
           "side": "red",
           "record": "3-1",
           "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Ivy League",
+      "wins": 3,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 13,
+          "round": 1,
+          "opponent": "Psyno Theory",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 36,
+          "round": 2,
+          "opponent": "Sigma Grindset",
+          "side": "red",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 62,
+          "round": 3,
+          "opponent": "Psychokids.",
+          "side": "red",
+          "record": "2-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 98,
+          "round": 4,
+          "opponent": "Bright Side of Death",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 133,
+          "round": 5,
+          "opponent": "DarkSide.",
+          "side": "blue",
+          "record": "2-2",
+          "result": "win"
         }
       ]
     },
@@ -5609,147 +5703,6 @@
       ]
     },
     {
-      "name": "34-yrs-old men get nagged by wives for playing EVE",
-      "wins": 2,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 15,
-          "round": 1,
-          "opponent": "We Forsakened Few",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 37,
-          "round": 2,
-          "opponent": "Rusty Hyenas Clan",
-          "side": "red",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 73,
-          "round": 3,
-          "opponent": "ZERG REBORN",
-          "side": "red",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 104,
-          "round": 4,
-          "opponent": "The Initiative.",
-          "side": "red",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 132,
-          "round": 5,
-          "opponent": "Seker Matar",
-          "side": "blue",
-          "record": "2-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "DarkSide.",
-      "wins": 2,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 2,
-          "round": 1,
-          "opponent": "Platinum Sensitivity.",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 45,
-          "round": 2,
-          "opponent": "WE FORM V0LTA",
-          "side": "red",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 85,
-          "round": 3,
-          "opponent": "The Obsidian Front - Reborn",
-          "side": "red",
-          "record": "0-2",
-          "result": "win"
-        },
-        {
-          "matchId": 110,
-          "round": 4,
-          "opponent": "L A Z E R H A W K S",
-          "side": "blue",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 133,
-          "round": 5,
-          "opponent": "Ivy League",
-          "side": "red",
-          "record": "2-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Ivy League",
-      "wins": 2,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 13,
-          "round": 1,
-          "opponent": "Psyno Theory",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 36,
-          "round": 2,
-          "opponent": "Sigma Grindset",
-          "side": "red",
-          "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 62,
-          "round": 3,
-          "opponent": "Psychokids.",
-          "side": "red",
-          "record": "2-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 98,
-          "round": 4,
-          "opponent": "Bright Side of Death",
-          "side": "blue",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 133,
-          "round": 5,
-          "opponent": "DarkSide.",
-          "side": "blue",
-          "record": "2-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "OnlyFleets.",
       "wins": 2,
       "losses": 2,
@@ -5837,53 +5790,6 @@
           "matchId": 136,
           "round": 5,
           "opponent": "OnlyFleets.",
-          "side": "red",
-          "record": "2-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Seker Matar",
-      "wins": 2,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 20,
-          "round": 1,
-          "opponent": "Test Alliance Please Ignore",
-          "side": "red",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 39,
-          "round": 2,
-          "opponent": "PSYCHOTIC OVERHEAT",
-          "side": "blue",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 78,
-          "round": 3,
-          "opponent": "Seriously Suspicious",
-          "side": "red",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 109,
-          "round": 4,
-          "opponent": "Sigma Grindset",
-          "side": "blue",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 132,
-          "round": 5,
-          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
           "side": "red",
           "record": "2-2",
           "result": "pending"
@@ -6126,6 +6032,53 @@
       ]
     },
     {
+      "name": "DarkSide.",
+      "wins": 2,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 2,
+          "round": 1,
+          "opponent": "Platinum Sensitivity.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 45,
+          "round": 2,
+          "opponent": "WE FORM V0LTA",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 85,
+          "round": 3,
+          "opponent": "The Obsidian Front - Reborn",
+          "side": "red",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 110,
+          "round": 4,
+          "opponent": "L A Z E R H A W K S",
+          "side": "blue",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 133,
+          "round": 5,
+          "opponent": "Ivy League",
+          "side": "red",
+          "record": "2-2",
+          "result": "loss"
+        }
+      ]
+    },
+    {
       "name": "Exodus.",
       "wins": 2,
       "losses": 3,
@@ -6260,6 +6213,53 @@
           "matchId": 128,
           "round": 5,
           "opponent": "Space Violence.",
+          "side": "red",
+          "record": "2-2",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Seker Matar",
+      "wins": 2,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 20,
+          "round": 1,
+          "opponent": "Test Alliance Please Ignore",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 39,
+          "round": 2,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "blue",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 78,
+          "round": 3,
+          "opponent": "Seriously Suspicious",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 109,
+          "round": 4,
+          "opponent": "Sigma Grindset",
+          "side": "blue",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 132,
+          "round": 5,
+          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
           "side": "red",
           "record": "2-2",
           "result": "loss"

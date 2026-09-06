@@ -31,6 +31,7 @@
     </div>
     <div class="stat"><div class="stat-label">Decided</div><div class="stat-value" id="stat-decided">&ndash;</div></div>
     <div class="stat"><div class="stat-label">Results moved</div><div class="stat-value" id="stat-updated">&ndash;</div></div>
+    <div class="stat" hidden><div class="stat-label" id="stat-next-label">Next match</div><div class="stat-value stat-value-sm" id="stat-next">&ndash;</div></div>
   </div>
 </header>
 
@@ -46,6 +47,7 @@
     <input type="search" id="search" placeholder="Find a team&hellip;" autocomplete="off" aria-label="Find a team">
   </label>
   <span class="hit-count" id="hit-count" hidden></span>
+  <button type="button" class="tz-toggle" id="tz-toggle">EVE time (UTC)</button>
   <div class="zoom" id="zoom-controls">
     <button type="button" data-zoom="out" aria-label="Zoom out">&minus;</button>
     <span id="zoom-level">100%</span>
@@ -100,7 +102,8 @@
     Built by the community from the
     <a id="source-link" href="#" rel="noopener">official schedule sheet</a>,
     re-read every 30 minutes. Winners are read from the bold formatting in that sheet &mdash;
-    it has no results column.
+    it has no results column. All scheduled times come from that sheet in EVE time (UTC);
+    the toggle above converts them to your own zone.
   </p>
   <p class="footer-fine">
     EVE Online and all related marks are trademarks of CCP hf. This site is not endorsed by,

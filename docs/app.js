@@ -33,6 +33,7 @@
   const state = {
     data: null,
     autoFit: true,
+    tz: 'utc',
     byId: new Map(),
     teams: new Map(),
     pos: new Map(), // "round:record" -> box
@@ -50,6 +51,46 @@
   }
 
   const dash = (record) => record.replace('-', '\u2013');
+
+  /* Sheet times are UTC / EVE time. Because every match now carries a real
+   * instant, showing them in the viewer's own zone is just a formatting
+   * choice rather than a guess. */
+  const pad = (n) => String(n).padStart(2, '0');
+
+  function readPref() {
+    try {
+      return localStorage.getItem('atxxii-tz') === 'local' ? 'local' : 'utc';
+    } catch {
+      return 'utc';
+    }
+  }
+  function writePref(v) {
+    try {
+      localStorage.setItem('atxxii-tz', v);
+    } catch {
+      /* private mode, blocked storage - the choice just will not persist */
+    }
+  }
+
+  function timeOf(m) {
+    if (!m.startsAt) return m.times.matchStart ?? '';
+    const d = new Date(m.startsAt);
+    return state.tz === 'local'
+      ? `${pad(d.getHours())}:${pad(d.getMinutes())}`
+      : `${pad(d.getUTCHours())}:${pad(d.getUTCMinutes())}`;
+  }
+
+  const DAY_FMT = { weekday: 'short', day: 'numeric', month: 'short' };
+  function dateOf(m) {
+    if (!m.startsAt) return m.date ?? '';
+    const d = new Date(m.startsAt);
+    return state.tz === 'local'
+      ? d.toLocaleDateString(undefined, DAY_FMT)
+      : d.toLocaleDateString(undefined, { ...DAY_FMT, timeZone: 'UTC' });
+  }
+
+  const whenOf = (m) => (m.startsAt ? `${dateOf(m)} ${timeOf(m)}` : '');
+  const tzLabel = () => (state.tz === 'local' ? 'your time' : 'EVE time (UTC)');
 
   /* ---------------- layout ---------------- */
   function computeLayout() {
@@ -202,10 +243,20 @@
       head.style.left = `${PAD_L + i * (COL_W + GUTTER)}px`;
       head.innerHTML =
         `<div class="round-head-name">Round ${r.round}</div>` +
-        `<div class="round-head-sub">${done ? 'Complete' : 'In progress'} &middot; ${r.matchCount} matches</div>`;
+        `<div class="round-head-sub">${r.matchCount} matches &middot; ${roundDates(r)}</div>`;
       inner.appendChild(head);
     });
     syncRail();
+  }
+
+  /* Rounds can straddle two weekends, so show the span rather than one date. */
+  function roundDates(r) {
+    const ms = r.buckets.flatMap((bk) => bk.matchIds.map((id) => state.byId.get(id)));
+    const seen = [...new Set(ms.map((m) => m.startsAt).filter(Boolean))].sort();
+    if (seen.length === 0) return '';
+    const first = dateOf({ startsAt: seen[0] });
+    const last = dateOf({ startsAt: seen[seen.length - 1] });
+    return first === last ? first : `${first} \u2013 ${last}`;
   }
 
   function syncRail() {
@@ -221,10 +272,14 @@
 
     const no = document.createElement('span');
     no.className = 'match-no';
-    no.innerHTML = `${m.isFloat ? '<span class="match-float" title="Down-float: unequal records">\u25C6</span>' : ''}${m.id}`;
-    no.title = m.winner
-      ? `Match ${m.id}`
-      : `Match ${m.id} \u2014 not yet played${m.times.matchStart ? `, ${m.times.matchStart} EVE` : ''}`;
+    const idLine = document.createElement('span');
+    idLine.className = 'match-id';
+    idLine.innerHTML = `${m.isFloat ? '<span class="match-float" title="Down-float: unequal records">\u25C6</span>' : ''}${m.id}`;
+    const timeLine = document.createElement('span');
+    timeLine.className = 'match-time';
+    timeLine.textContent = timeOf(m);
+    no.append(idLine, timeLine);
+    no.title = `Match ${m.id}${m.startsAt ? ` \u2014 ${whenOf(m)}, ${tzLabel()}` : ''}${m.winner ? '' : ' \u2014 not played yet'}`;
     row.appendChild(no);
 
     const teams = document.createElement('div');
@@ -450,6 +505,7 @@
         for (const id of bk.matchIds) {
           const m = state.byId.get(id);
           const card = matchRow(m);
+          card.title = whenOf(m);
           card.style.border = `1px solid ${c}33`;
           card.style.borderLeft = `3px solid ${c}`;
           card.style.height = 'auto';
@@ -472,11 +528,13 @@
     list.textContent = '';
     for (const p of t.path) {
       const li = document.createElement('li');
+      const m = state.byId.get(p.matchId);
       li.innerHTML =
         `<span class="rnd">R${p.round}</span>` +
         `<span class="rec">${dash(p.record)}</span>` +
         `<span class="opp"></span>` +
-        `<span class="res res-${p.result}">${p.result === 'win' ? 'WON' : p.result === 'loss' ? 'LOST' : 'TO PLAY'}</span>`;
+        `<span class="res res-${p.result}">${p.result === 'win' ? 'WON' : p.result === 'loss' ? 'LOST' : 'TO PLAY'}</span>` +
+        `<span class="when">${m && m.startsAt ? whenOf(m) : ''}</span>`;
       li.querySelector('.opp').textContent = p.opponent;
       list.appendChild(li);
     }
@@ -609,6 +667,12 @@
       });
     }
 
+    el('tz-toggle').addEventListener('click', () => {
+      state.tz = state.tz === 'utc' ? 'local' : 'utc';
+      writePref(state.tz);
+      applyTz();
+    });
+
     for (const b of document.querySelectorAll('.zoom button')) {
       b.addEventListener('click', () => {
         const mode = b.dataset.zoom;
@@ -718,9 +782,38 @@
       `${t.teamCount} teams \u00B7 ${t.rounds.length}-round Swiss \u00B7 every team plays every round \u00B7 click a team to trace its journey`;
     el('stat-decided').innerHTML = `${t.decidedCount}<small>/${t.matchCount}</small>`;
     el('stat-updated').textContent = relativeTime(state.data.updatedAt);
+
+    const next = state.data.tournament.nextMatchAt;
+    const nextEl = el('stat-next');
+    if (next) {
+      nextEl.textContent = whenOf({ startsAt: next });
+      el('stat-next-label').textContent = `Next match \u00B7 ${tzLabel()}`;
+      nextEl.closest('.stat').hidden = false;
+    } else {
+      nextEl.closest('.stat').hidden = true;
+    }
     el('source-link').href = state.data.source.url;
     el('scraped-at').textContent =
       ` Results last changed ${new Date(state.data.updatedAt).toUTCString()}; the sheet is re-checked every 30 minutes.`;
+  }
+
+  /* Re-render only what carries a time. */
+  function applyTz() {
+    el('tz-toggle').textContent = state.tz === 'local' ? 'Your time' : 'EVE time (UTC)';
+    el('tz-toggle').title =
+      state.tz === 'local'
+        ? 'Showing times in your local zone. Click for EVE time (UTC).'
+        : 'Showing EVE time (UTC), as the sheet does. Click for your local zone.';
+    for (const node of document.querySelectorAll('.match')) {
+      const m = state.byId.get(Number(node.dataset.matchId));
+      if (!m) continue;
+      const t = node.querySelector('.match-time');
+      if (t) t.textContent = timeOf(m);
+      node.title = `Match ${m.id}${m.startsAt ? ` \u2014 ${whenOf(m)}, ${tzLabel()}` : ''}`;
+    }
+    renderRoundRail();
+    renderChrome();
+    if (state.selected) openDrawer(state.selected);
   }
 
   async function main() {
@@ -736,11 +829,13 @@
     state.byId = new Map(state.data.matches.map((m) => [m.id, m]));
     state.teams = new Map(state.data.standings.map((t) => [t.name, t]));
 
+    state.tz = readPref();
     renderChrome();
     renderBracket();
     renderStandings();
     renderRounds();
     bindEvents();
+    applyTz();
     readHash();
     window.addEventListener('hashchange', readHash);
   }

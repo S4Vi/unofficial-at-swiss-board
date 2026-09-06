@@ -22,7 +22,9 @@ played who, who beat who, and trace any team's journey through all five rounds.
 - **Drag anywhere to pan** the board; `Fit` re-fits it to the window.
 - **◆** marks a *down-float* — a pairing where the two sides had unequal records, which
   Swiss does when a bucket holds an odd number of teams.
-- **Amber match numbers** are matches that have not been played yet.
+- **Amber match numbers and times** are matches that have not been played yet.
+- **Every match shows its scheduled start.** The sheet keeps times in EVE time (UTC);
+  the toolbar toggle converts them to your own zone.
 
 ## How the data works
 
@@ -44,6 +46,17 @@ are non-empty. That one rule rejects every kind of junk in the workbook:
 - `Break` separators and `DAY N - <date>` header rows,
 - pre-numbered but empty placeholder rows reserved for **Rounds 6 and 7**,
 - 19 stale copy-paste rows at the bottom of Weekend 3 that duplicate Weekend 1 pairings.
+
+**Dates come from one header per tab.** Each weekend tab carries a single
+`DAY N - <date>` row (`DAY FOUR - 6 September`) marking where its second day starts;
+everything above it belongs to the day before. Those headers give a day and month but
+**never a year**, so `TOURNAMENT_YEAR` in `scripts/scrape.mjs` supplies it. 2026 is the
+only nearby year in which all three weekends fall on a Saturday and Sunday, which is how
+the schedule is laid out. Bump that constant for the next tournament.
+
+Combining the date with the sheet's UTC clock times gives each match a real instant
+(`startsAt`), which is what makes the local-time toggle a formatting choice rather than
+a guess.
 
 **Rounds span weekend tabs** — Round 3 is split across Weekends 1 and 2, Round 5 across 2
 and 3 — so matches are grouped by the round label in column `L`, never by tab.

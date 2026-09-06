@@ -11,6 +11,12 @@ import { parseWorkbook, deriveStructure } from './lib/parse.mjs';
 
 const SHEET_ID = '1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4';
 
+/* The sheet's day headers give a day and month ("DAY FOUR - 6 September") but
+ * never a year, so it has to live here. 2026 is the only nearby year in which
+ * all three weekends fall on a Saturday and Sunday, which is how the schedule
+ * is laid out (day one Sat, day two Sun). Bump this for the next tournament. */
+const TOURNAMENT_YEAR = 2026;
+
 // The .xlsx export is the only source that keeps the bold formatting the winner
 // is encoded in. The CSV export and the htmlview page both lose it.
 const SOURCE_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/export?format=xlsx`;
@@ -64,6 +70,24 @@ function validate(matches, { rounds, standings }) {
     if (m.red === m.blue) errors.push(`Match ${m.id} has the same team on both sides: ${m.red}`);
   }
 
+  const undated = matches.filter((m) => !m.date);
+  if (undated.length) {
+    errors.push(
+      `${undated.length} match(es) have no date - a weekend tab is missing its "DAY N - <date>" header (ids ${undated.slice(0, 5).map((m) => m.id).join(', ')}).`,
+    );
+  }
+  const untimed = matches.filter((m) => m.date && !m.startsAt);
+  if (untimed.length) warnings.push(`${untimed.length} match(es) have a date but no start time.`);
+
+  // A weekend runs over two consecutive days; anything wider means the day
+  // headers were misread.
+  for (const wk of [...new Set(matches.map((m) => m.weekend))]) {
+    const dates = [...new Set(matches.filter((m) => m.weekend === wk).map((m) => m.date))]
+      .filter(Boolean)
+      .sort();
+    if (dates.length > 2) warnings.push(`Weekend ${wk} spans ${dates.length} dates: ${dates.join(', ')}`);
+  }
+
   // In Swiss, a team plays at most once per round.
   for (const round of rounds) {
     const seen = new Map();
@@ -86,7 +110,7 @@ async function main() {
   console.log(`Fetching ${SOURCE_URL}`);
   const workbook = await fetchWorkbook();
 
-  const matches = parseWorkbook(workbook);
+  const matches = parseWorkbook(workbook, { year: TOURNAMENT_YEAR });
   const structure = deriveStructure(matches);
   const { errors, warnings } = validate(matches, structure);
 
@@ -112,6 +136,13 @@ async function main() {
       teamCount: structure.standings.length,
       matchCount: matches.length,
       decidedCount: decided,
+      year: TOURNAMENT_YEAR,
+      // Earliest scheduled match that has not been played yet.
+      nextMatchAt:
+        matches
+          .filter((m) => !m.winner && m.startsAt)
+          .map((m) => m.startsAt)
+          .sort()[0] ?? null,
     },
     matches,
     bracket: structure.bracket,
@@ -142,6 +173,8 @@ No change since ${prevStamp ?? 'the last scrape'} - leaving the data file untouc
   await mkdir(dirname(OUT), { recursive: true });
   await writeFile(OUT, `${JSON.stringify(payload, null, 2)}\n`, 'utf8');
 
+  const dates = [...new Set(matches.map((m) => m.date))].filter(Boolean).sort();
+  console.log(`  dates: ${dates.join(', ')}`);
   console.log(
     `\nOK  ${structure.standings.length} teams | ${structure.rounds.length} rounds | ` +
       `${matches.length} matches (${decided} decided, ${matches.length - decided} pending) | ` +

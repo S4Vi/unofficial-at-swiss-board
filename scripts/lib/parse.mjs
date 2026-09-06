@@ -23,6 +23,23 @@ export const COL = {
 
 const TAB_PATTERN = /Prelims Weekend/i;
 
+/* Each weekend tab carries exactly one day header ("DAY FOUR - 6 September")
+ * at the row where its second day begins. Everything above it belongs to that
+ * weekend's first day, whose date is the stated one minus a day. */
+const DAY_HEADER = /^DAY\s+([A-Z]+)\s*[-\u2013]\s*(\d{1,2})\s+([A-Za-z]+)/i;
+
+const ORDINALS = {
+  one: 1, two: 2, three: 3, four: 4, five: 5,
+  six: 6, seven: 7, eight: 8, nine: 9, ten: 10,
+};
+
+const MONTHS = {
+  jan: 0, feb: 1, mar: 2, apr: 3, may: 4, jun: 5,
+  jul: 6, aug: 7, sep: 8, oct: 9, nov: 10, dec: 11,
+};
+
+const iso = (d) => d.toISOString().slice(0, 10);
+
 /** Cell text, trimmed. ExcelJS hands back rich-text objects for styled runs. */
 function text(cell) {
   const v = cell?.value;
@@ -93,12 +110,44 @@ function roundNumber(label) {
  *  - 19 stale copy-paste rows at the bottom of Weekend 3 that duplicate Weekend 1
  *    pairings but carry no match number (A blank)
  */
-export function parseWorkbook(workbook) {
+/**
+ * Collect a sheet's day headers, then derive the day that precedes the first
+ * one. Returns rows in ascending order, each with the date it starts.
+ */
+function readDays(sheet, year) {
+  const found = [];
+  sheet.eachRow((row) => {
+    const m = DAY_HEADER.exec(text(row.getCell(COL.match)));
+    if (!m) return;
+    const month = MONTHS[m[3].slice(0, 3).toLowerCase()];
+    if (month === undefined) return;
+    found.push({
+      row: row.number,
+      ordinal: ORDINALS[m[1].toLowerCase()] ?? null,
+      date: new Date(Date.UTC(year, month, Number.parseInt(m[2], 10))),
+    });
+  });
+  found.sort((a, b) => a.row - b.row);
+
+  if (found.length === 0) return [];
+
+  // The rows above the first header are the day before it.
+  const first = found[0];
+  const prior = new Date(first.date);
+  prior.setUTCDate(prior.getUTCDate() - 1);
+  return [
+    { row: 0, ordinal: first.ordinal === null ? null : first.ordinal - 1, date: prior },
+    ...found,
+  ];
+}
+
+export function parseWorkbook(workbook, { year } = {}) {
   const matches = [];
 
   for (const sheet of workbook.worksheets) {
     if (!TAB_PATTERN.test(sheet.name)) continue;
     const weekend = roundNumber(sheet.name);
+    const days = year ? readDays(sheet, year) : [];
 
     sheet.eachRow((row) => {
       const cell = (letter) => row.getCell(letter);
@@ -115,23 +164,49 @@ export function parseWorkbook(workbook) {
       const redWon = isBold(redCell);
       const blueWon = isBold(blueCell);
 
+      // The last day header at or above this row governs it.
+      let day = null;
+      for (const d of days) {
+        if (d.row <= row.number) day = d;
+      }
+      const times = {
+        convoStart: toTimeOfDay(cell(COL.convoStart)),
+        bansStart: toTimeOfDay(cell(COL.bansStart)),
+        checksDue: toTimeOfDay(cell(COL.checksDue)),
+        tpDue: toTimeOfDay(cell(COL.tpDue)),
+        matchStart: toTimeOfDay(cell(COL.matchStart)),
+        matchFinish: toTimeOfDay(cell(COL.matchFinish)),
+      };
+
+      // All sheet times are UTC / EVE time, so the date and the clock combine
+      // directly into an instant with no zone maths.
+      let startsAt = null;
+      if (day && times.matchStart) {
+        const [hh, mm] = times.matchStart.split(':').map(Number);
+        startsAt = new Date(
+          Date.UTC(
+            day.date.getUTCFullYear(),
+            day.date.getUTCMonth(),
+            day.date.getUTCDate(),
+            hh,
+            mm,
+          ),
+        ).toISOString();
+      }
+
       matches.push({
         id,
         weekend,
+        day: day ? day.ordinal : null,
+        date: day ? iso(day.date) : null,
+        startsAt,
         round: roundNumber(text(cell(COL.round))),
         sheet: sheet.name.trim(),
         red,
         blue,
         // Both bold would be ambiguous; treat it as undecided rather than guessing.
         winner: redWon && !blueWon ? red : blueWon && !redWon ? blue : null,
-        times: {
-          convoStart: toTimeOfDay(cell(COL.convoStart)),
-          bansStart: toTimeOfDay(cell(COL.bansStart)),
-          checksDue: toTimeOfDay(cell(COL.checksDue)),
-          tpDue: toTimeOfDay(cell(COL.tpDue)),
-          matchStart: toTimeOfDay(cell(COL.matchStart)),
-          matchFinish: toTimeOfDay(cell(COL.matchFinish)),
-        },
+        times,
         // Reserved for features not yet in the source sheet. Joined on `id`.
         lineups: null,
         bans: null,

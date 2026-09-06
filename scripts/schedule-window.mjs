@@ -12,6 +12,11 @@
  * cron that fired is the right one for the moment. Manual and push triggers
  * always run.
  *
+ * Every run scrapes exactly once. Holding the runner to poll inside a run buys
+ * a few minutes of freshness for ~25x the runner time, which is not a trade
+ * this board needs - a result that lands two matches deep in a Swiss bracket
+ * is no less true for showing up a quarter of an hour late.
+ *
  * Run: node scripts/schedule-window.mjs --trigger '<cron string or event name>'
  *      node scripts/schedule-window.mjs --at 2026-09-12T14:00:00Z   # dry-run any instant
  */
@@ -37,20 +42,9 @@ const ARCHIVE_AFTER = 12 * HOUR; // quiet down once the last match is long over
 /* One cron per tier - see .github/workflows/scrape.yml. Keeping them disjoint
  * means two runs never overlap and queue up behind the concurrency group. */
 const CRON_TIERS = {
-  '*/10 * * * *': ['live'],
+  '*/15 * * * *': ['live'],
   '5,35 * * * *': ['watch'],
   '17 3,15 * * *': ['idle', 'archive'],
-};
-
-/** How long a single run keeps polling, and how often, once it starts.
- *  Scheduled runs are commonly delayed 5-15 minutes, so the live run holds the
- *  runner and re-scrapes itself rather than trusting the next cron to be on
- *  time. Everything else scrapes once and exits. */
-const POLL = {
-  live: { minutes: 8, seconds: 120 },
-  watch: { minutes: 0, seconds: 0 },
-  idle: { minutes: 0, seconds: 0 },
-  archive: { minutes: 0, seconds: 0 },
 };
 
 function arg(name) {
@@ -100,25 +94,26 @@ try {
 }
 
 const scheduled = trigger in CRON_TIERS;
+
+/* A cron in the workflow with no entry here still runs - failing open beats a
+ * board that quietly stops updating - but it means the two files have drifted,
+ * which would scrape on every tier at once. Say so where CI will show it. */
+if (!scheduled && trigger.split(' ').length === 5) {
+  console.log(`::warning::Cron ${trigger} has no tier in schedule-window.mjs; running regardless. Workflow and gate have drifted.`);
+}
 let run = !scheduled || CRON_TIERS[trigger].includes(state.mode);
 
 // Archive shares the twice-daily cron with idle, but only needs one of them.
 if (run && scheduled && state.mode === 'archive' && new Date(now).getUTCHours() >= 12) run = false;
 
-const poll = run ? POLL[state.mode] : { minutes: 0, seconds: 0 };
 const out = {
   run: String(run),
   mode: state.mode,
   reason: state.reason,
-  poll_minutes: String(poll.minutes),
-  poll_seconds: String(poll.seconds),
   next_match_at: state.nextMatchAt ?? '',
 };
 
-console.log(
-  `${run ? 'RUN' : 'SKIP'}  mode=${state.mode}  trigger=${trigger}  (${state.reason})` +
-    (poll.minutes ? `  polling every ${poll.seconds}s for ${poll.minutes}m` : ''),
-);
+console.log(`${run ? "RUN" : "SKIP"}  mode=${state.mode}  trigger=${trigger}  (${state.reason})`);
 
 if (process.env.GITHUB_OUTPUT) {
   await appendFile(

@@ -6,7 +6,7 @@ name: Scrape schedule sheet
 # cron exits in seconds. Tiers are disjoint, so two runs never overlap.
 on:
   schedule:
-    - cron: '*/10 * * * *'   # live:    a match is in progress
+    - cron: '*/15 * * * *'   # live:    a match is in progress
     - cron: '5,35 * * * *'   # watch:   an event starts within 36h, or just ended
     - cron: '17 3,15 * * *'  # idle:    between weekends (archive uses the 03:17 one only)
   workflow_dispatch:
@@ -47,45 +47,24 @@ jobs:
       - run: npm ci
         if: steps.gate.outputs.run == 'true'
 
-      # While matches are live the run holds the runner and re-scrapes itself:
-      # scheduled runs are commonly delayed 5-15 minutes, and waiting that out
-      # between 15-minute matches shows stale results. Outside a live window
-      # POLL_MINUTES is 0, so this scrapes exactly once and exits.
-      #
       # scripts/scrape.mjs exits non-zero if the sheet fails its structural
       # checks, which leaves the previously committed JSON in place rather than
-      # publishing garbage. Inside the loop that is remembered, not fatal: one
-      # bad read shouldn't cost the rest of the match window.
-      - name: Scrape, and commit if the data changed
+      # publishing garbage.
+      - name: Scrape
         if: steps.gate.outputs.run == 'true'
-        env:
-          POLL_MINUTES: ${{ steps.gate.outputs.poll_minutes }}
-          POLL_SECONDS: ${{ steps.gate.outputs.poll_seconds }}
+        run: node scripts/scrape.mjs
+
+      - name: Commit if the data changed
+        if: steps.gate.outputs.run == 'true'
         run: |
+          if git diff --quiet -- docs/data/tournament.json; then
+            echo "No change in tournament data."
+            exit 0
+          fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          deadline=$(( $(date +%s) + POLL_MINUTES * 60 ))
-          failed=0
-
-          while :; do
-            if node scripts/scrape.mjs; then
-              if git diff --quiet -- docs/data/tournament.json; then
-                echo "No change in tournament data."
-              else
-                git add docs/data/tournament.json
-                DECIDED=$(node -p "require('./docs/data/tournament.json').tournament.decidedCount")
-                TOTAL=$(node -p "require('./docs/data/tournament.json').tournament.matchCount")
-                git commit -m "data: refresh schedule (${DECIDED}/${TOTAL} matches decided)"
-                git push || { git pull --rebase --autostash && git push; }
-              fi
-            else
-              echo "::warning::Scrape failed; keeping the last good data."
-              failed=1
-            fi
-
-            [ "$(date +%s)" -ge "$deadline" ] && break
-            sleep "$POLL_SECONDS"
-          done
-
-          exit $failed
+          git add docs/data/tournament.json
+          DECIDED=$(node -p "require('./docs/data/tournament.json').tournament.decidedCount")
+          TOTAL=$(node -p "require('./docs/data/tournament.json').tournament.matchCount")
+          git commit -m "data: refresh schedule (${DECIDED}/${TOTAL} matches decided)"
+          git push

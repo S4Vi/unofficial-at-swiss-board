@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T20:33:54.077Z",
+  "updatedAt": "2026-09-06T21:07:47.618Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -16,9 +16,9 @@
     ],
     "teamCount": 58,
     "matchCount": 145,
-    "decidedCount": 129,
+    "decidedCount": 131,
     "year": 2026,
-    "nextMatchAt": "2026-09-06T20:30:00.000Z"
+    "nextMatchAt": "2026-09-06T21:00:00.000Z"
   },
   "matches": [
     {
@@ -3772,7 +3772,7 @@
       "sheet": "ATXXII Prelims Weekend 2",
       "red": "D-sync.",
       "blue": "Of Essence",
-      "winner": null,
+      "winner": "Of Essence",
       "times": {
         "convoStart": "19:30",
         "bansStart": "19:40",
@@ -3789,7 +3789,7 @@
       "blueRecord": "2-2",
       "isFloat": false,
       "bucket": "2-2",
-      "loser": null
+      "loser": "D-sync."
     },
     {
       "id": 131,
@@ -3801,7 +3801,7 @@
       "sheet": "ATXXII Prelims Weekend 2",
       "red": "Fraternity.",
       "blue": "Seriously Suspicious",
-      "winner": null,
+      "winner": "Fraternity.",
       "times": {
         "convoStart": "19:45",
         "bansStart": "19:55",
@@ -3818,7 +3818,7 @@
       "blueRecord": "2-2",
       "isFloat": false,
       "bucket": "2-2",
-      "loser": null
+      "loser": "Seriously Suspicious"
     },
     {
       "id": 132,
@@ -5092,6 +5092,53 @@
       ]
     },
     {
+      "name": "Fraternity.",
+      "wins": 3,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 8,
+          "round": 1,
+          "opponent": "Critical. Mass.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 33,
+          "round": 2,
+          "opponent": "White Squall.",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 60,
+          "round": 3,
+          "opponent": "Paper Numbers",
+          "side": "blue",
+          "record": "2-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 100,
+          "round": 4,
+          "opponent": "Meta Reloaded",
+          "side": "red",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 131,
+          "round": 5,
+          "opponent": "Seriously Suspicious",
+          "side": "red",
+          "record": "2-2",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Honkai Star Rail.",
       "wins": 3,
       "losses": 2,
@@ -5229,6 +5276,53 @@
           "side": "blue",
           "record": "3-1",
           "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Of Essence",
+      "wins": 3,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 21,
+          "round": 1,
+          "opponent": "The Obsidian Front - Reborn",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 40,
+          "round": 2,
+          "opponent": "Arctic Light",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 74,
+          "round": 3,
+          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+          "side": "blue",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 105,
+          "round": 4,
+          "opponent": "Vapor-Lock",
+          "side": "red",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 130,
+          "round": 5,
+          "opponent": "D-sync.",
+          "side": "blue",
+          "record": "2-2",
+          "result": "win"
         }
       ]
     },
@@ -5562,53 +5656,6 @@
       ]
     },
     {
-      "name": "D-sync.",
-      "wins": 2,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 14,
-          "round": 1,
-          "opponent": "Sigma Grindset",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 51,
-          "round": 2,
-          "opponent": "We Forsakened Few",
-          "side": "red",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 79,
-          "round": 3,
-          "opponent": "Exodus.",
-          "side": "red",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 106,
-          "round": 4,
-          "opponent": "Minmatar Fleet Alliance",
-          "side": "blue",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 130,
-          "round": 5,
-          "opponent": "Of Essence",
-          "side": "red",
-          "record": "2-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "DarkSide.",
       "wins": 2,
       "losses": 2,
@@ -5656,53 +5703,6 @@
       ]
     },
     {
-      "name": "Fraternity.",
-      "wins": 2,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 8,
-          "round": 1,
-          "opponent": "Critical. Mass.",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 33,
-          "round": 2,
-          "opponent": "White Squall.",
-          "side": "blue",
-          "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 60,
-          "round": 3,
-          "opponent": "Paper Numbers",
-          "side": "blue",
-          "record": "2-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 100,
-          "round": 4,
-          "opponent": "Meta Reloaded",
-          "side": "red",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 131,
-          "round": 5,
-          "opponent": "Seriously Suspicious",
-          "side": "red",
-          "record": "2-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Ivy League",
       "wins": 2,
       "losses": 2,
@@ -5743,53 +5743,6 @@
           "matchId": 133,
           "round": 5,
           "opponent": "DarkSide.",
-          "side": "blue",
-          "record": "2-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Of Essence",
-      "wins": 2,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 21,
-          "round": 1,
-          "opponent": "The Obsidian Front - Reborn",
-          "side": "red",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 40,
-          "round": 2,
-          "opponent": "Arctic Light",
-          "side": "red",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 74,
-          "round": 3,
-          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
-          "side": "blue",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 105,
-          "round": 4,
-          "opponent": "Vapor-Lock",
-          "side": "red",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 130,
-          "round": 5,
-          "opponent": "D-sync.",
           "side": "blue",
           "record": "2-2",
           "result": "pending"
@@ -5932,53 +5885,6 @@
           "round": 5,
           "opponent": "34-yrs-old men get nagged by wives for playing EVE",
           "side": "red",
-          "record": "2-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Seriously Suspicious",
-      "wins": 2,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 4,
-          "round": 1,
-          "opponent": "Psychokids.",
-          "side": "blue",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 46,
-          "round": 2,
-          "opponent": "Vapor-Lock",
-          "side": "red",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 78,
-          "round": 3,
-          "opponent": "Seker Matar",
-          "side": "blue",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 93,
-          "round": 4,
-          "opponent": "Honkai Star Rail.",
-          "side": "blue",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 131,
-          "round": 5,
-          "opponent": "Fraternity.",
-          "side": "blue",
           "record": "2-2",
           "result": "pending"
         }
@@ -6173,6 +6079,53 @@
       ]
     },
     {
+      "name": "D-sync.",
+      "wins": 2,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 14,
+          "round": 1,
+          "opponent": "Sigma Grindset",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 51,
+          "round": 2,
+          "opponent": "We Forsakened Few",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 79,
+          "round": 3,
+          "opponent": "Exodus.",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 106,
+          "round": 4,
+          "opponent": "Minmatar Fleet Alliance",
+          "side": "blue",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 130,
+          "round": 5,
+          "opponent": "Of Essence",
+          "side": "red",
+          "record": "2-2",
+          "result": "loss"
+        }
+      ]
+    },
+    {
       "name": "Exodus.",
       "wins": 2,
       "losses": 3,
@@ -6308,6 +6261,53 @@
           "round": 5,
           "opponent": "Space Violence.",
           "side": "red",
+          "record": "2-2",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Seriously Suspicious",
+      "wins": 2,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 4,
+          "round": 1,
+          "opponent": "Psychokids.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 46,
+          "round": 2,
+          "opponent": "Vapor-Lock",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 78,
+          "round": 3,
+          "opponent": "Seker Matar",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 93,
+          "round": 4,
+          "opponent": "Honkai Star Rail.",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 131,
+          "round": 5,
+          "opponent": "Fraternity.",
+          "side": "blue",
           "record": "2-2",
           "result": "loss"
         }

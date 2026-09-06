@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T21:33:58.455Z",
+  "updatedAt": "2026-09-06T22:07:35.777Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -16,9 +16,9 @@
     ],
     "teamCount": 58,
     "matchCount": 145,
-    "decidedCount": 133,
+    "decidedCount": 136,
     "year": 2026,
-    "nextMatchAt": "2026-09-06T21:30:00.000Z"
+    "nextMatchAt": "2026-09-12T13:30:00.000Z"
   },
   "matches": [
     {
@@ -3888,7 +3888,7 @@
       "sheet": "ATXXII Prelims Weekend 2",
       "red": "The Tuskers Co.",
       "blue": "Slide On Contact",
-      "winner": null,
+      "winner": "The Tuskers Co.",
       "times": {
         "convoStart": "20:30",
         "bansStart": "20:40",
@@ -3905,7 +3905,7 @@
       "blueRecord": "2-2",
       "isFloat": false,
       "bucket": "2-2",
-      "loser": null
+      "loser": "Slide On Contact"
     },
     {
       "id": 135,
@@ -3917,7 +3917,7 @@
       "sheet": "ATXXII Prelims Weekend 2",
       "red": "Shadow Cartel",
       "blue": "WE FORM V0LTA",
-      "winner": null,
+      "winner": "WE FORM V0LTA",
       "times": {
         "convoStart": "20:45",
         "bansStart": "20:55",
@@ -3934,7 +3934,7 @@
       "blueRecord": "2-2",
       "isFloat": false,
       "bucket": "2-2",
-      "loser": null
+      "loser": "Shadow Cartel"
     },
     {
       "id": 136,
@@ -3946,7 +3946,7 @@
       "sheet": "ATXXII Prelims Weekend 2",
       "red": "Punishing Gray Raven",
       "blue": "OnlyFleets.",
-      "winner": null,
+      "winner": "Punishing Gray Raven",
       "times": {
         "convoStart": "21:00",
         "bansStart": "21:10",
@@ -3963,7 +3963,7 @@
       "blueRecord": "2-2",
       "isFloat": false,
       "bucket": "2-2",
-      "loser": null
+      "loser": "OnlyFleets."
     },
     {
       "id": 137,
@@ -5468,6 +5468,53 @@
       ]
     },
     {
+      "name": "Punishing Gray Raven",
+      "wins": 3,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 17,
+          "round": 1,
+          "opponent": "ZERG REBORN",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 38,
+          "round": 2,
+          "opponent": "The Excommunicati",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 69,
+          "round": 3,
+          "opponent": "Test Alliance Please Ignore",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 91,
+          "round": 4,
+          "opponent": "Dracarys.",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 136,
+          "round": 5,
+          "opponent": "OnlyFleets.",
+          "side": "red",
+          "record": "2-2",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Rote Kapelle",
       "wins": 3,
       "losses": 2,
@@ -5656,6 +5703,100 @@
       ]
     },
     {
+      "name": "The Tuskers Co.",
+      "wins": 3,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 3,
+          "round": 1,
+          "opponent": "WE FORM V0LTA",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 31,
+          "round": 2,
+          "opponent": "Psychokids.",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 68,
+          "round": 3,
+          "opponent": "OnlyFleets.",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 99,
+          "round": 4,
+          "opponent": "Deteriorated",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 134,
+          "round": 5,
+          "opponent": "Slide On Contact",
+          "side": "red",
+          "record": "2-2",
+          "result": "win"
+        }
+      ]
+    },
+    {
+      "name": "WE FORM V0LTA",
+      "wins": 3,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 3,
+          "round": 1,
+          "opponent": "The Tuskers Co.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 45,
+          "round": 2,
+          "opponent": "DarkSide.",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 72,
+          "round": 3,
+          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 107,
+          "round": 4,
+          "opponent": "NO NEED LOOSE FACE",
+          "side": "red",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 135,
+          "round": 5,
+          "opponent": "Shadow Cartel",
+          "side": "blue",
+          "record": "2-2",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "ZERG REBORN",
       "wins": 3,
       "losses": 2,
@@ -5699,288 +5840,6 @@
           "side": "blue",
           "record": "3-1",
           "result": "loss"
-        }
-      ]
-    },
-    {
-      "name": "OnlyFleets.",
-      "wins": 2,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 10,
-          "round": 1,
-          "opponent": "Bright Side of Death",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 34,
-          "round": 2,
-          "opponent": "Ragequit Cancel Sub",
-          "side": "blue",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 68,
-          "round": 3,
-          "opponent": "The Tuskers Co.",
-          "side": "blue",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 113,
-          "round": 4,
-          "opponent": "Project Potato",
-          "side": "red",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 136,
-          "round": 5,
-          "opponent": "Punishing Gray Raven",
-          "side": "blue",
-          "record": "2-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Punishing Gray Raven",
-      "wins": 2,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 17,
-          "round": 1,
-          "opponent": "ZERG REBORN",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 38,
-          "round": 2,
-          "opponent": "The Excommunicati",
-          "side": "red",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 69,
-          "round": 3,
-          "opponent": "Test Alliance Please Ignore",
-          "side": "blue",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 91,
-          "round": 4,
-          "opponent": "Dracarys.",
-          "side": "blue",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 136,
-          "round": 5,
-          "opponent": "OnlyFleets.",
-          "side": "red",
-          "record": "2-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Shadow Cartel",
-      "wins": 2,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 22,
-          "round": 1,
-          "opponent": "Arctic Light",
-          "side": "blue",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 55,
-          "round": 2,
-          "opponent": "Kitchen Sinkhole",
-          "side": "red",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 76,
-          "round": 3,
-          "opponent": "Sigma Grindset",
-          "side": "red",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 94,
-          "round": 4,
-          "opponent": "ZERG REBORN",
-          "side": "red",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 135,
-          "round": 5,
-          "opponent": "WE FORM V0LTA",
-          "side": "red",
-          "record": "2-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Slide On Contact",
-      "wins": 2,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 29,
-          "round": 1,
-          "opponent": "That Escalated Quickly.",
-          "side": "red",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 44,
-          "round": 2,
-          "opponent": "Meta Reloaded",
-          "side": "red",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 80,
-          "round": 3,
-          "opponent": "Minmatar Fleet Alliance",
-          "side": "blue",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 92,
-          "round": 4,
-          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
-          "side": "blue",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 134,
-          "round": 5,
-          "opponent": "The Tuskers Co.",
-          "side": "blue",
-          "record": "2-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "The Tuskers Co.",
-      "wins": 2,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 3,
-          "round": 1,
-          "opponent": "WE FORM V0LTA",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 31,
-          "round": 2,
-          "opponent": "Psychokids.",
-          "side": "red",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 68,
-          "round": 3,
-          "opponent": "OnlyFleets.",
-          "side": "red",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 99,
-          "round": 4,
-          "opponent": "Deteriorated",
-          "side": "blue",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 134,
-          "round": 5,
-          "opponent": "Slide On Contact",
-          "side": "red",
-          "record": "2-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "WE FORM V0LTA",
-      "wins": 2,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 3,
-          "round": 1,
-          "opponent": "The Tuskers Co.",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 45,
-          "round": 2,
-          "opponent": "DarkSide.",
-          "side": "blue",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 72,
-          "round": 3,
-          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
-          "side": "red",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 107,
-          "round": 4,
-          "opponent": "NO NEED LOOSE FACE",
-          "side": "red",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 135,
-          "round": 5,
-          "opponent": "Shadow Cartel",
-          "side": "blue",
-          "record": "2-2",
-          "result": "pending"
         }
       ]
     },
@@ -6173,6 +6032,53 @@
       ]
     },
     {
+      "name": "OnlyFleets.",
+      "wins": 2,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 10,
+          "round": 1,
+          "opponent": "Bright Side of Death",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 34,
+          "round": 2,
+          "opponent": "Ragequit Cancel Sub",
+          "side": "blue",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 68,
+          "round": 3,
+          "opponent": "The Tuskers Co.",
+          "side": "blue",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 113,
+          "round": 4,
+          "opponent": "Project Potato",
+          "side": "red",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 136,
+          "round": 5,
+          "opponent": "Punishing Gray Raven",
+          "side": "blue",
+          "record": "2-2",
+          "result": "loss"
+        }
+      ]
+    },
+    {
       "name": "Psyno Theory",
       "wins": 2,
       "losses": 3,
@@ -6307,6 +6213,100 @@
           "matchId": 131,
           "round": 5,
           "opponent": "Fraternity.",
+          "side": "blue",
+          "record": "2-2",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Shadow Cartel",
+      "wins": 2,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 22,
+          "round": 1,
+          "opponent": "Arctic Light",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 55,
+          "round": 2,
+          "opponent": "Kitchen Sinkhole",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 76,
+          "round": 3,
+          "opponent": "Sigma Grindset",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 94,
+          "round": 4,
+          "opponent": "ZERG REBORN",
+          "side": "red",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 135,
+          "round": 5,
+          "opponent": "WE FORM V0LTA",
+          "side": "red",
+          "record": "2-2",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Slide On Contact",
+      "wins": 2,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 29,
+          "round": 1,
+          "opponent": "That Escalated Quickly.",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 44,
+          "round": 2,
+          "opponent": "Meta Reloaded",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 80,
+          "round": 3,
+          "opponent": "Minmatar Fleet Alliance",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 92,
+          "round": 4,
+          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 134,
+          "round": 5,
+          "opponent": "The Tuskers Co.",
           "side": "blue",
           "record": "2-2",
           "result": "loss"

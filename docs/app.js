@@ -241,9 +241,14 @@
       const head = document.createElement('div');
       head.className = `round-head${done ? '' : ' is-live'}`;
       head.style.left = `${PAD_L + i * (COL_W + GUTTER)}px`;
+      const dates = roundDates(r);
       head.innerHTML =
-        `<div class="round-head-name">Round ${r.round}</div>` +
-        `<div class="round-head-sub">${r.matchCount} matches &middot; ${roundDates(r)}</div>`;
+        `<div class="round-head-name"></div>` +
+        `<div class="round-head-sub"></div>`;
+      head.dataset.full = `Round ${r.round}`;
+      head.dataset.short = `R${r.round}`;
+      head.dataset.sub = `${r.matchCount} matches${dates ? ` \u00B7 ${dates}` : ''}`;
+      head.dataset.subShort = `${r.matchCount} matches`;
       inner.appendChild(head);
     });
     syncRail();
@@ -259,10 +264,25 @@
     return first === last ? first : `${first} \u2013 ${last}`;
   }
 
+  /* The rail is a fixed-height strip, so scaling its contents with the board
+   * clipped them once the zoom went much past 100%. Instead the labels keep a
+   * constant size and only their position and width follow the zoom - and they
+   * shed detail rather than overflow when a column gets narrow. */
   function syncRail() {
     const scroll = el('bracket-scroll');
-    el('round-rail-inner').style.transform =
-      `translateX(${-scroll.scrollLeft}px) scale(${state.zoom})`;
+    const z = state.zoom;
+    const colW = COL_W * z;
+
+    for (const [i, head] of [...el('round-rail-inner').querySelectorAll('.round-head')].entries()) {
+      head.style.left = `${(PAD_L + i * (COL_W + GUTTER)) * z - scroll.scrollLeft}px`;
+      head.style.width = `${colW}px`;
+
+      const name = head.querySelector('.round-head-name');
+      const sub = head.querySelector('.round-head-sub');
+      name.textContent = colW < 92 ? head.dataset.short : head.dataset.full;
+      sub.textContent = colW < 118 ? '' : colW < 210 ? head.dataset.subShort : head.dataset.sub;
+      sub.hidden = sub.textContent === '';
+    }
   }
 
   function matchRow(m) {

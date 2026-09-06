@@ -228,31 +228,38 @@ a:hover { color: #a7e8c1; }
  * horizontal offset in step with the scroller. */
 .round-rail {
   position: relative;
-  height: 46px;
+  height: 50px;
   overflow: hidden;
   border-top: 1px solid var(--rule);
   background: var(--bg);
 }
-.round-rail-inner { position: absolute; inset: 0; transform-origin: 0 0; }
+.round-rail-inner { position: absolute; inset: 0; }
 
+/* left/width are set by app.js from the current zoom; the type stays put. */
 .round-head {
   position: absolute;
   text-align: center;
-  width: var(--col-w);
-  top: 4px;
+  top: 5px;
+  overflow: hidden;
 }
 .round-head-name {
   font-family: var(--display);
   font-size: 18px;
+  line-height: 21px;
   font-weight: 600;
   letter-spacing: 0.14em;
+  white-space: nowrap;
 }
 .round-head-sub {
   font-size: 9.5px;
+  line-height: 12px;
   letter-spacing: 0.12em;
   color: var(--faint);
-  margin-top: 3px;
+  margin-top: 2px;
   text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .round-head.is-live .round-head-name { color: var(--accent); }
 

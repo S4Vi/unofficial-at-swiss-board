@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T19:18:58.040Z",
+  "updatedAt": "2026-09-06T19:34:01.142Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -16,7 +16,7 @@
     ],
     "teamCount": 58,
     "matchCount": 145,
-    "decidedCount": 124
+    "decidedCount": 125
   },
   "matches": [
     {
@@ -3250,7 +3250,7 @@
       "sheet": "ATXXII Prelims Weekend 2",
       "red": "Bright Side of Death",
       "blue": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
-      "winner": null,
+      "winner": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
       "times": {
         "convoStart": "18:15",
         "bansStart": "18:25",
@@ -3267,7 +3267,7 @@
       "blueRecord": "3-1",
       "isFloat": false,
       "bucket": "3-1",
-      "loser": null
+      "loser": "Bright Side of Death"
     },
     {
       "id": 126,
@@ -4138,6 +4138,53 @@
       ]
     },
     {
+      "name": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+      "wins": 4,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 27,
+          "round": 1,
+          "opponent": "NO NEED LOOSE FACE",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 43,
+          "round": 2,
+          "opponent": "Honkai Star Rail.",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 74,
+          "round": 3,
+          "opponent": "Of Essence",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 102,
+          "round": 4,
+          "opponent": "White Squall.",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 125,
+          "round": 5,
+          "opponent": "Bright Side of Death",
+          "side": "blue",
+          "record": "3-1",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Deteriorated",
       "wins": 4,
       "losses": 1,
@@ -4514,100 +4561,6 @@
       ]
     },
     {
-      "name": "Bright Side of Death",
-      "wins": 3,
-      "losses": 1,
-      "path": [
-        {
-          "matchId": 10,
-          "round": 1,
-          "opponent": "OnlyFleets.",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 49,
-          "round": 2,
-          "opponent": "Solyaris Chtonium",
-          "side": "red",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 75,
-          "round": 3,
-          "opponent": "NO NEED LOOSE FACE",
-          "side": "blue",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 98,
-          "round": 4,
-          "opponent": "Ivy League",
-          "side": "red",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 125,
-          "round": 5,
-          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
-          "side": "red",
-          "record": "3-1",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
-      "wins": 3,
-      "losses": 1,
-      "path": [
-        {
-          "matchId": 27,
-          "round": 1,
-          "opponent": "NO NEED LOOSE FACE",
-          "side": "red",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 43,
-          "round": 2,
-          "opponent": "Honkai Star Rail.",
-          "side": "red",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 74,
-          "round": 3,
-          "opponent": "Of Essence",
-          "side": "red",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 102,
-          "round": 4,
-          "opponent": "White Squall.",
-          "side": "red",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 125,
-          "round": 5,
-          "opponent": "Bright Side of Death",
-          "side": "blue",
-          "record": "3-1",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Arctic Light",
       "wins": 3,
       "losses": 2,
@@ -4648,6 +4601,53 @@
           "matchId": 121,
           "round": 5,
           "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "red",
+          "record": "3-1",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Bright Side of Death",
+      "wins": 3,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 10,
+          "round": 1,
+          "opponent": "OnlyFleets.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 49,
+          "round": 2,
+          "opponent": "Solyaris Chtonium",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 75,
+          "round": 3,
+          "opponent": "NO NEED LOOSE FACE",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 98,
+          "round": 4,
+          "opponent": "Ivy League",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 125,
+          "round": 5,
+          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
           "side": "red",
           "record": "3-1",
           "result": "loss"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T22:07:35.777Z",
+  "updatedAt": "2026-09-08T15:29:05.983Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -12,10 +12,11 @@
       2,
       3,
       4,
-      5
+      5,
+      6
     ],
-    "teamCount": 58,
-    "matchCount": 145,
+    "teamCount": 76,
+    "matchCount": 174,
     "decidedCount": 136,
     "year": 2026,
     "nextMatchAt": "2026-09-12T13:30:00.000Z"
@@ -4225,6 +4226,847 @@
       "isFloat": false,
       "bucket": "0-4",
       "loser": null
+    },
+    {
+      "id": 146,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T15:45:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Paper Numbers",
+      "blue": "Dracarys.",
+      "winner": null,
+      "times": {
+        "convoStart": "14:45",
+        "bansStart": "14:55",
+        "checksDue": "15:25",
+        "tpDue": "15:40",
+        "matchStart": "15:45",
+        "matchFinish": "15:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "5-0",
+      "blueRecord": "5-0",
+      "isFloat": false,
+      "bucket": "5-0",
+      "loser": null
+    },
+    {
+      "id": 147,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T16:00:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+      "blue": "Sedition.",
+      "winner": null,
+      "times": {
+        "convoStart": "15:00",
+        "bansStart": "15:10",
+        "checksDue": "15:40",
+        "tpDue": "15:55",
+        "matchStart": "16:00",
+        "matchFinish": "16:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "4-1",
+      "blueRecord": "4-1",
+      "isFloat": false,
+      "bucket": "4-1",
+      "loser": null
+    },
+    {
+      "id": 148,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T16:15:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Psychokids.",
+      "blue": "Platinum Sensitivity.",
+      "winner": null,
+      "times": {
+        "convoStart": "15:15",
+        "bansStart": "15:25",
+        "checksDue": "15:55",
+        "tpDue": "16:10",
+        "matchStart": "16:15",
+        "matchFinish": "16:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "4-1",
+      "blueRecord": "4-1",
+      "isFloat": false,
+      "bucket": "4-1",
+      "loser": null
+    },
+    {
+      "id": 149,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T16:30:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Ragequit Cancel Sub",
+      "blue": "Neon Nightmares",
+      "winner": null,
+      "times": {
+        "convoStart": "15:30",
+        "bansStart": "15:40",
+        "checksDue": "16:10",
+        "tpDue": "16:25",
+        "matchStart": "16:30",
+        "matchFinish": "16:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "4-1",
+      "blueRecord": "4-1",
+      "isFloat": false,
+      "bucket": "4-1",
+      "loser": null
+    },
+    {
+      "id": 150,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T16:45:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+      "blue": "Rusty Hyenas Clan",
+      "winner": null,
+      "times": {
+        "convoStart": "15:45",
+        "bansStart": "15:55",
+        "checksDue": "16:25",
+        "tpDue": "16:40",
+        "matchStart": "16:45",
+        "matchFinish": "16:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "4-1",
+      "blueRecord": "4-1",
+      "isFloat": false,
+      "bucket": "4-1",
+      "loser": null
+    },
+    {
+      "id": 151,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T17:00:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Deteriorated",
+      "blue": "Honkai Star Rail.",
+      "winner": null,
+      "times": {
+        "convoStart": "16:00",
+        "bansStart": "16:10",
+        "checksDue": "16:40",
+        "tpDue": "16:55",
+        "matchStart": "17:00",
+        "matchFinish": "17:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "4-1",
+      "blueRecord": "3-2",
+      "isFloat": true,
+      "bucket": "4-1",
+      "loser": null
+    },
+    {
+      "id": 152,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T17:15:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "The Tuskers Co.",
+      "blue": "Test Alliance Please Ignore",
+      "winner": null,
+      "times": {
+        "convoStart": "16:15",
+        "bansStart": "16:25",
+        "checksDue": "16:55",
+        "tpDue": "17:10",
+        "matchStart": "17:15",
+        "matchFinish": "17:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-2",
+      "blueRecord": "3-2",
+      "isFloat": false,
+      "bucket": "3-2",
+      "loser": null
+    },
+    {
+      "id": 153,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T17:45:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Bright Side of Death",
+      "blue": "PSYCHOTIC OVERHEAT",
+      "winner": null,
+      "times": {
+        "convoStart": "16:45",
+        "bansStart": "16:55",
+        "checksDue": "17:25",
+        "tpDue": "17:40",
+        "matchStart": "17:45",
+        "matchFinish": "17:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-2",
+      "blueRecord": "3-2",
+      "isFloat": false,
+      "bucket": "3-2",
+      "loser": null
+    },
+    {
+      "id": 154,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T18:00:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "IIIIIIIIIIIIIIIIIIIIIIIII",
+      "blue": "Punishing Gray Raven",
+      "winner": null,
+      "times": {
+        "convoStart": "17:00",
+        "bansStart": "17:10",
+        "checksDue": "17:40",
+        "tpDue": "17:55",
+        "matchStart": "18:00",
+        "matchFinish": "18:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-2",
+      "blueRecord": "3-2",
+      "isFloat": false,
+      "bucket": "3-2",
+      "loser": null
+    },
+    {
+      "id": 155,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T18:15:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Ivy League",
+      "blue": "34-yrs-old men get nagged by wives for playing EVE",
+      "winner": null,
+      "times": {
+        "convoStart": "17:15",
+        "bansStart": "17:25",
+        "checksDue": "17:55",
+        "tpDue": "18:10",
+        "matchStart": "18:15",
+        "matchFinish": "18:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-2",
+      "blueRecord": "3-2",
+      "isFloat": false,
+      "bucket": "3-2",
+      "loser": null
+    },
+    {
+      "id": 156,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T18:30:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Space Violence.",
+      "blue": "Meta Reloaded",
+      "winner": null,
+      "times": {
+        "convoStart": "17:30",
+        "bansStart": "17:40",
+        "checksDue": "18:10",
+        "tpDue": "18:25",
+        "matchStart": "18:30",
+        "matchFinish": "18:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-2",
+      "blueRecord": "3-2",
+      "isFloat": false,
+      "bucket": "3-2",
+      "loser": null
+    },
+    {
+      "id": 157,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T18:45:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "The Excommunicati",
+      "blue": "Fraternity.",
+      "winner": null,
+      "times": {
+        "convoStart": "17:45",
+        "bansStart": "17:55",
+        "checksDue": "18:25",
+        "tpDue": "18:40",
+        "matchStart": "18:45",
+        "matchFinish": "18:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-2",
+      "blueRecord": "3-2",
+      "isFloat": false,
+      "bucket": "3-2",
+      "loser": null
+    },
+    {
+      "id": 158,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T19:00:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Arctic Light",
+      "blue": "Rote Kapelle",
+      "winner": null,
+      "times": {
+        "convoStart": "18:00",
+        "bansStart": "18:10",
+        "checksDue": "18:40",
+        "tpDue": "18:55",
+        "matchStart": "19:00",
+        "matchFinish": "19:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-2",
+      "blueRecord": "3-2",
+      "isFloat": false,
+      "bucket": "3-2",
+      "loser": null
+    },
+    {
+      "id": 159,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T19:15:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Of Essence",
+      "blue": "ZERG REBORN",
+      "winner": null,
+      "times": {
+        "convoStart": "18:15",
+        "bansStart": "18:25",
+        "checksDue": "18:55",
+        "tpDue": "19:10",
+        "matchStart": "19:15",
+        "matchFinish": "19:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-2",
+      "blueRecord": "3-2",
+      "isFloat": false,
+      "bucket": "3-2",
+      "loser": null
+    },
+    {
+      "id": 160,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T19:30:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "WE FORM V0LTA",
+      "blue": "Psyno Theory",
+      "winner": null,
+      "times": {
+        "convoStart": "18:30",
+        "bansStart": "18:40",
+        "checksDue": "19:10",
+        "tpDue": "19:25",
+        "matchStart": "19:30",
+        "matchFinish": "19:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "3-2",
+      "blueRecord": "2-3",
+      "isFloat": true,
+      "bucket": "3-2",
+      "loser": null
+    },
+    {
+      "id": 161,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T19:45:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "NPSI.Rocks",
+      "blue": "Shadow Cartel",
+      "winner": null,
+      "times": {
+        "convoStart": "18:45",
+        "bansStart": "18:55",
+        "checksDue": "19:25",
+        "tpDue": "19:40",
+        "matchStart": "19:45",
+        "matchFinish": "19:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-3",
+      "blueRecord": "2-3",
+      "isFloat": false,
+      "bucket": "2-3",
+      "loser": null
+    },
+    {
+      "id": 162,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T20:00:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Winner of Match 140",
+      "blue": "Winner of Match 142",
+      "winner": null,
+      "times": {
+        "convoStart": "19:00",
+        "bansStart": "19:10",
+        "checksDue": "19:40",
+        "tpDue": "19:55",
+        "matchStart": "20:00",
+        "matchFinish": "20:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": null
+    },
+    {
+      "id": 163,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T20:15:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "OnlyFleets.",
+      "blue": "Slide On Contact",
+      "winner": null,
+      "times": {
+        "convoStart": "19:15",
+        "bansStart": "19:25",
+        "checksDue": "19:55",
+        "tpDue": "20:10",
+        "matchStart": "20:15",
+        "matchFinish": "20:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-3",
+      "blueRecord": "2-3",
+      "isFloat": false,
+      "bucket": "2-3",
+      "loser": null
+    },
+    {
+      "id": 164,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T20:30:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "DarkSide.",
+      "blue": "Winner of Match 141",
+      "winner": null,
+      "times": {
+        "convoStart": "19:30",
+        "bansStart": "19:40",
+        "checksDue": "20:10",
+        "tpDue": "20:25",
+        "matchStart": "20:30",
+        "matchFinish": "20:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-3",
+      "blueRecord": "0-0",
+      "isFloat": true,
+      "bucket": "2-3",
+      "loser": null
+    },
+    {
+      "id": 165,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T20:45:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Sons of Bane",
+      "blue": "Winner of Match 143",
+      "winner": null,
+      "times": {
+        "convoStart": "19:45",
+        "bansStart": "19:55",
+        "checksDue": "20:25",
+        "tpDue": "20:40",
+        "matchStart": "20:45",
+        "matchFinish": "20:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-3",
+      "blueRecord": "0-0",
+      "isFloat": true,
+      "bucket": "2-3",
+      "loser": null
+    },
+    {
+      "id": 166,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T21:00:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Seker Matar",
+      "blue": "D-sync.",
+      "winner": null,
+      "times": {
+        "convoStart": "20:00",
+        "bansStart": "20:10",
+        "checksDue": "20:40",
+        "tpDue": "20:55",
+        "matchStart": "21:00",
+        "matchFinish": "21:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-3",
+      "blueRecord": "2-3",
+      "isFloat": false,
+      "bucket": "2-3",
+      "loser": null
+    },
+    {
+      "id": 167,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T21:15:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Seriously Suspicious",
+      "blue": "Winner of Match 139",
+      "winner": null,
+      "times": {
+        "convoStart": "20:15",
+        "bansStart": "20:25",
+        "checksDue": "20:55",
+        "tpDue": "21:10",
+        "matchStart": "21:15",
+        "matchFinish": "21:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-3",
+      "blueRecord": "0-0",
+      "isFloat": true,
+      "bucket": "2-3",
+      "loser": null
+    },
+    {
+      "id": 168,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T21:30:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Winner of Match 138",
+      "blue": "Winner of Match 137",
+      "winner": null,
+      "times": {
+        "convoStart": "20:30",
+        "bansStart": "20:40",
+        "checksDue": "21:10",
+        "tpDue": "21:25",
+        "matchStart": "21:30",
+        "matchFinish": "21:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": null
+    },
+    {
+      "id": 169,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T21:45:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Exodus.",
+      "blue": "Loser of Match 137",
+      "winner": null,
+      "times": {
+        "convoStart": "20:45",
+        "bansStart": "20:55",
+        "checksDue": "21:25",
+        "tpDue": "21:40",
+        "matchStart": "21:45",
+        "matchFinish": "21:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "2-3",
+      "blueRecord": "0-0",
+      "isFloat": true,
+      "bucket": "2-3",
+      "loser": null
+    },
+    {
+      "id": 170,
+      "weekend": 3,
+      "day": 5,
+      "date": "2026-09-12",
+      "startsAt": "2026-09-12T22:00:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Loser of Match 142",
+      "blue": "Loser of Match 138",
+      "winner": null,
+      "times": {
+        "convoStart": "21:00",
+        "bansStart": "21:10",
+        "checksDue": "21:40",
+        "tpDue": "21:55",
+        "matchStart": "22:00",
+        "matchFinish": "22:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": null
+    },
+    {
+      "id": 171,
+      "weekend": 3,
+      "day": 6,
+      "date": "2026-09-13",
+      "startsAt": "2026-09-13T13:30:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Loser of Match 143",
+      "blue": "Winner of Match 145",
+      "winner": null,
+      "times": {
+        "convoStart": "12:30",
+        "bansStart": "12:40",
+        "checksDue": "13:10",
+        "tpDue": "13:25",
+        "matchStart": "13:30",
+        "matchFinish": "13:40"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": null
+    },
+    {
+      "id": 172,
+      "weekend": 3,
+      "day": 6,
+      "date": "2026-09-13",
+      "startsAt": "2026-09-13T13:45:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Winner of Match 144",
+      "blue": "Loser of Match 140",
+      "winner": null,
+      "times": {
+        "convoStart": "12:45",
+        "bansStart": "12:55",
+        "checksDue": "13:25",
+        "tpDue": "13:40",
+        "matchStart": "13:45",
+        "matchFinish": "13:55"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": null
+    },
+    {
+      "id": 173,
+      "weekend": 3,
+      "day": 6,
+      "date": "2026-09-13",
+      "startsAt": "2026-09-13T14:00:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Loser of Match 139",
+      "blue": "Loser of Match 141",
+      "winner": null,
+      "times": {
+        "convoStart": "13:00",
+        "bansStart": "13:10",
+        "checksDue": "13:40",
+        "tpDue": "13:55",
+        "matchStart": "14:00",
+        "matchFinish": "14:10"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": null
+    },
+    {
+      "id": 174,
+      "weekend": 3,
+      "day": 6,
+      "date": "2026-09-13",
+      "startsAt": "2026-09-13T14:15:00.000Z",
+      "round": 6,
+      "sheet": "ATXXII Prelims Weekend 3",
+      "red": "Loser of Match 144",
+      "blue": "Loser of Match 145",
+      "winner": null,
+      "times": {
+        "convoStart": "13:15",
+        "bansStart": "13:25",
+        "checksDue": "13:55",
+        "tpDue": "14:10",
+        "matchStart": "14:15",
+        "matchFinish": "14:25"
+      },
+      "lineups": null,
+      "bans": null,
+      "points": null,
+      "survivors": null,
+      "redRecord": "0-0",
+      "blueRecord": "0-0",
+      "isFloat": false,
+      "bucket": "0-0",
+      "loser": null
     }
   ],
   "bracket": [
@@ -4477,6 +5319,66 @@
           ]
         }
       ]
+    },
+    {
+      "round": 6,
+      "matchCount": 29,
+      "buckets": [
+        {
+          "record": "5-0",
+          "matchIds": [
+            146
+          ]
+        },
+        {
+          "record": "4-1",
+          "matchIds": [
+            147,
+            148,
+            149,
+            150,
+            151
+          ]
+        },
+        {
+          "record": "3-2",
+          "matchIds": [
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160
+          ]
+        },
+        {
+          "record": "2-3",
+          "matchIds": [
+            161,
+            163,
+            164,
+            165,
+            166,
+            167,
+            169
+          ]
+        },
+        {
+          "record": "0-0",
+          "matchIds": [
+            162,
+            168,
+            170,
+            171,
+            172,
+            173,
+            174
+          ]
+        }
+      ]
     }
   ],
   "standings": [
@@ -4524,6 +5426,14 @@
           "side": "blue",
           "record": "4-0",
           "result": "win"
+        },
+        {
+          "matchId": 146,
+          "round": 6,
+          "opponent": "Paper Numbers",
+          "side": "blue",
+          "record": "5-0",
+          "result": "pending"
         }
       ]
     },
@@ -4571,6 +5481,14 @@
           "side": "blue",
           "record": "4-0",
           "result": "win"
+        },
+        {
+          "matchId": 146,
+          "round": 6,
+          "opponent": "Dracarys.",
+          "side": "red",
+          "record": "5-0",
+          "result": "pending"
         }
       ]
     },
@@ -4618,6 +5536,14 @@
           "side": "blue",
           "record": "3-1",
           "result": "win"
+        },
+        {
+          "matchId": 150,
+          "round": 6,
+          "opponent": "Rusty Hyenas Clan",
+          "side": "red",
+          "record": "4-1",
+          "result": "pending"
         }
       ]
     },
@@ -4665,6 +5591,14 @@
           "side": "red",
           "record": "3-1",
           "result": "win"
+        },
+        {
+          "matchId": 151,
+          "round": 6,
+          "opponent": "Honkai Star Rail.",
+          "side": "red",
+          "record": "4-1",
+          "result": "pending"
         }
       ]
     },
@@ -4712,6 +5646,14 @@
           "side": "blue",
           "record": "3-1",
           "result": "win"
+        },
+        {
+          "matchId": 149,
+          "round": 6,
+          "opponent": "Ragequit Cancel Sub",
+          "side": "blue",
+          "record": "4-1",
+          "result": "pending"
         }
       ]
     },
@@ -4759,6 +5701,14 @@
           "side": "blue",
           "record": "3-1",
           "result": "win"
+        },
+        {
+          "matchId": 148,
+          "round": 6,
+          "opponent": "Psychokids.",
+          "side": "blue",
+          "record": "4-1",
+          "result": "pending"
         }
       ]
     },
@@ -4806,6 +5756,14 @@
           "side": "red",
           "record": "4-0",
           "result": "loss"
+        },
+        {
+          "matchId": 148,
+          "round": 6,
+          "opponent": "Platinum Sensitivity.",
+          "side": "red",
+          "record": "4-1",
+          "result": "pending"
         }
       ]
     },
@@ -4853,6 +5811,14 @@
           "side": "red",
           "record": "3-1",
           "result": "win"
+        },
+        {
+          "matchId": 149,
+          "round": 6,
+          "opponent": "Neon Nightmares",
+          "side": "red",
+          "record": "4-1",
+          "result": "pending"
         }
       ]
     },
@@ -4900,6 +5866,14 @@
           "side": "red",
           "record": "4-0",
           "result": "loss"
+        },
+        {
+          "matchId": 150,
+          "round": 6,
+          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+          "side": "blue",
+          "record": "4-1",
+          "result": "pending"
         }
       ]
     },
@@ -4947,6 +5921,14 @@
           "side": "blue",
           "record": "3-1",
           "result": "win"
+        },
+        {
+          "matchId": 147,
+          "round": 6,
+          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "blue",
+          "record": "4-1",
+          "result": "pending"
         }
       ]
     },
@@ -4994,6 +5976,14 @@
           "side": "blue",
           "record": "3-1",
           "result": "win"
+        },
+        {
+          "matchId": 147,
+          "round": 6,
+          "opponent": "Sedition.",
+          "side": "red",
+          "record": "4-1",
+          "result": "pending"
         }
       ]
     },
@@ -5041,6 +6031,14 @@
           "side": "blue",
           "record": "2-2",
           "result": "win"
+        },
+        {
+          "matchId": 155,
+          "round": 6,
+          "opponent": "Ivy League",
+          "side": "blue",
+          "record": "3-2",
+          "result": "pending"
         }
       ]
     },
@@ -5088,6 +6086,14 @@
           "side": "red",
           "record": "3-1",
           "result": "loss"
+        },
+        {
+          "matchId": 158,
+          "round": 6,
+          "opponent": "Rote Kapelle",
+          "side": "red",
+          "record": "3-2",
+          "result": "pending"
         }
       ]
     },
@@ -5135,6 +6141,14 @@
           "side": "red",
           "record": "3-1",
           "result": "loss"
+        },
+        {
+          "matchId": 153,
+          "round": 6,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "red",
+          "record": "3-2",
+          "result": "pending"
         }
       ]
     },
@@ -5182,6 +6196,14 @@
           "side": "red",
           "record": "2-2",
           "result": "win"
+        },
+        {
+          "matchId": 157,
+          "round": 6,
+          "opponent": "The Excommunicati",
+          "side": "blue",
+          "record": "3-2",
+          "result": "pending"
         }
       ]
     },
@@ -5229,6 +6251,14 @@
           "side": "red",
           "record": "3-1",
           "result": "loss"
+        },
+        {
+          "matchId": 151,
+          "round": 6,
+          "opponent": "Deteriorated",
+          "side": "blue",
+          "record": "3-2",
+          "result": "pending"
         }
       ]
     },
@@ -5276,6 +6306,14 @@
           "side": "red",
           "record": "3-1",
           "result": "loss"
+        },
+        {
+          "matchId": 154,
+          "round": 6,
+          "opponent": "Punishing Gray Raven",
+          "side": "red",
+          "record": "3-2",
+          "result": "pending"
         }
       ]
     },
@@ -5323,6 +6361,14 @@
           "side": "blue",
           "record": "2-2",
           "result": "win"
+        },
+        {
+          "matchId": 155,
+          "round": 6,
+          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
+          "side": "red",
+          "record": "3-2",
+          "result": "pending"
         }
       ]
     },
@@ -5370,6 +6416,14 @@
           "side": "blue",
           "record": "3-1",
           "result": "loss"
+        },
+        {
+          "matchId": 156,
+          "round": 6,
+          "opponent": "Space Violence.",
+          "side": "blue",
+          "record": "3-2",
+          "result": "pending"
         }
       ]
     },
@@ -5417,6 +6471,14 @@
           "side": "blue",
           "record": "2-2",
           "result": "win"
+        },
+        {
+          "matchId": 159,
+          "round": 6,
+          "opponent": "ZERG REBORN",
+          "side": "red",
+          "record": "3-2",
+          "result": "pending"
         }
       ]
     },
@@ -5464,6 +6526,14 @@
           "side": "red",
           "record": "2-2",
           "result": "win"
+        },
+        {
+          "matchId": 153,
+          "round": 6,
+          "opponent": "Bright Side of Death",
+          "side": "blue",
+          "record": "3-2",
+          "result": "pending"
         }
       ]
     },
@@ -5511,6 +6581,14 @@
           "side": "red",
           "record": "2-2",
           "result": "win"
+        },
+        {
+          "matchId": 154,
+          "round": 6,
+          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
+          "side": "blue",
+          "record": "3-2",
+          "result": "pending"
         }
       ]
     },
@@ -5558,6 +6636,14 @@
           "side": "red",
           "record": "3-1",
           "result": "loss"
+        },
+        {
+          "matchId": 158,
+          "round": 6,
+          "opponent": "Arctic Light",
+          "side": "blue",
+          "record": "3-2",
+          "result": "pending"
         }
       ]
     },
@@ -5605,6 +6691,14 @@
           "side": "blue",
           "record": "2-2",
           "result": "win"
+        },
+        {
+          "matchId": 156,
+          "round": 6,
+          "opponent": "Meta Reloaded",
+          "side": "red",
+          "record": "3-2",
+          "result": "pending"
         }
       ]
     },
@@ -5652,6 +6746,14 @@
           "side": "red",
           "record": "2-2",
           "result": "win"
+        },
+        {
+          "matchId": 152,
+          "round": 6,
+          "opponent": "The Tuskers Co.",
+          "side": "blue",
+          "record": "3-2",
+          "result": "pending"
         }
       ]
     },
@@ -5699,6 +6801,14 @@
           "side": "red",
           "record": "2-2",
           "result": "win"
+        },
+        {
+          "matchId": 157,
+          "round": 6,
+          "opponent": "Fraternity.",
+          "side": "red",
+          "record": "3-2",
+          "result": "pending"
         }
       ]
     },
@@ -5746,6 +6856,14 @@
           "side": "red",
           "record": "2-2",
           "result": "win"
+        },
+        {
+          "matchId": 152,
+          "round": 6,
+          "opponent": "Test Alliance Please Ignore",
+          "side": "red",
+          "record": "3-2",
+          "result": "pending"
         }
       ]
     },
@@ -5793,6 +6911,14 @@
           "side": "blue",
           "record": "2-2",
           "result": "win"
+        },
+        {
+          "matchId": 160,
+          "round": 6,
+          "opponent": "Psyno Theory",
+          "side": "red",
+          "record": "3-2",
+          "result": "pending"
         }
       ]
     },
@@ -5840,6 +6966,14 @@
           "side": "blue",
           "record": "3-1",
           "result": "loss"
+        },
+        {
+          "matchId": 159,
+          "round": 6,
+          "opponent": "Of Essence",
+          "side": "blue",
+          "record": "3-2",
+          "result": "pending"
         }
       ]
     },
@@ -5887,6 +7021,14 @@
           "side": "red",
           "record": "2-2",
           "result": "loss"
+        },
+        {
+          "matchId": 166,
+          "round": 6,
+          "opponent": "Seker Matar",
+          "side": "blue",
+          "record": "2-3",
+          "result": "pending"
         }
       ]
     },
@@ -5934,6 +7076,14 @@
           "side": "red",
           "record": "2-2",
           "result": "loss"
+        },
+        {
+          "matchId": 164,
+          "round": 6,
+          "opponent": "Winner of Match 141",
+          "side": "red",
+          "record": "2-3",
+          "result": "pending"
         }
       ]
     },
@@ -5981,6 +7131,14 @@
           "side": "blue",
           "record": "2-2",
           "result": "loss"
+        },
+        {
+          "matchId": 169,
+          "round": 6,
+          "opponent": "Loser of Match 137",
+          "side": "red",
+          "record": "2-3",
+          "result": "pending"
         }
       ]
     },
@@ -6028,6 +7186,14 @@
           "side": "blue",
           "record": "2-2",
           "result": "loss"
+        },
+        {
+          "matchId": 161,
+          "round": 6,
+          "opponent": "Shadow Cartel",
+          "side": "red",
+          "record": "2-3",
+          "result": "pending"
         }
       ]
     },
@@ -6075,6 +7241,14 @@
           "side": "blue",
           "record": "2-2",
           "result": "loss"
+        },
+        {
+          "matchId": 163,
+          "round": 6,
+          "opponent": "Slide On Contact",
+          "side": "red",
+          "record": "2-3",
+          "result": "pending"
         }
       ]
     },
@@ -6122,6 +7296,14 @@
           "side": "red",
           "record": "2-2",
           "result": "loss"
+        },
+        {
+          "matchId": 160,
+          "round": 6,
+          "opponent": "WE FORM V0LTA",
+          "side": "blue",
+          "record": "2-3",
+          "result": "pending"
         }
       ]
     },
@@ -6169,6 +7351,14 @@
           "side": "red",
           "record": "2-2",
           "result": "loss"
+        },
+        {
+          "matchId": 166,
+          "round": 6,
+          "opponent": "D-sync.",
+          "side": "red",
+          "record": "2-3",
+          "result": "pending"
         }
       ]
     },
@@ -6216,6 +7406,14 @@
           "side": "blue",
           "record": "2-2",
           "result": "loss"
+        },
+        {
+          "matchId": 167,
+          "round": 6,
+          "opponent": "Winner of Match 139",
+          "side": "red",
+          "record": "2-3",
+          "result": "pending"
         }
       ]
     },
@@ -6263,6 +7461,14 @@
           "side": "red",
           "record": "2-2",
           "result": "loss"
+        },
+        {
+          "matchId": 161,
+          "round": 6,
+          "opponent": "NPSI.Rocks",
+          "side": "blue",
+          "record": "2-3",
+          "result": "pending"
         }
       ]
     },
@@ -6310,6 +7516,14 @@
           "side": "blue",
           "record": "2-2",
           "result": "loss"
+        },
+        {
+          "matchId": 163,
+          "round": 6,
+          "opponent": "OnlyFleets.",
+          "side": "blue",
+          "record": "2-3",
+          "result": "pending"
         }
       ]
     },
@@ -6357,6 +7571,14 @@
           "side": "blue",
           "record": "2-2",
           "result": "loss"
+        },
+        {
+          "matchId": 165,
+          "round": 6,
+          "opponent": "Winner of Match 143",
+          "side": "red",
+          "record": "2-3",
+          "result": "pending"
         }
       ]
     },
@@ -7014,6 +8236,276 @@
           "opponent": "L A Z E R H A W K S",
           "side": "red",
           "record": "1-3",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Loser of Match 137",
+      "wins": 0,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 169,
+          "round": 6,
+          "opponent": "Exodus.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Loser of Match 138",
+      "wins": 0,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 170,
+          "round": 6,
+          "opponent": "Loser of Match 142",
+          "side": "blue",
+          "record": "0-0",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Loser of Match 139",
+      "wins": 0,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 173,
+          "round": 6,
+          "opponent": "Loser of Match 141",
+          "side": "red",
+          "record": "0-0",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Loser of Match 140",
+      "wins": 0,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 172,
+          "round": 6,
+          "opponent": "Winner of Match 144",
+          "side": "blue",
+          "record": "0-0",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Loser of Match 141",
+      "wins": 0,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 173,
+          "round": 6,
+          "opponent": "Loser of Match 139",
+          "side": "blue",
+          "record": "0-0",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Loser of Match 142",
+      "wins": 0,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 170,
+          "round": 6,
+          "opponent": "Loser of Match 138",
+          "side": "red",
+          "record": "0-0",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Loser of Match 143",
+      "wins": 0,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 171,
+          "round": 6,
+          "opponent": "Winner of Match 145",
+          "side": "red",
+          "record": "0-0",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Loser of Match 144",
+      "wins": 0,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 174,
+          "round": 6,
+          "opponent": "Loser of Match 145",
+          "side": "red",
+          "record": "0-0",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Loser of Match 145",
+      "wins": 0,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 174,
+          "round": 6,
+          "opponent": "Loser of Match 144",
+          "side": "blue",
+          "record": "0-0",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Winner of Match 137",
+      "wins": 0,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 168,
+          "round": 6,
+          "opponent": "Winner of Match 138",
+          "side": "blue",
+          "record": "0-0",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Winner of Match 138",
+      "wins": 0,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 168,
+          "round": 6,
+          "opponent": "Winner of Match 137",
+          "side": "red",
+          "record": "0-0",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Winner of Match 139",
+      "wins": 0,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 167,
+          "round": 6,
+          "opponent": "Seriously Suspicious",
+          "side": "blue",
+          "record": "0-0",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Winner of Match 140",
+      "wins": 0,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 162,
+          "round": 6,
+          "opponent": "Winner of Match 142",
+          "side": "red",
+          "record": "0-0",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Winner of Match 141",
+      "wins": 0,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 164,
+          "round": 6,
+          "opponent": "DarkSide.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Winner of Match 142",
+      "wins": 0,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 162,
+          "round": 6,
+          "opponent": "Winner of Match 140",
+          "side": "blue",
+          "record": "0-0",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Winner of Match 143",
+      "wins": 0,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 165,
+          "round": 6,
+          "opponent": "Sons of Bane",
+          "side": "blue",
+          "record": "0-0",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Winner of Match 144",
+      "wins": 0,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 172,
+          "round": 6,
+          "opponent": "Loser of Match 140",
+          "side": "red",
+          "record": "0-0",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Winner of Match 145",
+      "wins": 0,
+      "losses": 0,
+      "path": [
+        {
+          "matchId": 171,
+          "round": 6,
+          "opponent": "Loser of Match 143",
+          "side": "blue",
+          "record": "0-0",
           "result": "pending"
         }
       ]

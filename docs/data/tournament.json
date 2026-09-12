@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T20:47:36.598Z",
+  "updatedAt": "2026-09-12T21:05:33.055Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -17,9 +17,9 @@
     ],
     "teamCount": 58,
     "matchCount": 174,
-    "decidedCount": 163,
+    "decidedCount": 165,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T20:45:00.000Z"
+    "nextMatchAt": "2026-09-12T21:15:00.000Z"
   },
   "matches": [
     {
@@ -4759,7 +4759,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "DarkSide.",
       "blue": "Vapor-Lock",
-      "winner": null,
+      "winner": "DarkSide.",
       "times": {
         "convoStart": "19:45",
         "bansStart": "19:55",
@@ -4776,7 +4776,7 @@
       "blueRecord": "2-3",
       "isFloat": false,
       "bucket": "2-3",
-      "loser": null
+      "loser": "Vapor-Lock"
     },
     {
       "id": 165,
@@ -4788,7 +4788,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Sons of Bane",
       "blue": "L A Z E R H A W K S",
-      "winner": null,
+      "winner": "L A Z E R H A W K S",
       "times": {
         "convoStart": "20:00",
         "bansStart": "20:10",
@@ -4805,7 +4805,7 @@
       "blueRecord": "2-3",
       "isFloat": false,
       "bucket": "2-3",
-      "loser": null
+      "loser": "Sons of Bane"
     },
     {
       "id": 166,
@@ -6598,6 +6598,61 @@
       ]
     },
     {
+      "name": "DarkSide.",
+      "wins": 3,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 2,
+          "round": 1,
+          "opponent": "Platinum Sensitivity.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 45,
+          "round": 2,
+          "opponent": "WE FORM V0LTA",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 85,
+          "round": 3,
+          "opponent": "The Obsidian Front - Reborn",
+          "side": "red",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 110,
+          "round": 4,
+          "opponent": "L A Z E R H A W K S",
+          "side": "blue",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 133,
+          "round": 5,
+          "opponent": "Ivy League",
+          "side": "red",
+          "record": "2-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 164,
+          "round": 6,
+          "opponent": "Vapor-Lock",
+          "side": "red",
+          "record": "2-3",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Ivy League",
       "wins": 3,
       "losses": 3,
@@ -6649,6 +6704,61 @@
           "side": "red",
           "record": "3-2",
           "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "L A Z E R H A W K S",
+      "wins": 3,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 26,
+          "round": 1,
+          "opponent": "Exodus.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 57,
+          "round": 2,
+          "opponent": "NO NEED LOOSE FACE",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 84,
+          "round": 3,
+          "opponent": "We Forsakened Few",
+          "side": "blue",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 110,
+          "round": 4,
+          "opponent": "DarkSide.",
+          "side": "red",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 143,
+          "round": 5,
+          "opponent": "White Squall.",
+          "side": "blue",
+          "record": "1-3",
+          "result": "win"
+        },
+        {
+          "matchId": 165,
+          "round": 6,
+          "opponent": "Sons of Bane",
+          "side": "blue",
+          "record": "2-3",
+          "result": "win"
         }
       ]
     },
@@ -7258,61 +7368,6 @@
       ]
     },
     {
-      "name": "DarkSide.",
-      "wins": 2,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 2,
-          "round": 1,
-          "opponent": "Platinum Sensitivity.",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 45,
-          "round": 2,
-          "opponent": "WE FORM V0LTA",
-          "side": "red",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 85,
-          "round": 3,
-          "opponent": "The Obsidian Front - Reborn",
-          "side": "red",
-          "record": "0-2",
-          "result": "win"
-        },
-        {
-          "matchId": 110,
-          "round": 4,
-          "opponent": "L A Z E R H A W K S",
-          "side": "blue",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 133,
-          "round": 5,
-          "opponent": "Ivy League",
-          "side": "red",
-          "record": "2-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 164,
-          "round": 6,
-          "opponent": "Vapor-Lock",
-          "side": "red",
-          "record": "2-3",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Exodus.",
       "wins": 2,
       "losses": 3,
@@ -7362,61 +7417,6 @@
           "round": 6,
           "opponent": "Minmatar Fleet Alliance",
           "side": "red",
-          "record": "2-3",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "L A Z E R H A W K S",
-      "wins": 2,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 26,
-          "round": 1,
-          "opponent": "Exodus.",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 57,
-          "round": 2,
-          "opponent": "NO NEED LOOSE FACE",
-          "side": "red",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 84,
-          "round": 3,
-          "opponent": "We Forsakened Few",
-          "side": "blue",
-          "record": "0-2",
-          "result": "win"
-        },
-        {
-          "matchId": 110,
-          "round": 4,
-          "opponent": "DarkSide.",
-          "side": "red",
-          "record": "1-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 143,
-          "round": 5,
-          "opponent": "White Squall.",
-          "side": "blue",
-          "record": "1-3",
-          "result": "win"
-        },
-        {
-          "matchId": 165,
-          "round": 6,
-          "opponent": "Sons of Bane",
-          "side": "blue",
           "record": "2-3",
           "result": "pending"
         }
@@ -7588,61 +7588,6 @@
       ]
     },
     {
-      "name": "Sons of Bane",
-      "wins": 2,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 9,
-          "round": 1,
-          "opponent": "Ragequit Cancel Sub",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 48,
-          "round": 2,
-          "opponent": "Critical. Mass.",
-          "side": "blue",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 77,
-          "round": 3,
-          "opponent": "Rote Kapelle",
-          "side": "red",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 112,
-          "round": 4,
-          "opponent": "Odin's Call",
-          "side": "blue",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 126,
-          "round": 5,
-          "opponent": "PSYCHOTIC OVERHEAT",
-          "side": "blue",
-          "record": "2-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 165,
-          "round": 6,
-          "opponent": "L A Z E R H A W K S",
-          "side": "red",
-          "record": "2-3",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "The Initiative.",
       "wins": 2,
       "losses": 3,
@@ -7691,61 +7636,6 @@
           "matchId": 167,
           "round": 6,
           "opponent": "Seriously Suspicious",
-          "side": "blue",
-          "record": "2-3",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Vapor-Lock",
-      "wins": 2,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 5,
-          "round": 1,
-          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
-          "side": "blue",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 46,
-          "round": 2,
-          "opponent": "Seriously Suspicious",
-          "side": "blue",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 81,
-          "round": 3,
-          "opponent": "Out of the Blue.",
-          "side": "blue",
-          "record": "0-2",
-          "result": "win"
-        },
-        {
-          "matchId": 105,
-          "round": 4,
-          "opponent": "Of Essence",
-          "side": "blue",
-          "record": "1-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 141,
-          "round": 5,
-          "opponent": "Kitchen Sinkhole",
-          "side": "blue",
-          "record": "1-3",
-          "result": "win"
-        },
-        {
-          "matchId": 164,
-          "round": 6,
-          "opponent": "DarkSide.",
           "side": "blue",
           "record": "2-3",
           "result": "pending"
@@ -7911,6 +7801,116 @@
           "matchId": 163,
           "round": 6,
           "opponent": "OnlyFleets.",
+          "side": "blue",
+          "record": "2-3",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Sons of Bane",
+      "wins": 2,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 9,
+          "round": 1,
+          "opponent": "Ragequit Cancel Sub",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 48,
+          "round": 2,
+          "opponent": "Critical. Mass.",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 77,
+          "round": 3,
+          "opponent": "Rote Kapelle",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 112,
+          "round": 4,
+          "opponent": "Odin's Call",
+          "side": "blue",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 126,
+          "round": 5,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "blue",
+          "record": "2-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 165,
+          "round": 6,
+          "opponent": "L A Z E R H A W K S",
+          "side": "red",
+          "record": "2-3",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Vapor-Lock",
+      "wins": 2,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 5,
+          "round": 1,
+          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 46,
+          "round": 2,
+          "opponent": "Seriously Suspicious",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 81,
+          "round": 3,
+          "opponent": "Out of the Blue.",
+          "side": "blue",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 105,
+          "round": 4,
+          "opponent": "Of Essence",
+          "side": "blue",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 141,
+          "round": 5,
+          "opponent": "Kitchen Sinkhole",
+          "side": "blue",
+          "record": "1-3",
+          "result": "win"
+        },
+        {
+          "matchId": 164,
+          "round": 6,
+          "opponent": "DarkSide.",
           "side": "blue",
           "record": "2-3",
           "result": "loss"

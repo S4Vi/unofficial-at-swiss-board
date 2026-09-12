@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T19:33:01.104Z",
+  "updatedAt": "2026-09-12T19:46:53.579Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -17,9 +17,9 @@
     ],
     "teamCount": 58,
     "matchCount": 174,
-    "decidedCount": 158,
+    "decidedCount": 159,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T19:30:00.000Z"
+    "nextMatchAt": "2026-09-12T19:45:00.000Z"
   },
   "matches": [
     {
@@ -4614,7 +4614,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Of Essence",
       "blue": "ZERG REBORN",
-      "winner": null,
+      "winner": "Of Essence",
       "times": {
         "convoStart": "18:30",
         "bansStart": "18:40",
@@ -4631,7 +4631,7 @@
       "blueRecord": "3-2",
       "isFloat": false,
       "bucket": "3-2",
-      "loser": null
+      "loser": "ZERG REBORN"
     },
     {
       "id": 160,
@@ -6213,6 +6213,61 @@
       ]
     },
     {
+      "name": "Of Essence",
+      "wins": 4,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 21,
+          "round": 1,
+          "opponent": "The Obsidian Front - Reborn",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 40,
+          "round": 2,
+          "opponent": "Arctic Light",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 74,
+          "round": 3,
+          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+          "side": "blue",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 105,
+          "round": 4,
+          "opponent": "Vapor-Lock",
+          "side": "red",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 130,
+          "round": 5,
+          "opponent": "D-sync.",
+          "side": "blue",
+          "record": "2-2",
+          "result": "win"
+        },
+        {
+          "matchId": 159,
+          "round": 6,
+          "opponent": "ZERG REBORN",
+          "side": "red",
+          "record": "3-2",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Platinum Sensitivity.",
       "wins": 4,
       "losses": 2,
@@ -6433,61 +6488,6 @@
       ]
     },
     {
-      "name": "Of Essence",
-      "wins": 3,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 21,
-          "round": 1,
-          "opponent": "The Obsidian Front - Reborn",
-          "side": "red",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 40,
-          "round": 2,
-          "opponent": "Arctic Light",
-          "side": "red",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 74,
-          "round": 3,
-          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
-          "side": "blue",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 105,
-          "round": 4,
-          "opponent": "Vapor-Lock",
-          "side": "red",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 130,
-          "round": 5,
-          "opponent": "D-sync.",
-          "side": "blue",
-          "record": "2-2",
-          "result": "win"
-        },
-        {
-          "matchId": 159,
-          "round": 6,
-          "opponent": "ZERG REBORN",
-          "side": "red",
-          "record": "3-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "WE FORM V0LTA",
       "wins": 3,
       "losses": 2,
@@ -6537,61 +6537,6 @@
           "round": 6,
           "opponent": "Psyno Theory",
           "side": "red",
-          "record": "3-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "ZERG REBORN",
-      "wins": 3,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 17,
-          "round": 1,
-          "opponent": "Punishing Gray Raven",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 52,
-          "round": 2,
-          "opponent": "NPSI.Rocks",
-          "side": "blue",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 73,
-          "round": 3,
-          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
-          "side": "blue",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 94,
-          "round": 4,
-          "opponent": "Shadow Cartel",
-          "side": "blue",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 120,
-          "round": 5,
-          "opponent": "Ragequit Cancel Sub",
-          "side": "blue",
-          "record": "3-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 159,
-          "round": 6,
-          "opponent": "Of Essence",
-          "side": "blue",
           "record": "3-2",
           "result": "pending"
         }
@@ -6977,6 +6922,61 @@
           "round": 6,
           "opponent": "Fraternity.",
           "side": "red",
+          "record": "3-2",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "ZERG REBORN",
+      "wins": 3,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 17,
+          "round": 1,
+          "opponent": "Punishing Gray Raven",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 52,
+          "round": 2,
+          "opponent": "NPSI.Rocks",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 73,
+          "round": 3,
+          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 94,
+          "round": 4,
+          "opponent": "Shadow Cartel",
+          "side": "blue",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 120,
+          "round": 5,
+          "opponent": "Ragequit Cancel Sub",
+          "side": "blue",
+          "record": "3-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 159,
+          "round": 6,
+          "opponent": "Of Essence",
+          "side": "blue",
           "record": "3-2",
           "result": "loss"
         }

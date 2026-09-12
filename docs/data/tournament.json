@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T18:34:35.828Z",
+  "updatedAt": "2026-09-12T18:46:47.438Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -17,9 +17,9 @@
     ],
     "teamCount": 58,
     "matchCount": 174,
-    "decidedCount": 154,
+    "decidedCount": 155,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T18:30:00.000Z"
+    "nextMatchAt": "2026-09-12T18:45:00.000Z"
   },
   "matches": [
     {
@@ -4498,7 +4498,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Ivy League",
       "blue": "34-yrs-old men get nagged by wives for playing EVE",
-      "winner": null,
+      "winner": "34-yrs-old men get nagged by wives for playing EVE",
       "times": {
         "convoStart": "17:30",
         "bansStart": "17:40",
@@ -4515,7 +4515,7 @@
       "blueRecord": "3-2",
       "isFloat": false,
       "bucket": "3-2",
-      "loser": null
+      "loser": "Ivy League"
     },
     {
       "id": 156,
@@ -5718,6 +5718,61 @@
       ]
     },
     {
+      "name": "34-yrs-old men get nagged by wives for playing EVE",
+      "wins": 4,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 15,
+          "round": 1,
+          "opponent": "We Forsakened Few",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 37,
+          "round": 2,
+          "opponent": "Rusty Hyenas Clan",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 73,
+          "round": 3,
+          "opponent": "ZERG REBORN",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 104,
+          "round": 4,
+          "opponent": "The Initiative.",
+          "side": "red",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 132,
+          "round": 5,
+          "opponent": "Seker Matar",
+          "side": "blue",
+          "record": "2-2",
+          "result": "win"
+        },
+        {
+          "matchId": 155,
+          "round": 6,
+          "opponent": "Ivy League",
+          "side": "blue",
+          "record": "3-2",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Bright Side of Death",
       "wins": 4,
       "losses": 2,
@@ -6213,61 +6268,6 @@
       ]
     },
     {
-      "name": "34-yrs-old men get nagged by wives for playing EVE",
-      "wins": 3,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 15,
-          "round": 1,
-          "opponent": "We Forsakened Few",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 37,
-          "round": 2,
-          "opponent": "Rusty Hyenas Clan",
-          "side": "red",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 73,
-          "round": 3,
-          "opponent": "ZERG REBORN",
-          "side": "red",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 104,
-          "round": 4,
-          "opponent": "The Initiative.",
-          "side": "red",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 132,
-          "round": 5,
-          "opponent": "Seker Matar",
-          "side": "blue",
-          "record": "2-2",
-          "result": "win"
-        },
-        {
-          "matchId": 155,
-          "round": 6,
-          "opponent": "Ivy League",
-          "side": "blue",
-          "record": "3-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Arctic Light",
       "wins": 3,
       "losses": 2,
@@ -6372,61 +6372,6 @@
           "round": 6,
           "opponent": "The Excommunicati",
           "side": "blue",
-          "record": "3-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Ivy League",
-      "wins": 3,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 13,
-          "round": 1,
-          "opponent": "Psyno Theory",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 36,
-          "round": 2,
-          "opponent": "Sigma Grindset",
-          "side": "red",
-          "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 62,
-          "round": 3,
-          "opponent": "Psychokids.",
-          "side": "red",
-          "record": "2-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 98,
-          "round": 4,
-          "opponent": "Bright Side of Death",
-          "side": "blue",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 133,
-          "round": 5,
-          "opponent": "DarkSide.",
-          "side": "blue",
-          "record": "2-2",
-          "result": "win"
-        },
-        {
-          "matchId": 155,
-          "round": 6,
-          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
-          "side": "red",
           "record": "3-2",
           "result": "pending"
         }
@@ -6814,6 +6759,61 @@
           "side": "blue",
           "record": "3-2",
           "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Ivy League",
+      "wins": 3,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 13,
+          "round": 1,
+          "opponent": "Psyno Theory",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 36,
+          "round": 2,
+          "opponent": "Sigma Grindset",
+          "side": "red",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 62,
+          "round": 3,
+          "opponent": "Psychokids.",
+          "side": "red",
+          "record": "2-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 98,
+          "round": 4,
+          "opponent": "Bright Side of Death",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 133,
+          "round": 5,
+          "opponent": "DarkSide.",
+          "side": "blue",
+          "record": "2-2",
+          "result": "win"
+        },
+        {
+          "matchId": 155,
+          "round": 6,
+          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
+          "side": "red",
+          "record": "3-2",
+          "result": "loss"
         }
       ]
     },

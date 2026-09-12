@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T15:32:39.626Z",
+  "updatedAt": "2026-09-12T15:47:02.527Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -15,11 +15,11 @@
       5,
       6
     ],
-    "teamCount": 60,
+    "teamCount": 58,
     "matchCount": 174,
-    "decidedCount": 144,
+    "decidedCount": 145,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T15:30:00.000Z"
+    "nextMatchAt": "2026-09-12T15:45:00.000Z"
   },
   "matches": [
     {
@@ -4208,7 +4208,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "The Skeleton Crew",
       "blue": "Solyaris Chtonium",
-      "winner": null,
+      "winner": "Solyaris Chtonium",
       "times": {
         "convoStart": "14:30",
         "bansStart": "14:40",
@@ -4225,7 +4225,7 @@
       "blueRecord": "0-4",
       "isFloat": false,
       "bucket": "0-4",
-      "loser": null
+      "loser": "The Skeleton Crew"
     },
     {
       "id": 146,
@@ -4961,7 +4961,7 @@
       "round": 6,
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "White Squall.",
-      "blue": "Winner of Match 145",
+      "blue": "Solyaris Chtonium",
       "winner": null,
       "times": {
         "convoStart": "12:30",
@@ -4976,8 +4976,8 @@
       "points": null,
       "survivors": null,
       "redRecord": "1-4",
-      "blueRecord": "0-0",
-      "isFloat": true,
+      "blueRecord": "1-4",
+      "isFloat": false,
       "bucket": "1-4",
       "loser": null
     },
@@ -5048,7 +5048,7 @@
       "round": 6,
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Critical. Mass.",
-      "blue": "Loser of Match 145",
+      "blue": "The Skeleton Crew",
       "winner": null,
       "times": {
         "convoStart": "13:15",
@@ -5063,8 +5063,8 @@
       "points": null,
       "survivors": null,
       "redRecord": "0-5",
-      "blueRecord": "0-0",
-      "isFloat": true,
+      "blueRecord": "0-5",
+      "isFloat": false,
       "bucket": "0-5",
       "loser": null
     }
@@ -8248,6 +8248,61 @@
       ]
     },
     {
+      "name": "Solyaris Chtonium",
+      "wins": 1,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 11,
+          "round": 1,
+          "opponent": "The Initiative.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 49,
+          "round": 2,
+          "opponent": "Bright Side of Death",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 82,
+          "round": 3,
+          "opponent": "That Escalated Quickly.",
+          "side": "blue",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 116,
+          "round": 4,
+          "opponent": "We Forsakened Few",
+          "side": "red",
+          "record": "0-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 145,
+          "round": 5,
+          "opponent": "The Skeleton Crew",
+          "side": "blue",
+          "record": "0-4",
+          "result": "win"
+        },
+        {
+          "matchId": 171,
+          "round": 6,
+          "opponent": "White Squall.",
+          "side": "blue",
+          "record": "1-4",
+          "result": "pending"
+        }
+      ]
+    },
+    {
       "name": "That Escalated Quickly.",
       "wins": 1,
       "losses": 4,
@@ -8405,133 +8460,9 @@
         {
           "matchId": 171,
           "round": 6,
-          "opponent": "Winner of Match 145",
-          "side": "red",
-          "record": "1-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Loser of Match 145",
-      "wins": 0,
-      "losses": 0,
-      "path": [
-        {
-          "matchId": 174,
-          "round": 6,
-          "opponent": "Critical. Mass.",
-          "side": "blue",
-          "record": "0-0",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Winner of Match 145",
-      "wins": 0,
-      "losses": 0,
-      "path": [
-        {
-          "matchId": 171,
-          "round": 6,
-          "opponent": "White Squall.",
-          "side": "blue",
-          "record": "0-0",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Solyaris Chtonium",
-      "wins": 0,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 11,
-          "round": 1,
-          "opponent": "The Initiative.",
-          "side": "blue",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 49,
-          "round": 2,
-          "opponent": "Bright Side of Death",
-          "side": "blue",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 82,
-          "round": 3,
-          "opponent": "That Escalated Quickly.",
-          "side": "blue",
-          "record": "0-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 116,
-          "round": 4,
-          "opponent": "We Forsakened Few",
-          "side": "red",
-          "record": "0-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 145,
-          "round": 5,
-          "opponent": "The Skeleton Crew",
-          "side": "blue",
-          "record": "0-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "The Skeleton Crew",
-      "wins": 0,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 6,
-          "round": 1,
-          "opponent": "Brave Collective",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 47,
-          "round": 2,
-          "opponent": "Minmatar Fleet Alliance",
-          "side": "red",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 83,
-          "round": 3,
-          "opponent": "Kitchen Sinkhole",
-          "side": "blue",
-          "record": "0-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 114,
-          "round": 4,
-          "opponent": "The Obsidian Front - Reborn",
-          "side": "red",
-          "record": "0-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 145,
-          "round": 5,
           "opponent": "Solyaris Chtonium",
           "side": "red",
-          "record": "0-4",
+          "record": "1-4",
           "result": "pending"
         }
       ]
@@ -8584,8 +8515,63 @@
         {
           "matchId": 174,
           "round": 6,
-          "opponent": "Loser of Match 145",
+          "opponent": "The Skeleton Crew",
           "side": "red",
+          "record": "0-5",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "The Skeleton Crew",
+      "wins": 0,
+      "losses": 5,
+      "path": [
+        {
+          "matchId": 6,
+          "round": 1,
+          "opponent": "Brave Collective",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 47,
+          "round": 2,
+          "opponent": "Minmatar Fleet Alliance",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 83,
+          "round": 3,
+          "opponent": "Kitchen Sinkhole",
+          "side": "blue",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 114,
+          "round": 4,
+          "opponent": "The Obsidian Front - Reborn",
+          "side": "red",
+          "record": "0-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 145,
+          "round": 5,
+          "opponent": "Solyaris Chtonium",
+          "side": "red",
+          "record": "0-4",
+          "result": "loss"
+        },
+        {
+          "matchId": 174,
+          "round": 6,
+          "opponent": "Critical. Mass.",
+          "side": "blue",
           "record": "0-5",
           "result": "pending"
         }

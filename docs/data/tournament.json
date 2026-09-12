@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T13:46:57.862Z",
+  "updatedAt": "2026-09-12T14:04:55.210Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -15,11 +15,11 @@
       5,
       6
     ],
-    "teamCount": 74,
+    "teamCount": 72,
     "matchCount": 174,
-    "decidedCount": 137,
+    "decidedCount": 138,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T13:45:00.000Z"
+    "nextMatchAt": "2026-09-12T14:00:00.000Z"
   },
   "matches": [
     {
@@ -4005,7 +4005,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "The Obsidian Front - Reborn",
       "blue": "Sigma Grindset",
-      "winner": null,
+      "winner": "Sigma Grindset",
       "times": {
         "convoStart": "12:45",
         "bansStart": "12:55",
@@ -4022,7 +4022,7 @@
       "blueRecord": "1-3",
       "isFloat": false,
       "bucket": "1-3",
-      "loser": null
+      "loser": "The Obsidian Front - Reborn"
     },
     {
       "id": 139,
@@ -4873,7 +4873,7 @@
       "startsAt": "2026-09-12T21:30:00.000Z",
       "round": 6,
       "sheet": "ATXXII Prelims Weekend 3",
-      "red": "Winner of Match 138",
+      "red": "Sigma Grindset",
       "blue": "Brave Collective",
       "winner": null,
       "times": {
@@ -4888,9 +4888,9 @@
       "bans": null,
       "points": null,
       "survivors": null,
-      "redRecord": "0-0",
+      "redRecord": "2-3",
       "blueRecord": "2-3",
-      "isFloat": true,
+      "isFloat": false,
       "bucket": "2-3",
       "loser": null
     },
@@ -4932,7 +4932,7 @@
       "round": 6,
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Loser of Match 142",
-      "blue": "Loser of Match 138",
+      "blue": "The Obsidian Front - Reborn",
       "winner": null,
       "times": {
         "convoStart": "21:00",
@@ -4947,9 +4947,9 @@
       "points": null,
       "survivors": null,
       "redRecord": "0-0",
-      "blueRecord": "0-0",
-      "isFloat": false,
-      "bucket": "0-0",
+      "blueRecord": "1-4",
+      "isFloat": true,
+      "bucket": "1-4",
       "loser": null
     },
     {
@@ -5368,10 +5368,15 @@
           ]
         },
         {
+          "record": "1-4",
+          "matchIds": [
+            170
+          ]
+        },
+        {
           "record": "0-0",
           "matchIds": [
             162,
-            170,
             171,
             172,
             173,
@@ -7025,7 +7030,7 @@
         {
           "matchId": 168,
           "round": 6,
-          "opponent": "Winner of Match 138",
+          "opponent": "Sigma Grindset",
           "side": "blue",
           "record": "2-3",
           "result": "pending"
@@ -7528,6 +7533,61 @@
       ]
     },
     {
+      "name": "Sigma Grindset",
+      "wins": 2,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 14,
+          "round": 1,
+          "opponent": "D-sync.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 36,
+          "round": 2,
+          "opponent": "Ivy League",
+          "side": "blue",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 76,
+          "round": 3,
+          "opponent": "Shadow Cartel",
+          "side": "blue",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 109,
+          "round": 4,
+          "opponent": "Seker Matar",
+          "side": "red",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 138,
+          "round": 5,
+          "opponent": "The Obsidian Front - Reborn",
+          "side": "blue",
+          "record": "1-3",
+          "result": "win"
+        },
+        {
+          "matchId": 168,
+          "round": 6,
+          "opponent": "Brave Collective",
+          "side": "red",
+          "record": "2-3",
+          "result": "pending"
+        }
+      ]
+    },
+    {
       "name": "Slide On Contact",
       "wins": 2,
       "losses": 3,
@@ -7873,53 +7933,6 @@
       ]
     },
     {
-      "name": "Sigma Grindset",
-      "wins": 1,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 14,
-          "round": 1,
-          "opponent": "D-sync.",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 36,
-          "round": 2,
-          "opponent": "Ivy League",
-          "side": "blue",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 76,
-          "round": 3,
-          "opponent": "Shadow Cartel",
-          "side": "blue",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 109,
-          "round": 4,
-          "opponent": "Seker Matar",
-          "side": "red",
-          "record": "1-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 138,
-          "round": 5,
-          "opponent": "The Obsidian Front - Reborn",
-          "side": "blue",
-          "record": "1-3",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "That Escalated Quickly.",
       "wins": 1,
       "losses": 3,
@@ -8008,53 +8021,6 @@
           "round": 5,
           "opponent": "That Escalated Quickly.",
           "side": "blue",
-          "record": "1-3",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "The Obsidian Front - Reborn",
-      "wins": 1,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 21,
-          "round": 1,
-          "opponent": "Of Essence",
-          "side": "blue",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 54,
-          "round": 2,
-          "opponent": "Test Alliance Please Ignore",
-          "side": "blue",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 85,
-          "round": 3,
-          "opponent": "DarkSide.",
-          "side": "blue",
-          "record": "0-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 114,
-          "round": 4,
-          "opponent": "The Skeleton Crew",
-          "side": "blue",
-          "record": "0-3",
-          "result": "win"
-        },
-        {
-          "matchId": 138,
-          "round": 5,
-          "opponent": "Sigma Grindset",
-          "side": "red",
           "record": "1-3",
           "result": "pending"
         }
@@ -8257,16 +8223,56 @@
       ]
     },
     {
-      "name": "Loser of Match 138",
-      "wins": 0,
-      "losses": 0,
+      "name": "The Obsidian Front - Reborn",
+      "wins": 1,
+      "losses": 4,
       "path": [
+        {
+          "matchId": 21,
+          "round": 1,
+          "opponent": "Of Essence",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 54,
+          "round": 2,
+          "opponent": "Test Alliance Please Ignore",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 85,
+          "round": 3,
+          "opponent": "DarkSide.",
+          "side": "blue",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 114,
+          "round": 4,
+          "opponent": "The Skeleton Crew",
+          "side": "blue",
+          "record": "0-3",
+          "result": "win"
+        },
+        {
+          "matchId": 138,
+          "round": 5,
+          "opponent": "Sigma Grindset",
+          "side": "red",
+          "record": "1-3",
+          "result": "loss"
+        },
         {
           "matchId": 170,
           "round": 6,
           "opponent": "Loser of Match 142",
           "side": "blue",
-          "record": "0-0",
+          "record": "1-4",
           "result": "pending"
         }
       ]
@@ -8324,7 +8330,7 @@
         {
           "matchId": 170,
           "round": 6,
-          "opponent": "Loser of Match 138",
+          "opponent": "The Obsidian Front - Reborn",
           "side": "red",
           "record": "0-0",
           "result": "pending"
@@ -8371,21 +8377,6 @@
           "round": 6,
           "opponent": "Loser of Match 144",
           "side": "blue",
-          "record": "0-0",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Winner of Match 138",
-      "wins": 0,
-      "losses": 0,
-      "path": [
-        {
-          "matchId": 168,
-          "round": 6,
-          "opponent": "Brave Collective",
-          "side": "red",
           "record": "0-0",
           "result": "pending"
         }

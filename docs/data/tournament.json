@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T18:06:21.627Z",
+  "updatedAt": "2026-09-12T18:24:54.078Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -17,9 +17,9 @@
     ],
     "teamCount": 58,
     "matchCount": 174,
-    "decidedCount": 152,
+    "decidedCount": 153,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T18:00:00.000Z"
+    "nextMatchAt": "2026-09-12T18:15:00.000Z"
   },
   "matches": [
     {
@@ -4440,7 +4440,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Bright Side of Death",
       "blue": "PSYCHOTIC OVERHEAT",
-      "winner": null,
+      "winner": "Bright Side of Death",
       "times": {
         "convoStart": "17:00",
         "bansStart": "17:10",
@@ -4457,7 +4457,7 @@
       "blueRecord": "3-2",
       "isFloat": false,
       "bucket": "3-2",
-      "loser": null
+      "loser": "PSYCHOTIC OVERHEAT"
     },
     {
       "id": 154,
@@ -5718,6 +5718,61 @@
       ]
     },
     {
+      "name": "Bright Side of Death",
+      "wins": 4,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 10,
+          "round": 1,
+          "opponent": "OnlyFleets.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 49,
+          "round": 2,
+          "opponent": "Solyaris Chtonium",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 75,
+          "round": 3,
+          "opponent": "NO NEED LOOSE FACE",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 98,
+          "round": 4,
+          "opponent": "Ivy League",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 125,
+          "round": 5,
+          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+          "side": "red",
+          "record": "3-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 153,
+          "round": 6,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "red",
+          "record": "3-2",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
       "wins": 4,
       "losses": 2,
@@ -6213,61 +6268,6 @@
       ]
     },
     {
-      "name": "Bright Side of Death",
-      "wins": 3,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 10,
-          "round": 1,
-          "opponent": "OnlyFleets.",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 49,
-          "round": 2,
-          "opponent": "Solyaris Chtonium",
-          "side": "red",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 75,
-          "round": 3,
-          "opponent": "NO NEED LOOSE FACE",
-          "side": "blue",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 98,
-          "round": 4,
-          "opponent": "Ivy League",
-          "side": "red",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 125,
-          "round": 5,
-          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
-          "side": "red",
-          "record": "3-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 153,
-          "round": 6,
-          "opponent": "PSYCHOTIC OVERHEAT",
-          "side": "red",
-          "record": "3-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Fraternity.",
       "wins": 3,
       "losses": 2,
@@ -6537,61 +6537,6 @@
           "round": 6,
           "opponent": "ZERG REBORN",
           "side": "red",
-          "record": "3-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "PSYCHOTIC OVERHEAT",
-      "wins": 3,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 19,
-          "round": 1,
-          "opponent": "Out of the Blue.",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 39,
-          "round": 2,
-          "opponent": "Seker Matar",
-          "side": "red",
-          "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 64,
-          "round": 3,
-          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
-          "side": "blue",
-          "record": "2-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 97,
-          "round": 4,
-          "opponent": "Platinum Sensitivity.",
-          "side": "blue",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 126,
-          "round": 5,
-          "opponent": "Sons of Bane",
-          "side": "red",
-          "record": "2-2",
-          "result": "win"
-        },
-        {
-          "matchId": 153,
-          "round": 6,
-          "opponent": "Bright Side of Death",
-          "side": "blue",
           "record": "3-2",
           "result": "pending"
         }
@@ -6924,6 +6869,61 @@
           "side": "blue",
           "record": "3-2",
           "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "PSYCHOTIC OVERHEAT",
+      "wins": 3,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 19,
+          "round": 1,
+          "opponent": "Out of the Blue.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 39,
+          "round": 2,
+          "opponent": "Seker Matar",
+          "side": "red",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 64,
+          "round": 3,
+          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "blue",
+          "record": "2-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 97,
+          "round": 4,
+          "opponent": "Platinum Sensitivity.",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 126,
+          "round": 5,
+          "opponent": "Sons of Bane",
+          "side": "red",
+          "record": "2-2",
+          "result": "win"
+        },
+        {
+          "matchId": 153,
+          "round": 6,
+          "opponent": "Bright Side of Death",
+          "side": "blue",
+          "record": "3-2",
+          "result": "loss"
         }
       ]
     },

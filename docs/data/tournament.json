@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T19:46:53.579Z",
+  "updatedAt": "2026-09-12T20:05:44.604Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -17,9 +17,9 @@
     ],
     "teamCount": 58,
     "matchCount": 174,
-    "decidedCount": 159,
+    "decidedCount": 160,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T19:45:00.000Z"
+    "nextMatchAt": "2026-09-12T20:00:00.000Z"
   },
   "matches": [
     {
@@ -4643,7 +4643,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "WE FORM V0LTA",
       "blue": "Psyno Theory",
-      "winner": null,
+      "winner": "WE FORM V0LTA",
       "times": {
         "convoStart": "18:45",
         "bansStart": "18:55",
@@ -4660,7 +4660,7 @@
       "blueRecord": "2-3",
       "isFloat": true,
       "bucket": "3-2",
-      "loser": null
+      "loser": "Psyno Theory"
     },
     {
       "id": 161,
@@ -6489,7 +6489,7 @@
     },
     {
       "name": "WE FORM V0LTA",
-      "wins": 3,
+      "wins": 4,
       "losses": 2,
       "path": [
         {
@@ -6538,7 +6538,7 @@
           "opponent": "Psyno Theory",
           "side": "red",
           "record": "3-2",
-          "result": "pending"
+          "result": "win"
         }
       ]
     },
@@ -7423,61 +7423,6 @@
       ]
     },
     {
-      "name": "Psyno Theory",
-      "wins": 2,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 13,
-          "round": 1,
-          "opponent": "Ivy League",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 50,
-          "round": 2,
-          "opponent": "Project Potato",
-          "side": "blue",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 71,
-          "round": 3,
-          "opponent": "The Initiative.",
-          "side": "red",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 95,
-          "round": 4,
-          "opponent": "Arctic Light",
-          "side": "red",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 128,
-          "round": 5,
-          "opponent": "Space Violence.",
-          "side": "red",
-          "record": "2-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 160,
-          "round": 6,
-          "opponent": "WE FORM V0LTA",
-          "side": "blue",
-          "record": "2-3",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Seker Matar",
       "wins": 2,
       "losses": 3,
@@ -7969,6 +7914,61 @@
           "side": "red",
           "record": "2-3",
           "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Psyno Theory",
+      "wins": 2,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 13,
+          "round": 1,
+          "opponent": "Ivy League",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 50,
+          "round": 2,
+          "opponent": "Project Potato",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 71,
+          "round": 3,
+          "opponent": "The Initiative.",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 95,
+          "round": 4,
+          "opponent": "Arctic Light",
+          "side": "red",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 128,
+          "round": 5,
+          "opponent": "Space Violence.",
+          "side": "red",
+          "record": "2-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 160,
+          "round": 6,
+          "opponent": "WE FORM V0LTA",
+          "side": "blue",
+          "record": "2-3",
+          "result": "loss"
         }
       ]
     },

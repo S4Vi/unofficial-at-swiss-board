@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T16:05:46.003Z",
+  "updatedAt": "2026-09-12T16:23:26.258Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -17,9 +17,9 @@
     ],
     "teamCount": 58,
     "matchCount": 174,
-    "decidedCount": 146,
+    "decidedCount": 147,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T16:00:00.000Z"
+    "nextMatchAt": "2026-09-12T16:15:00.000Z"
   },
   "matches": [
     {
@@ -4266,7 +4266,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
       "blue": "Sedition.",
-      "winner": null,
+      "winner": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
       "times": {
         "convoStart": "15:00",
         "bansStart": "15:10",
@@ -4283,7 +4283,7 @@
       "blueRecord": "4-1",
       "isFloat": false,
       "bucket": "4-1",
-      "loser": null
+      "loser": "Sedition."
     },
     {
       "id": 148,
@@ -5498,6 +5498,61 @@
       ]
     },
     {
+      "name": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+      "wins": 5,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 5,
+          "round": 1,
+          "opponent": "Vapor-Lock",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 32,
+          "round": 2,
+          "opponent": "Brave Collective",
+          "side": "red",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 64,
+          "round": 3,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "red",
+          "record": "2-0",
+          "result": "win"
+        },
+        {
+          "matchId": 90,
+          "round": 4,
+          "opponent": "Psychokids.",
+          "side": "blue",
+          "record": "3-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 121,
+          "round": 5,
+          "opponent": "Arctic Light",
+          "side": "blue",
+          "record": "3-1",
+          "result": "win"
+        },
+        {
+          "matchId": 147,
+          "round": 6,
+          "opponent": "Sedition.",
+          "side": "red",
+          "record": "4-1",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
       "wins": 4,
       "losses": 1,
@@ -5885,7 +5940,7 @@
     {
       "name": "Sedition.",
       "wins": 4,
-      "losses": 1,
+      "losses": 2,
       "path": [
         {
           "matchId": 24,
@@ -5933,62 +5988,7 @@
           "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
           "side": "blue",
           "record": "4-1",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
-      "wins": 4,
-      "losses": 1,
-      "path": [
-        {
-          "matchId": 5,
-          "round": 1,
-          "opponent": "Vapor-Lock",
-          "side": "red",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 32,
-          "round": 2,
-          "opponent": "Brave Collective",
-          "side": "red",
-          "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 64,
-          "round": 3,
-          "opponent": "PSYCHOTIC OVERHEAT",
-          "side": "red",
-          "record": "2-0",
-          "result": "win"
-        },
-        {
-          "matchId": 90,
-          "round": 4,
-          "opponent": "Psychokids.",
-          "side": "blue",
-          "record": "3-0",
           "result": "loss"
-        },
-        {
-          "matchId": 121,
-          "round": 5,
-          "opponent": "Arctic Light",
-          "side": "blue",
-          "record": "3-1",
-          "result": "win"
-        },
-        {
-          "matchId": 147,
-          "round": 6,
-          "opponent": "Sedition.",
-          "side": "red",
-          "record": "4-1",
-          "result": "pending"
         }
       ]
     },

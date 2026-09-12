@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T14:32:55.839Z",
+  "updatedAt": "2026-09-12T14:47:12.496Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -15,11 +15,11 @@
       5,
       6
     ],
-    "teamCount": 68,
+    "teamCount": 66,
     "matchCount": 174,
-    "decidedCount": 140,
+    "decidedCount": 141,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T14:30:00.000Z"
+    "nextMatchAt": "2026-09-12T14:45:00.000Z"
   },
   "matches": [
     {
@@ -4092,7 +4092,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Kitchen Sinkhole",
       "blue": "Vapor-Lock",
-      "winner": null,
+      "winner": "Vapor-Lock",
       "times": {
         "convoStart": "13:30",
         "bansStart": "13:40",
@@ -4109,7 +4109,7 @@
       "blueRecord": "1-3",
       "isFloat": false,
       "bucket": "1-3",
-      "loser": null
+      "loser": "Kitchen Sinkhole"
     },
     {
       "id": 142,
@@ -4758,7 +4758,7 @@
       "round": 6,
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "DarkSide.",
-      "blue": "Winner of Match 141",
+      "blue": "Vapor-Lock",
       "winner": null,
       "times": {
         "convoStart": "19:30",
@@ -4773,8 +4773,8 @@
       "points": null,
       "survivors": null,
       "redRecord": "2-3",
-      "blueRecord": "0-0",
-      "isFloat": true,
+      "blueRecord": "2-3",
+      "isFloat": false,
       "bucket": "2-3",
       "loser": null
     },
@@ -5019,7 +5019,7 @@
       "round": 6,
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "That Escalated Quickly.",
-      "blue": "Loser of Match 141",
+      "blue": "Kitchen Sinkhole",
       "winner": null,
       "times": {
         "convoStart": "13:00",
@@ -5034,8 +5034,8 @@
       "points": null,
       "survivors": null,
       "redRecord": "1-4",
-      "blueRecord": "0-0",
-      "isFloat": true,
+      "blueRecord": "1-4",
+      "isFloat": false,
       "bucket": "1-4",
       "loser": null
     },
@@ -7140,7 +7140,7 @@
         {
           "matchId": 164,
           "round": 6,
-          "opponent": "Winner of Match 141",
+          "opponent": "Vapor-Lock",
           "side": "red",
           "record": "2-3",
           "result": "pending"
@@ -7753,6 +7753,61 @@
       ]
     },
     {
+      "name": "Vapor-Lock",
+      "wins": 2,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 5,
+          "round": 1,
+          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 46,
+          "round": 2,
+          "opponent": "Seriously Suspicious",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 81,
+          "round": 3,
+          "opponent": "Out of the Blue.",
+          "side": "blue",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 105,
+          "round": 4,
+          "opponent": "Of Essence",
+          "side": "blue",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 141,
+          "round": 5,
+          "opponent": "Kitchen Sinkhole",
+          "side": "blue",
+          "record": "1-3",
+          "result": "win"
+        },
+        {
+          "matchId": 164,
+          "round": 6,
+          "opponent": "DarkSide.",
+          "side": "blue",
+          "record": "2-3",
+          "result": "pending"
+        }
+      ]
+    },
+    {
       "name": "We Forsakened Few",
       "wins": 2,
       "losses": 3,
@@ -7803,53 +7858,6 @@
           "opponent": "Winner of Match 142",
           "side": "red",
           "record": "2-3",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Kitchen Sinkhole",
-      "wins": 1,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 23,
-          "round": 1,
-          "opponent": "Neon Nightmares",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 55,
-          "round": 2,
-          "opponent": "Shadow Cartel",
-          "side": "blue",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 83,
-          "round": 3,
-          "opponent": "The Skeleton Crew",
-          "side": "red",
-          "record": "0-2",
-          "result": "win"
-        },
-        {
-          "matchId": 108,
-          "round": 4,
-          "opponent": "Space Violence.",
-          "side": "red",
-          "record": "1-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 141,
-          "round": 5,
-          "opponent": "Vapor-Lock",
-          "side": "red",
-          "record": "1-3",
           "result": "pending"
         }
       ]
@@ -7996,53 +8004,6 @@
       ]
     },
     {
-      "name": "Vapor-Lock",
-      "wins": 1,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 5,
-          "round": 1,
-          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
-          "side": "blue",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 46,
-          "round": 2,
-          "opponent": "Seriously Suspicious",
-          "side": "blue",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 81,
-          "round": 3,
-          "opponent": "Out of the Blue.",
-          "side": "blue",
-          "record": "0-2",
-          "result": "win"
-        },
-        {
-          "matchId": 105,
-          "round": 4,
-          "opponent": "Of Essence",
-          "side": "blue",
-          "record": "1-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 141,
-          "round": 5,
-          "opponent": "Kitchen Sinkhole",
-          "side": "blue",
-          "record": "1-3",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "White Squall.",
       "wins": 1,
       "losses": 3,
@@ -8085,6 +8046,61 @@
           "opponent": "L A Z E R H A W K S",
           "side": "red",
           "record": "1-3",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Kitchen Sinkhole",
+      "wins": 1,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 23,
+          "round": 1,
+          "opponent": "Neon Nightmares",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 55,
+          "round": 2,
+          "opponent": "Shadow Cartel",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 83,
+          "round": 3,
+          "opponent": "The Skeleton Crew",
+          "side": "red",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 108,
+          "round": 4,
+          "opponent": "Space Violence.",
+          "side": "red",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 141,
+          "round": 5,
+          "opponent": "Vapor-Lock",
+          "side": "red",
+          "record": "1-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 173,
+          "round": 6,
+          "opponent": "That Escalated Quickly.",
+          "side": "blue",
+          "record": "1-4",
           "result": "pending"
         }
       ]
@@ -8247,7 +8263,7 @@
         {
           "matchId": 173,
           "round": 6,
-          "opponent": "Loser of Match 141",
+          "opponent": "Kitchen Sinkhole",
           "side": "red",
           "record": "1-4",
           "result": "pending"
@@ -8310,21 +8326,6 @@
       ]
     },
     {
-      "name": "Loser of Match 141",
-      "wins": 0,
-      "losses": 0,
-      "path": [
-        {
-          "matchId": 173,
-          "round": 6,
-          "opponent": "That Escalated Quickly.",
-          "side": "blue",
-          "record": "0-0",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Loser of Match 142",
       "wins": 0,
       "losses": 0,
@@ -8378,21 +8379,6 @@
           "matchId": 174,
           "round": 6,
           "opponent": "Loser of Match 144",
-          "side": "blue",
-          "record": "0-0",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Winner of Match 141",
-      "wins": 0,
-      "losses": 0,
-      "path": [
-        {
-          "matchId": 164,
-          "round": 6,
-          "opponent": "DarkSide.",
           "side": "blue",
           "record": "0-0",
           "result": "pending"

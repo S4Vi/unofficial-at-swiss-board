@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T21:05:33.055Z",
+  "updatedAt": "2026-09-12T21:32:38.434Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -17,9 +17,9 @@
     ],
     "teamCount": 58,
     "matchCount": 174,
-    "decidedCount": 165,
+    "decidedCount": 166,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T21:15:00.000Z"
+    "nextMatchAt": "2026-09-12T21:30:00.000Z"
   },
   "matches": [
     {
@@ -4817,7 +4817,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Seker Matar",
       "blue": "D-sync.",
-      "winner": null,
+      "winner": "D-sync.",
       "times": {
         "convoStart": "20:15",
         "bansStart": "20:25",
@@ -4834,7 +4834,7 @@
       "blueRecord": "2-3",
       "isFloat": false,
       "bucket": "2-3",
-      "loser": null
+      "loser": "Seker Matar"
     },
     {
       "id": 167,
@@ -6598,6 +6598,61 @@
       ]
     },
     {
+      "name": "D-sync.",
+      "wins": 3,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 14,
+          "round": 1,
+          "opponent": "Sigma Grindset",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 51,
+          "round": 2,
+          "opponent": "We Forsakened Few",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 79,
+          "round": 3,
+          "opponent": "Exodus.",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 106,
+          "round": 4,
+          "opponent": "Minmatar Fleet Alliance",
+          "side": "blue",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 130,
+          "round": 5,
+          "opponent": "Of Essence",
+          "side": "red",
+          "record": "2-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 166,
+          "round": 6,
+          "opponent": "Seker Matar",
+          "side": "blue",
+          "record": "2-3",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "DarkSide.",
       "wins": 3,
       "losses": 3,
@@ -7313,61 +7368,6 @@
       ]
     },
     {
-      "name": "D-sync.",
-      "wins": 2,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 14,
-          "round": 1,
-          "opponent": "Sigma Grindset",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 51,
-          "round": 2,
-          "opponent": "We Forsakened Few",
-          "side": "red",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 79,
-          "round": 3,
-          "opponent": "Exodus.",
-          "side": "red",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 106,
-          "round": 4,
-          "opponent": "Minmatar Fleet Alliance",
-          "side": "blue",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 130,
-          "round": 5,
-          "opponent": "Of Essence",
-          "side": "red",
-          "record": "2-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 166,
-          "round": 6,
-          "opponent": "Seker Matar",
-          "side": "blue",
-          "record": "2-3",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Exodus.",
       "wins": 2,
       "losses": 3,
@@ -7416,61 +7416,6 @@
           "matchId": 169,
           "round": 6,
           "opponent": "Minmatar Fleet Alliance",
-          "side": "red",
-          "record": "2-3",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Seker Matar",
-      "wins": 2,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 20,
-          "round": 1,
-          "opponent": "Test Alliance Please Ignore",
-          "side": "red",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 39,
-          "round": 2,
-          "opponent": "PSYCHOTIC OVERHEAT",
-          "side": "blue",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 78,
-          "round": 3,
-          "opponent": "Seriously Suspicious",
-          "side": "red",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 109,
-          "round": 4,
-          "opponent": "Sigma Grindset",
-          "side": "blue",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 132,
-          "round": 5,
-          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
-          "side": "red",
-          "record": "2-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 166,
-          "round": 6,
-          "opponent": "D-sync.",
           "side": "red",
           "record": "2-3",
           "result": "pending"
@@ -7692,6 +7637,61 @@
           "round": 6,
           "opponent": "WE FORM V0LTA",
           "side": "blue",
+          "record": "2-3",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Seker Matar",
+      "wins": 2,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 20,
+          "round": 1,
+          "opponent": "Test Alliance Please Ignore",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 39,
+          "round": 2,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "blue",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 78,
+          "round": 3,
+          "opponent": "Seriously Suspicious",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 109,
+          "round": 4,
+          "opponent": "Sigma Grindset",
+          "side": "blue",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 132,
+          "round": 5,
+          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
+          "side": "red",
+          "record": "2-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 166,
+          "round": 6,
+          "opponent": "D-sync.",
+          "side": "red",
           "record": "2-3",
           "result": "loss"
         }

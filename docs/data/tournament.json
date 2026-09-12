@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T18:46:47.438Z",
+  "updatedAt": "2026-09-12T19:04:22.557Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -17,9 +17,9 @@
     ],
     "teamCount": 58,
     "matchCount": 174,
-    "decidedCount": 155,
+    "decidedCount": 156,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T18:45:00.000Z"
+    "nextMatchAt": "2026-09-12T19:00:00.000Z"
   },
   "matches": [
     {
@@ -4527,7 +4527,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Space Violence.",
       "blue": "Meta Reloaded",
-      "winner": null,
+      "winner": "Meta Reloaded",
       "times": {
         "convoStart": "17:45",
         "bansStart": "17:55",
@@ -4544,7 +4544,7 @@
       "blueRecord": "3-2",
       "isFloat": false,
       "bucket": "3-2",
-      "loser": null
+      "loser": "Space Violence."
     },
     {
       "id": 157,
@@ -6048,6 +6048,61 @@
       ]
     },
     {
+      "name": "Meta Reloaded",
+      "wins": 4,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 1,
+          "round": 1,
+          "opponent": "Dracarys.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 44,
+          "round": 2,
+          "opponent": "Slide On Contact",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 66,
+          "round": 3,
+          "opponent": "Brave Collective",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 100,
+          "round": 4,
+          "opponent": "Fraternity.",
+          "side": "blue",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 122,
+          "round": 5,
+          "opponent": "Deteriorated",
+          "side": "blue",
+          "record": "3-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 156,
+          "round": 6,
+          "opponent": "Space Violence.",
+          "side": "blue",
+          "record": "3-2",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Neon Nightmares",
       "wins": 4,
       "losses": 2,
@@ -6378,61 +6433,6 @@
       ]
     },
     {
-      "name": "Meta Reloaded",
-      "wins": 3,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 1,
-          "round": 1,
-          "opponent": "Dracarys.",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 44,
-          "round": 2,
-          "opponent": "Slide On Contact",
-          "side": "blue",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 66,
-          "round": 3,
-          "opponent": "Brave Collective",
-          "side": "red",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 100,
-          "round": 4,
-          "opponent": "Fraternity.",
-          "side": "blue",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 122,
-          "round": 5,
-          "opponent": "Deteriorated",
-          "side": "blue",
-          "record": "3-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 156,
-          "round": 6,
-          "opponent": "Space Violence.",
-          "side": "blue",
-          "record": "3-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Of Essence",
       "wins": 3,
       "losses": 2,
@@ -6537,61 +6537,6 @@
           "round": 6,
           "opponent": "Arctic Light",
           "side": "blue",
-          "record": "3-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Space Violence.",
-      "wins": 3,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 24,
-          "round": 1,
-          "opponent": "Sedition.",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 56,
-          "round": 2,
-          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
-          "side": "red",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 86,
-          "round": 3,
-          "opponent": "Project Potato",
-          "side": "blue",
-          "record": "0-2",
-          "result": "win"
-        },
-        {
-          "matchId": 108,
-          "round": 4,
-          "opponent": "Kitchen Sinkhole",
-          "side": "blue",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 128,
-          "round": 5,
-          "opponent": "Psyno Theory",
-          "side": "blue",
-          "record": "2-2",
-          "result": "win"
-        },
-        {
-          "matchId": 156,
-          "round": 6,
-          "opponent": "Meta Reloaded",
-          "side": "red",
           "record": "3-2",
           "result": "pending"
         }
@@ -6922,6 +6867,61 @@
           "round": 6,
           "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
           "side": "blue",
+          "record": "3-2",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Space Violence.",
+      "wins": 3,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 24,
+          "round": 1,
+          "opponent": "Sedition.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 56,
+          "round": 2,
+          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 86,
+          "round": 3,
+          "opponent": "Project Potato",
+          "side": "blue",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 108,
+          "round": 4,
+          "opponent": "Kitchen Sinkhole",
+          "side": "blue",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 128,
+          "round": 5,
+          "opponent": "Psyno Theory",
+          "side": "blue",
+          "record": "2-2",
+          "result": "win"
+        },
+        {
+          "matchId": 156,
+          "round": 6,
+          "opponent": "Meta Reloaded",
+          "side": "red",
           "record": "3-2",
           "result": "loss"
         }

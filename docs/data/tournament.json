@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T20:23:54.161Z",
+  "updatedAt": "2026-09-12T20:47:36.598Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -17,9 +17,9 @@
     ],
     "teamCount": 58,
     "matchCount": 174,
-    "decidedCount": 162,
+    "decidedCount": 163,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T20:30:00.000Z"
+    "nextMatchAt": "2026-09-12T20:45:00.000Z"
   },
   "matches": [
     {
@@ -4730,7 +4730,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "OnlyFleets.",
       "blue": "Slide On Contact",
-      "winner": null,
+      "winner": "OnlyFleets.",
       "times": {
         "convoStart": "19:30",
         "bansStart": "19:40",
@@ -4747,7 +4747,7 @@
       "blueRecord": "2-3",
       "isFloat": false,
       "bucket": "2-3",
-      "loser": null
+      "loser": "Slide On Contact"
     },
     {
       "id": 164,
@@ -6763,6 +6763,61 @@
       ]
     },
     {
+      "name": "OnlyFleets.",
+      "wins": 3,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 10,
+          "round": 1,
+          "opponent": "Bright Side of Death",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 34,
+          "round": 2,
+          "opponent": "Ragequit Cancel Sub",
+          "side": "blue",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 68,
+          "round": 3,
+          "opponent": "The Tuskers Co.",
+          "side": "blue",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 113,
+          "round": 4,
+          "opponent": "Project Potato",
+          "side": "red",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 136,
+          "round": 5,
+          "opponent": "Punishing Gray Raven",
+          "side": "blue",
+          "record": "2-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 163,
+          "round": 6,
+          "opponent": "Slide On Contact",
+          "side": "red",
+          "record": "2-3",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "PSYCHOTIC OVERHEAT",
       "wins": 3,
       "losses": 3,
@@ -7368,61 +7423,6 @@
       ]
     },
     {
-      "name": "OnlyFleets.",
-      "wins": 2,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 10,
-          "round": 1,
-          "opponent": "Bright Side of Death",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 34,
-          "round": 2,
-          "opponent": "Ragequit Cancel Sub",
-          "side": "blue",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 68,
-          "round": 3,
-          "opponent": "The Tuskers Co.",
-          "side": "blue",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 113,
-          "round": 4,
-          "opponent": "Project Potato",
-          "side": "red",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 136,
-          "round": 5,
-          "opponent": "Punishing Gray Raven",
-          "side": "blue",
-          "record": "2-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 163,
-          "round": 6,
-          "opponent": "Slide On Contact",
-          "side": "red",
-          "record": "2-3",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Seker Matar",
       "wins": 2,
       "losses": 3,
@@ -7582,61 +7582,6 @@
           "round": 6,
           "opponent": "Brave Collective",
           "side": "red",
-          "record": "2-3",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Slide On Contact",
-      "wins": 2,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 29,
-          "round": 1,
-          "opponent": "That Escalated Quickly.",
-          "side": "red",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 44,
-          "round": 2,
-          "opponent": "Meta Reloaded",
-          "side": "red",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 80,
-          "round": 3,
-          "opponent": "Minmatar Fleet Alliance",
-          "side": "blue",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 92,
-          "round": 4,
-          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
-          "side": "blue",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 134,
-          "round": 5,
-          "opponent": "The Tuskers Co.",
-          "side": "blue",
-          "record": "2-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 163,
-          "round": 6,
-          "opponent": "OnlyFleets.",
-          "side": "blue",
           "record": "2-3",
           "result": "pending"
         }
@@ -7911,6 +7856,61 @@
           "matchId": 161,
           "round": 6,
           "opponent": "NPSI.Rocks",
+          "side": "blue",
+          "record": "2-3",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Slide On Contact",
+      "wins": 2,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 29,
+          "round": 1,
+          "opponent": "That Escalated Quickly.",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 44,
+          "round": 2,
+          "opponent": "Meta Reloaded",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 80,
+          "round": 3,
+          "opponent": "Minmatar Fleet Alliance",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 92,
+          "round": 4,
+          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 134,
+          "round": 5,
+          "opponent": "The Tuskers Co.",
+          "side": "blue",
+          "record": "2-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 163,
+          "round": 6,
+          "opponent": "OnlyFleets.",
           "side": "blue",
           "record": "2-3",
           "result": "loss"

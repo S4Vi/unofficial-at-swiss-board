@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T15:20:42.799Z",
+  "updatedAt": "2026-09-12T15:32:39.626Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -15,11 +15,11 @@
       5,
       6
     ],
-    "teamCount": 62,
+    "teamCount": 60,
     "matchCount": 174,
-    "decidedCount": 143,
+    "decidedCount": 144,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T15:15:00.000Z"
+    "nextMatchAt": "2026-09-12T15:30:00.000Z"
   },
   "matches": [
     {
@@ -4179,7 +4179,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Project Potato",
       "blue": "Critical. Mass.",
-      "winner": null,
+      "winner": "Project Potato",
       "times": {
         "convoStart": "14:15",
         "bansStart": "14:25",
@@ -4196,7 +4196,7 @@
       "blueRecord": "0-4",
       "isFloat": false,
       "bucket": "0-4",
-      "loser": null
+      "loser": "Critical. Mass."
     },
     {
       "id": 145,
@@ -4989,7 +4989,7 @@
       "startsAt": "2026-09-13T13:45:00.000Z",
       "round": 6,
       "sheet": "ATXXII Prelims Weekend 3",
-      "red": "Winner of Match 144",
+      "red": "Project Potato",
       "blue": "Odin's Call",
       "winner": null,
       "times": {
@@ -5004,9 +5004,9 @@
       "bans": null,
       "points": null,
       "survivors": null,
-      "redRecord": "0-0",
+      "redRecord": "1-4",
       "blueRecord": "1-4",
-      "isFloat": true,
+      "isFloat": false,
       "bucket": "1-4",
       "loser": null
     },
@@ -5047,7 +5047,7 @@
       "startsAt": "2026-09-13T14:15:00.000Z",
       "round": 6,
       "sheet": "ATXXII Prelims Weekend 3",
-      "red": "Loser of Match 144",
+      "red": "Critical. Mass.",
       "blue": "Loser of Match 145",
       "winner": null,
       "times": {
@@ -5062,10 +5062,10 @@
       "bans": null,
       "points": null,
       "survivors": null,
-      "redRecord": "0-0",
+      "redRecord": "0-5",
       "blueRecord": "0-0",
-      "isFloat": false,
-      "bucket": "0-0",
+      "isFloat": true,
+      "bucket": "0-5",
       "loser": null
     }
   ],
@@ -5378,7 +5378,7 @@
           ]
         },
         {
-          "record": "0-0",
+          "record": "0-5",
           "matchIds": [
             174
           ]
@@ -8130,7 +8130,7 @@
         {
           "matchId": 172,
           "round": 6,
-          "opponent": "Winner of Match 144",
+          "opponent": "Project Potato",
           "side": "blue",
           "record": "1-4",
           "result": "pending"
@@ -8186,6 +8186,61 @@
           "matchId": 170,
           "round": 6,
           "opponent": "The Obsidian Front - Reborn",
+          "side": "red",
+          "record": "1-4",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Project Potato",
+      "wins": 1,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 12,
+          "round": 1,
+          "opponent": "Deteriorated",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 50,
+          "round": 2,
+          "opponent": "Psyno Theory",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 86,
+          "round": 3,
+          "opponent": "Space Violence.",
+          "side": "red",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 113,
+          "round": 4,
+          "opponent": "OnlyFleets.",
+          "side": "blue",
+          "record": "0-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 144,
+          "round": 5,
+          "opponent": "Critical. Mass.",
+          "side": "red",
+          "record": "0-4",
+          "result": "win"
+        },
+        {
+          "matchId": 172,
+          "round": 6,
+          "opponent": "Odin's Call",
           "side": "red",
           "record": "1-4",
           "result": "pending"
@@ -8358,21 +8413,6 @@
       ]
     },
     {
-      "name": "Loser of Match 144",
-      "wins": 0,
-      "losses": 0,
-      "path": [
-        {
-          "matchId": 174,
-          "round": 6,
-          "opponent": "Loser of Match 145",
-          "side": "red",
-          "record": "0-0",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Loser of Match 145",
       "wins": 0,
       "losses": 0,
@@ -8380,23 +8420,8 @@
         {
           "matchId": 174,
           "round": 6,
-          "opponent": "Loser of Match 144",
+          "opponent": "Critical. Mass.",
           "side": "blue",
-          "record": "0-0",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Winner of Match 144",
-      "wins": 0,
-      "losses": 0,
-      "path": [
-        {
-          "matchId": 172,
-          "round": 6,
-          "opponent": "Odin's Call",
-          "side": "red",
           "record": "0-0",
           "result": "pending"
         }
@@ -8413,100 +8438,6 @@
           "opponent": "White Squall.",
           "side": "blue",
           "record": "0-0",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Critical. Mass.",
-      "wins": 0,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 8,
-          "round": 1,
-          "opponent": "Fraternity.",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 48,
-          "round": 2,
-          "opponent": "Sons of Bane",
-          "side": "red",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 87,
-          "round": 3,
-          "opponent": "NPSI.Rocks",
-          "side": "red",
-          "record": "0-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 115,
-          "round": 4,
-          "opponent": "Out of the Blue.",
-          "side": "red",
-          "record": "0-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 144,
-          "round": 5,
-          "opponent": "Project Potato",
-          "side": "blue",
-          "record": "0-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Project Potato",
-      "wins": 0,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 12,
-          "round": 1,
-          "opponent": "Deteriorated",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 50,
-          "round": 2,
-          "opponent": "Psyno Theory",
-          "side": "red",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 86,
-          "round": 3,
-          "opponent": "Space Violence.",
-          "side": "red",
-          "record": "0-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 113,
-          "round": 4,
-          "opponent": "OnlyFleets.",
-          "side": "blue",
-          "record": "0-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 144,
-          "round": 5,
-          "opponent": "Critical. Mass.",
-          "side": "red",
-          "record": "0-4",
           "result": "pending"
         }
       ]
@@ -8601,6 +8532,61 @@
           "opponent": "Solyaris Chtonium",
           "side": "red",
           "record": "0-4",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Critical. Mass.",
+      "wins": 0,
+      "losses": 5,
+      "path": [
+        {
+          "matchId": 8,
+          "round": 1,
+          "opponent": "Fraternity.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 48,
+          "round": 2,
+          "opponent": "Sons of Bane",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 87,
+          "round": 3,
+          "opponent": "NPSI.Rocks",
+          "side": "red",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 115,
+          "round": 4,
+          "opponent": "Out of the Blue.",
+          "side": "red",
+          "record": "0-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 144,
+          "round": 5,
+          "opponent": "Project Potato",
+          "side": "blue",
+          "record": "0-4",
+          "result": "loss"
+        },
+        {
+          "matchId": 174,
+          "round": 6,
+          "opponent": "Loser of Match 145",
+          "side": "red",
+          "record": "0-5",
           "result": "pending"
         }
       ]

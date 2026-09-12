@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T16:46:51.060Z",
+  "updatedAt": "2026-09-12T17:32:40.950Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -17,9 +17,9 @@
     ],
     "teamCount": 58,
     "matchCount": 174,
-    "decidedCount": 149,
+    "decidedCount": 150,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T16:45:00.000Z"
+    "nextMatchAt": "2026-09-12T17:00:00.000Z"
   },
   "matches": [
     {
@@ -4353,7 +4353,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
       "blue": "Rusty Hyenas Clan",
-      "winner": null,
+      "winner": "Rusty Hyenas Clan",
       "times": {
         "convoStart": "15:45",
         "bansStart": "15:55",
@@ -4370,7 +4370,7 @@
       "blueRecord": "4-1",
       "isFloat": false,
       "bucket": "4-1",
-      "loser": null
+      "loser": "Catlas Tor Love Appreciation Society UseCodeWIZARD"
     },
     {
       "id": 151,
@@ -5608,6 +5608,61 @@
       ]
     },
     {
+      "name": "Rusty Hyenas Clan",
+      "wins": 5,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 16,
+          "round": 1,
+          "opponent": "NPSI.Rocks",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 37,
+          "round": 2,
+          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 63,
+          "round": 3,
+          "opponent": "The Excommunicati",
+          "side": "blue",
+          "record": "2-0",
+          "result": "win"
+        },
+        {
+          "matchId": 89,
+          "round": 4,
+          "opponent": "Sedition.",
+          "side": "red",
+          "record": "3-0",
+          "result": "win"
+        },
+        {
+          "matchId": 118,
+          "round": 5,
+          "opponent": "Dracarys.",
+          "side": "red",
+          "record": "4-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 150,
+          "round": 6,
+          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+          "side": "blue",
+          "record": "4-1",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
       "wins": 5,
       "losses": 1,
@@ -5659,61 +5714,6 @@
           "side": "red",
           "record": "4-1",
           "result": "win"
-        }
-      ]
-    },
-    {
-      "name": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
-      "wins": 4,
-      "losses": 1,
-      "path": [
-        {
-          "matchId": 27,
-          "round": 1,
-          "opponent": "NO NEED LOOSE FACE",
-          "side": "red",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 43,
-          "round": 2,
-          "opponent": "Honkai Star Rail.",
-          "side": "red",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 74,
-          "round": 3,
-          "opponent": "Of Essence",
-          "side": "red",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 102,
-          "round": 4,
-          "opponent": "White Squall.",
-          "side": "red",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 125,
-          "round": 5,
-          "opponent": "Bright Side of Death",
-          "side": "blue",
-          "record": "3-1",
-          "result": "win"
-        },
-        {
-          "matchId": 150,
-          "round": 6,
-          "opponent": "Rusty Hyenas Clan",
-          "side": "red",
-          "record": "4-1",
-          "result": "pending"
         }
       ]
     },
@@ -5773,57 +5773,57 @@
       ]
     },
     {
-      "name": "Rusty Hyenas Clan",
+      "name": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
       "wins": 4,
-      "losses": 1,
+      "losses": 2,
       "path": [
         {
-          "matchId": 16,
+          "matchId": 27,
           "round": 1,
-          "opponent": "NPSI.Rocks",
+          "opponent": "NO NEED LOOSE FACE",
           "side": "red",
           "record": "0-0",
           "result": "win"
         },
         {
-          "matchId": 37,
+          "matchId": 43,
           "round": 2,
-          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
-          "side": "blue",
+          "opponent": "Honkai Star Rail.",
+          "side": "red",
           "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 63,
-          "round": 3,
-          "opponent": "The Excommunicati",
-          "side": "blue",
-          "record": "2-0",
-          "result": "win"
-        },
-        {
-          "matchId": 89,
-          "round": 4,
-          "opponent": "Sedition.",
-          "side": "red",
-          "record": "3-0",
-          "result": "win"
-        },
-        {
-          "matchId": 118,
-          "round": 5,
-          "opponent": "Dracarys.",
-          "side": "red",
-          "record": "4-0",
           "result": "loss"
+        },
+        {
+          "matchId": 74,
+          "round": 3,
+          "opponent": "Of Essence",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 102,
+          "round": 4,
+          "opponent": "White Squall.",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 125,
+          "round": 5,
+          "opponent": "Bright Side of Death",
+          "side": "blue",
+          "record": "3-1",
+          "result": "win"
         },
         {
           "matchId": 150,
           "round": 6,
-          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
-          "side": "blue",
+          "opponent": "Rusty Hyenas Clan",
+          "side": "red",
           "record": "4-1",
-          "result": "pending"
+          "result": "loss"
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T19:17:56.487Z",
+  "updatedAt": "2026-09-12T19:33:01.104Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -17,9 +17,9 @@
     ],
     "teamCount": 58,
     "matchCount": 174,
-    "decidedCount": 157,
+    "decidedCount": 158,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T19:15:00.000Z"
+    "nextMatchAt": "2026-09-12T19:30:00.000Z"
   },
   "matches": [
     {
@@ -4585,7 +4585,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Arctic Light",
       "blue": "Rote Kapelle",
-      "winner": null,
+      "winner": "Rote Kapelle",
       "times": {
         "convoStart": "18:15",
         "bansStart": "18:25",
@@ -4602,7 +4602,7 @@
       "blueRecord": "3-2",
       "isFloat": false,
       "bucket": "3-2",
-      "loser": null
+      "loser": "Arctic Light"
     },
     {
       "id": 159,
@@ -6268,6 +6268,61 @@
       ]
     },
     {
+      "name": "Rote Kapelle",
+      "wins": 4,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 18,
+          "round": 1,
+          "opponent": "The Excommunicati",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 53,
+          "round": 2,
+          "opponent": "Out of the Blue.",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 77,
+          "round": 3,
+          "opponent": "Sons of Bane",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 96,
+          "round": 4,
+          "opponent": "Exodus.",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 119,
+          "round": 5,
+          "opponent": "Sedition.",
+          "side": "red",
+          "record": "3-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 158,
+          "round": 6,
+          "opponent": "Arctic Light",
+          "side": "blue",
+          "record": "3-2",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Sedition.",
       "wins": 4,
       "losses": 2,
@@ -6378,61 +6433,6 @@
       ]
     },
     {
-      "name": "Arctic Light",
-      "wins": 3,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 22,
-          "round": 1,
-          "opponent": "Shadow Cartel",
-          "side": "red",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 40,
-          "round": 2,
-          "opponent": "Of Essence",
-          "side": "blue",
-          "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 61,
-          "round": 3,
-          "opponent": "Ragequit Cancel Sub",
-          "side": "red",
-          "record": "2-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 95,
-          "round": 4,
-          "opponent": "Psyno Theory",
-          "side": "blue",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 121,
-          "round": 5,
-          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
-          "side": "red",
-          "record": "3-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 158,
-          "round": 6,
-          "opponent": "Rote Kapelle",
-          "side": "red",
-          "record": "3-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Of Essence",
       "wins": 3,
       "losses": 2,
@@ -6482,61 +6482,6 @@
           "round": 6,
           "opponent": "ZERG REBORN",
           "side": "red",
-          "record": "3-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Rote Kapelle",
-      "wins": 3,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 18,
-          "round": 1,
-          "opponent": "The Excommunicati",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 53,
-          "round": 2,
-          "opponent": "Out of the Blue.",
-          "side": "red",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 77,
-          "round": 3,
-          "opponent": "Sons of Bane",
-          "side": "blue",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 96,
-          "round": 4,
-          "opponent": "Exodus.",
-          "side": "red",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 119,
-          "round": 5,
-          "opponent": "Sedition.",
-          "side": "red",
-          "record": "3-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 158,
-          "round": 6,
-          "opponent": "Arctic Light",
-          "side": "blue",
           "record": "3-2",
           "result": "pending"
         }
@@ -6649,6 +6594,61 @@
           "side": "blue",
           "record": "3-2",
           "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Arctic Light",
+      "wins": 3,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 22,
+          "round": 1,
+          "opponent": "Shadow Cartel",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 40,
+          "round": 2,
+          "opponent": "Of Essence",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 61,
+          "round": 3,
+          "opponent": "Ragequit Cancel Sub",
+          "side": "red",
+          "record": "2-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 95,
+          "round": 4,
+          "opponent": "Psyno Theory",
+          "side": "blue",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 121,
+          "round": 5,
+          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "red",
+          "record": "3-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 158,
+          "round": 6,
+          "opponent": "Rote Kapelle",
+          "side": "red",
+          "record": "3-2",
+          "result": "loss"
         }
       ]
     },

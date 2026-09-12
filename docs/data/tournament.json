@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T17:32:40.950Z",
+  "updatedAt": "2026-09-12T17:47:10.608Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -17,9 +17,9 @@
     ],
     "teamCount": 58,
     "matchCount": 174,
-    "decidedCount": 150,
+    "decidedCount": 151,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T17:00:00.000Z"
+    "nextMatchAt": "2026-09-12T17:15:00.000Z"
   },
   "matches": [
     {
@@ -4382,7 +4382,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Deteriorated",
       "blue": "Honkai Star Rail.",
-      "winner": null,
+      "winner": "Honkai Star Rail.",
       "times": {
         "convoStart": "16:00",
         "bansStart": "16:10",
@@ -4399,7 +4399,7 @@
       "blueRecord": "3-2",
       "isFloat": true,
       "bucket": "4-1",
-      "loser": null
+      "loser": "Deteriorated"
     },
     {
       "id": 152,
@@ -5718,61 +5718,6 @@
       ]
     },
     {
-      "name": "Deteriorated",
-      "wins": 4,
-      "losses": 1,
-      "path": [
-        {
-          "matchId": 12,
-          "round": 1,
-          "opponent": "Project Potato",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 35,
-          "round": 2,
-          "opponent": "The Initiative.",
-          "side": "blue",
-          "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 59,
-          "round": 3,
-          "opponent": "Dracarys.",
-          "side": "red",
-          "record": "2-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 99,
-          "round": 4,
-          "opponent": "The Tuskers Co.",
-          "side": "red",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 122,
-          "round": 5,
-          "opponent": "Meta Reloaded",
-          "side": "red",
-          "record": "3-1",
-          "result": "win"
-        },
-        {
-          "matchId": 151,
-          "round": 6,
-          "opponent": "Honkai Star Rail.",
-          "side": "red",
-          "record": "4-1",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
       "wins": 4,
       "losses": 2,
@@ -5824,6 +5769,116 @@
           "side": "red",
           "record": "4-1",
           "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Deteriorated",
+      "wins": 4,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 12,
+          "round": 1,
+          "opponent": "Project Potato",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 35,
+          "round": 2,
+          "opponent": "The Initiative.",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 59,
+          "round": 3,
+          "opponent": "Dracarys.",
+          "side": "red",
+          "record": "2-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 99,
+          "round": 4,
+          "opponent": "The Tuskers Co.",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 122,
+          "round": 5,
+          "opponent": "Meta Reloaded",
+          "side": "red",
+          "record": "3-1",
+          "result": "win"
+        },
+        {
+          "matchId": 151,
+          "round": 6,
+          "opponent": "Honkai Star Rail.",
+          "side": "red",
+          "record": "4-1",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Honkai Star Rail.",
+      "wins": 4,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 28,
+          "round": 1,
+          "opponent": "Odin's Call",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 43,
+          "round": 2,
+          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 65,
+          "round": 3,
+          "opponent": "Sedition.",
+          "side": "red",
+          "record": "2-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 93,
+          "round": 4,
+          "opponent": "Seriously Suspicious",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 124,
+          "round": 5,
+          "opponent": "Platinum Sensitivity.",
+          "side": "red",
+          "record": "3-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 151,
+          "round": 6,
+          "opponent": "Deteriorated",
+          "side": "blue",
+          "record": "3-2",
+          "result": "win"
         }
       ]
     },
@@ -6206,61 +6261,6 @@
           "matchId": 157,
           "round": 6,
           "opponent": "The Excommunicati",
-          "side": "blue",
-          "record": "3-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Honkai Star Rail.",
-      "wins": 3,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 28,
-          "round": 1,
-          "opponent": "Odin's Call",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 43,
-          "round": 2,
-          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
-          "side": "blue",
-          "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 65,
-          "round": 3,
-          "opponent": "Sedition.",
-          "side": "red",
-          "record": "2-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 93,
-          "round": 4,
-          "opponent": "Seriously Suspicious",
-          "side": "red",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 124,
-          "round": 5,
-          "opponent": "Platinum Sensitivity.",
-          "side": "red",
-          "record": "3-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 151,
-          "round": 6,
-          "opponent": "Deteriorated",
           "side": "blue",
           "record": "3-2",
           "result": "pending"

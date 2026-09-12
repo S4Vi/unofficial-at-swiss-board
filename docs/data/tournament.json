@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T16:23:26.258Z",
+  "updatedAt": "2026-09-12T16:46:51.060Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -17,9 +17,9 @@
     ],
     "teamCount": 58,
     "matchCount": 174,
-    "decidedCount": 147,
+    "decidedCount": 149,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T16:15:00.000Z"
+    "nextMatchAt": "2026-09-12T16:45:00.000Z"
   },
   "matches": [
     {
@@ -4295,7 +4295,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Psychokids.",
       "blue": "Platinum Sensitivity.",
-      "winner": null,
+      "winner": "Psychokids.",
       "times": {
         "convoStart": "15:15",
         "bansStart": "15:25",
@@ -4312,7 +4312,7 @@
       "blueRecord": "4-1",
       "isFloat": false,
       "bucket": "4-1",
-      "loser": null
+      "loser": "Platinum Sensitivity."
     },
     {
       "id": 149,
@@ -4324,7 +4324,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Ragequit Cancel Sub",
       "blue": "Neon Nightmares",
-      "winner": null,
+      "winner": "Ragequit Cancel Sub",
       "times": {
         "convoStart": "15:30",
         "bansStart": "15:40",
@@ -4341,7 +4341,7 @@
       "blueRecord": "4-1",
       "isFloat": false,
       "bucket": "4-1",
-      "loser": null
+      "loser": "Neon Nightmares"
     },
     {
       "id": 150,
@@ -5498,6 +5498,116 @@
       ]
     },
     {
+      "name": "Psychokids.",
+      "wins": 5,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 4,
+          "round": 1,
+          "opponent": "Seriously Suspicious",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 31,
+          "round": 2,
+          "opponent": "The Tuskers Co.",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 62,
+          "round": 3,
+          "opponent": "Ivy League",
+          "side": "blue",
+          "record": "2-0",
+          "result": "win"
+        },
+        {
+          "matchId": 90,
+          "round": 4,
+          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "red",
+          "record": "3-0",
+          "result": "win"
+        },
+        {
+          "matchId": 117,
+          "round": 5,
+          "opponent": "Paper Numbers",
+          "side": "red",
+          "record": "4-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 148,
+          "round": 6,
+          "opponent": "Platinum Sensitivity.",
+          "side": "red",
+          "record": "4-1",
+          "result": "win"
+        }
+      ]
+    },
+    {
+      "name": "Ragequit Cancel Sub",
+      "wins": 5,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 9,
+          "round": 1,
+          "opponent": "Sons of Bane",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 34,
+          "round": 2,
+          "opponent": "OnlyFleets.",
+          "side": "red",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 61,
+          "round": 3,
+          "opponent": "Arctic Light",
+          "side": "blue",
+          "record": "2-0",
+          "result": "win"
+        },
+        {
+          "matchId": 88,
+          "round": 4,
+          "opponent": "Paper Numbers",
+          "side": "red",
+          "record": "3-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 120,
+          "round": 5,
+          "opponent": "ZERG REBORN",
+          "side": "red",
+          "record": "3-1",
+          "result": "win"
+        },
+        {
+          "matchId": 149,
+          "round": 6,
+          "opponent": "Neon Nightmares",
+          "side": "red",
+          "record": "4-1",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
       "wins": 5,
       "losses": 1,
@@ -5663,226 +5773,6 @@
       ]
     },
     {
-      "name": "Neon Nightmares",
-      "wins": 4,
-      "losses": 1,
-      "path": [
-        {
-          "matchId": 23,
-          "round": 1,
-          "opponent": "Kitchen Sinkhole",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 41,
-          "round": 2,
-          "opponent": "Sedition.",
-          "side": "red",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 70,
-          "round": 3,
-          "opponent": "Odin's Call",
-          "side": "blue",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 101,
-          "round": 4,
-          "opponent": "The Excommunicati",
-          "side": "red",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 123,
-          "round": 5,
-          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
-          "side": "blue",
-          "record": "3-1",
-          "result": "win"
-        },
-        {
-          "matchId": 149,
-          "round": 6,
-          "opponent": "Ragequit Cancel Sub",
-          "side": "blue",
-          "record": "4-1",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Platinum Sensitivity.",
-      "wins": 4,
-      "losses": 1,
-      "path": [
-        {
-          "matchId": 2,
-          "round": 1,
-          "opponent": "DarkSide.",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 30,
-          "round": 2,
-          "opponent": "Dracarys.",
-          "side": "blue",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 67,
-          "round": 3,
-          "opponent": "White Squall.",
-          "side": "red",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 97,
-          "round": 4,
-          "opponent": "PSYCHOTIC OVERHEAT",
-          "side": "red",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 124,
-          "round": 5,
-          "opponent": "Honkai Star Rail.",
-          "side": "blue",
-          "record": "3-1",
-          "result": "win"
-        },
-        {
-          "matchId": 148,
-          "round": 6,
-          "opponent": "Psychokids.",
-          "side": "blue",
-          "record": "4-1",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Psychokids.",
-      "wins": 4,
-      "losses": 1,
-      "path": [
-        {
-          "matchId": 4,
-          "round": 1,
-          "opponent": "Seriously Suspicious",
-          "side": "red",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 31,
-          "round": 2,
-          "opponent": "The Tuskers Co.",
-          "side": "blue",
-          "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 62,
-          "round": 3,
-          "opponent": "Ivy League",
-          "side": "blue",
-          "record": "2-0",
-          "result": "win"
-        },
-        {
-          "matchId": 90,
-          "round": 4,
-          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
-          "side": "red",
-          "record": "3-0",
-          "result": "win"
-        },
-        {
-          "matchId": 117,
-          "round": 5,
-          "opponent": "Paper Numbers",
-          "side": "red",
-          "record": "4-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 148,
-          "round": 6,
-          "opponent": "Platinum Sensitivity.",
-          "side": "red",
-          "record": "4-1",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Ragequit Cancel Sub",
-      "wins": 4,
-      "losses": 1,
-      "path": [
-        {
-          "matchId": 9,
-          "round": 1,
-          "opponent": "Sons of Bane",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 34,
-          "round": 2,
-          "opponent": "OnlyFleets.",
-          "side": "red",
-          "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 61,
-          "round": 3,
-          "opponent": "Arctic Light",
-          "side": "blue",
-          "record": "2-0",
-          "result": "win"
-        },
-        {
-          "matchId": 88,
-          "round": 4,
-          "opponent": "Paper Numbers",
-          "side": "red",
-          "record": "3-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 120,
-          "round": 5,
-          "opponent": "ZERG REBORN",
-          "side": "red",
-          "record": "3-1",
-          "result": "win"
-        },
-        {
-          "matchId": 149,
-          "round": 6,
-          "opponent": "Neon Nightmares",
-          "side": "red",
-          "record": "4-1",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Rusty Hyenas Clan",
       "wins": 4,
       "losses": 1,
@@ -5934,6 +5824,116 @@
           "side": "blue",
           "record": "4-1",
           "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Neon Nightmares",
+      "wins": 4,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 23,
+          "round": 1,
+          "opponent": "Kitchen Sinkhole",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 41,
+          "round": 2,
+          "opponent": "Sedition.",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 70,
+          "round": 3,
+          "opponent": "Odin's Call",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 101,
+          "round": 4,
+          "opponent": "The Excommunicati",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 123,
+          "round": 5,
+          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
+          "side": "blue",
+          "record": "3-1",
+          "result": "win"
+        },
+        {
+          "matchId": 149,
+          "round": 6,
+          "opponent": "Ragequit Cancel Sub",
+          "side": "blue",
+          "record": "4-1",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Platinum Sensitivity.",
+      "wins": 4,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 2,
+          "round": 1,
+          "opponent": "DarkSide.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 30,
+          "round": 2,
+          "opponent": "Dracarys.",
+          "side": "blue",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 67,
+          "round": 3,
+          "opponent": "White Squall.",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 97,
+          "round": 4,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 124,
+          "round": 5,
+          "opponent": "Honkai Star Rail.",
+          "side": "blue",
+          "record": "3-1",
+          "result": "win"
+        },
+        {
+          "matchId": 148,
+          "round": 6,
+          "opponent": "Psychokids.",
+          "side": "blue",
+          "record": "4-1",
+          "result": "loss"
         }
       ]
     },

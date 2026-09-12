@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T15:47:02.527Z",
+  "updatedAt": "2026-09-12T16:05:46.003Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -17,9 +17,9 @@
     ],
     "teamCount": 58,
     "matchCount": 174,
-    "decidedCount": 145,
+    "decidedCount": 146,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T15:45:00.000Z"
+    "nextMatchAt": "2026-09-12T16:00:00.000Z"
   },
   "matches": [
     {
@@ -4237,7 +4237,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Paper Numbers",
       "blue": "Dracarys.",
-      "winner": null,
+      "winner": "Dracarys.",
       "times": {
         "convoStart": "14:45",
         "bansStart": "14:55",
@@ -4254,7 +4254,7 @@
       "blueRecord": "5-0",
       "isFloat": false,
       "bucket": "5-0",
-      "loser": null
+      "loser": "Paper Numbers"
     },
     {
       "id": 147,
@@ -5389,7 +5389,7 @@
   "standings": [
     {
       "name": "Dracarys.",
-      "wins": 5,
+      "wins": 6,
       "losses": 0,
       "path": [
         {
@@ -5438,14 +5438,14 @@
           "opponent": "Paper Numbers",
           "side": "blue",
           "record": "5-0",
-          "result": "pending"
+          "result": "win"
         }
       ]
     },
     {
       "name": "Paper Numbers",
       "wins": 5,
-      "losses": 0,
+      "losses": 1,
       "path": [
         {
           "matchId": 25,
@@ -5493,7 +5493,7 @@
           "opponent": "Dracarys.",
           "side": "red",
           "record": "5-0",
-          "result": "pending"
+          "result": "loss"
         }
       ]
     },

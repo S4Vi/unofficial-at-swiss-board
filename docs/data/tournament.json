@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T18:24:54.078Z",
+  "updatedAt": "2026-09-12T18:34:35.828Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -17,9 +17,9 @@
     ],
     "teamCount": 58,
     "matchCount": 174,
-    "decidedCount": 153,
+    "decidedCount": 154,
     "year": 2026,
-    "nextMatchAt": "2026-09-12T18:15:00.000Z"
+    "nextMatchAt": "2026-09-12T18:30:00.000Z"
   },
   "matches": [
     {
@@ -4469,7 +4469,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "IIIIIIIIIIIIIIIIIIIIIIIII",
       "blue": "Punishing Gray Raven",
-      "winner": null,
+      "winner": "IIIIIIIIIIIIIIIIIIIIIIIII",
       "times": {
         "convoStart": "17:15",
         "bansStart": "17:25",
@@ -4486,7 +4486,7 @@
       "blueRecord": "3-2",
       "isFloat": false,
       "bucket": "3-2",
-      "loser": null
+      "loser": "Punishing Gray Raven"
     },
     {
       "id": 155,
@@ -5938,6 +5938,61 @@
       ]
     },
     {
+      "name": "IIIIIIIIIIIIIIIIIIIIIIIII",
+      "wins": 4,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 25,
+          "round": 1,
+          "opponent": "Paper Numbers",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 56,
+          "round": 2,
+          "opponent": "Space Violence.",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 72,
+          "round": 3,
+          "opponent": "WE FORM V0LTA",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 92,
+          "round": 4,
+          "opponent": "Slide On Contact",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 123,
+          "round": 5,
+          "opponent": "Neon Nightmares",
+          "side": "red",
+          "record": "3-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 154,
+          "round": 6,
+          "opponent": "Punishing Gray Raven",
+          "side": "red",
+          "record": "3-2",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Neon Nightmares",
       "wins": 4,
       "losses": 2,
@@ -6323,61 +6378,6 @@
       ]
     },
     {
-      "name": "IIIIIIIIIIIIIIIIIIIIIIIII",
-      "wins": 3,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 25,
-          "round": 1,
-          "opponent": "Paper Numbers",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 56,
-          "round": 2,
-          "opponent": "Space Violence.",
-          "side": "blue",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 72,
-          "round": 3,
-          "opponent": "WE FORM V0LTA",
-          "side": "blue",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 92,
-          "round": 4,
-          "opponent": "Slide On Contact",
-          "side": "red",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 123,
-          "round": 5,
-          "opponent": "Neon Nightmares",
-          "side": "red",
-          "record": "3-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 154,
-          "round": 6,
-          "opponent": "Punishing Gray Raven",
-          "side": "red",
-          "record": "3-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Ivy League",
       "wins": 3,
       "losses": 2,
@@ -6537,61 +6537,6 @@
           "round": 6,
           "opponent": "ZERG REBORN",
           "side": "red",
-          "record": "3-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Punishing Gray Raven",
-      "wins": 3,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 17,
-          "round": 1,
-          "opponent": "ZERG REBORN",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 38,
-          "round": 2,
-          "opponent": "The Excommunicati",
-          "side": "red",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 69,
-          "round": 3,
-          "opponent": "Test Alliance Please Ignore",
-          "side": "blue",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 91,
-          "round": 4,
-          "opponent": "Dracarys.",
-          "side": "blue",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 136,
-          "round": 5,
-          "opponent": "OnlyFleets.",
-          "side": "red",
-          "record": "2-2",
-          "result": "win"
-        },
-        {
-          "matchId": 154,
-          "round": 6,
-          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
-          "side": "blue",
           "record": "3-2",
           "result": "pending"
         }
@@ -6921,6 +6866,61 @@
           "matchId": 153,
           "round": 6,
           "opponent": "Bright Side of Death",
+          "side": "blue",
+          "record": "3-2",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Punishing Gray Raven",
+      "wins": 3,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 17,
+          "round": 1,
+          "opponent": "ZERG REBORN",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 38,
+          "round": 2,
+          "opponent": "The Excommunicati",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 69,
+          "round": 3,
+          "opponent": "Test Alliance Please Ignore",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 91,
+          "round": 4,
+          "opponent": "Dracarys.",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 136,
+          "round": 5,
+          "opponent": "OnlyFleets.",
+          "side": "red",
+          "record": "2-2",
+          "result": "win"
+        },
+        {
+          "matchId": 154,
+          "round": 6,
+          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
           "side": "blue",
           "record": "3-2",
           "result": "loss"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T19:18:38.898Z",
+  "updatedAt": "2026-09-13T19:33:00.567Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 192,
+    "decidedCount": 193,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T19:15:00.000Z"
+    "nextMatchAt": "2026-09-13T19:30:00.000Z"
   },
   "matches": [
     {
@@ -5601,7 +5601,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "NPSI.Rocks",
       "blue": "Exodus.",
-      "winner": null,
+      "winner": "Exodus.",
       "times": {
         "convoStart": "18:15",
         "bansStart": "18:25",
@@ -5618,7 +5618,7 @@
       "blueRecord": "3-3",
       "isFloat": false,
       "bucket": "3-3",
-      "loser": null
+      "loser": "NPSI.Rocks"
     },
     {
       "id": 194,
@@ -7240,6 +7240,69 @@
       ]
     },
     {
+      "name": "Exodus.",
+      "wins": 4,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 26,
+          "round": 1,
+          "opponent": "L A Z E R H A W K S",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 42,
+          "round": 2,
+          "opponent": "Paper Numbers",
+          "side": "blue",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 79,
+          "round": 3,
+          "opponent": "D-sync.",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 96,
+          "round": 4,
+          "opponent": "Rote Kapelle",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 129,
+          "round": 5,
+          "opponent": "Test Alliance Please Ignore",
+          "side": "blue",
+          "record": "2-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 169,
+          "round": 6,
+          "opponent": "Minmatar Fleet Alliance",
+          "side": "red",
+          "record": "2-3",
+          "result": "win"
+        },
+        {
+          "matchId": 193,
+          "round": 7,
+          "opponent": "NPSI.Rocks",
+          "side": "blue",
+          "record": "3-3",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Fraternity.",
       "wins": 4,
       "losses": 3,
@@ -8059,132 +8122,6 @@
       ]
     },
     {
-      "name": "Exodus.",
-      "wins": 3,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 26,
-          "round": 1,
-          "opponent": "L A Z E R H A W K S",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 42,
-          "round": 2,
-          "opponent": "Paper Numbers",
-          "side": "blue",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 79,
-          "round": 3,
-          "opponent": "D-sync.",
-          "side": "blue",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 96,
-          "round": 4,
-          "opponent": "Rote Kapelle",
-          "side": "blue",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 129,
-          "round": 5,
-          "opponent": "Test Alliance Please Ignore",
-          "side": "blue",
-          "record": "2-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 169,
-          "round": 6,
-          "opponent": "Minmatar Fleet Alliance",
-          "side": "red",
-          "record": "2-3",
-          "result": "win"
-        },
-        {
-          "matchId": 193,
-          "round": 7,
-          "opponent": "NPSI.Rocks",
-          "side": "blue",
-          "record": "3-3",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "NPSI.Rocks",
-      "wins": 3,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 16,
-          "round": 1,
-          "opponent": "Rusty Hyenas Clan",
-          "side": "blue",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 52,
-          "round": 2,
-          "opponent": "ZERG REBORN",
-          "side": "red",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 87,
-          "round": 3,
-          "opponent": "Critical. Mass.",
-          "side": "blue",
-          "record": "0-2",
-          "result": "win"
-        },
-        {
-          "matchId": 111,
-          "round": 4,
-          "opponent": "Brave Collective",
-          "side": "red",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 127,
-          "round": 5,
-          "opponent": "The Excommunicati",
-          "side": "blue",
-          "record": "2-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 161,
-          "round": 6,
-          "opponent": "Shadow Cartel",
-          "side": "red",
-          "record": "2-3",
-          "result": "win"
-        },
-        {
-          "matchId": 193,
-          "round": 7,
-          "opponent": "Exodus.",
-          "side": "red",
-          "record": "3-3",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Arctic Light",
       "wins": 3,
       "losses": 4,
@@ -8431,6 +8368,69 @@
           "round": 7,
           "opponent": "The Excommunicati",
           "side": "blue",
+          "record": "3-3",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "NPSI.Rocks",
+      "wins": 3,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 16,
+          "round": 1,
+          "opponent": "Rusty Hyenas Clan",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 52,
+          "round": 2,
+          "opponent": "ZERG REBORN",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 87,
+          "round": 3,
+          "opponent": "Critical. Mass.",
+          "side": "blue",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 111,
+          "round": 4,
+          "opponent": "Brave Collective",
+          "side": "red",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 127,
+          "round": 5,
+          "opponent": "The Excommunicati",
+          "side": "blue",
+          "record": "2-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 161,
+          "round": 6,
+          "opponent": "Shadow Cartel",
+          "side": "red",
+          "record": "2-3",
+          "result": "win"
+        },
+        {
+          "matchId": 193,
+          "round": 7,
+          "opponent": "Exodus.",
+          "side": "red",
           "record": "3-3",
           "result": "loss"
         }

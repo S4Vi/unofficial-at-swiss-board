@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T21:20:23.234Z",
+  "updatedAt": "2026-09-13T21:32:51.828Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 200,
+    "decidedCount": 202,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T21:15:00.000Z"
+    "nextMatchAt": "2026-09-13T21:45:00.000Z"
   },
   "matches": [
     {
@@ -5833,7 +5833,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "The Obsidian Front - Reborn",
       "blue": "Solyaris Chtonium",
-      "winner": null,
+      "winner": "Solyaris Chtonium",
       "times": {
         "convoStart": "20:15",
         "bansStart": "20:25",
@@ -5850,7 +5850,7 @@
       "blueRecord": "1-5",
       "isFloat": false,
       "bucket": "1-5",
-      "loser": null
+      "loser": "The Obsidian Front - Reborn"
     },
     {
       "id": 202,
@@ -5862,7 +5862,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Critical. Mass.",
       "blue": "That Escalated Quickly.",
-      "winner": null,
+      "winner": "Critical. Mass.",
       "times": {
         "convoStart": "20:30",
         "bansStart": "20:40",
@@ -5879,7 +5879,7 @@
       "blueRecord": "1-5",
       "isFloat": false,
       "bucket": "1-5",
-      "loser": null
+      "loser": "That Escalated Quickly."
     },
     {
       "id": 203,
@@ -9067,6 +9067,69 @@
       ]
     },
     {
+      "name": "Critical. Mass.",
+      "wins": 2,
+      "losses": 5,
+      "path": [
+        {
+          "matchId": 8,
+          "round": 1,
+          "opponent": "Fraternity.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 48,
+          "round": 2,
+          "opponent": "Sons of Bane",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 87,
+          "round": 3,
+          "opponent": "NPSI.Rocks",
+          "side": "red",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 115,
+          "round": 4,
+          "opponent": "Out of the Blue.",
+          "side": "red",
+          "record": "0-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 144,
+          "round": 5,
+          "opponent": "Project Potato",
+          "side": "blue",
+          "record": "0-4",
+          "result": "loss"
+        },
+        {
+          "matchId": 174,
+          "round": 6,
+          "opponent": "The Skeleton Crew",
+          "side": "red",
+          "record": "0-5",
+          "result": "win"
+        },
+        {
+          "matchId": 202,
+          "round": 7,
+          "opponent": "That Escalated Quickly.",
+          "side": "red",
+          "record": "1-5",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Kitchen Sinkhole",
       "wins": 2,
       "losses": 5,
@@ -9382,6 +9445,69 @@
       ]
     },
     {
+      "name": "Solyaris Chtonium",
+      "wins": 2,
+      "losses": 5,
+      "path": [
+        {
+          "matchId": 11,
+          "round": 1,
+          "opponent": "The Initiative.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 49,
+          "round": 2,
+          "opponent": "Bright Side of Death",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 82,
+          "round": 3,
+          "opponent": "That Escalated Quickly.",
+          "side": "blue",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 116,
+          "round": 4,
+          "opponent": "We Forsakened Few",
+          "side": "red",
+          "record": "0-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 145,
+          "round": 5,
+          "opponent": "The Skeleton Crew",
+          "side": "blue",
+          "record": "0-4",
+          "result": "win"
+        },
+        {
+          "matchId": 171,
+          "round": 6,
+          "opponent": "White Squall.",
+          "side": "blue",
+          "record": "1-4",
+          "result": "loss"
+        },
+        {
+          "matchId": 201,
+          "round": 7,
+          "opponent": "The Obsidian Front - Reborn",
+          "side": "blue",
+          "record": "1-5",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Sons of Bane",
       "wins": 2,
       "losses": 5,
@@ -9571,69 +9697,6 @@
       ]
     },
     {
-      "name": "Critical. Mass.",
-      "wins": 1,
-      "losses": 5,
-      "path": [
-        {
-          "matchId": 8,
-          "round": 1,
-          "opponent": "Fraternity.",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 48,
-          "round": 2,
-          "opponent": "Sons of Bane",
-          "side": "red",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 87,
-          "round": 3,
-          "opponent": "NPSI.Rocks",
-          "side": "red",
-          "record": "0-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 115,
-          "round": 4,
-          "opponent": "Out of the Blue.",
-          "side": "red",
-          "record": "0-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 144,
-          "round": 5,
-          "opponent": "Project Potato",
-          "side": "blue",
-          "record": "0-4",
-          "result": "loss"
-        },
-        {
-          "matchId": 174,
-          "round": 6,
-          "opponent": "The Skeleton Crew",
-          "side": "red",
-          "record": "0-5",
-          "result": "win"
-        },
-        {
-          "matchId": 202,
-          "round": 7,
-          "opponent": "That Escalated Quickly.",
-          "side": "red",
-          "record": "1-5",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Odin's Call",
       "wins": 1,
       "losses": 5,
@@ -9697,72 +9760,9 @@
       ]
     },
     {
-      "name": "Solyaris Chtonium",
-      "wins": 1,
-      "losses": 5,
-      "path": [
-        {
-          "matchId": 11,
-          "round": 1,
-          "opponent": "The Initiative.",
-          "side": "blue",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 49,
-          "round": 2,
-          "opponent": "Bright Side of Death",
-          "side": "blue",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 82,
-          "round": 3,
-          "opponent": "That Escalated Quickly.",
-          "side": "blue",
-          "record": "0-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 116,
-          "round": 4,
-          "opponent": "We Forsakened Few",
-          "side": "red",
-          "record": "0-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 145,
-          "round": 5,
-          "opponent": "The Skeleton Crew",
-          "side": "blue",
-          "record": "0-4",
-          "result": "win"
-        },
-        {
-          "matchId": 171,
-          "round": 6,
-          "opponent": "White Squall.",
-          "side": "blue",
-          "record": "1-4",
-          "result": "loss"
-        },
-        {
-          "matchId": 201,
-          "round": 7,
-          "opponent": "The Obsidian Front - Reborn",
-          "side": "blue",
-          "record": "1-5",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "That Escalated Quickly.",
       "wins": 1,
-      "losses": 5,
+      "losses": 6,
       "path": [
         {
           "matchId": 29,
@@ -9818,14 +9818,14 @@
           "opponent": "Critical. Mass.",
           "side": "blue",
           "record": "1-5",
-          "result": "pending"
+          "result": "loss"
         }
       ]
     },
     {
       "name": "The Obsidian Front - Reborn",
       "wins": 1,
-      "losses": 5,
+      "losses": 6,
       "path": [
         {
           "matchId": 21,
@@ -9881,7 +9881,7 @@
           "opponent": "Solyaris Chtonium",
           "side": "red",
           "record": "1-5",
-          "result": "pending"
+          "result": "loss"
         }
       ]
     },

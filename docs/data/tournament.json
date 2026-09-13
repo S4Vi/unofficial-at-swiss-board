@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T15:05:21.319Z",
+  "updatedAt": "2026-09-13T15:21:02.813Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 176,
+    "decidedCount": 177,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T15:00:00.000Z"
+    "nextMatchAt": "2026-09-13T15:15:00.000Z"
   },
   "matches": [
     {
@@ -5137,7 +5137,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Paper Numbers",
       "blue": "Rusty Hyenas Clan",
-      "winner": null,
+      "winner": "Paper Numbers",
       "times": {
         "convoStart": "14:00",
         "bansStart": "14:10",
@@ -5154,7 +5154,7 @@
       "blueRecord": "5-1",
       "isFloat": false,
       "bucket": "5-1",
-      "loser": null
+      "loser": "Rusty Hyenas Clan"
     },
     {
       "id": 178,
@@ -6358,6 +6358,69 @@
       ]
     },
     {
+      "name": "Paper Numbers",
+      "wins": 6,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 25,
+          "round": 1,
+          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 42,
+          "round": 2,
+          "opponent": "Exodus.",
+          "side": "red",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 60,
+          "round": 3,
+          "opponent": "Fraternity.",
+          "side": "red",
+          "record": "2-0",
+          "result": "win"
+        },
+        {
+          "matchId": 88,
+          "round": 4,
+          "opponent": "Ragequit Cancel Sub",
+          "side": "blue",
+          "record": "3-0",
+          "result": "win"
+        },
+        {
+          "matchId": 117,
+          "round": 5,
+          "opponent": "Psychokids.",
+          "side": "blue",
+          "record": "4-0",
+          "result": "win"
+        },
+        {
+          "matchId": 146,
+          "round": 6,
+          "opponent": "Dracarys.",
+          "side": "red",
+          "record": "5-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 177,
+          "round": 7,
+          "opponent": "Rusty Hyenas Clan",
+          "side": "red",
+          "record": "5-1",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Psychokids.",
       "wins": 6,
       "losses": 1,
@@ -6484,132 +6547,6 @@
       ]
     },
     {
-      "name": "Paper Numbers",
-      "wins": 5,
-      "losses": 1,
-      "path": [
-        {
-          "matchId": 25,
-          "round": 1,
-          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 42,
-          "round": 2,
-          "opponent": "Exodus.",
-          "side": "red",
-          "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 60,
-          "round": 3,
-          "opponent": "Fraternity.",
-          "side": "red",
-          "record": "2-0",
-          "result": "win"
-        },
-        {
-          "matchId": 88,
-          "round": 4,
-          "opponent": "Ragequit Cancel Sub",
-          "side": "blue",
-          "record": "3-0",
-          "result": "win"
-        },
-        {
-          "matchId": 117,
-          "round": 5,
-          "opponent": "Psychokids.",
-          "side": "blue",
-          "record": "4-0",
-          "result": "win"
-        },
-        {
-          "matchId": 146,
-          "round": 6,
-          "opponent": "Dracarys.",
-          "side": "red",
-          "record": "5-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 177,
-          "round": 7,
-          "opponent": "Rusty Hyenas Clan",
-          "side": "red",
-          "record": "5-1",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Rusty Hyenas Clan",
-      "wins": 5,
-      "losses": 1,
-      "path": [
-        {
-          "matchId": 16,
-          "round": 1,
-          "opponent": "NPSI.Rocks",
-          "side": "red",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 37,
-          "round": 2,
-          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
-          "side": "blue",
-          "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 63,
-          "round": 3,
-          "opponent": "The Excommunicati",
-          "side": "blue",
-          "record": "2-0",
-          "result": "win"
-        },
-        {
-          "matchId": 89,
-          "round": 4,
-          "opponent": "Sedition.",
-          "side": "red",
-          "record": "3-0",
-          "result": "win"
-        },
-        {
-          "matchId": 118,
-          "round": 5,
-          "opponent": "Dracarys.",
-          "side": "red",
-          "record": "4-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 150,
-          "round": 6,
-          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
-          "side": "blue",
-          "record": "4-1",
-          "result": "win"
-        },
-        {
-          "matchId": 177,
-          "round": 7,
-          "opponent": "Paper Numbers",
-          "side": "blue",
-          "record": "5-1",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Ragequit Cancel Sub",
       "wins": 5,
       "losses": 2,
@@ -6667,6 +6604,69 @@
           "round": 7,
           "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
           "side": "red",
+          "record": "5-1",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Rusty Hyenas Clan",
+      "wins": 5,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 16,
+          "round": 1,
+          "opponent": "NPSI.Rocks",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 37,
+          "round": 2,
+          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 63,
+          "round": 3,
+          "opponent": "The Excommunicati",
+          "side": "blue",
+          "record": "2-0",
+          "result": "win"
+        },
+        {
+          "matchId": 89,
+          "round": 4,
+          "opponent": "Sedition.",
+          "side": "red",
+          "record": "3-0",
+          "result": "win"
+        },
+        {
+          "matchId": 118,
+          "round": 5,
+          "opponent": "Dracarys.",
+          "side": "red",
+          "record": "4-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 150,
+          "round": 6,
+          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+          "side": "blue",
+          "record": "4-1",
+          "result": "win"
+        },
+        {
+          "matchId": 177,
+          "round": 7,
+          "opponent": "Paper Numbers",
+          "side": "blue",
           "record": "5-1",
           "result": "loss"
         }

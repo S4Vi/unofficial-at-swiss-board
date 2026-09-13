@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T20:32:52.028Z",
+  "updatedAt": "2026-09-13T20:46:57.823Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 197,
+    "decidedCount": 198,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T20:30:00.000Z"
+    "nextMatchAt": "2026-09-13T20:45:00.000Z"
   },
   "matches": [
     {
@@ -5746,7 +5746,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Brave Collective",
       "blue": "Kitchen Sinkhole",
-      "winner": null,
+      "winner": "Brave Collective",
       "times": {
         "convoStart": "19:30",
         "bansStart": "19:40",
@@ -5763,7 +5763,7 @@
       "blueRecord": "2-4",
       "isFloat": false,
       "bucket": "2-4",
-      "loser": null
+      "loser": "Kitchen Sinkhole"
     },
     {
       "id": 199,
@@ -8185,6 +8185,69 @@
       ]
     },
     {
+      "name": "Brave Collective",
+      "wins": 3,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 6,
+          "round": 1,
+          "opponent": "The Skeleton Crew",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 32,
+          "round": 2,
+          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "blue",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 66,
+          "round": 3,
+          "opponent": "Meta Reloaded",
+          "side": "blue",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 111,
+          "round": 4,
+          "opponent": "NPSI.Rocks",
+          "side": "blue",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 137,
+          "round": 5,
+          "opponent": "Minmatar Fleet Alliance",
+          "side": "red",
+          "record": "1-3",
+          "result": "win"
+        },
+        {
+          "matchId": 168,
+          "round": 6,
+          "opponent": "Sigma Grindset",
+          "side": "blue",
+          "record": "2-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 198,
+          "round": 7,
+          "opponent": "Kitchen Sinkhole",
+          "side": "red",
+          "record": "2-4",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "D-sync.",
       "wins": 3,
       "losses": 4,
@@ -8941,132 +9004,6 @@
       ]
     },
     {
-      "name": "Brave Collective",
-      "wins": 2,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 6,
-          "round": 1,
-          "opponent": "The Skeleton Crew",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 32,
-          "round": 2,
-          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
-          "side": "blue",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 66,
-          "round": 3,
-          "opponent": "Meta Reloaded",
-          "side": "blue",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 111,
-          "round": 4,
-          "opponent": "NPSI.Rocks",
-          "side": "blue",
-          "record": "1-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 137,
-          "round": 5,
-          "opponent": "Minmatar Fleet Alliance",
-          "side": "red",
-          "record": "1-3",
-          "result": "win"
-        },
-        {
-          "matchId": 168,
-          "round": 6,
-          "opponent": "Sigma Grindset",
-          "side": "blue",
-          "record": "2-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 198,
-          "round": 7,
-          "opponent": "Kitchen Sinkhole",
-          "side": "red",
-          "record": "2-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Kitchen Sinkhole",
-      "wins": 2,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 23,
-          "round": 1,
-          "opponent": "Neon Nightmares",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 55,
-          "round": 2,
-          "opponent": "Shadow Cartel",
-          "side": "blue",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 83,
-          "round": 3,
-          "opponent": "The Skeleton Crew",
-          "side": "red",
-          "record": "0-2",
-          "result": "win"
-        },
-        {
-          "matchId": 108,
-          "round": 4,
-          "opponent": "Space Violence.",
-          "side": "red",
-          "record": "1-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 141,
-          "round": 5,
-          "opponent": "Vapor-Lock",
-          "side": "red",
-          "record": "1-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 173,
-          "round": 6,
-          "opponent": "That Escalated Quickly.",
-          "side": "blue",
-          "record": "1-4",
-          "result": "win"
-        },
-        {
-          "matchId": 198,
-          "round": 7,
-          "opponent": "Brave Collective",
-          "side": "blue",
-          "record": "2-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Out of the Blue.",
       "wins": 2,
       "losses": 4,
@@ -9252,6 +9189,69 @@
           "side": "red",
           "record": "2-4",
           "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Kitchen Sinkhole",
+      "wins": 2,
+      "losses": 5,
+      "path": [
+        {
+          "matchId": 23,
+          "round": 1,
+          "opponent": "Neon Nightmares",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 55,
+          "round": 2,
+          "opponent": "Shadow Cartel",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 83,
+          "round": 3,
+          "opponent": "The Skeleton Crew",
+          "side": "red",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 108,
+          "round": 4,
+          "opponent": "Space Violence.",
+          "side": "red",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 141,
+          "round": 5,
+          "opponent": "Vapor-Lock",
+          "side": "red",
+          "record": "1-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 173,
+          "round": 6,
+          "opponent": "That Escalated Quickly.",
+          "side": "blue",
+          "record": "1-4",
+          "result": "win"
+        },
+        {
+          "matchId": 198,
+          "round": 7,
+          "opponent": "Brave Collective",
+          "side": "blue",
+          "record": "2-4",
+          "result": "loss"
         }
       ]
     },

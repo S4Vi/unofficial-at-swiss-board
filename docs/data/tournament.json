@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T21:32:51.828Z",
+  "updatedAt": "2026-09-13T21:47:09.518Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 202,
+    "decidedCount": 203,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T21:45:00.000Z"
+    "nextMatchAt": null
   },
   "matches": [
     {
@@ -5891,7 +5891,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Odin's Call",
       "blue": "The Skeleton Crew",
-      "winner": null,
+      "winner": "Odin's Call",
       "times": {
         "convoStart": "20:45",
         "bansStart": "20:55",
@@ -5908,7 +5908,7 @@
       "blueRecord": "0-6",
       "isFloat": true,
       "bucket": "1-5",
-      "loser": null
+      "loser": "The Skeleton Crew"
     }
   ],
   "bracket": [
@@ -9256,6 +9256,69 @@
       ]
     },
     {
+      "name": "Odin's Call",
+      "wins": 2,
+      "losses": 5,
+      "path": [
+        {
+          "matchId": 28,
+          "round": 1,
+          "opponent": "Honkai Star Rail.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 58,
+          "round": 2,
+          "opponent": "That Escalated Quickly.",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 70,
+          "round": 3,
+          "opponent": "Neon Nightmares",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 112,
+          "round": 4,
+          "opponent": "Sons of Bane",
+          "side": "red",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 140,
+          "round": 5,
+          "opponent": "We Forsakened Few",
+          "side": "red",
+          "record": "1-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 172,
+          "round": 6,
+          "opponent": "Project Potato",
+          "side": "blue",
+          "record": "1-4",
+          "result": "loss"
+        },
+        {
+          "matchId": 203,
+          "round": 7,
+          "opponent": "The Skeleton Crew",
+          "side": "red",
+          "record": "1-5",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Out of the Blue.",
       "wins": 2,
       "losses": 5,
@@ -9697,69 +9760,6 @@
       ]
     },
     {
-      "name": "Odin's Call",
-      "wins": 1,
-      "losses": 5,
-      "path": [
-        {
-          "matchId": 28,
-          "round": 1,
-          "opponent": "Honkai Star Rail.",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 58,
-          "round": 2,
-          "opponent": "That Escalated Quickly.",
-          "side": "red",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 70,
-          "round": 3,
-          "opponent": "Neon Nightmares",
-          "side": "red",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 112,
-          "round": 4,
-          "opponent": "Sons of Bane",
-          "side": "red",
-          "record": "1-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 140,
-          "round": 5,
-          "opponent": "We Forsakened Few",
-          "side": "red",
-          "record": "1-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 172,
-          "round": 6,
-          "opponent": "Project Potato",
-          "side": "blue",
-          "record": "1-4",
-          "result": "loss"
-        },
-        {
-          "matchId": 203,
-          "round": 7,
-          "opponent": "The Skeleton Crew",
-          "side": "red",
-          "record": "1-5",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "That Escalated Quickly.",
       "wins": 1,
       "losses": 6,
@@ -9888,7 +9888,7 @@
     {
       "name": "The Skeleton Crew",
       "wins": 0,
-      "losses": 6,
+      "losses": 7,
       "path": [
         {
           "matchId": 6,
@@ -9944,7 +9944,7 @@
           "opponent": "Odin's Call",
           "side": "blue",
           "record": "0-6",
-          "result": "pending"
+          "result": "loss"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T15:21:02.813Z",
+  "updatedAt": "2026-09-13T15:33:09.578Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 177,
+    "decidedCount": 178,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T15:15:00.000Z"
+    "nextMatchAt": "2026-09-13T15:30:00.000Z"
   },
   "matches": [
     {
@@ -5166,7 +5166,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "34-yrs-old men get nagged by wives for playing EVE",
       "blue": "Honkai Star Rail.",
-      "winner": null,
+      "winner": "34-yrs-old men get nagged by wives for playing EVE",
       "times": {
         "convoStart": "14:15",
         "bansStart": "14:25",
@@ -5183,7 +5183,7 @@
       "blueRecord": "4-2",
       "isFloat": false,
       "bucket": "4-2",
-      "loser": null
+      "loser": "Honkai Star Rail."
     },
     {
       "id": 179,
@@ -6547,6 +6547,69 @@
       ]
     },
     {
+      "name": "34-yrs-old men get nagged by wives for playing EVE",
+      "wins": 5,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 15,
+          "round": 1,
+          "opponent": "We Forsakened Few",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 37,
+          "round": 2,
+          "opponent": "Rusty Hyenas Clan",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 73,
+          "round": 3,
+          "opponent": "ZERG REBORN",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 104,
+          "round": 4,
+          "opponent": "The Initiative.",
+          "side": "red",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 132,
+          "round": 5,
+          "opponent": "Seker Matar",
+          "side": "blue",
+          "record": "2-2",
+          "result": "win"
+        },
+        {
+          "matchId": 155,
+          "round": 6,
+          "opponent": "Ivy League",
+          "side": "blue",
+          "record": "3-2",
+          "result": "win"
+        },
+        {
+          "matchId": 178,
+          "round": 7,
+          "opponent": "Honkai Star Rail.",
+          "side": "red",
+          "record": "4-2",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Ragequit Cancel Sub",
       "wins": 5,
       "losses": 2,
@@ -6669,69 +6732,6 @@
           "side": "blue",
           "record": "5-1",
           "result": "loss"
-        }
-      ]
-    },
-    {
-      "name": "34-yrs-old men get nagged by wives for playing EVE",
-      "wins": 4,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 15,
-          "round": 1,
-          "opponent": "We Forsakened Few",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 37,
-          "round": 2,
-          "opponent": "Rusty Hyenas Clan",
-          "side": "red",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 73,
-          "round": 3,
-          "opponent": "ZERG REBORN",
-          "side": "red",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 104,
-          "round": 4,
-          "opponent": "The Initiative.",
-          "side": "red",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 132,
-          "round": 5,
-          "opponent": "Seker Matar",
-          "side": "blue",
-          "record": "2-2",
-          "result": "win"
-        },
-        {
-          "matchId": 155,
-          "round": 6,
-          "opponent": "Ivy League",
-          "side": "blue",
-          "record": "3-2",
-          "result": "win"
-        },
-        {
-          "matchId": 178,
-          "round": 7,
-          "opponent": "Honkai Star Rail.",
-          "side": "red",
-          "record": "4-2",
-          "result": "pending"
         }
       ]
     },
@@ -6981,69 +6981,6 @@
           "matchId": 183,
           "round": 7,
           "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
-          "side": "blue",
-          "record": "4-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Honkai Star Rail.",
-      "wins": 4,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 28,
-          "round": 1,
-          "opponent": "Odin's Call",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 43,
-          "round": 2,
-          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
-          "side": "blue",
-          "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 65,
-          "round": 3,
-          "opponent": "Sedition.",
-          "side": "red",
-          "record": "2-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 93,
-          "round": 4,
-          "opponent": "Seriously Suspicious",
-          "side": "red",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 124,
-          "round": 5,
-          "opponent": "Platinum Sensitivity.",
-          "side": "red",
-          "record": "3-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 151,
-          "round": 6,
-          "opponent": "Deteriorated",
-          "side": "blue",
-          "record": "3-2",
-          "result": "win"
-        },
-        {
-          "matchId": 178,
-          "round": 7,
-          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
           "side": "blue",
           "record": "4-2",
           "result": "pending"
@@ -7614,6 +7551,69 @@
           "side": "red",
           "record": "4-2",
           "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Honkai Star Rail.",
+      "wins": 4,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 28,
+          "round": 1,
+          "opponent": "Odin's Call",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 43,
+          "round": 2,
+          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 65,
+          "round": 3,
+          "opponent": "Sedition.",
+          "side": "red",
+          "record": "2-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 93,
+          "round": 4,
+          "opponent": "Seriously Suspicious",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 124,
+          "round": 5,
+          "opponent": "Platinum Sensitivity.",
+          "side": "red",
+          "record": "3-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 151,
+          "round": 6,
+          "opponent": "Deteriorated",
+          "side": "blue",
+          "record": "3-2",
+          "result": "win"
+        },
+        {
+          "matchId": 178,
+          "round": 7,
+          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
+          "side": "blue",
+          "record": "4-2",
+          "result": "loss"
         }
       ]
     },

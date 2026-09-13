@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T17:32:45.884Z",
+  "updatedAt": "2026-09-13T18:06:44.086Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 186,
+    "decidedCount": 187,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T17:45:00.000Z"
+    "nextMatchAt": "2026-09-13T18:00:00.000Z"
   },
   "matches": [
     {
@@ -5427,7 +5427,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Punishing Gray Raven",
       "blue": "D-sync.",
-      "winner": null,
+      "winner": "Punishing Gray Raven",
       "times": {
         "convoStart": "16:45",
         "bansStart": "16:55",
@@ -5444,7 +5444,7 @@
       "blueRecord": "3-3",
       "isFloat": false,
       "bucket": "3-3",
-      "loser": null
+      "loser": "D-sync."
     },
     {
       "id": 188,
@@ -7555,6 +7555,69 @@
       ]
     },
     {
+      "name": "Punishing Gray Raven",
+      "wins": 4,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 17,
+          "round": 1,
+          "opponent": "ZERG REBORN",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 38,
+          "round": 2,
+          "opponent": "The Excommunicati",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 69,
+          "round": 3,
+          "opponent": "Test Alliance Please Ignore",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 91,
+          "round": 4,
+          "opponent": "Dracarys.",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 136,
+          "round": 5,
+          "opponent": "OnlyFleets.",
+          "side": "red",
+          "record": "2-2",
+          "result": "win"
+        },
+        {
+          "matchId": 154,
+          "round": 6,
+          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
+          "side": "blue",
+          "record": "3-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 187,
+          "round": 7,
+          "opponent": "D-sync.",
+          "side": "red",
+          "record": "3-3",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Sedition.",
       "wins": 4,
       "losses": 3,
@@ -7677,69 +7740,6 @@
           "side": "red",
           "record": "3-3",
           "result": "win"
-        }
-      ]
-    },
-    {
-      "name": "D-sync.",
-      "wins": 3,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 14,
-          "round": 1,
-          "opponent": "Sigma Grindset",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 51,
-          "round": 2,
-          "opponent": "We Forsakened Few",
-          "side": "red",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 79,
-          "round": 3,
-          "opponent": "Exodus.",
-          "side": "red",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 106,
-          "round": 4,
-          "opponent": "Minmatar Fleet Alliance",
-          "side": "blue",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 130,
-          "round": 5,
-          "opponent": "Of Essence",
-          "side": "red",
-          "record": "2-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 166,
-          "round": 6,
-          "opponent": "Seker Matar",
-          "side": "blue",
-          "record": "2-3",
-          "result": "win"
-        },
-        {
-          "matchId": 187,
-          "round": 7,
-          "opponent": "Punishing Gray Raven",
-          "side": "blue",
-          "record": "3-3",
-          "result": "pending"
         }
       ]
     },
@@ -8185,69 +8185,6 @@
       ]
     },
     {
-      "name": "Punishing Gray Raven",
-      "wins": 3,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 17,
-          "round": 1,
-          "opponent": "ZERG REBORN",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 38,
-          "round": 2,
-          "opponent": "The Excommunicati",
-          "side": "red",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 69,
-          "round": 3,
-          "opponent": "Test Alliance Please Ignore",
-          "side": "blue",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 91,
-          "round": 4,
-          "opponent": "Dracarys.",
-          "side": "blue",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 136,
-          "round": 5,
-          "opponent": "OnlyFleets.",
-          "side": "red",
-          "record": "2-2",
-          "result": "win"
-        },
-        {
-          "matchId": 154,
-          "round": 6,
-          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
-          "side": "blue",
-          "record": "3-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 187,
-          "round": 7,
-          "opponent": "D-sync.",
-          "side": "red",
-          "record": "3-3",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Sigma Grindset",
       "wins": 3,
       "losses": 3,
@@ -8619,6 +8556,69 @@
           "matchId": 185,
           "round": 7,
           "opponent": "WE FORM V0LTA",
+          "side": "blue",
+          "record": "3-3",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "D-sync.",
+      "wins": 3,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 14,
+          "round": 1,
+          "opponent": "Sigma Grindset",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 51,
+          "round": 2,
+          "opponent": "We Forsakened Few",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 79,
+          "round": 3,
+          "opponent": "Exodus.",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 106,
+          "round": 4,
+          "opponent": "Minmatar Fleet Alliance",
+          "side": "blue",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 130,
+          "round": 5,
+          "opponent": "Of Essence",
+          "side": "red",
+          "record": "2-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 166,
+          "round": 6,
+          "opponent": "Seker Matar",
+          "side": "blue",
+          "record": "2-3",
+          "result": "win"
+        },
+        {
+          "matchId": 187,
+          "round": 7,
+          "opponent": "Punishing Gray Raven",
           "side": "blue",
           "record": "3-3",
           "result": "loss"

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T20:05:28.278Z",
+  "updatedAt": "2026-09-13T20:23:00.027Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 195,
+    "decidedCount": 196,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T20:00:00.000Z"
+    "nextMatchAt": "2026-09-13T20:15:00.000Z"
   },
   "matches": [
     {
@@ -5688,7 +5688,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Shadow Cartel",
       "blue": "Project Potato",
-      "winner": null,
+      "winner": "Project Potato",
       "times": {
         "convoStart": "19:00",
         "bansStart": "19:10",
@@ -5705,7 +5705,7 @@
       "blueRecord": "2-4",
       "isFloat": false,
       "bucket": "2-4",
-      "loser": null
+      "loser": "Shadow Cartel"
     },
     {
       "id": 197,
@@ -8500,6 +8500,69 @@
       ]
     },
     {
+      "name": "Project Potato",
+      "wins": 3,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 12,
+          "round": 1,
+          "opponent": "Deteriorated",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 50,
+          "round": 2,
+          "opponent": "Psyno Theory",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 86,
+          "round": 3,
+          "opponent": "Space Violence.",
+          "side": "red",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 113,
+          "round": 4,
+          "opponent": "OnlyFleets.",
+          "side": "blue",
+          "record": "0-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 144,
+          "round": 5,
+          "opponent": "Critical. Mass.",
+          "side": "red",
+          "record": "0-4",
+          "result": "win"
+        },
+        {
+          "matchId": 172,
+          "round": 6,
+          "opponent": "Odin's Call",
+          "side": "red",
+          "record": "1-4",
+          "result": "win"
+        },
+        {
+          "matchId": 196,
+          "round": 7,
+          "opponent": "Shadow Cartel",
+          "side": "blue",
+          "record": "2-4",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Seker Matar",
       "wins": 3,
       "losses": 4,
@@ -9004,69 +9067,6 @@
       ]
     },
     {
-      "name": "Project Potato",
-      "wins": 2,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 12,
-          "round": 1,
-          "opponent": "Deteriorated",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 50,
-          "round": 2,
-          "opponent": "Psyno Theory",
-          "side": "red",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 86,
-          "round": 3,
-          "opponent": "Space Violence.",
-          "side": "red",
-          "record": "0-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 113,
-          "round": 4,
-          "opponent": "OnlyFleets.",
-          "side": "blue",
-          "record": "0-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 144,
-          "round": 5,
-          "opponent": "Critical. Mass.",
-          "side": "red",
-          "record": "0-4",
-          "result": "win"
-        },
-        {
-          "matchId": 172,
-          "round": 6,
-          "opponent": "Odin's Call",
-          "side": "red",
-          "record": "1-4",
-          "result": "win"
-        },
-        {
-          "matchId": 196,
-          "round": 7,
-          "opponent": "Shadow Cartel",
-          "side": "blue",
-          "record": "2-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Seriously Suspicious",
       "wins": 2,
       "losses": 4,
@@ -9124,69 +9124,6 @@
           "round": 7,
           "opponent": "We Forsakened Few",
           "side": "blue",
-          "record": "2-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Shadow Cartel",
-      "wins": 2,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 22,
-          "round": 1,
-          "opponent": "Arctic Light",
-          "side": "blue",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 55,
-          "round": 2,
-          "opponent": "Kitchen Sinkhole",
-          "side": "red",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 76,
-          "round": 3,
-          "opponent": "Sigma Grindset",
-          "side": "red",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 94,
-          "round": 4,
-          "opponent": "ZERG REBORN",
-          "side": "red",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 135,
-          "round": 5,
-          "opponent": "WE FORM V0LTA",
-          "side": "red",
-          "record": "2-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 161,
-          "round": 6,
-          "opponent": "NPSI.Rocks",
-          "side": "blue",
-          "record": "2-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 196,
-          "round": 7,
-          "opponent": "Project Potato",
-          "side": "red",
           "record": "2-4",
           "result": "pending"
         }
@@ -9438,6 +9375,69 @@
           "matchId": 194,
           "round": 7,
           "opponent": "Seker Matar",
+          "side": "red",
+          "record": "2-4",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Shadow Cartel",
+      "wins": 2,
+      "losses": 5,
+      "path": [
+        {
+          "matchId": 22,
+          "round": 1,
+          "opponent": "Arctic Light",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 55,
+          "round": 2,
+          "opponent": "Kitchen Sinkhole",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 76,
+          "round": 3,
+          "opponent": "Sigma Grindset",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 94,
+          "round": 4,
+          "opponent": "ZERG REBORN",
+          "side": "red",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 135,
+          "round": 5,
+          "opponent": "WE FORM V0LTA",
+          "side": "red",
+          "record": "2-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 161,
+          "round": 6,
+          "opponent": "NPSI.Rocks",
+          "side": "blue",
+          "record": "2-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 196,
+          "round": 7,
+          "opponent": "Project Potato",
           "side": "red",
           "record": "2-4",
           "result": "loss"

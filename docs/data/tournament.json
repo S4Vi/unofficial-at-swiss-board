@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T16:47:10.844Z",
+  "updatedAt": "2026-09-13T17:04:24.543Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 183,
+    "decidedCount": 184,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T16:45:00.000Z"
+    "nextMatchAt": "2026-09-13T17:00:00.000Z"
   },
   "matches": [
     {
@@ -5340,7 +5340,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "The Tuskers Co.",
       "blue": "Sedition.",
-      "winner": null,
+      "winner": "The Tuskers Co.",
       "times": {
         "convoStart": "15:45",
         "bansStart": "15:55",
@@ -5357,7 +5357,7 @@
       "blueRecord": "4-2",
       "isFloat": false,
       "bucket": "4-2",
-      "loser": null
+      "loser": "Sedition."
     },
     {
       "id": 185,
@@ -7051,71 +7051,8 @@
       ]
     },
     {
-      "name": "Sedition.",
-      "wins": 4,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 24,
-          "round": 1,
-          "opponent": "Space Violence.",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 41,
-          "round": 2,
-          "opponent": "Neon Nightmares",
-          "side": "blue",
-          "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 65,
-          "round": 3,
-          "opponent": "Honkai Star Rail.",
-          "side": "blue",
-          "record": "2-0",
-          "result": "win"
-        },
-        {
-          "matchId": 89,
-          "round": 4,
-          "opponent": "Rusty Hyenas Clan",
-          "side": "blue",
-          "record": "3-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 119,
-          "round": 5,
-          "opponent": "Rote Kapelle",
-          "side": "blue",
-          "record": "3-1",
-          "result": "win"
-        },
-        {
-          "matchId": 147,
-          "round": 6,
-          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
-          "side": "blue",
-          "record": "4-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 184,
-          "round": 7,
-          "opponent": "The Tuskers Co.",
-          "side": "blue",
-          "record": "4-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "The Tuskers Co.",
-      "wins": 4,
+      "wins": 5,
       "losses": 2,
       "path": [
         {
@@ -7172,7 +7109,7 @@
           "opponent": "Sedition.",
           "side": "red",
           "record": "4-2",
-          "result": "pending"
+          "result": "win"
         }
       ]
     },
@@ -7611,6 +7548,69 @@
           "matchId": 181,
           "round": 7,
           "opponent": "Bright Side of Death",
+          "side": "blue",
+          "record": "4-2",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Sedition.",
+      "wins": 4,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 24,
+          "round": 1,
+          "opponent": "Space Violence.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 41,
+          "round": 2,
+          "opponent": "Neon Nightmares",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 65,
+          "round": 3,
+          "opponent": "Honkai Star Rail.",
+          "side": "blue",
+          "record": "2-0",
+          "result": "win"
+        },
+        {
+          "matchId": 89,
+          "round": 4,
+          "opponent": "Rusty Hyenas Clan",
+          "side": "blue",
+          "record": "3-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 119,
+          "round": 5,
+          "opponent": "Rote Kapelle",
+          "side": "blue",
+          "record": "3-1",
+          "result": "win"
+        },
+        {
+          "matchId": 147,
+          "round": 6,
+          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "blue",
+          "record": "4-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 184,
+          "round": 7,
+          "opponent": "The Tuskers Co.",
           "side": "blue",
           "record": "4-2",
           "result": "loss"

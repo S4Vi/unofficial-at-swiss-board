@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T14:47:17.348Z",
+  "updatedAt": "2026-09-13T15:05:21.319Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 175,
+    "decidedCount": 176,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T14:45:00.000Z"
+    "nextMatchAt": "2026-09-13T15:00:00.000Z"
   },
   "matches": [
     {
@@ -5108,7 +5108,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Ragequit Cancel Sub",
       "blue": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
-      "winner": null,
+      "winner": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
       "times": {
         "convoStart": "13:45",
         "bansStart": "13:55",
@@ -5125,7 +5125,7 @@
       "blueRecord": "5-1",
       "isFloat": false,
       "bucket": "5-1",
-      "loser": null
+      "loser": "Ragequit Cancel Sub"
     },
     {
       "id": 177,
@@ -6421,6 +6421,69 @@
       ]
     },
     {
+      "name": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+      "wins": 6,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 5,
+          "round": 1,
+          "opponent": "Vapor-Lock",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 32,
+          "round": 2,
+          "opponent": "Brave Collective",
+          "side": "red",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 64,
+          "round": 3,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "red",
+          "record": "2-0",
+          "result": "win"
+        },
+        {
+          "matchId": 90,
+          "round": 4,
+          "opponent": "Psychokids.",
+          "side": "blue",
+          "record": "3-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 121,
+          "round": 5,
+          "opponent": "Arctic Light",
+          "side": "blue",
+          "record": "3-1",
+          "result": "win"
+        },
+        {
+          "matchId": 147,
+          "round": 6,
+          "opponent": "Sedition.",
+          "side": "red",
+          "record": "4-1",
+          "result": "win"
+        },
+        {
+          "matchId": 176,
+          "round": 7,
+          "opponent": "Ragequit Cancel Sub",
+          "side": "blue",
+          "record": "5-1",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Paper Numbers",
       "wins": 5,
       "losses": 1,
@@ -6477,69 +6540,6 @@
           "matchId": 177,
           "round": 7,
           "opponent": "Rusty Hyenas Clan",
-          "side": "red",
-          "record": "5-1",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Ragequit Cancel Sub",
-      "wins": 5,
-      "losses": 1,
-      "path": [
-        {
-          "matchId": 9,
-          "round": 1,
-          "opponent": "Sons of Bane",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 34,
-          "round": 2,
-          "opponent": "OnlyFleets.",
-          "side": "red",
-          "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 61,
-          "round": 3,
-          "opponent": "Arctic Light",
-          "side": "blue",
-          "record": "2-0",
-          "result": "win"
-        },
-        {
-          "matchId": 88,
-          "round": 4,
-          "opponent": "Paper Numbers",
-          "side": "red",
-          "record": "3-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 120,
-          "round": 5,
-          "opponent": "ZERG REBORN",
-          "side": "red",
-          "record": "3-1",
-          "result": "win"
-        },
-        {
-          "matchId": 149,
-          "round": 6,
-          "opponent": "Neon Nightmares",
-          "side": "red",
-          "record": "4-1",
-          "result": "win"
-        },
-        {
-          "matchId": 176,
-          "round": 7,
-          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
           "side": "red",
           "record": "5-1",
           "result": "pending"
@@ -6610,54 +6610,54 @@
       ]
     },
     {
-      "name": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+      "name": "Ragequit Cancel Sub",
       "wins": 5,
-      "losses": 1,
+      "losses": 2,
       "path": [
         {
-          "matchId": 5,
+          "matchId": 9,
           "round": 1,
-          "opponent": "Vapor-Lock",
-          "side": "red",
+          "opponent": "Sons of Bane",
+          "side": "blue",
           "record": "0-0",
           "result": "win"
         },
         {
-          "matchId": 32,
+          "matchId": 34,
           "round": 2,
-          "opponent": "Brave Collective",
+          "opponent": "OnlyFleets.",
           "side": "red",
           "record": "1-0",
           "result": "win"
         },
         {
-          "matchId": 64,
+          "matchId": 61,
           "round": 3,
-          "opponent": "PSYCHOTIC OVERHEAT",
-          "side": "red",
+          "opponent": "Arctic Light",
+          "side": "blue",
           "record": "2-0",
           "result": "win"
         },
         {
-          "matchId": 90,
+          "matchId": 88,
           "round": 4,
-          "opponent": "Psychokids.",
-          "side": "blue",
+          "opponent": "Paper Numbers",
+          "side": "red",
           "record": "3-0",
           "result": "loss"
         },
         {
-          "matchId": 121,
+          "matchId": 120,
           "round": 5,
-          "opponent": "Arctic Light",
-          "side": "blue",
+          "opponent": "ZERG REBORN",
+          "side": "red",
           "record": "3-1",
           "result": "win"
         },
         {
-          "matchId": 147,
+          "matchId": 149,
           "round": 6,
-          "opponent": "Sedition.",
+          "opponent": "Neon Nightmares",
           "side": "red",
           "record": "4-1",
           "result": "win"
@@ -6665,10 +6665,10 @@
         {
           "matchId": 176,
           "round": 7,
-          "opponent": "Ragequit Cancel Sub",
-          "side": "blue",
+          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "red",
           "record": "5-1",
-          "result": "pending"
+          "result": "loss"
         }
       ]
     },

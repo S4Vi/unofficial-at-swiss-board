@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T14:32:29.086Z",
+  "updatedAt": "2026-09-13T14:47:17.348Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 174,
+    "decidedCount": 175,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T14:30:00.000Z"
+    "nextMatchAt": "2026-09-13T14:45:00.000Z"
   },
   "matches": [
     {
@@ -5079,7 +5079,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Dracarys.",
       "blue": "Psychokids.",
-      "winner": null,
+      "winner": "Psychokids.",
       "times": {
         "convoStart": "13:30",
         "bansStart": "13:40",
@@ -5096,7 +5096,7 @@
       "blueRecord": "5-1",
       "isFloat": true,
       "bucket": "6-0",
-      "loser": null
+      "loser": "Dracarys."
     },
     {
       "id": 176,
@@ -6297,7 +6297,7 @@
     {
       "name": "Dracarys.",
       "wins": 6,
-      "losses": 0,
+      "losses": 1,
       "path": [
         {
           "matchId": 1,
@@ -6353,7 +6353,70 @@
           "opponent": "Psychokids.",
           "side": "red",
           "record": "6-0",
-          "result": "pending"
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Psychokids.",
+      "wins": 6,
+      "losses": 1,
+      "path": [
+        {
+          "matchId": 4,
+          "round": 1,
+          "opponent": "Seriously Suspicious",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 31,
+          "round": 2,
+          "opponent": "The Tuskers Co.",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 62,
+          "round": 3,
+          "opponent": "Ivy League",
+          "side": "blue",
+          "record": "2-0",
+          "result": "win"
+        },
+        {
+          "matchId": 90,
+          "round": 4,
+          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "red",
+          "record": "3-0",
+          "result": "win"
+        },
+        {
+          "matchId": 117,
+          "round": 5,
+          "opponent": "Paper Numbers",
+          "side": "red",
+          "record": "4-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 148,
+          "round": 6,
+          "opponent": "Platinum Sensitivity.",
+          "side": "red",
+          "record": "4-1",
+          "result": "win"
+        },
+        {
+          "matchId": 175,
+          "round": 7,
+          "opponent": "Dracarys.",
+          "side": "blue",
+          "record": "5-1",
+          "result": "win"
         }
       ]
     },
@@ -6415,69 +6478,6 @@
           "round": 7,
           "opponent": "Rusty Hyenas Clan",
           "side": "red",
-          "record": "5-1",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Psychokids.",
-      "wins": 5,
-      "losses": 1,
-      "path": [
-        {
-          "matchId": 4,
-          "round": 1,
-          "opponent": "Seriously Suspicious",
-          "side": "red",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 31,
-          "round": 2,
-          "opponent": "The Tuskers Co.",
-          "side": "blue",
-          "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 62,
-          "round": 3,
-          "opponent": "Ivy League",
-          "side": "blue",
-          "record": "2-0",
-          "result": "win"
-        },
-        {
-          "matchId": 90,
-          "round": 4,
-          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
-          "side": "red",
-          "record": "3-0",
-          "result": "win"
-        },
-        {
-          "matchId": 117,
-          "round": 5,
-          "opponent": "Paper Numbers",
-          "side": "red",
-          "record": "4-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 148,
-          "round": 6,
-          "opponent": "Platinum Sensitivity.",
-          "side": "red",
-          "record": "4-1",
-          "result": "win"
-        },
-        {
-          "matchId": 175,
-          "round": 7,
-          "opponent": "Dracarys.",
-          "side": "blue",
           "record": "5-1",
           "result": "pending"
         }

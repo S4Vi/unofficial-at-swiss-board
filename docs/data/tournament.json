@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T20:23:00.027Z",
+  "updatedAt": "2026-09-13T20:32:52.028Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 196,
+    "decidedCount": 197,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T20:15:00.000Z"
+    "nextMatchAt": "2026-09-13T20:30:00.000Z"
   },
   "matches": [
     {
@@ -5717,7 +5717,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "We Forsakened Few",
       "blue": "Seriously Suspicious",
-      "winner": null,
+      "winner": "Seriously Suspicious",
       "times": {
         "convoStart": "19:15",
         "bansStart": "19:25",
@@ -5734,7 +5734,7 @@
       "blueRecord": "2-4",
       "isFloat": false,
       "bucket": "2-4",
-      "loser": null
+      "loser": "We Forsakened Few"
     },
     {
       "id": 198,
@@ -8626,6 +8626,69 @@
       ]
     },
     {
+      "name": "Seriously Suspicious",
+      "wins": 3,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 4,
+          "round": 1,
+          "opponent": "Psychokids.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 46,
+          "round": 2,
+          "opponent": "Vapor-Lock",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 78,
+          "round": 3,
+          "opponent": "Seker Matar",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 93,
+          "round": 4,
+          "opponent": "Honkai Star Rail.",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 131,
+          "round": 5,
+          "opponent": "Fraternity.",
+          "side": "blue",
+          "record": "2-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 167,
+          "round": 6,
+          "opponent": "The Initiative.",
+          "side": "red",
+          "record": "2-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 197,
+          "round": 7,
+          "opponent": "We Forsakened Few",
+          "side": "blue",
+          "record": "2-4",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Sigma Grindset",
       "wins": 3,
       "losses": 4,
@@ -9067,69 +9130,6 @@
       ]
     },
     {
-      "name": "Seriously Suspicious",
-      "wins": 2,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 4,
-          "round": 1,
-          "opponent": "Psychokids.",
-          "side": "blue",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 46,
-          "round": 2,
-          "opponent": "Vapor-Lock",
-          "side": "red",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 78,
-          "round": 3,
-          "opponent": "Seker Matar",
-          "side": "blue",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 93,
-          "round": 4,
-          "opponent": "Honkai Star Rail.",
-          "side": "blue",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 131,
-          "round": 5,
-          "opponent": "Fraternity.",
-          "side": "blue",
-          "record": "2-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 167,
-          "round": 6,
-          "opponent": "The Initiative.",
-          "side": "red",
-          "record": "2-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 197,
-          "round": 7,
-          "opponent": "We Forsakened Few",
-          "side": "blue",
-          "record": "2-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Slide On Contact",
       "wins": 2,
       "losses": 4,
@@ -9256,69 +9256,6 @@
       ]
     },
     {
-      "name": "We Forsakened Few",
-      "wins": 2,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 15,
-          "round": 1,
-          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 51,
-          "round": 2,
-          "opponent": "D-sync.",
-          "side": "blue",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 84,
-          "round": 3,
-          "opponent": "L A Z E R H A W K S",
-          "side": "red",
-          "record": "0-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 116,
-          "round": 4,
-          "opponent": "Solyaris Chtonium",
-          "side": "blue",
-          "record": "0-3",
-          "result": "win"
-        },
-        {
-          "matchId": 140,
-          "round": 5,
-          "opponent": "Odin's Call",
-          "side": "blue",
-          "record": "1-3",
-          "result": "win"
-        },
-        {
-          "matchId": 162,
-          "round": 6,
-          "opponent": "NO NEED LOOSE FACE",
-          "side": "red",
-          "record": "2-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 197,
-          "round": 7,
-          "opponent": "Seriously Suspicious",
-          "side": "red",
-          "record": "2-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Psyno Theory",
       "wins": 2,
       "losses": 5,
@@ -9438,6 +9375,69 @@
           "matchId": 196,
           "round": 7,
           "opponent": "Project Potato",
+          "side": "red",
+          "record": "2-4",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "We Forsakened Few",
+      "wins": 2,
+      "losses": 5,
+      "path": [
+        {
+          "matchId": 15,
+          "round": 1,
+          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 51,
+          "round": 2,
+          "opponent": "D-sync.",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 84,
+          "round": 3,
+          "opponent": "L A Z E R H A W K S",
+          "side": "red",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 116,
+          "round": 4,
+          "opponent": "Solyaris Chtonium",
+          "side": "blue",
+          "record": "0-3",
+          "result": "win"
+        },
+        {
+          "matchId": 140,
+          "round": 5,
+          "opponent": "Odin's Call",
+          "side": "blue",
+          "record": "1-3",
+          "result": "win"
+        },
+        {
+          "matchId": 162,
+          "round": 6,
+          "opponent": "NO NEED LOOSE FACE",
+          "side": "red",
+          "record": "2-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 197,
+          "round": 7,
+          "opponent": "Seriously Suspicious",
           "side": "red",
           "record": "2-4",
           "result": "loss"

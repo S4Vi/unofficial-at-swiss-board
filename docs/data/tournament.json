@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T20:46:57.823Z",
+  "updatedAt": "2026-09-13T21:20:23.234Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 198,
+    "decidedCount": 200,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T20:45:00.000Z"
+    "nextMatchAt": "2026-09-13T21:15:00.000Z"
   },
   "matches": [
     {
@@ -5775,7 +5775,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Slide On Contact",
       "blue": "Out of the Blue.",
-      "winner": null,
+      "winner": "Slide On Contact",
       "times": {
         "convoStart": "19:45",
         "bansStart": "19:55",
@@ -5792,7 +5792,7 @@
       "blueRecord": "2-4",
       "isFloat": false,
       "bucket": "2-4",
-      "loser": null
+      "loser": "Out of the Blue."
     },
     {
       "id": 200,
@@ -5804,7 +5804,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Sons of Bane",
       "blue": "Minmatar Fleet Alliance",
-      "winner": null,
+      "winner": "Minmatar Fleet Alliance",
       "times": {
         "convoStart": "20:00",
         "bansStart": "20:10",
@@ -5821,7 +5821,7 @@
       "blueRecord": "1-5",
       "isFloat": true,
       "bucket": "2-4",
-      "loser": null
+      "loser": "Sons of Bane"
     },
     {
       "id": 201,
@@ -8815,6 +8815,69 @@
       ]
     },
     {
+      "name": "Slide On Contact",
+      "wins": 3,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 29,
+          "round": 1,
+          "opponent": "That Escalated Quickly.",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 44,
+          "round": 2,
+          "opponent": "Meta Reloaded",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 80,
+          "round": 3,
+          "opponent": "Minmatar Fleet Alliance",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 92,
+          "round": 4,
+          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
+          "side": "blue",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 134,
+          "round": 5,
+          "opponent": "The Tuskers Co.",
+          "side": "blue",
+          "record": "2-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 163,
+          "round": 6,
+          "opponent": "OnlyFleets.",
+          "side": "blue",
+          "record": "2-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 199,
+          "round": 7,
+          "opponent": "Out of the Blue.",
+          "side": "red",
+          "record": "2-4",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Space Violence.",
       "wins": 3,
       "losses": 4,
@@ -9004,195 +9067,6 @@
       ]
     },
     {
-      "name": "Out of the Blue.",
-      "wins": 2,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 19,
-          "round": 1,
-          "opponent": "PSYCHOTIC OVERHEAT",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 53,
-          "round": 2,
-          "opponent": "Rote Kapelle",
-          "side": "blue",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 81,
-          "round": 3,
-          "opponent": "Vapor-Lock",
-          "side": "red",
-          "record": "0-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 115,
-          "round": 4,
-          "opponent": "Critical. Mass.",
-          "side": "blue",
-          "record": "0-3",
-          "result": "win"
-        },
-        {
-          "matchId": 142,
-          "round": 5,
-          "opponent": "NO NEED LOOSE FACE",
-          "side": "red",
-          "record": "1-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 170,
-          "round": 6,
-          "opponent": "The Obsidian Front - Reborn",
-          "side": "red",
-          "record": "1-4",
-          "result": "win"
-        },
-        {
-          "matchId": 199,
-          "round": 7,
-          "opponent": "Slide On Contact",
-          "side": "blue",
-          "record": "2-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Slide On Contact",
-      "wins": 2,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 29,
-          "round": 1,
-          "opponent": "That Escalated Quickly.",
-          "side": "red",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 44,
-          "round": 2,
-          "opponent": "Meta Reloaded",
-          "side": "red",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 80,
-          "round": 3,
-          "opponent": "Minmatar Fleet Alliance",
-          "side": "blue",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 92,
-          "round": 4,
-          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
-          "side": "blue",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 134,
-          "round": 5,
-          "opponent": "The Tuskers Co.",
-          "side": "blue",
-          "record": "2-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 163,
-          "round": 6,
-          "opponent": "OnlyFleets.",
-          "side": "blue",
-          "record": "2-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 199,
-          "round": 7,
-          "opponent": "Out of the Blue.",
-          "side": "red",
-          "record": "2-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Sons of Bane",
-      "wins": 2,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 9,
-          "round": 1,
-          "opponent": "Ragequit Cancel Sub",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 48,
-          "round": 2,
-          "opponent": "Critical. Mass.",
-          "side": "blue",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 77,
-          "round": 3,
-          "opponent": "Rote Kapelle",
-          "side": "red",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 112,
-          "round": 4,
-          "opponent": "Odin's Call",
-          "side": "blue",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 126,
-          "round": 5,
-          "opponent": "PSYCHOTIC OVERHEAT",
-          "side": "blue",
-          "record": "2-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 165,
-          "round": 6,
-          "opponent": "L A Z E R H A W K S",
-          "side": "red",
-          "record": "2-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 200,
-          "round": 7,
-          "opponent": "Minmatar Fleet Alliance",
-          "side": "red",
-          "record": "2-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Kitchen Sinkhole",
       "wins": 2,
       "losses": 5,
@@ -9249,6 +9123,132 @@
           "matchId": 198,
           "round": 7,
           "opponent": "Brave Collective",
+          "side": "blue",
+          "record": "2-4",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Minmatar Fleet Alliance",
+      "wins": 2,
+      "losses": 5,
+      "path": [
+        {
+          "matchId": 7,
+          "round": 1,
+          "opponent": "White Squall.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 47,
+          "round": 2,
+          "opponent": "The Skeleton Crew",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 80,
+          "round": 3,
+          "opponent": "Slide On Contact",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 106,
+          "round": 4,
+          "opponent": "D-sync.",
+          "side": "red",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 137,
+          "round": 5,
+          "opponent": "Brave Collective",
+          "side": "blue",
+          "record": "1-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 169,
+          "round": 6,
+          "opponent": "Exodus.",
+          "side": "blue",
+          "record": "1-4",
+          "result": "loss"
+        },
+        {
+          "matchId": 200,
+          "round": 7,
+          "opponent": "Sons of Bane",
+          "side": "blue",
+          "record": "1-5",
+          "result": "win"
+        }
+      ]
+    },
+    {
+      "name": "Out of the Blue.",
+      "wins": 2,
+      "losses": 5,
+      "path": [
+        {
+          "matchId": 19,
+          "round": 1,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 53,
+          "round": 2,
+          "opponent": "Rote Kapelle",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 81,
+          "round": 3,
+          "opponent": "Vapor-Lock",
+          "side": "red",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 115,
+          "round": 4,
+          "opponent": "Critical. Mass.",
+          "side": "blue",
+          "record": "0-3",
+          "result": "win"
+        },
+        {
+          "matchId": 142,
+          "round": 5,
+          "opponent": "NO NEED LOOSE FACE",
+          "side": "red",
+          "record": "1-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 170,
+          "round": 6,
+          "opponent": "The Obsidian Front - Reborn",
+          "side": "red",
+          "record": "1-4",
+          "result": "win"
+        },
+        {
+          "matchId": 199,
+          "round": 7,
+          "opponent": "Slide On Contact",
           "side": "blue",
           "record": "2-4",
           "result": "loss"
@@ -9375,6 +9375,69 @@
           "matchId": 196,
           "round": 7,
           "opponent": "Project Potato",
+          "side": "red",
+          "record": "2-4",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Sons of Bane",
+      "wins": 2,
+      "losses": 5,
+      "path": [
+        {
+          "matchId": 9,
+          "round": 1,
+          "opponent": "Ragequit Cancel Sub",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 48,
+          "round": 2,
+          "opponent": "Critical. Mass.",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 77,
+          "round": 3,
+          "opponent": "Rote Kapelle",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 112,
+          "round": 4,
+          "opponent": "Odin's Call",
+          "side": "blue",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 126,
+          "round": 5,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "blue",
+          "record": "2-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 165,
+          "round": 6,
+          "opponent": "L A Z E R H A W K S",
+          "side": "red",
+          "record": "2-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 200,
+          "round": 7,
+          "opponent": "Minmatar Fleet Alliance",
           "side": "red",
           "record": "2-4",
           "result": "loss"
@@ -9565,69 +9628,6 @@
           "round": 7,
           "opponent": "That Escalated Quickly.",
           "side": "red",
-          "record": "1-5",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Minmatar Fleet Alliance",
-      "wins": 1,
-      "losses": 5,
-      "path": [
-        {
-          "matchId": 7,
-          "round": 1,
-          "opponent": "White Squall.",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 47,
-          "round": 2,
-          "opponent": "The Skeleton Crew",
-          "side": "blue",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 80,
-          "round": 3,
-          "opponent": "Slide On Contact",
-          "side": "red",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 106,
-          "round": 4,
-          "opponent": "D-sync.",
-          "side": "red",
-          "record": "1-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 137,
-          "round": 5,
-          "opponent": "Brave Collective",
-          "side": "blue",
-          "record": "1-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 169,
-          "round": 6,
-          "opponent": "Exodus.",
-          "side": "blue",
-          "record": "1-4",
-          "result": "loss"
-        },
-        {
-          "matchId": 200,
-          "round": 7,
-          "opponent": "Sons of Bane",
-          "side": "blue",
           "record": "1-5",
           "result": "pending"
         }

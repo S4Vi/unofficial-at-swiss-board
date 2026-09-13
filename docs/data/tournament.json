@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T17:04:24.543Z",
+  "updatedAt": "2026-09-13T17:19:49.262Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 184,
+    "decidedCount": 185,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T17:00:00.000Z"
+    "nextMatchAt": "2026-09-13T17:15:00.000Z"
   },
   "matches": [
     {
@@ -5369,7 +5369,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "WE FORM V0LTA",
       "blue": "Arctic Light",
-      "winner": null,
+      "winner": "WE FORM V0LTA",
       "times": {
         "convoStart": "16:00",
         "bansStart": "16:10",
@@ -5386,7 +5386,7 @@
       "blueRecord": "3-3",
       "isFloat": true,
       "bucket": "4-2",
-      "loser": null
+      "loser": "Arctic Light"
     },
     {
       "id": 186,
@@ -7115,7 +7115,7 @@
     },
     {
       "name": "WE FORM V0LTA",
-      "wins": 4,
+      "wins": 5,
       "losses": 2,
       "path": [
         {
@@ -7172,7 +7172,7 @@
           "opponent": "Arctic Light",
           "side": "red",
           "record": "4-2",
-          "result": "pending"
+          "result": "win"
         }
       ]
     },
@@ -7614,69 +7614,6 @@
           "side": "blue",
           "record": "4-2",
           "result": "loss"
-        }
-      ]
-    },
-    {
-      "name": "Arctic Light",
-      "wins": 3,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 22,
-          "round": 1,
-          "opponent": "Shadow Cartel",
-          "side": "red",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 40,
-          "round": 2,
-          "opponent": "Of Essence",
-          "side": "blue",
-          "record": "1-0",
-          "result": "win"
-        },
-        {
-          "matchId": 61,
-          "round": 3,
-          "opponent": "Ragequit Cancel Sub",
-          "side": "red",
-          "record": "2-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 95,
-          "round": 4,
-          "opponent": "Psyno Theory",
-          "side": "blue",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 121,
-          "round": 5,
-          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
-          "side": "red",
-          "record": "3-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 158,
-          "round": 6,
-          "opponent": "Rote Kapelle",
-          "side": "red",
-          "record": "3-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 185,
-          "round": 7,
-          "opponent": "WE FORM V0LTA",
-          "side": "blue",
-          "record": "3-3",
-          "result": "pending"
         }
       ]
     },
@@ -8685,6 +8622,69 @@
           "side": "blue",
           "record": "3-3",
           "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Arctic Light",
+      "wins": 3,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 22,
+          "round": 1,
+          "opponent": "Shadow Cartel",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 40,
+          "round": 2,
+          "opponent": "Of Essence",
+          "side": "blue",
+          "record": "1-0",
+          "result": "win"
+        },
+        {
+          "matchId": 61,
+          "round": 3,
+          "opponent": "Ragequit Cancel Sub",
+          "side": "red",
+          "record": "2-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 95,
+          "round": 4,
+          "opponent": "Psyno Theory",
+          "side": "blue",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 121,
+          "round": 5,
+          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "red",
+          "record": "3-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 158,
+          "round": 6,
+          "opponent": "Rote Kapelle",
+          "side": "red",
+          "record": "3-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 185,
+          "round": 7,
+          "opponent": "WE FORM V0LTA",
+          "side": "blue",
+          "record": "3-3",
+          "result": "loss"
         }
       ]
     },

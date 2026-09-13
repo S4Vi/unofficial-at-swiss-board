@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T23:05:01.173Z",
+  "updatedAt": "2026-09-13T14:32:29.086Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -16,11 +16,11 @@
       6,
       7
     ],
-    "teamCount": 64,
+    "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 170,
+    "decidedCount": 174,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T13:30:00.000Z"
+    "nextMatchAt": "2026-09-13T14:30:00.000Z"
   },
   "matches": [
     {
@@ -4963,7 +4963,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "White Squall.",
       "blue": "Solyaris Chtonium",
-      "winner": null,
+      "winner": "White Squall.",
       "times": {
         "convoStart": "12:30",
         "bansStart": "12:40",
@@ -4980,7 +4980,7 @@
       "blueRecord": "1-4",
       "isFloat": false,
       "bucket": "1-4",
-      "loser": null
+      "loser": "Solyaris Chtonium"
     },
     {
       "id": 172,
@@ -4992,7 +4992,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Project Potato",
       "blue": "Odin's Call",
-      "winner": null,
+      "winner": "Project Potato",
       "times": {
         "convoStart": "12:45",
         "bansStart": "12:55",
@@ -5009,7 +5009,7 @@
       "blueRecord": "1-4",
       "isFloat": false,
       "bucket": "1-4",
-      "loser": null
+      "loser": "Odin's Call"
     },
     {
       "id": 173,
@@ -5021,7 +5021,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "That Escalated Quickly.",
       "blue": "Kitchen Sinkhole",
-      "winner": null,
+      "winner": "Kitchen Sinkhole",
       "times": {
         "convoStart": "13:00",
         "bansStart": "13:10",
@@ -5038,7 +5038,7 @@
       "blueRecord": "1-4",
       "isFloat": false,
       "bucket": "1-4",
-      "loser": null
+      "loser": "That Escalated Quickly."
     },
     {
       "id": 174,
@@ -5050,7 +5050,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Critical. Mass.",
       "blue": "The Skeleton Crew",
-      "winner": null,
+      "winner": "Critical. Mass.",
       "times": {
         "convoStart": "13:15",
         "bansStart": "13:25",
@@ -5067,7 +5067,7 @@
       "blueRecord": "0-5",
       "isFloat": false,
       "bucket": "0-5",
-      "loser": null
+      "loser": "The Skeleton Crew"
     },
     {
       "id": 175,
@@ -5658,7 +5658,7 @@
       "round": 7,
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Vapor-Lock",
-      "blue": "Winner of Match 171",
+      "blue": "White Squall.",
       "winner": null,
       "times": {
         "convoStart": "18:45",
@@ -5673,8 +5673,8 @@
       "points": null,
       "survivors": null,
       "redRecord": "2-4",
-      "blueRecord": "0-0",
-      "isFloat": true,
+      "blueRecord": "2-4",
+      "isFloat": false,
       "bucket": "2-4",
       "loser": null
     },
@@ -5687,7 +5687,7 @@
       "round": 7,
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Shadow Cartel",
-      "blue": "Winner of Match 172",
+      "blue": "Project Potato",
       "winner": null,
       "times": {
         "convoStart": "19:00",
@@ -5702,8 +5702,8 @@
       "points": null,
       "survivors": null,
       "redRecord": "2-4",
-      "blueRecord": "0-0",
-      "isFloat": true,
+      "blueRecord": "2-4",
+      "isFloat": false,
       "bucket": "2-4",
       "loser": null
     },
@@ -5745,7 +5745,7 @@
       "round": 7,
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Brave Collective",
-      "blue": "Winner of Match 173",
+      "blue": "Kitchen Sinkhole",
       "winner": null,
       "times": {
         "convoStart": "19:30",
@@ -5760,8 +5760,8 @@
       "points": null,
       "survivors": null,
       "redRecord": "2-4",
-      "blueRecord": "0-0",
-      "isFloat": true,
+      "blueRecord": "2-4",
+      "isFloat": false,
       "bucket": "2-4",
       "loser": null
     },
@@ -5832,7 +5832,7 @@
       "round": 7,
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "The Obsidian Front - Reborn",
-      "blue": "Loser of Match 171",
+      "blue": "Solyaris Chtonium",
       "winner": null,
       "times": {
         "convoStart": "20:15",
@@ -5847,8 +5847,8 @@
       "points": null,
       "survivors": null,
       "redRecord": "1-5",
-      "blueRecord": "0-0",
-      "isFloat": true,
+      "blueRecord": "1-5",
+      "isFloat": false,
       "bucket": "1-5",
       "loser": null
     },
@@ -5861,7 +5861,7 @@
       "round": 7,
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Critical. Mass.",
-      "blue": "Loser of Match 173",
+      "blue": "That Escalated Quickly.",
       "winner": null,
       "times": {
         "convoStart": "20:30",
@@ -5875,10 +5875,10 @@
       "bans": null,
       "points": null,
       "survivors": null,
-      "redRecord": "0-5",
-      "blueRecord": "0-0",
-      "isFloat": true,
-      "bucket": "0-5",
+      "redRecord": "1-5",
+      "blueRecord": "1-5",
+      "isFloat": false,
+      "bucket": "1-5",
       "loser": null
     },
     {
@@ -5889,7 +5889,7 @@
       "startsAt": "2026-09-13T21:45:00.000Z",
       "round": 7,
       "sheet": "ATXXII Prelims Weekend 3",
-      "red": "Loser of Match 172",
+      "red": "Odin's Call",
       "blue": "The Skeleton Crew",
       "winner": null,
       "times": {
@@ -5904,10 +5904,10 @@
       "bans": null,
       "points": null,
       "survivors": null,
-      "redRecord": "0-0",
-      "blueRecord": "0-5",
+      "redRecord": "1-5",
+      "blueRecord": "0-6",
       "isFloat": true,
-      "bucket": "0-0",
+      "bucket": "1-5",
       "loser": null
     }
   ],
@@ -6285,18 +6285,8 @@
         {
           "record": "1-5",
           "matchIds": [
-            201
-          ]
-        },
-        {
-          "record": "0-5",
-          "matchIds": [
-            202
-          ]
-        },
-        {
-          "record": "0-0",
-          "matchIds": [
+            201,
+            202,
             203
           ]
         }
@@ -8754,8 +8744,71 @@
         {
           "matchId": 198,
           "round": 7,
-          "opponent": "Winner of Match 173",
+          "opponent": "Kitchen Sinkhole",
           "side": "red",
+          "record": "2-4",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Kitchen Sinkhole",
+      "wins": 2,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 23,
+          "round": 1,
+          "opponent": "Neon Nightmares",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 55,
+          "round": 2,
+          "opponent": "Shadow Cartel",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 83,
+          "round": 3,
+          "opponent": "The Skeleton Crew",
+          "side": "red",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 108,
+          "round": 4,
+          "opponent": "Space Violence.",
+          "side": "red",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 141,
+          "round": 5,
+          "opponent": "Vapor-Lock",
+          "side": "red",
+          "record": "1-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 173,
+          "round": 6,
+          "opponent": "That Escalated Quickly.",
+          "side": "blue",
+          "record": "1-4",
+          "result": "win"
+        },
+        {
+          "matchId": 198,
+          "round": 7,
+          "opponent": "Brave Collective",
+          "side": "blue",
           "record": "2-4",
           "result": "pending"
         }
@@ -8818,6 +8871,69 @@
           "matchId": 199,
           "round": 7,
           "opponent": "Slide On Contact",
+          "side": "blue",
+          "record": "2-4",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Project Potato",
+      "wins": 2,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 12,
+          "round": 1,
+          "opponent": "Deteriorated",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 50,
+          "round": 2,
+          "opponent": "Psyno Theory",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 86,
+          "round": 3,
+          "opponent": "Space Violence.",
+          "side": "red",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 113,
+          "round": 4,
+          "opponent": "OnlyFleets.",
+          "side": "blue",
+          "record": "0-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 144,
+          "round": 5,
+          "opponent": "Critical. Mass.",
+          "side": "red",
+          "record": "0-4",
+          "result": "win"
+        },
+        {
+          "matchId": 172,
+          "round": 6,
+          "opponent": "Odin's Call",
+          "side": "red",
+          "record": "1-4",
+          "result": "win"
+        },
+        {
+          "matchId": 196,
+          "round": 7,
+          "opponent": "Shadow Cartel",
           "side": "blue",
           "record": "2-4",
           "result": "pending"
@@ -9069,7 +9185,7 @@
         {
           "matchId": 196,
           "round": 7,
-          "opponent": "Winner of Match 172",
+          "opponent": "Project Potato",
           "side": "red",
           "record": "2-4",
           "result": "pending"
@@ -9258,7 +9374,7 @@
         {
           "matchId": 195,
           "round": 7,
-          "opponent": "Winner of Match 171",
+          "opponent": "White Squall.",
           "side": "red",
           "record": "2-4",
           "result": "pending"
@@ -9329,283 +9445,8 @@
       ]
     },
     {
-      "name": "Kitchen Sinkhole",
-      "wins": 1,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 23,
-          "round": 1,
-          "opponent": "Neon Nightmares",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 55,
-          "round": 2,
-          "opponent": "Shadow Cartel",
-          "side": "blue",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 83,
-          "round": 3,
-          "opponent": "The Skeleton Crew",
-          "side": "red",
-          "record": "0-2",
-          "result": "win"
-        },
-        {
-          "matchId": 108,
-          "round": 4,
-          "opponent": "Space Violence.",
-          "side": "red",
-          "record": "1-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 141,
-          "round": 5,
-          "opponent": "Vapor-Lock",
-          "side": "red",
-          "record": "1-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 173,
-          "round": 6,
-          "opponent": "That Escalated Quickly.",
-          "side": "blue",
-          "record": "1-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Odin's Call",
-      "wins": 1,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 28,
-          "round": 1,
-          "opponent": "Honkai Star Rail.",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 58,
-          "round": 2,
-          "opponent": "That Escalated Quickly.",
-          "side": "red",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 70,
-          "round": 3,
-          "opponent": "Neon Nightmares",
-          "side": "red",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 112,
-          "round": 4,
-          "opponent": "Sons of Bane",
-          "side": "red",
-          "record": "1-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 140,
-          "round": 5,
-          "opponent": "We Forsakened Few",
-          "side": "red",
-          "record": "1-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 172,
-          "round": 6,
-          "opponent": "Project Potato",
-          "side": "blue",
-          "record": "1-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Project Potato",
-      "wins": 1,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 12,
-          "round": 1,
-          "opponent": "Deteriorated",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 50,
-          "round": 2,
-          "opponent": "Psyno Theory",
-          "side": "red",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 86,
-          "round": 3,
-          "opponent": "Space Violence.",
-          "side": "red",
-          "record": "0-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 113,
-          "round": 4,
-          "opponent": "OnlyFleets.",
-          "side": "blue",
-          "record": "0-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 144,
-          "round": 5,
-          "opponent": "Critical. Mass.",
-          "side": "red",
-          "record": "0-4",
-          "result": "win"
-        },
-        {
-          "matchId": 172,
-          "round": 6,
-          "opponent": "Odin's Call",
-          "side": "red",
-          "record": "1-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Solyaris Chtonium",
-      "wins": 1,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 11,
-          "round": 1,
-          "opponent": "The Initiative.",
-          "side": "blue",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 49,
-          "round": 2,
-          "opponent": "Bright Side of Death",
-          "side": "blue",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 82,
-          "round": 3,
-          "opponent": "That Escalated Quickly.",
-          "side": "blue",
-          "record": "0-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 116,
-          "round": 4,
-          "opponent": "We Forsakened Few",
-          "side": "red",
-          "record": "0-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 145,
-          "round": 5,
-          "opponent": "The Skeleton Crew",
-          "side": "blue",
-          "record": "0-4",
-          "result": "win"
-        },
-        {
-          "matchId": 171,
-          "round": 6,
-          "opponent": "White Squall.",
-          "side": "blue",
-          "record": "1-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "That Escalated Quickly.",
-      "wins": 1,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 29,
-          "round": 1,
-          "opponent": "Slide On Contact",
-          "side": "blue",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 58,
-          "round": 2,
-          "opponent": "Odin's Call",
-          "side": "blue",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 82,
-          "round": 3,
-          "opponent": "Solyaris Chtonium",
-          "side": "red",
-          "record": "0-2",
-          "result": "win"
-        },
-        {
-          "matchId": 103,
-          "round": 4,
-          "opponent": "Test Alliance Please Ignore",
-          "side": "blue",
-          "record": "1-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 139,
-          "round": 5,
-          "opponent": "The Initiative.",
-          "side": "red",
-          "record": "1-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 173,
-          "round": 6,
-          "opponent": "Kitchen Sinkhole",
-          "side": "red",
-          "record": "1-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "White Squall.",
-      "wins": 1,
+      "wins": 2,
       "losses": 4,
       "path": [
         {
@@ -9654,6 +9495,77 @@
           "opponent": "Solyaris Chtonium",
           "side": "red",
           "record": "1-4",
+          "result": "win"
+        },
+        {
+          "matchId": 195,
+          "round": 7,
+          "opponent": "Vapor-Lock",
+          "side": "blue",
+          "record": "2-4",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Critical. Mass.",
+      "wins": 1,
+      "losses": 5,
+      "path": [
+        {
+          "matchId": 8,
+          "round": 1,
+          "opponent": "Fraternity.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 48,
+          "round": 2,
+          "opponent": "Sons of Bane",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 87,
+          "round": 3,
+          "opponent": "NPSI.Rocks",
+          "side": "red",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 115,
+          "round": 4,
+          "opponent": "Out of the Blue.",
+          "side": "red",
+          "record": "0-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 144,
+          "round": 5,
+          "opponent": "Project Potato",
+          "side": "blue",
+          "record": "0-4",
+          "result": "loss"
+        },
+        {
+          "matchId": 174,
+          "round": 6,
+          "opponent": "The Skeleton Crew",
+          "side": "red",
+          "record": "0-5",
+          "result": "win"
+        },
+        {
+          "matchId": 202,
+          "round": 7,
+          "opponent": "That Escalated Quickly.",
+          "side": "red",
+          "record": "1-5",
           "result": "pending"
         }
       ]
@@ -9722,6 +9634,195 @@
       ]
     },
     {
+      "name": "Odin's Call",
+      "wins": 1,
+      "losses": 5,
+      "path": [
+        {
+          "matchId": 28,
+          "round": 1,
+          "opponent": "Honkai Star Rail.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 58,
+          "round": 2,
+          "opponent": "That Escalated Quickly.",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 70,
+          "round": 3,
+          "opponent": "Neon Nightmares",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 112,
+          "round": 4,
+          "opponent": "Sons of Bane",
+          "side": "red",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 140,
+          "round": 5,
+          "opponent": "We Forsakened Few",
+          "side": "red",
+          "record": "1-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 172,
+          "round": 6,
+          "opponent": "Project Potato",
+          "side": "blue",
+          "record": "1-4",
+          "result": "loss"
+        },
+        {
+          "matchId": 203,
+          "round": 7,
+          "opponent": "The Skeleton Crew",
+          "side": "red",
+          "record": "1-5",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Solyaris Chtonium",
+      "wins": 1,
+      "losses": 5,
+      "path": [
+        {
+          "matchId": 11,
+          "round": 1,
+          "opponent": "The Initiative.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 49,
+          "round": 2,
+          "opponent": "Bright Side of Death",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 82,
+          "round": 3,
+          "opponent": "That Escalated Quickly.",
+          "side": "blue",
+          "record": "0-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 116,
+          "round": 4,
+          "opponent": "We Forsakened Few",
+          "side": "red",
+          "record": "0-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 145,
+          "round": 5,
+          "opponent": "The Skeleton Crew",
+          "side": "blue",
+          "record": "0-4",
+          "result": "win"
+        },
+        {
+          "matchId": 171,
+          "round": 6,
+          "opponent": "White Squall.",
+          "side": "blue",
+          "record": "1-4",
+          "result": "loss"
+        },
+        {
+          "matchId": 201,
+          "round": 7,
+          "opponent": "The Obsidian Front - Reborn",
+          "side": "blue",
+          "record": "1-5",
+          "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "That Escalated Quickly.",
+      "wins": 1,
+      "losses": 5,
+      "path": [
+        {
+          "matchId": 29,
+          "round": 1,
+          "opponent": "Slide On Contact",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 58,
+          "round": 2,
+          "opponent": "Odin's Call",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 82,
+          "round": 3,
+          "opponent": "Solyaris Chtonium",
+          "side": "red",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 103,
+          "round": 4,
+          "opponent": "Test Alliance Please Ignore",
+          "side": "blue",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 139,
+          "round": 5,
+          "opponent": "The Initiative.",
+          "side": "red",
+          "record": "1-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 173,
+          "round": 6,
+          "opponent": "Kitchen Sinkhole",
+          "side": "red",
+          "record": "1-4",
+          "result": "loss"
+        },
+        {
+          "matchId": 202,
+          "round": 7,
+          "opponent": "Critical. Mass.",
+          "side": "blue",
+          "record": "1-5",
+          "result": "pending"
+        }
+      ]
+    },
+    {
       "name": "The Obsidian Front - Reborn",
       "wins": 1,
       "losses": 5,
@@ -9777,7 +9878,7 @@
         {
           "matchId": 201,
           "round": 7,
-          "opponent": "Loser of Match 171",
+          "opponent": "Solyaris Chtonium",
           "side": "red",
           "record": "1-5",
           "result": "pending"
@@ -9785,162 +9886,9 @@
       ]
     },
     {
-      "name": "Loser of Match 171",
-      "wins": 0,
-      "losses": 0,
-      "path": [
-        {
-          "matchId": 201,
-          "round": 7,
-          "opponent": "The Obsidian Front - Reborn",
-          "side": "blue",
-          "record": "0-0",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Loser of Match 172",
-      "wins": 0,
-      "losses": 0,
-      "path": [
-        {
-          "matchId": 203,
-          "round": 7,
-          "opponent": "The Skeleton Crew",
-          "side": "red",
-          "record": "0-0",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Loser of Match 173",
-      "wins": 0,
-      "losses": 0,
-      "path": [
-        {
-          "matchId": 202,
-          "round": 7,
-          "opponent": "Critical. Mass.",
-          "side": "blue",
-          "record": "0-0",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Winner of Match 171",
-      "wins": 0,
-      "losses": 0,
-      "path": [
-        {
-          "matchId": 195,
-          "round": 7,
-          "opponent": "Vapor-Lock",
-          "side": "blue",
-          "record": "0-0",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Winner of Match 172",
-      "wins": 0,
-      "losses": 0,
-      "path": [
-        {
-          "matchId": 196,
-          "round": 7,
-          "opponent": "Shadow Cartel",
-          "side": "blue",
-          "record": "0-0",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Winner of Match 173",
-      "wins": 0,
-      "losses": 0,
-      "path": [
-        {
-          "matchId": 198,
-          "round": 7,
-          "opponent": "Brave Collective",
-          "side": "blue",
-          "record": "0-0",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Critical. Mass.",
-      "wins": 0,
-      "losses": 5,
-      "path": [
-        {
-          "matchId": 8,
-          "round": 1,
-          "opponent": "Fraternity.",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 48,
-          "round": 2,
-          "opponent": "Sons of Bane",
-          "side": "red",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 87,
-          "round": 3,
-          "opponent": "NPSI.Rocks",
-          "side": "red",
-          "record": "0-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 115,
-          "round": 4,
-          "opponent": "Out of the Blue.",
-          "side": "red",
-          "record": "0-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 144,
-          "round": 5,
-          "opponent": "Project Potato",
-          "side": "blue",
-          "record": "0-4",
-          "result": "loss"
-        },
-        {
-          "matchId": 174,
-          "round": 6,
-          "opponent": "The Skeleton Crew",
-          "side": "red",
-          "record": "0-5",
-          "result": "pending"
-        },
-        {
-          "matchId": 202,
-          "round": 7,
-          "opponent": "Loser of Match 173",
-          "side": "red",
-          "record": "0-5",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "The Skeleton Crew",
       "wins": 0,
-      "losses": 5,
+      "losses": 6,
       "path": [
         {
           "matchId": 6,
@@ -9988,14 +9936,14 @@
           "opponent": "Critical. Mass.",
           "side": "blue",
           "record": "0-5",
-          "result": "pending"
+          "result": "loss"
         },
         {
           "matchId": 203,
           "round": 7,
-          "opponent": "Loser of Match 172",
+          "opponent": "Odin's Call",
           "side": "blue",
-          "record": "0-5",
+          "record": "0-6",
           "result": "pending"
         }
       ]

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T15:33:09.578Z",
+  "updatedAt": "2026-09-13T15:47:25.324Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 178,
+    "decidedCount": 179,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T15:30:00.000Z"
+    "nextMatchAt": "2026-09-13T15:45:00.000Z"
   },
   "matches": [
     {
@@ -5195,7 +5195,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Meta Reloaded",
       "blue": "Platinum Sensitivity.",
-      "winner": null,
+      "winner": "Platinum Sensitivity.",
       "times": {
         "convoStart": "14:30",
         "bansStart": "14:40",
@@ -5212,7 +5212,7 @@
       "blueRecord": "4-2",
       "isFloat": false,
       "bucket": "4-2",
-      "loser": null
+      "loser": "Meta Reloaded"
     },
     {
       "id": 180,
@@ -6610,6 +6610,69 @@
       ]
     },
     {
+      "name": "Platinum Sensitivity.",
+      "wins": 5,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 2,
+          "round": 1,
+          "opponent": "DarkSide.",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 30,
+          "round": 2,
+          "opponent": "Dracarys.",
+          "side": "blue",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 67,
+          "round": 3,
+          "opponent": "White Squall.",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 97,
+          "round": 4,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 124,
+          "round": 5,
+          "opponent": "Honkai Star Rail.",
+          "side": "blue",
+          "record": "3-1",
+          "result": "win"
+        },
+        {
+          "matchId": 148,
+          "round": 6,
+          "opponent": "Psychokids.",
+          "side": "blue",
+          "record": "4-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 179,
+          "round": 7,
+          "opponent": "Meta Reloaded",
+          "side": "blue",
+          "record": "4-2",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Ragequit Cancel Sub",
       "wins": 5,
       "losses": 2,
@@ -7051,69 +7114,6 @@
       ]
     },
     {
-      "name": "Meta Reloaded",
-      "wins": 4,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 1,
-          "round": 1,
-          "opponent": "Dracarys.",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 44,
-          "round": 2,
-          "opponent": "Slide On Contact",
-          "side": "blue",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 66,
-          "round": 3,
-          "opponent": "Brave Collective",
-          "side": "red",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 100,
-          "round": 4,
-          "opponent": "Fraternity.",
-          "side": "blue",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 122,
-          "round": 5,
-          "opponent": "Deteriorated",
-          "side": "blue",
-          "record": "3-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 156,
-          "round": 6,
-          "opponent": "Space Violence.",
-          "side": "blue",
-          "record": "3-2",
-          "result": "win"
-        },
-        {
-          "matchId": 179,
-          "round": 7,
-          "opponent": "Platinum Sensitivity.",
-          "side": "red",
-          "record": "4-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Neon Nightmares",
       "wins": 4,
       "losses": 2,
@@ -7233,69 +7233,6 @@
           "matchId": 181,
           "round": 7,
           "opponent": "Bright Side of Death",
-          "side": "blue",
-          "record": "4-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Platinum Sensitivity.",
-      "wins": 4,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 2,
-          "round": 1,
-          "opponent": "DarkSide.",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 30,
-          "round": 2,
-          "opponent": "Dracarys.",
-          "side": "blue",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 67,
-          "round": 3,
-          "opponent": "White Squall.",
-          "side": "red",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 97,
-          "round": 4,
-          "opponent": "PSYCHOTIC OVERHEAT",
-          "side": "red",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 124,
-          "round": 5,
-          "opponent": "Honkai Star Rail.",
-          "side": "blue",
-          "record": "3-1",
-          "result": "win"
-        },
-        {
-          "matchId": 148,
-          "round": 6,
-          "opponent": "Psychokids.",
-          "side": "blue",
-          "record": "4-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 179,
-          "round": 7,
-          "opponent": "Meta Reloaded",
           "side": "blue",
           "record": "4-2",
           "result": "pending"
@@ -7612,6 +7549,69 @@
           "round": 7,
           "opponent": "34-yrs-old men get nagged by wives for playing EVE",
           "side": "blue",
+          "record": "4-2",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Meta Reloaded",
+      "wins": 4,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 1,
+          "round": 1,
+          "opponent": "Dracarys.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 44,
+          "round": 2,
+          "opponent": "Slide On Contact",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 66,
+          "round": 3,
+          "opponent": "Brave Collective",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 100,
+          "round": 4,
+          "opponent": "Fraternity.",
+          "side": "blue",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 122,
+          "round": 5,
+          "opponent": "Deteriorated",
+          "side": "blue",
+          "record": "3-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 156,
+          "round": 6,
+          "opponent": "Space Violence.",
+          "side": "blue",
+          "record": "3-2",
+          "result": "win"
+        },
+        {
+          "matchId": 179,
+          "round": 7,
+          "opponent": "Platinum Sensitivity.",
+          "side": "red",
           "record": "4-2",
           "result": "loss"
         }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T19:46:59.538Z",
+  "updatedAt": "2026-09-13T20:05:28.278Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 194,
+    "decidedCount": 195,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T19:45:00.000Z"
+    "nextMatchAt": "2026-09-13T20:00:00.000Z"
   },
   "matches": [
     {
@@ -5659,7 +5659,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Vapor-Lock",
       "blue": "White Squall.",
-      "winner": null,
+      "winner": "Vapor-Lock",
       "times": {
         "convoStart": "18:45",
         "bansStart": "18:55",
@@ -5676,7 +5676,7 @@
       "blueRecord": "2-4",
       "isFloat": false,
       "bucket": "2-4",
-      "loser": null
+      "loser": "White Squall."
     },
     {
       "id": 196,
@@ -8752,6 +8752,69 @@
       ]
     },
     {
+      "name": "Vapor-Lock",
+      "wins": 3,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 5,
+          "round": 1,
+          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
+          "side": "blue",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 46,
+          "round": 2,
+          "opponent": "Seriously Suspicious",
+          "side": "blue",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 81,
+          "round": 3,
+          "opponent": "Out of the Blue.",
+          "side": "blue",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 105,
+          "round": 4,
+          "opponent": "Of Essence",
+          "side": "blue",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 141,
+          "round": 5,
+          "opponent": "Kitchen Sinkhole",
+          "side": "blue",
+          "record": "1-3",
+          "result": "win"
+        },
+        {
+          "matchId": 164,
+          "round": 6,
+          "opponent": "DarkSide.",
+          "side": "blue",
+          "record": "2-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 195,
+          "round": 7,
+          "opponent": "White Squall.",
+          "side": "red",
+          "record": "2-4",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Brave Collective",
       "wins": 2,
       "losses": 4,
@@ -9256,69 +9319,6 @@
       ]
     },
     {
-      "name": "Vapor-Lock",
-      "wins": 2,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 5,
-          "round": 1,
-          "opponent": "xqtywiznalamywmodxfhhopawzpqyjdwrpeptuaenabjawdzku",
-          "side": "blue",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 46,
-          "round": 2,
-          "opponent": "Seriously Suspicious",
-          "side": "blue",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 81,
-          "round": 3,
-          "opponent": "Out of the Blue.",
-          "side": "blue",
-          "record": "0-2",
-          "result": "win"
-        },
-        {
-          "matchId": 105,
-          "round": 4,
-          "opponent": "Of Essence",
-          "side": "blue",
-          "record": "1-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 141,
-          "round": 5,
-          "opponent": "Kitchen Sinkhole",
-          "side": "blue",
-          "record": "1-3",
-          "result": "win"
-        },
-        {
-          "matchId": 164,
-          "round": 6,
-          "opponent": "DarkSide.",
-          "side": "blue",
-          "record": "2-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 195,
-          "round": 7,
-          "opponent": "White Squall.",
-          "side": "red",
-          "record": "2-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "We Forsakened Few",
       "wins": 2,
       "losses": 4,
@@ -9382,69 +9382,6 @@
       ]
     },
     {
-      "name": "White Squall.",
-      "wins": 2,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 7,
-          "round": 1,
-          "opponent": "Minmatar Fleet Alliance",
-          "side": "blue",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 33,
-          "round": 2,
-          "opponent": "Fraternity.",
-          "side": "red",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 67,
-          "round": 3,
-          "opponent": "Platinum Sensitivity.",
-          "side": "blue",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 102,
-          "round": 4,
-          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
-          "side": "blue",
-          "record": "1-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 143,
-          "round": 5,
-          "opponent": "L A Z E R H A W K S",
-          "side": "red",
-          "record": "1-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 171,
-          "round": 6,
-          "opponent": "Solyaris Chtonium",
-          "side": "red",
-          "record": "1-4",
-          "result": "win"
-        },
-        {
-          "matchId": 195,
-          "round": 7,
-          "opponent": "Vapor-Lock",
-          "side": "blue",
-          "record": "2-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Psyno Theory",
       "wins": 2,
       "losses": 5,
@@ -9502,6 +9439,69 @@
           "round": 7,
           "opponent": "Seker Matar",
           "side": "red",
+          "record": "2-4",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "White Squall.",
+      "wins": 2,
+      "losses": 5,
+      "path": [
+        {
+          "matchId": 7,
+          "round": 1,
+          "opponent": "Minmatar Fleet Alliance",
+          "side": "blue",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 33,
+          "round": 2,
+          "opponent": "Fraternity.",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 67,
+          "round": 3,
+          "opponent": "Platinum Sensitivity.",
+          "side": "blue",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 102,
+          "round": 4,
+          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+          "side": "blue",
+          "record": "1-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 143,
+          "round": 5,
+          "opponent": "L A Z E R H A W K S",
+          "side": "red",
+          "record": "1-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 171,
+          "round": 6,
+          "opponent": "Solyaris Chtonium",
+          "side": "red",
+          "record": "1-4",
+          "result": "win"
+        },
+        {
+          "matchId": 195,
+          "round": 7,
+          "opponent": "Vapor-Lock",
+          "side": "blue",
           "record": "2-4",
           "result": "loss"
         }

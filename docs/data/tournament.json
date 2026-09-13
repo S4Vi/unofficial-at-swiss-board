@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T19:04:24.524Z",
+  "updatedAt": "2026-09-13T19:18:38.898Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 191,
+    "decidedCount": 192,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T19:00:00.000Z"
+    "nextMatchAt": "2026-09-13T19:15:00.000Z"
   },
   "matches": [
     {
@@ -5572,7 +5572,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Space Violence.",
       "blue": "ZERG REBORN",
-      "winner": null,
+      "winner": "ZERG REBORN",
       "times": {
         "convoStart": "18:00",
         "bansStart": "18:10",
@@ -5589,7 +5589,7 @@
       "blueRecord": "3-3",
       "isFloat": false,
       "bucket": "3-3",
-      "loser": null
+      "loser": "Space Violence."
     },
     {
       "id": 193,
@@ -7996,6 +7996,69 @@
       ]
     },
     {
+      "name": "ZERG REBORN",
+      "wins": 4,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 17,
+          "round": 1,
+          "opponent": "Punishing Gray Raven",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 52,
+          "round": 2,
+          "opponent": "NPSI.Rocks",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 73,
+          "round": 3,
+          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 94,
+          "round": 4,
+          "opponent": "Shadow Cartel",
+          "side": "blue",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 120,
+          "round": 5,
+          "opponent": "Ragequit Cancel Sub",
+          "side": "blue",
+          "record": "3-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 159,
+          "round": 6,
+          "opponent": "Of Essence",
+          "side": "blue",
+          "record": "3-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 192,
+          "round": 7,
+          "opponent": "Space Violence.",
+          "side": "blue",
+          "record": "3-3",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Exodus.",
       "wins": 3,
       "losses": 3,
@@ -8116,132 +8179,6 @@
           "round": 7,
           "opponent": "Exodus.",
           "side": "red",
-          "record": "3-3",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Space Violence.",
-      "wins": 3,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 24,
-          "round": 1,
-          "opponent": "Sedition.",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 56,
-          "round": 2,
-          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
-          "side": "red",
-          "record": "0-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 86,
-          "round": 3,
-          "opponent": "Project Potato",
-          "side": "blue",
-          "record": "0-2",
-          "result": "win"
-        },
-        {
-          "matchId": 108,
-          "round": 4,
-          "opponent": "Kitchen Sinkhole",
-          "side": "blue",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 128,
-          "round": 5,
-          "opponent": "Psyno Theory",
-          "side": "blue",
-          "record": "2-2",
-          "result": "win"
-        },
-        {
-          "matchId": 156,
-          "round": 6,
-          "opponent": "Meta Reloaded",
-          "side": "red",
-          "record": "3-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 192,
-          "round": 7,
-          "opponent": "ZERG REBORN",
-          "side": "red",
-          "record": "3-3",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "ZERG REBORN",
-      "wins": 3,
-      "losses": 3,
-      "path": [
-        {
-          "matchId": 17,
-          "round": 1,
-          "opponent": "Punishing Gray Raven",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 52,
-          "round": 2,
-          "opponent": "NPSI.Rocks",
-          "side": "blue",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 73,
-          "round": 3,
-          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
-          "side": "blue",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 94,
-          "round": 4,
-          "opponent": "Shadow Cartel",
-          "side": "blue",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 120,
-          "round": 5,
-          "opponent": "Ragequit Cancel Sub",
-          "side": "blue",
-          "record": "3-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 159,
-          "round": 6,
-          "opponent": "Of Essence",
-          "side": "blue",
-          "record": "3-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 192,
-          "round": 7,
-          "opponent": "Space Violence.",
-          "side": "blue",
           "record": "3-3",
           "result": "pending"
         }
@@ -8620,6 +8557,69 @@
           "round": 7,
           "opponent": "PSYCHOTIC OVERHEAT",
           "side": "blue",
+          "record": "3-3",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Space Violence.",
+      "wins": 3,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 24,
+          "round": 1,
+          "opponent": "Sedition.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 56,
+          "round": 2,
+          "opponent": "IIIIIIIIIIIIIIIIIIIIIIIII",
+          "side": "red",
+          "record": "0-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 86,
+          "round": 3,
+          "opponent": "Project Potato",
+          "side": "blue",
+          "record": "0-2",
+          "result": "win"
+        },
+        {
+          "matchId": 108,
+          "round": 4,
+          "opponent": "Kitchen Sinkhole",
+          "side": "blue",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 128,
+          "round": 5,
+          "opponent": "Psyno Theory",
+          "side": "blue",
+          "record": "2-2",
+          "result": "win"
+        },
+        {
+          "matchId": 156,
+          "round": 6,
+          "opponent": "Meta Reloaded",
+          "side": "red",
+          "record": "3-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 192,
+          "round": 7,
+          "opponent": "ZERG REBORN",
+          "side": "red",
           "record": "3-3",
           "result": "loss"
         }

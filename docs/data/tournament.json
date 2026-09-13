@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T19:33:00.567Z",
+  "updatedAt": "2026-09-13T19:46:59.538Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 193,
+    "decidedCount": 194,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T19:30:00.000Z"
+    "nextMatchAt": "2026-09-13T19:45:00.000Z"
   },
   "matches": [
     {
@@ -5630,7 +5630,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Psyno Theory",
       "blue": "Seker Matar",
-      "winner": null,
+      "winner": "Seker Matar",
       "times": {
         "convoStart": "18:30",
         "bansStart": "18:40",
@@ -5647,7 +5647,7 @@
       "blueRecord": "2-4",
       "isFloat": false,
       "bucket": "2-4",
-      "loser": null
+      "loser": "Psyno Theory"
     },
     {
       "id": 195,
@@ -8500,6 +8500,69 @@
       ]
     },
     {
+      "name": "Seker Matar",
+      "wins": 3,
+      "losses": 4,
+      "path": [
+        {
+          "matchId": 20,
+          "round": 1,
+          "opponent": "Test Alliance Please Ignore",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 39,
+          "round": 2,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "blue",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 78,
+          "round": 3,
+          "opponent": "Seriously Suspicious",
+          "side": "red",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 109,
+          "round": 4,
+          "opponent": "Sigma Grindset",
+          "side": "blue",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 132,
+          "round": 5,
+          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
+          "side": "red",
+          "record": "2-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 166,
+          "round": 6,
+          "opponent": "D-sync.",
+          "side": "red",
+          "record": "2-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 194,
+          "round": 7,
+          "opponent": "Psyno Theory",
+          "side": "blue",
+          "record": "2-4",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Sigma Grindset",
       "wins": 3,
       "losses": 4,
@@ -8934,132 +8997,6 @@
           "matchId": 196,
           "round": 7,
           "opponent": "Shadow Cartel",
-          "side": "blue",
-          "record": "2-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Psyno Theory",
-      "wins": 2,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 13,
-          "round": 1,
-          "opponent": "Ivy League",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 50,
-          "round": 2,
-          "opponent": "Project Potato",
-          "side": "blue",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 71,
-          "round": 3,
-          "opponent": "The Initiative.",
-          "side": "red",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 95,
-          "round": 4,
-          "opponent": "Arctic Light",
-          "side": "red",
-          "record": "2-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 128,
-          "round": 5,
-          "opponent": "Space Violence.",
-          "side": "red",
-          "record": "2-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 160,
-          "round": 6,
-          "opponent": "WE FORM V0LTA",
-          "side": "blue",
-          "record": "2-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 194,
-          "round": 7,
-          "opponent": "Seker Matar",
-          "side": "red",
-          "record": "2-4",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Seker Matar",
-      "wins": 2,
-      "losses": 4,
-      "path": [
-        {
-          "matchId": 20,
-          "round": 1,
-          "opponent": "Test Alliance Please Ignore",
-          "side": "red",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 39,
-          "round": 2,
-          "opponent": "PSYCHOTIC OVERHEAT",
-          "side": "blue",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 78,
-          "round": 3,
-          "opponent": "Seriously Suspicious",
-          "side": "red",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 109,
-          "round": 4,
-          "opponent": "Sigma Grindset",
-          "side": "blue",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 132,
-          "round": 5,
-          "opponent": "34-yrs-old men get nagged by wives for playing EVE",
-          "side": "red",
-          "record": "2-2",
-          "result": "loss"
-        },
-        {
-          "matchId": 166,
-          "round": 6,
-          "opponent": "D-sync.",
-          "side": "red",
-          "record": "2-3",
-          "result": "loss"
-        },
-        {
-          "matchId": 194,
-          "round": 7,
-          "opponent": "Psyno Theory",
           "side": "blue",
           "record": "2-4",
           "result": "pending"
@@ -9504,6 +9441,69 @@
           "side": "blue",
           "record": "2-4",
           "result": "pending"
+        }
+      ]
+    },
+    {
+      "name": "Psyno Theory",
+      "wins": 2,
+      "losses": 5,
+      "path": [
+        {
+          "matchId": 13,
+          "round": 1,
+          "opponent": "Ivy League",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 50,
+          "round": 2,
+          "opponent": "Project Potato",
+          "side": "blue",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 71,
+          "round": 3,
+          "opponent": "The Initiative.",
+          "side": "red",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 95,
+          "round": 4,
+          "opponent": "Arctic Light",
+          "side": "red",
+          "record": "2-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 128,
+          "round": 5,
+          "opponent": "Space Violence.",
+          "side": "red",
+          "record": "2-2",
+          "result": "loss"
+        },
+        {
+          "matchId": 160,
+          "round": 6,
+          "opponent": "WE FORM V0LTA",
+          "side": "blue",
+          "record": "2-3",
+          "result": "loss"
+        },
+        {
+          "matchId": 194,
+          "round": 7,
+          "opponent": "Seker Matar",
+          "side": "red",
+          "record": "2-4",
+          "result": "loss"
         }
       ]
     },

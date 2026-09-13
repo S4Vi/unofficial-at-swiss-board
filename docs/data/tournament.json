@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T16:05:58.173Z",
+  "updatedAt": "2026-09-13T16:23:53.784Z",
   "source": {
     "sheetId": "1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4",
     "url": "https://docs.google.com/spreadsheets/d/1HcZovqugjNkB54IQOAav4akK_KSCjZuJLtAhn92-8L4/htmlview"
@@ -18,9 +18,9 @@
     ],
     "teamCount": 58,
     "matchCount": 203,
-    "decidedCount": 180,
+    "decidedCount": 181,
     "year": 2026,
-    "nextMatchAt": "2026-09-13T16:00:00.000Z"
+    "nextMatchAt": "2026-09-13T16:15:00.000Z"
   },
   "matches": [
     {
@@ -5253,7 +5253,7 @@
       "sheet": "ATXXII Prelims Weekend 3",
       "red": "Bright Side of Death",
       "blue": "Of Essence",
-      "winner": null,
+      "winner": "Bright Side of Death",
       "times": {
         "convoStart": "15:00",
         "bansStart": "15:10",
@@ -5270,7 +5270,7 @@
       "blueRecord": "4-2",
       "isFloat": false,
       "bucket": "4-2",
-      "loser": null
+      "loser": "Of Essence"
     },
     {
       "id": 182,
@@ -6610,6 +6610,69 @@
       ]
     },
     {
+      "name": "Bright Side of Death",
+      "wins": 5,
+      "losses": 2,
+      "path": [
+        {
+          "matchId": 10,
+          "round": 1,
+          "opponent": "OnlyFleets.",
+          "side": "red",
+          "record": "0-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 49,
+          "round": 2,
+          "opponent": "Solyaris Chtonium",
+          "side": "red",
+          "record": "0-1",
+          "result": "win"
+        },
+        {
+          "matchId": 75,
+          "round": 3,
+          "opponent": "NO NEED LOOSE FACE",
+          "side": "blue",
+          "record": "1-1",
+          "result": "win"
+        },
+        {
+          "matchId": 98,
+          "round": 4,
+          "opponent": "Ivy League",
+          "side": "red",
+          "record": "2-1",
+          "result": "win"
+        },
+        {
+          "matchId": 125,
+          "round": 5,
+          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+          "side": "red",
+          "record": "3-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 153,
+          "round": 6,
+          "opponent": "PSYCHOTIC OVERHEAT",
+          "side": "red",
+          "record": "3-2",
+          "result": "win"
+        },
+        {
+          "matchId": 181,
+          "round": 7,
+          "opponent": "Of Essence",
+          "side": "red",
+          "record": "4-2",
+          "result": "win"
+        }
+      ]
+    },
+    {
       "name": "Platinum Sensitivity.",
       "wins": 5,
       "losses": 2,
@@ -6862,69 +6925,6 @@
       ]
     },
     {
-      "name": "Bright Side of Death",
-      "wins": 4,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 10,
-          "round": 1,
-          "opponent": "OnlyFleets.",
-          "side": "red",
-          "record": "0-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 49,
-          "round": 2,
-          "opponent": "Solyaris Chtonium",
-          "side": "red",
-          "record": "0-1",
-          "result": "win"
-        },
-        {
-          "matchId": 75,
-          "round": 3,
-          "opponent": "NO NEED LOOSE FACE",
-          "side": "blue",
-          "record": "1-1",
-          "result": "win"
-        },
-        {
-          "matchId": 98,
-          "round": 4,
-          "opponent": "Ivy League",
-          "side": "red",
-          "record": "2-1",
-          "result": "win"
-        },
-        {
-          "matchId": 125,
-          "round": 5,
-          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
-          "side": "red",
-          "record": "3-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 153,
-          "round": 6,
-          "opponent": "PSYCHOTIC OVERHEAT",
-          "side": "red",
-          "record": "3-2",
-          "result": "win"
-        },
-        {
-          "matchId": 181,
-          "round": 7,
-          "opponent": "Of Essence",
-          "side": "red",
-          "record": "4-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
       "name": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
       "wins": 4,
       "losses": 2,
@@ -7171,69 +7171,6 @@
           "round": 7,
           "opponent": "Fraternity.",
           "side": "red",
-          "record": "4-2",
-          "result": "pending"
-        }
-      ]
-    },
-    {
-      "name": "Of Essence",
-      "wins": 4,
-      "losses": 2,
-      "path": [
-        {
-          "matchId": 21,
-          "round": 1,
-          "opponent": "The Obsidian Front - Reborn",
-          "side": "red",
-          "record": "0-0",
-          "result": "win"
-        },
-        {
-          "matchId": 40,
-          "round": 2,
-          "opponent": "Arctic Light",
-          "side": "red",
-          "record": "1-0",
-          "result": "loss"
-        },
-        {
-          "matchId": 74,
-          "round": 3,
-          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
-          "side": "blue",
-          "record": "1-1",
-          "result": "loss"
-        },
-        {
-          "matchId": 105,
-          "round": 4,
-          "opponent": "Vapor-Lock",
-          "side": "red",
-          "record": "1-2",
-          "result": "win"
-        },
-        {
-          "matchId": 130,
-          "round": 5,
-          "opponent": "D-sync.",
-          "side": "blue",
-          "record": "2-2",
-          "result": "win"
-        },
-        {
-          "matchId": 159,
-          "round": 6,
-          "opponent": "ZERG REBORN",
-          "side": "red",
-          "record": "3-2",
-          "result": "win"
-        },
-        {
-          "matchId": 181,
-          "round": 7,
-          "opponent": "Bright Side of Death",
-          "side": "blue",
           "record": "4-2",
           "result": "pending"
         }
@@ -7612,6 +7549,69 @@
           "round": 7,
           "opponent": "Rote Kapelle",
           "side": "red",
+          "record": "4-2",
+          "result": "loss"
+        }
+      ]
+    },
+    {
+      "name": "Of Essence",
+      "wins": 4,
+      "losses": 3,
+      "path": [
+        {
+          "matchId": 21,
+          "round": 1,
+          "opponent": "The Obsidian Front - Reborn",
+          "side": "red",
+          "record": "0-0",
+          "result": "win"
+        },
+        {
+          "matchId": 40,
+          "round": 2,
+          "opponent": "Arctic Light",
+          "side": "red",
+          "record": "1-0",
+          "result": "loss"
+        },
+        {
+          "matchId": 74,
+          "round": 3,
+          "opponent": "Catlas Tor Love Appreciation Society UseCodeWIZARD",
+          "side": "blue",
+          "record": "1-1",
+          "result": "loss"
+        },
+        {
+          "matchId": 105,
+          "round": 4,
+          "opponent": "Vapor-Lock",
+          "side": "red",
+          "record": "1-2",
+          "result": "win"
+        },
+        {
+          "matchId": 130,
+          "round": 5,
+          "opponent": "D-sync.",
+          "side": "blue",
+          "record": "2-2",
+          "result": "win"
+        },
+        {
+          "matchId": 159,
+          "round": 6,
+          "opponent": "ZERG REBORN",
+          "side": "red",
+          "record": "3-2",
+          "result": "win"
+        },
+        {
+          "matchId": 181,
+          "round": 7,
+          "opponent": "Bright Side of Death",
+          "side": "blue",
           "record": "4-2",
           "result": "loss"
         }
